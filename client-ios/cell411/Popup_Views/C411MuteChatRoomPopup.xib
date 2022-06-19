@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="U1n-6C-fa4" customClass="C411MuteChatRoomPopup">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XtZ-Or-9qT">
+                    <rect key="frame" x="37.5" y="211" width="300" height="245"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mute for..." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4b-WI-5rz">
+                            <rect key="frame" x="12" y="12" width="276" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_radio_selected" translatesAutoresizingMaskIntoConstraints="NO" id="Ynk-PG-2Cl" customClass="ToggleImageView">
+                            <rect key="frame" x="12" y="52.5" width="19" height="19"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="19" id="15A-ae-Avr"/>
+                                <constraint firstAttribute="height" constant="19" id="Ejd-ri-0cI"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCg-uX-I6Z">
+                            <rect key="frame" x="12" y="47" width="72" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="bf6-ZQ-Qca"/>
+                            </constraints>
+                            <state key="normal">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnRadio1HourToggled:" destination="U1n-6C-fa4" eventType="touchUpInside" id="sqA-uz-YfR"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 Hour" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Icd-ee-Bls">
+                            <rect key="frame" x="39" y="53" width="45" height="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.26274509800000001" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_radio_selected" translatesAutoresizingMaskIntoConstraints="NO" id="9IC-Vo-Dtn" customClass="ToggleImageView">
+                            <rect key="frame" x="12" y="81.5" width="19" height="19"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="19" id="JhH-QL-A6m"/>
+                                <constraint firstAttribute="width" constant="19" id="uVb-1e-sJW"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BYV-rJ-znb">
+                            <rect key="frame" x="12" y="76" width="82" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="eWe-Im-360"/>
+                            </constraints>
+                            <state key="normal">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnRadio6HoursToggled:" destination="U1n-6C-fa4" eventType="touchUpInside" id="Hdt-Ur-4jq"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6 Hours" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Hf-lF-KKB">
+                            <rect key="frame" x="39" y="82" width="55" height="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.26274509800000001" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_radio_selected" translatesAutoresizingMaskIntoConstraints="NO" id="5x0-AQ-eoe" customClass="ToggleImageView">
+                            <rect key="frame" x="12" y="110.5" width="19" height="19"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="19" id="VZ2-J3-ceo"/>
+                                <constraint firstAttribute="height" constant="19" id="lcM-50-aFu"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8d-3V-ZIF">
+                            <rect key="frame" x="12" y="105" width="91" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="W79-qR-eXd"/>
+                            </constraints>
+                            <state key="normal">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnRadio24HoursToggled:" destination="U1n-6C-fa4" eventType="touchUpInside" id="OIr-RS-pf6"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24 Hours" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KmW-cs-dLC">
+                            <rect key="frame" x="39" y="111" width="64" height="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.26274509800000001" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_radio_selected" translatesAutoresizingMaskIntoConstraints="NO" id="gG5-RW-M2z" customClass="ToggleImageView">
+                            <rect key="frame" x="12" y="139.5" width="19" height="19"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="19" id="Aer-TG-deI"/>
+                                <constraint firstAttribute="width" constant="19" id="BZX-Di-M90"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhQ-Ea-IYM">
+                            <rect key="frame" x="12" y="134" width="82" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="5ev-YS-E66"/>
+                            </constraints>
+                            <state key="normal">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnRadio1MonthToggled:" destination="U1n-6C-fa4" eventType="touchUpInside" id="vqK-dO-NDe"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 Month" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcw-8I-D0C">
+                            <rect key="frame" x="39" y="140" width="55" height="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.26274509800000001" green="0.26274509800000001" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2r-JC-rIe">
+                            <rect key="frame" x="12" y="184" width="0.0" height="0.0"/>
+                            <constraints>
+                                <constraint firstAttribute="width" id="5BW-LY-pcm"/>
+                                <constraint firstAttribute="width" secondItem="F2r-JC-rIe" secondAttribute="height" multiplier="10:11" id="6ez-Ec-0No"/>
+                            </constraints>
+                            <state key="normal" image="ic_box_unchecked"/>
+                            <state key="selected" image="ic_box_checked"/>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ZY-NK-gnQ">
+                            <rect key="frame" x="20" y="184" width="268" height="0.0"/>
+                            <constraints>
+                                <constraint firstAttribute="height" id="vpW-KV-PMd"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="248" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IlJ-oa-4Gr">
+                            <rect key="frame" x="12" y="184" width="276" height="0.0"/>
+                            <connections>
+                                <action selector="btnShowNotificationsToggled:" destination="U1n-6C-fa4" eventType="touchUpInside" id="O4w-lt-SnX"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qq6-b5-ZI3">
+                            <rect key="frame" x="232" y="194" width="56" height="46"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="56" id="0Xn-X7-2qn"/>
+                                <constraint firstAttribute="height" constant="46" id="wW6-RL-lhF"/>
+                            </constraints>
+                            <state key="normal" title="Ok">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnOkTapped:" destination="U1n-6C-fa4" eventType="touchUpInside" id="uTn-6D-Yk5"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HqS-Ks-RRb">
+                            <rect key="frame" x="164" y="194" width="60" height="46"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="moC-ea-54x"/>
+                            </constraints>
+                            <state key="normal" title="Cancel">
+                                <color key="titleColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnCancelTapped:" destination="U1n-6C-fa4" eventType="touchUpInside" id="tXK-ex-bcD"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="dcw-8I-D0C" firstAttribute="trailing" secondItem="mhQ-Ea-IYM" secondAttribute="trailing" id="0fZ-1b-gVf"/>
+                        <constraint firstItem="f8d-3V-ZIF" firstAttribute="leading" secondItem="5x0-AQ-eoe" secondAttribute="leading" id="24e-Bm-l9L"/>
+                        <constraint firstItem="HqS-Ks-RRb" firstAttribute="height" secondItem="Qq6-b5-ZI3" secondAttribute="height" id="3G3-lW-1gE"/>
+                        <constraint firstItem="mhQ-Ea-IYM" firstAttribute="leading" secondItem="gG5-RW-M2z" secondAttribute="leading" id="5OO-o8-bzH"/>
+                        <constraint firstItem="5x0-AQ-eoe" firstAttribute="top" secondItem="9IC-Vo-Dtn" secondAttribute="bottom" constant="10" id="ADD-27-0Le"/>
+                        <constraint firstItem="4Hf-lF-KKB" firstAttribute="leading" secondItem="9IC-Vo-Dtn" secondAttribute="trailing" constant="8" id="AYp-u4-wZI"/>
+                        <constraint firstAttribute="trailing" secondItem="f4b-WI-5rz" secondAttribute="trailing" constant="12" id="CM3-D0-kgY"/>
+                        <constraint firstItem="IlJ-oa-4Gr" firstAttribute="trailing" secondItem="8ZY-NK-gnQ" secondAttribute="trailing" id="Cat-Vg-G21"/>
+                        <constraint firstAttribute="width" constant="300" id="EkH-Cl-2IH"/>
+                        <constraint firstItem="dcw-8I-D0C" firstAttribute="leading" secondItem="gG5-RW-M2z" secondAttribute="trailing" constant="8" id="Fp8-P2-o2r"/>
+                        <constraint firstItem="9IC-Vo-Dtn" firstAttribute="leading" secondItem="Ynk-PG-2Cl" secondAttribute="leading" id="GBr-Y8-aN8"/>
+                        <constraint firstItem="F2r-JC-rIe" firstAttribute="centerY" secondItem="8ZY-NK-gnQ" secondAttribute="centerY" id="Gep-h2-wPh"/>
+                        <constraint firstItem="8ZY-NK-gnQ" firstAttribute="top" secondItem="mhQ-Ea-IYM" secondAttribute="bottom" constant="20" id="Gfs-Kj-B6y"/>
+                        <constraint firstItem="9IC-Vo-Dtn" firstAttribute="top" secondItem="Ynk-PG-2Cl" secondAttribute="bottom" constant="10" id="H4j-fH-TKM"/>
+                        <constraint firstItem="f8d-3V-ZIF" firstAttribute="centerY" secondItem="5x0-AQ-eoe" secondAttribute="centerY" id="I0x-SX-9Fs"/>
+                        <constraint firstAttribute="trailing" secondItem="8ZY-NK-gnQ" secondAttribute="trailing" constant="12" id="KjK-Y5-THL"/>
+                        <constraint firstItem="5x0-AQ-eoe" firstAttribute="leading" secondItem="9IC-Vo-Dtn" secondAttribute="leading" id="LcP-Fo-Ofb"/>
+                        <constraint firstItem="4Hf-lF-KKB" firstAttribute="trailing" secondItem="BYV-rJ-znb" secondAttribute="trailing" id="O4C-oq-l1d"/>
+                        <constraint firstItem="f4b-WI-5rz" firstAttribute="leading" secondItem="XtZ-Or-9qT" secondAttribute="leading" constant="12" id="RBv-6c-wen"/>
+                        <constraint firstItem="Ynk-PG-2Cl" firstAttribute="top" secondItem="f4b-WI-5rz" secondAttribute="bottom" constant="20" id="Suy-Ba-ruP"/>
+                        <constraint firstItem="8ZY-NK-gnQ" firstAttribute="leading" secondItem="F2r-JC-rIe" secondAttribute="trailing" constant="8" id="Sze-G2-njL"/>
+                        <constraint firstItem="IlJ-oa-4Gr" firstAttribute="leading" secondItem="F2r-JC-rIe" secondAttribute="leading" id="Uxf-eI-Saw"/>
+                        <constraint firstItem="mhQ-Ea-IYM" firstAttribute="centerY" secondItem="gG5-RW-M2z" secondAttribute="centerY" id="VSp-zc-pE5"/>
+                        <constraint firstItem="Icd-ee-Bls" firstAttribute="leading" secondItem="Ynk-PG-2Cl" secondAttribute="trailing" constant="8" id="Vjd-gs-TaM"/>
+                        <constraint firstItem="IlJ-oa-4Gr" firstAttribute="top" secondItem="8ZY-NK-gnQ" secondAttribute="top" id="XJx-jo-aPD"/>
+                        <constraint firstItem="Icd-ee-Bls" firstAttribute="centerY" secondItem="Ynk-PG-2Cl" secondAttribute="centerY" id="YDI-ru-Gq5"/>
+                        <constraint firstItem="KmW-cs-dLC" firstAttribute="centerY" secondItem="5x0-AQ-eoe" secondAttribute="centerY" id="bDs-2r-coh"/>
+                        <constraint firstItem="BYV-rJ-znb" firstAttribute="leading" secondItem="9IC-Vo-Dtn" secondAttribute="leading" id="cvM-Kt-2YW"/>
+                        <constraint firstItem="KmW-cs-dLC" firstAttribute="trailing" secondItem="f8d-3V-ZIF" secondAttribute="trailing" id="dP6-NH-yd8"/>
+                        <constraint firstAttribute="bottom" secondItem="Qq6-b5-ZI3" secondAttribute="bottom" constant="5" id="dVO-g4-0PV"/>
+                        <constraint firstItem="BYV-rJ-znb" firstAttribute="centerY" secondItem="9IC-Vo-Dtn" secondAttribute="centerY" id="eQT-DK-whb"/>
+                        <constraint firstItem="DCg-uX-I6Z" firstAttribute="leading" secondItem="Ynk-PG-2Cl" secondAttribute="leading" id="fcA-oM-TOX"/>
+                        <constraint firstItem="HqS-Ks-RRb" firstAttribute="bottom" secondItem="Qq6-b5-ZI3" secondAttribute="bottom" id="gyt-Vp-bjM"/>
+                        <constraint firstAttribute="trailing" secondItem="Qq6-b5-ZI3" secondAttribute="trailing" constant="12" id="hcs-5y-aeD"/>
+                        <constraint firstItem="4Hf-lF-KKB" firstAttribute="centerY" secondItem="9IC-Vo-Dtn" secondAttribute="centerY" id="iF0-c3-fXz"/>
+                        <constraint firstItem="Ynk-PG-2Cl" firstAttribute="leading" secondItem="f4b-WI-5rz" secondAttribute="leading" id="ifP-E6-CY8"/>
+                        <constraint firstItem="Qq6-b5-ZI3" firstAttribute="top" secondItem="IlJ-oa-4Gr" secondAttribute="bottom" constant="10" id="mK0-eu-T2B"/>
+                        <constraint firstItem="Icd-ee-Bls" firstAttribute="trailing" secondItem="DCg-uX-I6Z" secondAttribute="trailing" id="n8Q-mJ-KMq"/>
+                        <constraint firstItem="F2r-JC-rIe" firstAttribute="leading" secondItem="XtZ-Or-9qT" secondAttribute="leading" constant="12" id="nrf-w6-r2d"/>
+                        <constraint firstItem="dcw-8I-D0C" firstAttribute="centerY" secondItem="gG5-RW-M2z" secondAttribute="centerY" id="p9P-4v-UTT"/>
+                        <constraint firstItem="gG5-RW-M2z" firstAttribute="leading" secondItem="5x0-AQ-eoe" secondAttribute="leading" id="qTa-1A-ghC"/>
+                        <constraint firstItem="f4b-WI-5rz" firstAttribute="top" secondItem="XtZ-Or-9qT" secondAttribute="top" constant="12" id="soq-DG-znJ"/>
+                        <constraint firstItem="Qq6-b5-ZI3" firstAttribute="leading" secondItem="HqS-Ks-RRb" secondAttribute="trailing" constant="8" id="tBq-C1-RaJ"/>
+                        <constraint firstItem="IlJ-oa-4Gr" firstAttribute="bottom" secondItem="8ZY-NK-gnQ" secondAttribute="bottom" id="wxr-qv-iA9"/>
+                        <constraint firstItem="gG5-RW-M2z" firstAttribute="top" secondItem="5x0-AQ-eoe" secondAttribute="bottom" constant="10" id="yXw-Jv-Q3H"/>
+                        <constraint firstItem="KmW-cs-dLC" firstAttribute="leading" secondItem="5x0-AQ-eoe" secondAttribute="trailing" constant="8" id="zXb-Nv-gVH"/>
+                        <constraint firstItem="DCg-uX-I6Z" firstAttribute="centerY" secondItem="Ynk-PG-2Cl" secondAttribute="centerY" id="znN-of-iCY"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="XtZ-Or-9qT" firstAttribute="centerX" secondItem="U1n-6C-fa4" secondAttribute="centerX" id="68g-Zh-inY"/>
+                <constraint firstItem="XtZ-Or-9qT" firstAttribute="centerY" secondItem="U1n-6C-fa4" secondAttribute="centerY" id="je9-t9-1Ci"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnCancel" destination="HqS-Ks-RRb" id="BEo-3q-Zdz"/>
+                <outlet property="btnOk" destination="Qq6-b5-ZI3" id="xkL-yc-ywI"/>
+                <outlet property="imgVuRadio1Hour" destination="Ynk-PG-2Cl" id="MHc-b5-CQ3"/>
+                <outlet property="imgVuRadio1Month" destination="gG5-RW-M2z" id="mlR-nZ-NWU"/>
+                <outlet property="imgVuRadio24Hours" destination="5x0-AQ-eoe" id="yw0-EB-5cG"/>
+                <outlet property="imgVuRadio6Hours" destination="9IC-Vo-Dtn" id="pUR-MG-Iaq"/>
+                <outlet property="lbl1Hour" destination="Icd-ee-Bls" id="1sK-mh-FFp"/>
+                <outlet property="lbl1Month" destination="dcw-8I-D0C" id="F7X-TM-neu"/>
+                <outlet property="lbl24Hours" destination="KmW-cs-dLC" id="24H-vn-S8k"/>
+                <outlet property="lbl6Hours" destination="4Hf-lF-KKB" id="t3o-6X-8Ye"/>
+                <outlet property="lblTitle" destination="f4b-WI-5rz" id="AxQ-lc-XAc"/>
+                <outlet property="tglBtnShowNotifications" destination="F2r-JC-rIe" id="H1E-Ju-MO2"/>
+                <outlet property="vuMuteChatRoomPopup" destination="XtZ-Or-9qT" id="vdP-Rg-PaM"/>
+            </connections>
+            <point key="canvasLocation" x="244.5" y="326.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_box_checked" width="20" height="20"/>
+        <image name="ic_box_unchecked" width="20" height="20"/>
+        <image name="ic_radio_selected" width="22" height="22"/>
+    </resources>
+</document>

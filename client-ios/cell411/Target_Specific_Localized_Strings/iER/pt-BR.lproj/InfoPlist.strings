@@ -1,0 +1,35 @@
+/* (No Commment) */
+"CFBundleDisplayName" = "iER";
+
+/* (No Commment) */
+"CFBundleName" = "$(PRODUCT_NAME)";
+
+/* (No Commment) */
+"NSBluetoothPeripheralUsageDescription" = "Please allow bluetooth access in order to connect your Panic Button.";
+
+/* (No Commment) */
+"NSCameraUsageDescription" = "Requires camera access to send out photo alert.";
+
+/* (No Commment) */
+"NSContactsUsageDescription" = "To show contact list for inviting contacts";
+
+/* (No Commment) */
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "iER needs your location to help others find you when you issue an alert, to improve your overall experience and to provide you services like: New Public Cell Alerts. With \"Always\" access to your location we'll be able to send you accurate location based notifications.";
+
+/* (No Commment) */
+"NSLocationAlwaysUsageDescription" = "iER needs your location to help others find you when you issue an alert, to improve your overall experience and to provide you services like: New Public Cell Alerts. With \"Always\" access to your location we'll be able to send you accurate location based notifications.";
+
+/* (No Commment) */
+"NSLocationWhenInUseUsageDescription" = "iER needs your location to help others find you when you issue an alert, to improve your overall experience and to provide you services like: New Public Cell Alerts.";
+
+/* (No Commment) */
+"NSMicrophoneUsageDescription" = "Required for Live Streaming";
+
+/* (No Commment) */
+"NSMotionUsageDescription" = "Motion data needed to improve location accuracy without consuming much battery.";
+
+/* (No Commment) */
+"NSPhotoLibraryUsageDescription" = "Please allow iER to access your photo library in order to send out photo alert.";
+
+/* (No Commment) */
+"NSPhotoLibraryAddUsageDescription" = "Please allow iER to access your photo library in order to save photo or video.";

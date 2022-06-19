@@ -1,0 +1,74 @@
+#!/usr/bin/perl
+$|++;
+use strict;
+use autodie qw(:all);
+use warnings;
+use FindBin qw($Bin $Script);
+use POSIX qw(strftime);
+
+exec ( qw(setuidgid parse perl), $Bin/$Script ) unless $< && $>;
+print "script: $Bin/$Script\n";
+%ENV=();
+$ENV{HOME}="/home/parse";
+$ENV{PATH}="/opt/bin:/usr/sbin:/usr/bin";
+sub getFlavor() {
+  for($Bin){
+    s{/+log/*$}{};
+    s{.*/}{} && s{.*-}{} && return $_;
+  };
+  die "failed to deduce flavor.";
+};
+my ($flavor) = getFlavor();
+$ENV{PARSE_FLAVOR}=$flavor;
+my ($logDir)="logs-$flavor";
+my $workDir="$ENV{HOME}/src/cell411/js/server";
+if( -d "$workDir-$flavor" ) {
+  $workDir="$workDir-$flavor";
+  $logDir="logs";
+};
+chdir($workDir);
+mkdir $logDir unless -d $logDir;
+$ENV{PARSE_SERVER_LOGS_FOLDER}="$workDir/$logDir";
+my $logFile="$logDir/current.log";
+our($dateFormat);
+$dateFormat="%Y%m%d-%H%M%S";
+sub date() {
+  return strftime($dateFormat,gmtime(time));
+}
+
+print "parent: $$\n";
+use IO::Pipe;
+open(STDIN,"</dev/null");
+unlink($logFile) if -e $logFile;
+open(STDOUT,">>$logFile");
+my $savedLog="$logDir/output-".date().".log";
+link($logFile,$savedLog);
+my $pipe = new IO::Pipe;
+my $origPid=$$;
+my $pid=fork;
+# We want the parent to exec node, so supervise is sure
+# to be able to kill it.
+if($pid) {
+  open(STDOUT,">&".fileno($pipe->writer));
+  close($pipe);
+  open(STDERR,">&STDOUT");
+  $ENV{HOME}="/home/parse";
+  $ENV{PATH}="/opt/bin:/sbin:/bin:/usr/sbin:/usr/bin";
+  $ENV{PARSE_FLAVOR}=$flavor;
+  $ENV{PWD}=$workDir;
+  exec "/opt/bin/node", "index.$ENV{PARSE_FLAVOR}.js";
+} else {
+  open(STDIN,"<&".fileno($pipe->reader()));
+  close($pipe);
+  my $next=time()+15;
+  while(<STDIN>){
+    $_=join(":",date(),$flavor,$_);
+    print STDOUT;
+    print STDERR;
+    #    system("pstree -ap $origPid | tee /proc/self/fd/2") if(time()>$next);
+  };
+  close(STDIN);
+  close(STDERR);
+  close(STDOUT);
+  exit($?);
+};

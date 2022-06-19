@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_bg"
+        android:orientation="horizontal"
+        >
+
+    <cell411.ui.utils.CircularImageView
+            android:id="@+id/img_user"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="3dp"
+            android:src="@drawable/ic_placeholder_user"
+            android:tint="@color/text_disabled_hint_icon"
+            />
+
+    <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:singleLine="false"
+            android:textColor="@color/text_primary"
+            android:layout_margin="3dp"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            />
+
+    <TextView
+            android:id="@+id/txt_btn_action"
+            android:layout_width="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:background="@color/highlight_color"
+            android:gravity="center"
+            android:text="@string/add_friend"
+            android:textColor="#212121"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            />
+
+    <TextView
+            android:id="@+id/txt_btn_neg"
+            android:layout_width="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="3dp"
+            android:layout_height="wrap_content"
+            android:background="@color/highlight_color"
+            android:gravity="center"
+            android:text="@string/remove"
+            android:textColor="#212121"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            />
+</LinearLayout>

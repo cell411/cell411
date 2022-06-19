@@ -1,0 +1,12 @@
+{
+  "name": "dbdump",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "license": "MIT",
+  "dependencies": {
+    "pg-promise": "^10.11.1"
+  },
+  "scripts": {
+    "dbdump": "node ./dbdump.mjs"
+  }
+}

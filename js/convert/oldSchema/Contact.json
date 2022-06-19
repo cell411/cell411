@@ -1,0 +1,72 @@
+{
+  "className": "Contact",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "name": {
+      "type": "String"
+    },
+    "type": {
+      "type": "Number"
+    },
+    "email": {
+      "type": "String"
+    },
+    "contactOf": {
+      "type": "Relation",
+      "targetClass": "_User"
+    },
+    "phone": {
+      "type": "String"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    }
+  },
+  "indexes": {
+    "_id_": {
+      "_id": 1
+    },
+    "email_1_phone_1": {
+      "email": 1,
+      "phone": 1
+    },
+    "phone_1": {
+      "phone": 1
+    },
+    "_created_at_-1": {
+      "_created_at": -1
+    },
+    "_id_1__rperm_1": {
+      "_id": 1,
+      "_rperm": 1
+    }
+  }
+}

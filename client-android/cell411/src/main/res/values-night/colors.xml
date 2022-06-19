@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#000000</color>
+
+    <color name="background">#303030</color>
+    <color name="card">#424242</color>
+    <color name="card_light">#5F5F5F</color>
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#B3FFFFFF</color>
+    <color name="text_disabled_hint_icon">#80FFFFFF</color>
+    <color name="divider">#1FFFFFFF</color>
+
+    <color name="login_gradient_start_color">#555555</color>
+</resources>

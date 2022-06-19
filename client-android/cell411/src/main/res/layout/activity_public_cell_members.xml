@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <cell411.ui.utils.CircularImageView
+            android:id="@+id/img_cell"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_placeholder_user"
+            android:tint="@color/text_disabled_hint_icon"
+            android:visibility="gone"
+            />
+
+    <LinearLayout
+            android:id="@+id/ll_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@+id/img_cell"
+            android:orientation="vertical"
+            >
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+            <ImageView
+                    android:id="@+id/img_cell_name"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/bg_primary_color_circle"
+                    android:contentDescription="@string/member_list_description"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_cell_name"
+                    />
+
+            <TextView
+                    android:id="@+id/txt_cell_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@+id/img_cell_name"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp"
+                    />
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                >
+
+            <ImageView
+                    android:id="@+id/img_cell_category"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/bg_primary_color_circle"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_category"
+                    android:contentDescription="@string/cell_category_image"
+                    />
+
+            <TextView
+                    android:id="@+id/txt_cell_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@id/img_cell_category"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp"
+                    />
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                >
+
+            <ImageView
+                    android:id="@+id/img_address"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/bg_primary_color_circle"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_city"
+                    android:contentDescription="@string/address_icon"
+                    />
+
+            <TextView
+                    android:id="@+id/txt_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@id/img_address"
+                    android:background="@color/transparent"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="@string/retrieving_city"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp"
+                    />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fab_request_ride"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="false"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/fab_start_chat"
+                    app:backgroundTint="@color/colorAccent"
+                    app:fabSize="normal"
+                    android:contentDescription="@string/chat"
+                    tools:ignore="RelativeOverlap"
+                    />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/txt_lbl_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_input"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/lbl_description"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+
+    <TextView
+            android:id="@+id/txt_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_lbl_description"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="@string/description"
+            android:textColor="@color/text_secondary"
+            android:textSize="16sp"
+            />
+
+    <TextView
+            android:id="@+id/txt_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_description"
+            android:layout_marginTop="10dp"
+            android:background="@color/card"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            />
+
+    <TextView
+            android:id="@+id/txt_total_members"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_status"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/members"
+            android:textColor="@color/gray_666"
+            android:textSize="13sp"
+            android:visibility="visible"
+            />
+
+    <View
+            android:id="@+id/view_divider"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/txt_total_members"
+            android:background="@color/divider"
+            />
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list_members"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/view_divider"
+            />
+
+</RelativeLayout>

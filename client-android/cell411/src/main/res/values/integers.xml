@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="maximum_timeout_to_server">30000</integer>
+</resources>

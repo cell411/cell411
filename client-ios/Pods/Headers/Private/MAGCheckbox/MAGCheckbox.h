@@ -1,0 +1,1 @@
+../../../MAGCheckbox/MAGCheckbox/Classes/MAGCheckbox.h

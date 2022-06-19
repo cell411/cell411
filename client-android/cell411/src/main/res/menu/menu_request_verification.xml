@@ -1,0 +1,21 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:addressListener="cell411.xcell411.PublicCellsActivity"
+    >
+
+    <item
+        android:id="@+id/action_request_verification"
+        android:orderInCategory="100"
+        android:title="@string/request_verification"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_edit_cell"
+        android:orderInCategory="100"
+        android:title="@string/edit_cell"
+        app:showAsAction="never"
+        />
+</menu>

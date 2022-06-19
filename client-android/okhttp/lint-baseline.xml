@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 7.2.0" type="baseline" client="gradle" dependencies="false" name="AGP (7.2.0)" variant="all" version="7.2.0">
+
+    <issue
+        id="PrivateApi"
+        message="Accessing internal APIs via reflection is not supported and may not work on all devices or in the future"
+        errorLine1="            Class.forName(&quot;com.android.org.conscrypt.SSLParametersImpl&quot;);"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/okhttp3/internal/platform/Android10Platform.java"
+            line="80"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="PrivateApi"
+        message="Accessing internal APIs via reflection is not supported and may not work on all devices or in the future"
+        errorLine1="      sslParametersClass = Class.forName(&quot;com.android.org.conscrypt.SSLParametersImpl&quot;);"
+        errorLine2="                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/okhttp3/internal/platform/AndroidPlatform.java"
+            line="226"
+            column="28"/>
+    </issue>
+
+    <issue
+        id="PrivateApi"
+        message="Accessing internal APIs via reflection is not supported and may not work on all devices or in the future"
+        errorLine1="      sslSocketClass = Class.forName(&quot;com.android.org.conscrypt.OpenSSLSocketImpl&quot;);"
+        errorLine2="                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/okhttp3/internal/platform/AndroidPlatform.java"
+            line="227"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="SoonBlockedPrivateApi"
+        message="Reflective access to setUseSessionTickets will throw an exception when targeting API 31 and above"
+        errorLine1="        Method setUseSessionTickets = sslSocketClass.getDeclaredMethod("
+        errorLine2="                                      ^">
+        <location
+            file="src/main/java/okhttp3/internal/platform/AndroidPlatform.java"
+            line="233"
+            column="39"/>
+    </issue>
+
+    <issue
+        id="BadHostnameVerifier"
+        message="`verify` always returns `true`, which could cause insecure network traffic due to trusting TLS/SSL server certificates for wrong hostnames"
+        errorLine1="  public boolean verify(String host, SSLSession session) {"
+        errorLine2="                 ~~~~~~">
+        <location
+            file="src/main/java/okhttp3/internal/tls/OkHostnameVerifier.java"
+            line="46"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 26"
+        errorLine1="    if (Build.VERSION.SDK_INT >= 21) {"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/okhttp3/internal/platform/AndroidPlatform.java"
+            line="231"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 26"
+        errorLine1="      tryTls12 = (Build.VERSION.SDK_INT >= 16 &amp;&amp; Build.VERSION.SDK_INT &lt; 22);"
+        errorLine2="                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/okhttp3/internal/platform/AndroidPlatform.java"
+            line="408"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is never &lt; 26"
+        errorLine1="      tryTls12 = (Build.VERSION.SDK_INT >= 16 &amp;&amp; Build.VERSION.SDK_INT &lt; 22);"
+        errorLine2="                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/okhttp3/internal/platform/AndroidPlatform.java"
+            line="408"
+            column="50"/>
+    </issue>
+
+</issues>

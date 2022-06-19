@@ -1,0 +1,14 @@
+{
+  "name": "dumps",
+  "version": "1.0.0",
+  "description": "Javascript to transition the database",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dedup_users": "node dedup_users.js"
+  },
+  "dependencies": {
+    "spex": "^3.2.0"
+  }
+}

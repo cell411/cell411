@@ -1,0 +1,125 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '10.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'cell411' do
+    pod 'GooglePlaces'
+    pod 'GoogleMaps'
+    pod 'SDWebImage', '~>3.7.x'
+    pod 'OBShapedButton'
+    pod "MTBBarcodeScanner"
+    pod "OpenInGoogleMaps"
+    pod 'MBProgressHUD', '~> 0.9.1'
+    pod 'AFNetworking', '~> 3.0'
+    pod 'Firebase/Core'
+    pod 'Firebase/Database'
+    pod 'Firebase/Storage'
+    pod 'Firebase/Auth'
+    pod 'JSQMessagesViewController'
+    pod 'LGPlusButtonsView', '~> 1.1.1'
+    pod 'Fabric'
+    pod 'Crashlytics'
+    pod 'Parse',:git => 'https://github.com/parse-community/Parse-SDK-iOS-OSX.git'
+    pod 'Parse/FacebookUtils',:git => 'https://github.com/parse-community/Parse-SDK-iOS-OSX.git'
+    pod 'MAGCheckbox'
+end
+
+target 'notificationserviceextension' do
+    pod 'AFNetworking', '~> 3.0'
+end
+
+
+target 'iER' do
+    pod 'GooglePlaces'
+    pod 'GoogleMaps'
+    pod 'SDWebImage', '~>3.7.x'
+    pod 'OBShapedButton'
+    pod "MTBBarcodeScanner"
+    pod "OpenInGoogleMaps"
+    pod 'MBProgressHUD', '~> 0.9.1'
+    pod 'AFNetworking', '~> 3.0'
+    pod 'Firebase/Core'
+    pod 'Firebase/Database'
+    pod 'Firebase/Storage'
+    pod 'Firebase/Auth'
+    pod 'JSQMessagesViewController'
+    pod 'LGPlusButtonsView', '~> 1.1.1'
+    pod 'Fabric'
+    pod 'Crashlytics'
+    pod 'Parse',:git => 'https://github.com/parse-community/Parse-SDK-iOS-OSX.git'
+    pod 'MAGCheckbox'
+end
+
+target 'GTA' do
+    pod 'GooglePlaces'
+    pod 'GoogleMaps'
+    pod 'SDWebImage', '~>3.7.x'
+    pod 'OBShapedButton'
+    pod "MTBBarcodeScanner"
+    pod "OpenInGoogleMaps"
+    pod 'MBProgressHUD', '~> 0.9.1'
+    pod 'AFNetworking', '~> 3.0'
+    pod 'Firebase/Core'
+    pod 'Firebase/Database'
+    pod 'Firebase/Storage'
+    pod 'Firebase/Auth'
+    pod 'JSQMessagesViewController'
+    pod 'LGPlusButtonsView', '~> 1.1.1'
+    pod 'Fabric'
+    pod 'Crashlytics'
+    pod 'Parse',:git => 'https://github.com/parse-community/Parse-SDK-iOS-OSX.git'
+    pod 'MAGCheckbox'
+end
+
+target 'ro112' do
+    pod 'GoogleMaps'
+    pod 'SDWebImage', '~>3.7.x'
+    pod 'OBShapedButton'
+    pod "MTBBarcodeScanner"
+    pod "OpenInGoogleMaps"
+    pod 'MBProgressHUD', '~> 0.9.1'
+    pod 'AFNetworking', '~> 3.0'
+    pod 'Firebase/Core'
+    pod 'Firebase/Database'
+    pod 'Firebase/Storage'
+    pod 'Firebase/Auth'
+    pod 'JSQMessagesViewController'
+    pod 'LGPlusButtonsView', '~> 1.1.1'
+    pod 'Fabric'
+    pod 'Crashlytics'
+    pod 'Parse',:git => 'https://github.com/parse-community/Parse-SDK-iOS-OSX.git'
+    pod 'MAGCheckbox'
+end
+
+target 'ro112notificationserviceextension' do
+    pod 'AFNetworking', '~> 3.0'
+end
+
+target 'cell411Tests' do
+
+end
+
+target 'cell411UITests' do
+
+end
+
+# Fixes "The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET'
+# is set to 8.0, but the range of supported deployment target versions is 9.0 to 15.0.99." errors
+post_install do |installer|
+  # LAD
+  # I am unsure of the norm or even how this works in ruby with to installers
+  # I am thinking maybe iterate over pods_project but wonder how to get both targets and build_configurations
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings.delete 'IPHONEOS_DEPLOYMENT_TARGET'
+    end
+  end
+  
+  # Fixes building for iOS Simulator, but linking in object file built for iOS, for architecture arm64 errprs
+  installer.pods_project.build_configurations.each do |config|
+    config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+  end
+end
+

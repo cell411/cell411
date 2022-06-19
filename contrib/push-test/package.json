@@ -1,0 +1,15 @@
+{
+  "name": "push-test",
+  "version": "1.0.0",
+  "description": "Testing push direct from postgres",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "dev@copblock.app",
+  "license": "SEE LICENSE IN ../LICENSE",
+  "dependencies": {
+    "@parse/node-gcm": "^1.0.2",
+    "assert-options": "^0.7.0"
+  }
+}

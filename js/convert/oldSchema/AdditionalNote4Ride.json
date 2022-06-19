@@ -1,0 +1,59 @@
+{
+  "className": "AdditionalNote4Ride",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "rideResponseId": {
+      "type": "String"
+    },
+    "writerId": {
+      "type": "String"
+    },
+    "writerName": {
+      "type": "String"
+    },
+    "note": {
+      "type": "String"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    },
+    "readUserFields": [],
+    "writeUserFields": []
+  },
+  "indexes": {
+    "_id_": {
+      "_id": 1
+    },
+    "_created_at_-1": {
+      "_created_at": -1
+    }
+  }
+}

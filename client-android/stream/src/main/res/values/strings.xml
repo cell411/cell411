@@ -1,0 +1,29 @@
+<resources>
+  <string name="app_name">Cell411 Streamer</string>
+  <string name="need_url_message">I need to url to stream to.  If you have one, enter it now.</string>
+  <string name="need_url_title">URL needed!</string>
+  <string name="default_title">Forgot The Title?</string>
+  <string name="txt_message">Somebody Forgot to Set My Message!</string>
+  <string name="app_does_not_work_without_permissions">
+        If you are wanting me to record with permissions, you\'re gonna have a bad time!
+
+    You want to rethink that, boss?</string>
+  <string name="welcome_text">Welcome To The Magical Live Streaming App!</string>
+  <string name="app_doesnot_work_without_permissions">App does not work without permissions. Please give Camera and Record Audio permission on app settings</string>
+  <string name="broadcast_connection_lost">Connection to media server is lost</string>
+  <string name="camera_not_running_properly">Camera is not running properly</string>
+  <string name="camera_permission_is_required">Camera permission is required to run this app</string>
+  <string name="first_call_open_camera">First call openCamera function</string>
+  <string name="live_indicator">On Air</string>
+  <string name="microphone_permission_is_required">Microphone permission is required to run this app</string>
+  <string name="not_eligible_for_broadcast">Your device is not eligible to broadcast. There is no hardware encoder.</string>
+  <string name="only_one_camera_exists">Only one camera exists in this device</string>
+  <string name="permission">Permission</string>
+  <string name="start_broadcasting">Start Broadcasting</string>
+  <string name="stop_broadcasting">Stop</string>
+  <string name="stream_not_started">Failed to start. Please check server url and security credentials.</string>
+  <string name="settings_icon">settings icon</string>
+  <string name="microphone_image">Microphone Image</string>
+  <string name="camera_switch_image">Camera Switch Image</string>
+
+</resources>

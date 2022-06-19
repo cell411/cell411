@@ -1,0 +1,82 @@
+{
+  "className": "MapObjective",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "createdBy": {
+      "type": "Pointer",
+      "targetClass": "_User"
+    },
+    "name": {
+      "type": "String"
+    },
+    "category": {
+      "type": "Number"
+    },
+    "description": {
+      "type": "String"
+    },
+    "hours": {
+      "type": "String"
+    },
+    "phone": {
+      "type": "String"
+    },
+    "url": {
+      "type": "String"
+    },
+    "city": {
+      "type": "String"
+    },
+    "country": {
+      "type": "String"
+    },
+    "fullAddress": {
+      "type": "String"
+    },
+    "geoTag": {
+      "type": "GeoPoint"
+    },
+    "image": {
+      "type": "File"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    }
+  },
+  "indexes": {
+    "_id_": {
+      "_id": 1
+    },
+    "geoTag_2d": {
+      "geoTag": "2d"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "className": "ChatMsg",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "chatRoom": {
+      "type": "Pointer",
+      "targetClass": "ChatRoom"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {},
+    "get": {},
+    "create": {},
+    "update": {},
+    "delete": {},
+    "addField": {}
+  }
+}

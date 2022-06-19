@@ -1,0 +1,76 @@
+{
+  "className": "Alert",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "media": {
+      "type": "String"
+    },
+    "owner": {
+      "type": "Pointer",
+      "required": true,
+      "targetClass": "_User"
+    },
+    "users": {
+      "type": "Relation",
+      "targetClass": "_User"
+    },
+    "location": {
+      "type": "GeoPoint"
+    },
+    "alertType": {
+      "type": "String",
+      "required": true
+    },
+    "toPatrols": {
+      "type": "Boolean"
+    },
+    "publicCells": {
+      "type": "Relation",
+      "targetClass": "PublicCell"
+    },
+    "privateCells": {
+      "type": "Relation",
+      "targetClass": "PrivateCell"
+    },
+    "additionalNote": {
+      "type": "String"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "count": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    },
+    "protectedFields": {
+      "*": []
+    }
+  }
+}

@@ -1,0 +1,35 @@
+/* (No Commment) */
+"CFBundleDisplayName" = "Cell 112";
+
+/* (No Commment) */
+"CFBundleName" = "$(PRODUCT_NAME)";
+
+/* (No Commment) */
+"NSBluetoothPeripheralUsageDescription" = "Bitte erlauben Sie Bluetooth-Zugriff, um Ihre Panik-Taste anzuschließen.";
+
+/* (No Commment) */
+"NSCameraUsageDescription" = "Erfordert Kamerazugriff zum Senden von Fotoalarm oder zum Fotografieren der Person, die das Video löscht, wenn die Option \"Falsches Löschen\" in den App-Einstellungen aktiviert ist.";
+
+/* (No Commment) */
+"NSContactsUsageDescription" = "Kontaktliste anzeigen, um weitere Kontakte einzuladen";
+
+/* (No Commment) */
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Cell 112 needs your location to help others find you when you issue an alert, to improve your overall experience and to provide you services like: Ride Requests, New Public Cell Alerts and Patrol Mode. With \"Always\" access to your location we'll be able to send you accurate location based notifications.";
+
+/* (No Commment) */
+"NSLocationAlwaysUsageDescription" = "Cell 112 needs your location to help others find you when you issue an alert, to improve your overall experience and to provide you services like: Ride Requests, New Public Cell Alerts and Patrol Mode. With \"Always\" access to your location we'll be able to send you accurate location based notifications.";
+
+/* (No Commment) */
+"NSLocationWhenInUseUsageDescription" = "Cell 112 needs your location to help others find you when you issue an alert, to improve your overall experience and to provide you services like: Ride Requests, New Public Cell Alerts and Patrol Mode.";
+
+/* (No Commment) */
+"NSMicrophoneUsageDescription" = "Für das Live-Streaming erforderlich";
+
+/* (No Commment) */
+"NSMotionUsageDescription" = "Bewegungsdaten erforderlich, um die Standortgenauigkeit zu verbessern, ohne viel Akku zu verbrauchen.";
+
+/* (No Commment) */
+"NSPhotoLibraryUsageDescription" = "Bitte erlauben Sie Cell 112, auf Ihre Fotobibliothek zuzugreifen, um eine Fotowarnung zu versenden.";
+
+/* (No Commment) */
+"NSPhotoLibraryAddUsageDescription" = "Bitte erlauben Sie Cell 112, auf Ihre Fotobibliothek zuzugreifen, um Fotos oder Videos zu speichern.";

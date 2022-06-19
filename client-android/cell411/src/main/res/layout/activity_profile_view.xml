@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/img_header"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_profile_header"
+            tools:ignore="ContentDescription"
+            />
+
+        <RelativeLayout
+          android:id="@+id/rl_user"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/img_header"
+          android:layout_marginStart="10dp"
+          android:layout_marginTop="-80dp"
+          android:layout_marginEnd="10dp"
+          >
+
+            <cell411.ui.utils.CircularImageView
+              android:id="@+id/img_user"
+              android:layout_width="100dp"
+              android:layout_height="100dp"
+              android:src="@drawable/ic_placeholder_user"
+              android:tint="@color/text_disabled_hint_icon"
+              />
+
+            <ImageView
+              android:id="@+id/img_edit"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:layout_alignBottom="@+id/img_user"
+              android:layout_marginStart="35dp"
+              android:layout_marginBottom="3dp"
+              android:background="@drawable/bg_primary_color_circle"
+              android:padding="5dp"
+              android:src="@drawable/ic_change_image"
+              android:visibility="visible"
+              tools:ignore="ContentDescription"
+              />
+
+            <TextView
+              android:id="@+id/txt_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginStart="10dp"
+              android:layout_marginTop="6dp"
+              android:layout_marginEnd="10dp"
+              android:layout_toEndOf="@id/img_user"
+              android:text="Full Name"
+              android:textColor="@color/white"
+              android:textSize="14sp"
+              android:textStyle="bold"
+              tools:ignore="HardcodedText"
+              />
+
+            <TextView
+              android:id="@+id/txt_email"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/txt_name"
+              android:layout_marginStart="10dp"
+              android:layout_marginTop="2dp"
+              android:layout_marginEnd="10dp"
+              android:layout_toEndOf="@id/img_user"
+              android:text="email"
+              android:textColor="@color/white"
+              android:textSize="14sp"
+              android:textStyle="italic"
+              tools:ignore="HardcodedText"
+              />
+
+            <LinearLayout
+              android:id="@+id/ll_city_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/txt_email"
+              android:layout_marginStart="10dp"
+              android:layout_marginTop="10dp"
+              android:layout_marginEnd="10dp"
+              android:layout_toEndOf="@id/img_user"
+              android:orientation="horizontal"
+              tools:ignore="UseCompoundDrawables"
+              >
+
+                <ImageView
+                  android:layout_width="20dp"
+                  android:layout_height="20dp"
+                  android:padding="3dp"
+                  android:src="@drawable/ic_city"
+                  android:textColor="@color/white"
+                  tools:ignore="ContentDescription"
+                  />
+
+                <TextView
+                  android:id="@+id/txt_city_name"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:layout_marginStart="5dp"
+                  android:text="@string/retrieving_city"
+                  android:textColor="@color/white"
+                  android:textSize="14sp"
+                  />
+            </LinearLayout>
+
+            <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/ll_city_name"
+              android:layout_marginStart="10dp"
+              android:layout_marginTop="5dp"
+              android:layout_marginEnd="10dp"
+              android:layout_toEndOf="@id/img_user"
+              android:orientation="horizontal"
+              >
+
+                <ImageView
+                  android:layout_width="20dp"
+                  android:layout_height="20dp"
+                  android:padding="3dp"
+                  android:src="@drawable/ic_phone"
+                  app:tint="@color/text_disabled_hint_icon"
+                  />
+
+                <TextView
+                  android:id="@+id/txt_phone"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:layout_marginStart="5dp"
+                  android:textColor="@color/text_secondary"
+                  android:textSize="14sp"
+                  />
+
+                <ImageView
+                  android:id="@+id/img_verified"
+                  android:layout_width="20dp"
+                  android:layout_height="20dp"
+                  android:layout_marginStart="5dp"
+                  android:src="@drawable/ic_verified"
+                  tools:ignore="ContentDescription"
+                  />
+
+                <TextView
+                  android:id="@+id/txt_not"
+                  android:layout_width="20dp"
+                  android:layout_height="20dp"
+                  android:layout_marginStart="5dp"
+                  android:background="@drawable/bg_or"
+                  android:gravity="center"
+                  android:text="!"
+                  android:textSize="14sp"
+                  android:textStyle="bold"
+                  tools:ignore="HardcodedText"
+                  />
+
+                <cell411.ui.self.XBlinkingRedSymbol
+                  android:id="@+id/brs"
+                  android:layout_width="10dp"
+                  android:layout_height="10dp"
+                  android:layout_marginStart="2dp"
+                  />
+
+                <TextView
+                  android:id="@+id/txt_btn_add_phone"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="10dp"
+                  android:gravity="center"
+                  android:text="@string/add_small"
+                  android:textColor="@color/text_primary"
+                  android:textSize="15sp"
+                  />
+
+                <TextView
+                  android:layout_width="60dp"
+                  android:layout_height="20dp"
+                  android:layout_gravity="center_vertical"
+                  android:layout_marginStart="5dp"
+                  android:gravity="center"
+                  android:text="Verify"
+                  android:textSize="14sp"
+                  android:visibility="gone"
+                  tools:ignore="HardcodedText"
+                  />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_user"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="30dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="20dp"
+            >
+
+            <TextView
+                android:id="@+id/txt_profile_completeness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Profile setup: 30%"
+                tools:ignore="HardcodedText"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:id="@+id/img_blood_group"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:padding="3dp"
+                    android:src="@drawable/ic_blood_group"
+                    tools:ignore="ContentDescription"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_lbl_blood_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@+id/img_blood_group"
+                    android:text="@string/blood_group"
+                    android:textColor="@color/text_primary"
+                    android:textSize="14sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_blood_group"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/img_blood_group"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_blood_group_highlight"
+                    android:gravity="center"
+                    android:text="AB+"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    tools:ignore="HardcodedText"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                >
+
+                <ImageView
+                    android:id="@+id/img_emergency_contact_name"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:padding="3dp"
+                    android:src="@drawable/ic_user_grey"
+                    tools:ignore="ContentDescription"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@+id/img_emergency_contact_name"
+                    android:text="@string/emergency_contact_name"
+                    android:textColor="@color/text_primary"
+                    android:textSize="14sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_emergency_contact_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_emergency_contact_name"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/not_available"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                >
+
+                <ImageView
+                    android:id="@+id/img_emergency_contact_number"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:padding="3dp"
+                    android:src="@drawable/ic_phone_gray"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@+id/img_emergency_contact_number"
+                    android:text="@string/emergency_contact_phone"
+                    android:textColor="@color/text_primary"
+                    android:textSize="14sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_emergency_contact_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_emergency_contact_number"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/not_available"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                >
+
+                <ImageView
+                    android:id="@+id/img_allergies"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:padding="3dp"
+                    android:src="@drawable/ic_allergy"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_lbl_allergies"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@+id/img_allergies"
+                    android:text="@string/allergies_caps"
+                    android:textColor="@color/text_primary"
+                    android:textSize="14sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_allergies"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_allergies"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/not_available"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                >
+
+                <ImageView
+                    android:id="@+id/img_other_medical_conditions"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:padding="3dp"
+                    android:src="@drawable/ic_other_medical_conditions"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_lbl_other_medical_conditions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@+id/img_other_medical_conditions"
+                    android:text="@string/other_medical_conditions_caps"
+                    android:textColor="@color/text_primary"
+                    android:textSize="14sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_other_medical_conditions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_other_medical_conditions"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/not_available"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

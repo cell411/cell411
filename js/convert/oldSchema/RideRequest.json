@@ -1,0 +1,107 @@
+{
+  "className": "RideRequest",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "pickUpLocation": {
+      "type": "GeoPoint"
+    },
+    "requestedBy": {
+      "type": "Pointer",
+      "targetClass": "_User"
+    },
+    "status": {
+      "type": "String"
+    },
+    "targetMembers": {
+      "type": "Array"
+    },
+    "dropLocation": {
+      "type": "String"
+    },
+    "overlayDismissed": {
+      "type": "Boolean"
+    },
+    "rejectedBy": {
+      "type": "Relation",
+      "targetClass": "_User"
+    },
+    "additionalNote": {
+      "type": "String"
+    },
+    "initiatedBy": {
+      "type": "Relation",
+      "targetClass": "_User"
+    },
+    "selectedUser": {
+      "type": "Pointer",
+      "targetClass": "_User"
+    },
+    "pickupReached": {
+      "type": "Boolean"
+    },
+    "rideCompleted": {
+      "type": "Boolean"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    },
+    "readUserFields": [],
+    "writeUserFields": []
+  },
+  "indexes": {
+    "_id_": {
+      "_id": 1
+    },
+    "_created_at_-1": {
+      "_created_at": -1
+    },
+    "_p_requestedBy_1__created_at_-1": {
+      "_p_requestedBy": 1,
+      "_created_at": -1
+    },
+    "_p_requestedBy_1_status_1__created_at_-1_overlayDismissed_1": {
+      "_p_requestedBy": 1,
+      "status": 1,
+      "_created_at": -1,
+      "overlayDismissed": 1
+    },
+    "_p_requestedBy_1_targetMembers_1__rperm_1": {
+      "_p_requestedBy": 1,
+      "targetMembers": 1,
+      "_rperm": 1
+    },
+    "targetMembers_1__rperm_1__p_requestedBy_1": {
+      "targetMembers": 1,
+      "_rperm": 1,
+      "_p_requestedBy": 1
+    }
+  }
+}

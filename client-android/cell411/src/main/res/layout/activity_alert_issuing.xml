@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/txt_alert_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/send_crime_alert"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/choose_your_audience_to_send_alert"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_audience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                >
+
+            </androidx.recyclerview.widget.RecyclerView>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/txt_additional_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:labelFor="@id/et_additional_note"
+            android:text="@string/additional_note_optional"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp"
+            />
+
+        <EditText
+            android:id="@+id/et_additional_note"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="top"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:minHeight="60dp"
+            android:padding="5dp"
+            android:textSize="14sp"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            >
+
+            <com.google.android.material.switchmaterial.SwitchMaterial
+                android:id="@+id/switch_stream_video"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_margin="2dp"
+                android:layout_weight="2"
+                android:background="@drawable/ripple_action_negative"
+                android:hapticFeedbackEnabled="true"
+                android:text="@string/stream_video"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                >
+
+            </com.google.android.material.switchmaterial.SwitchMaterial>
+
+            <TextView
+                android:id="@+id/txt_btn_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_action_negative"
+                android:gravity="center"
+                android:text="@string/dialog_btn_cancel"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/txt_btn_send"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_action_positive"
+                android:gravity="center"
+                android:text="@string/dialog_btn_send"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

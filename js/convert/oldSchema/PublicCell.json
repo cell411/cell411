@@ -1,0 +1,117 @@
+{
+  "className": "PublicCell",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "name": {
+      "type": "String"
+    },
+    "members": {
+      "type": "Relation",
+      "targetClass": "_User"
+    },
+    "createdBy": {
+      "type": "Pointer",
+      "targetClass": "_User"
+    },
+    "totalMembers": {
+      "type": "Number"
+    },
+    "geoTag": {
+      "type": "GeoPoint"
+    },
+    "isVerified": {
+      "type": "Number"
+    },
+    "PublicCell": {
+      "type": "Relation",
+      "targetClass": "_User"
+    },
+    "description": {
+      "type": "String"
+    },
+    "category": {
+      "type": "String"
+    },
+    "city": {
+      "type": "String"
+    },
+    "country": {
+      "type": "String"
+    },
+    "fullAddress": {
+      "type": "String"
+    },
+    "verificationStatus": {
+      "type": "Number"
+    },
+    "cellType": {
+      "type": "Number"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    },
+    "readUserFields": [],
+    "writeUserFields": []
+  },
+  "indexes": {
+    "_id_": {
+      "_id": 1
+    },
+    "_created_at_-1": {
+      "_created_at": -1
+    },
+    "_id_1__p_createdBy_1": {
+      "_id": 1,
+      "_p_createdBy": 1
+    },
+    "_id_1_totalMembers_-1__p_createdBy_1": {
+      "_id": 1,
+      "totalMembers": -1,
+      "_p_createdBy": 1
+    },
+    "_p_createdBy_1_totalMembers_1": {
+      "_p_createdBy": 1,
+      "totalMembers": 1
+    },
+    "geoTag_2d": {
+      "geoTag": "2d"
+    },
+    "geoTag_2d_totalMembers_-1": {
+      "geoTag": "2d",
+      "totalMembers": -1
+    },
+    "name_1_totalMembers_-1__p_createdBy_1": {
+      "name": 1,
+      "totalMembers": -1,
+      "_p_createdBy": 1
+    }
+  }
+}

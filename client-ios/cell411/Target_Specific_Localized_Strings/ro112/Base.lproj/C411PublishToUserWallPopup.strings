@@ -1,0 +1,18 @@
+/* 
+  C411PublishToUserWallPopup.strings
+  cell411
+
+  Created by Milan Agarwal on 08/12/17.
+  Copyright © 2017 Milan Agarwal. All rights reserved.
+*/
+/* Class = "UILabel"; text = "Would you like to enable publishing alerts to your Facebook Wall when you issue one?"; ObjectID = "Aw4-Ot-QgC"; */
+"Aw4-Ot-QgC.text" = "Dorești să activezi publicarea alertelor pe peretele tău de Facebook când vei emite una?";
+
+/* Class = "UIButton"; normalTitle = "Enable"; ObjectID = "Dsv-MJ-9oJ"; */
+"Dsv-MJ-9oJ.normalTitle" = "Activează";
+
+/* Class = "UILabel"; text = "Publish alert to my Facebook Wall when I issue one"; ObjectID = "Fdx-cL-zU1"; */
+"Fdx-cL-zU1.text" = "Publică alerta pe peretele tău de Facebook când vei emite una";
+
+/* Class = "UIButton"; normalTitle = "Do it Later"; ObjectID = "Hva-pM-EJh"; */
+"Hva-pM-EJh.normalTitle" = "Mai târziu";

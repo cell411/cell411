@@ -1,0 +1,14 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:addressListener="cell411.tabs.cells.PublicCellMembersActivity"
+    >
+
+    <item
+        android:id="@+id/action_join"
+        android:orderInCategory="100"
+        android:title="@string/join_this_cell"
+        app:showAsAction="never"
+        />
+</menu>

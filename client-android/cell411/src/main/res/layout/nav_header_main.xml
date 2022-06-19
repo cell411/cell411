@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cell411.ui.NavHeaderMain
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="115dp"
+    android:background="@drawable/bg_nav_header"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="15dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    >
+
+    <cell411.ui.utils.CircularImageView
+        android:id="@+id/img_user"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_placeholder_user"
+        android:tint="@color/text_disabled_hint_icon"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/img_user"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="Username"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/txt_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/example_email"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                    android:id="@+id/lbl_blood_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/lbl_blood_group"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    />
+
+            <TextView
+                android:id="@+id/txt_blood_group"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@+id/lbl_blood_group"
+                android:background="@drawable/bg_blood_group_red"
+                android:gravity="center"
+                android:text="AB+"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</cell411.ui.NavHeaderMain>

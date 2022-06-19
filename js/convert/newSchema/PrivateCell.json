@@ -1,0 +1,62 @@
+{
+  "className": "PrivateCell",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "name": {
+      "type": "String"
+    },
+    "type": {
+      "type": "Number"
+    },
+    "owner": {
+      "type": "Pointer",
+      "required": true,
+      "targetClass": "_User"
+    },
+    "members": {
+      "type": "Relation",
+      "targetClass": "_User"
+    },
+    "chatRoom": {
+      "type": "Pointer",
+      "targetClass": "ChatRoom"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "count": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    },
+    "protectedFields": {
+      "*": []
+    }
+  }
+}

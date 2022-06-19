@@ -1,0 +1,10 @@
+.idea/
+node_modules/
+API/
+benchmarks/node_modules/
+out/
+coverage/
+/spex.js
+test/typescript/*.js
+test/typescript/*.map
+package-lock.json

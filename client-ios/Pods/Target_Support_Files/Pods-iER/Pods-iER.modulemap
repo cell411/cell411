@@ -1,0 +1,6 @@
+module Pods_iER {
+  umbrella header "Pods-iER-umbrella.h"
+
+  export *
+  module * { export * }
+}

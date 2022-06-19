@@ -1,0 +1,38 @@
+/* (No Commment) */
+"CFBundleDisplayName" = "Cell 411";
+
+/* (No Commment) */
+"CFBundleName" = "$(PRODUCT_NAME)";
+
+/* (No Commment) */
+"NSBluetoothAlwaysUsageDescription" = "Please allow bluetooth access in order to connect your Panic Button.";
+
+/* (No Commment) */
+"NSBluetoothPeripheralUsageDescription" = "Please allow bluetooth access in order to connect your Panic Button.";
+
+/* (No Commment) */
+"NSCameraUsageDescription" = "Requires camera access to send out photo alert or to take picture of the person deleting the video if fake delete option is turned on from app settings.";
+
+/* (No Commment) */
+"NSContactsUsageDescription" = "To show contact list for inviting contacts";
+
+/* (No Commment) */
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Cell 411 needs your location to help others find you when you issue an alert, to improve your overall experience and to provide you services like: Ride Requests, New Public Cell Alerts and Patrol Mode. With \"Always\" access to your location we'll be able to send you accurate location based notifications.";
+
+/* (No Commment) */
+"NSLocationAlwaysUsageDescription" = "Cell 411 needs your location to help others find you when you issue an alert, to improve your overall experience and to provide you services like: Ride Requests, New Public Cell Alerts and Patrol Mode. With \"Always\" access to your location we'll be able to send you accurate location based notifications.";
+
+/* (No Commment) */
+"NSLocationWhenInUseUsageDescription" = "Cell 411 needs your location to help others find you when you issue an alert, to improve your overall experience and to provide you services like: Ride Requests, New Public Cell Alerts and Patrol Mode.";
+
+/* (No Commment) */
+"NSMicrophoneUsageDescription" = "Required for Live Streaming";
+
+/* (No Commment) */
+"NSMotionUsageDescription" = "Motion data needed to improve location accuracy without consuming much battery.";
+
+/* (No Commment) */
+"NSPhotoLibraryUsageDescription" = "Please allow Cell 411 to access your photo library in order to send out photo alert.";
+
+/* (No Commment) */
+"NSPhotoLibraryAddUsageDescription" = "Please allow Cell 411 to access your photo library in order to save photo or video.";

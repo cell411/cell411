@@ -1,0 +1,15 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/create"
+        android:title="@string/menu_item_create"
+        yourapp:showAsAction="always"
+        />
+    <item
+        android:id="@+id/update"
+        android:title="@string/menu_item_update"
+        yourapp:showAsAction="always"
+        />
+</menu>

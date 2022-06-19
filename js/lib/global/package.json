@@ -1,0 +1,9 @@
+{
+  "name": "global",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "temporal": "^0.7.1"
+  }
+}

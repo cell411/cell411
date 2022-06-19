@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="alert_broken_car">#a824ce</color>
+    <color name="alert_bullied">#928dff</color>
+    <color name="alert_criminal">#2e49bd</color>
+    <color name="alert_general">#6e6e6e</color>
+    <color name="alert_pulled_over">#2e49bd</color>
+    <color name="alert_video">#ff4eb2</color>
+    <color name="alert_photo">#ff4eb2</color>
+    <color name="alert_danger">#da3636</color>
+    <color name="alert_fire">#ffa70f</color>
+    <color name="alert_medical">#008d45</color>
+    <color name="alert_police_arrest">#2e49bd</color>
+    <color name="alert_pre_authorisation">#2e49bd</color>
+    <color name="alert_police_interaction">#2e49bd</color>
+    <color name="alert_hijack">#da3636</color>
+    <color name="alert_panic">#da3636</color>
+    <color name="alert_physical_abuse">#2e49bd</color>
+    <color name="alert_trapped">#2e49bd</color>
+    <color name="alert_natural_disaster">#2e49bd</color>
+    <color name="alert_un_recognized">#8d6e63</color>
+
+    <color name="alert_background_broken_car">#cca824ce</color>
+    <color name="alert_background_bullied">#cc928dff</color>
+    <color name="alert_background_criminal">#cc2e49bd</color>
+    <color name="alert_background_general">#e3202020</color>
+    <color name="alert_background_pulled_over">#cc2e49bd</color>
+    <color name="alert_background_video">#ccff4eb2</color>
+    <color name="alert_background_photo">#ccff4eb2</color>
+    <color name="alert_background_danger">#ccda3636</color>
+    <color name="alert_background_fire">#ccffa70f</color>
+    <color name="alert_background_medical">#cc008d45</color>
+    <color name="alert_background_police_arrest">#cc2e49bd</color>
+    <color name="alert_background_police_interaction">#cc2e49bd</color>
+    <color name="alert_background_hijack">#ccda3636</color>
+    <color name="alert_background_physical_abuse">#cc2e49bd</color>
+    <color name="alert_background_trapped">#cc2e49bd</color>
+    <color name="alert_background_car_accident">#cca824ce</color>
+    <color name="alert_background_natural_disaster">#cc2e49bd</color>
+</resources>

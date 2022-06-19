@@ -1,0 +1,86 @@
+{
+  "className": "_Installation",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "installationId": {
+      "type": "String"
+    },
+    "deviceToken": {
+      "type": "String"
+    },
+    "channels": {
+      "type": "Array"
+    },
+    "deviceType": {
+      "type": "String"
+    },
+    "pushType": {
+      "type": "String"
+    },
+    "GCMSenderId": {
+      "type": "String"
+    },
+    "timeZone": {
+      "type": "String"
+    },
+    "localeIdentifier": {
+      "type": "String"
+    },
+    "badge": {
+      "type": "Number"
+    },
+    "appVersion": {
+      "type": "String"
+    },
+    "appName": {
+      "type": "String"
+    },
+    "appIdentifier": {
+      "type": "String"
+    },
+    "parseVersion": {
+      "type": "String"
+    },
+    "owner": {
+      "type": "Pointer",
+      "targetClass": "_User"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "count": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    },
+    "protectedFields": {
+      "*": []
+    }
+  }
+}

@@ -1,0 +1,1431 @@
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "09w-Hk-C8m"; */
+"09w-Hk-C8m.normalTitle" = "Login";
+
+/* Class = "UIButton"; normalTitle = "STATUS"; ObjectID = "09z-0y-2xq"; */
+"09z-0y-2xq.normalTitle" = "STATUS";
+
+/* Class = "UILabel"; text = "Retreiving Location..."; ObjectID = "0DE-Hg-Uac"; */
+"0DE-Hg-Uac.text" = "Retreiving Location...";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "0Gj-3H-qch"; */
+"0Gj-3H-qch.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "5"; ObjectID = "0IV-1m-F9r"; */
+"0IV-1m-F9r.normalTitle" = "5";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "0JG-sH-8he"; */
+"0JG-sH-8he.text" = "Category";
+
+/* Class = "UILabel"; text = "Cell Name"; ObjectID = "0OK-Uf-zTC"; */
+"0OK-Uf-zTC.text" = "Cell Name";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "0TK-pK-8FJ"; */
+"0TK-pK-8FJ.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "0bt-BE-HOM"; */
+"0bt-BE-HOM.title" = " ";
+
+/* Class = "UILabel"; text = "Retreiving"; ObjectID = "0cD-3A-tcK"; */
+"0cD-3A-tcK.text" = "Retreiving";
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "0n0-ry-Wil"; */
+"0n0-ry-Wil.normalTitle" = "Sign In";
+
+/* Class = "UILabel"; text = "Stream name/key:"; ObjectID = "0zi-Nu-fAc"; */
+"0zi-Nu-fAc.text" = "Stream name/key:";
+
+/* Class = "UILabel"; text = "This will enable streaming live videos to Cell 411 TV Channel."; ObjectID = "10h-Id-DYX"; */
+"10h-Id-DYX.text" = "This will enable streaming live videos to Cell 411 TV Channel.";
+
+/* Class = "UILabel"; text = "Check who's on Cell 411 network by uploading your contacts and then you can choose with whom you want to connect"; ObjectID = "12Q-Lc-krb"; */
+"12Q-Lc-krb.text" = "Check who's on Cell 411 network by uploading your contacts and then you can choose with whom you want to connect";
+
+/* Class = "UILabel"; text = "Already have an account? "; ObjectID = "1Ed-4m-hCj"; */
+"1Ed-4m-hCj.text" = "Already have an account? ";
+
+/* Class = "UILabel"; text = "Wiselysot TestAccount1"; ObjectID = "1J7-js-bxT"; */
+"1J7-js-bxT.text" = "Wiselysot TestAccount1";
+
+/* Class = "UILabel"; text = "7:49 PM"; ObjectID = "1L0-75-Ywr"; */
+"1L0-75-Ywr.text" = "7:49 PM";
+
+/* Class = "UIButton"; normalTitle = "Accept"; ObjectID = "1gb-jw-gqa"; */
+"1gb-jw-gqa.normalTitle" = "Accept";
+
+/* Class = "UILabel"; text = "Please select if you would like Cell 411 to use kilometers or miles as the standard distance unit."; ObjectID = "1sg-3y-z6Z"; */
+"1sg-3y-z6Z.text" = "Please select if you would like Cell 411 to use kilometers or miles as the standard distance unit.";
+
+/* Class = "UILabel"; text = "03/03/2017"; ObjectID = "28D-me-FeH"; */
+"28D-me-FeH.text" = "03/03/2017";
+
+/* Class = "UILabel"; text = "COST/MIN"; ObjectID = "2RK-Tf-lAR"; */
+"2RK-Tf-lAR.text" = "COST/MIN";
+
+/* Class = "UILabel"; text = "Turning this feature on will allow you to receive Cell 411 alert whenever a new Public Cell is created nearby you. This feature requires Location Updates to be turned on."; ObjectID = "2Tc-h1-AJy"; */
+"2Tc-h1-AJy.text" = "Turning this feature on will allow you to receive Cell 411 alert whenever a new Public Cell is created nearby you. This feature requires Location Updates to be turned on.";
+
+/* Class = "UIButton"; normalTitle = "Add Phone"; ObjectID = "2UD-9Q-bT3"; */
+"2UD-9Q-bT3.normalTitle" = "Add Phone";
+
+/* Class = "UILabel"; text = "Other Medical Conditions"; ObjectID = "2Y5-So-5rw"; */
+"2Y5-So-5rw.text" = "Other Medical Conditions";
+
+/* Class = "UILabel"; text = "SILVER"; ObjectID = "2e7-zD-Dq3"; */
+"2e7-zD-Dq3.text" = "SILVER";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "2o4-0V-B7a"; */
+"2o4-0V-B7a.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "+1"; ObjectID = "2rO-nN-9Dg"; */
+"2rO-nN-9Dg.normalTitle" = "+1";
+
+/* Class = "UIButton"; normalTitle = "8"; ObjectID = "2sw-tK-vQC"; */
+"2sw-tK-vQC.normalTitle" = "8";
+
+/* Class = "UILabel"; text = "0 Selected"; ObjectID = "3AG-dP-yT9"; */
+"3AG-dP-yT9.text" = "0 Selected";
+
+/* Class = "UILabel"; text = "Responder Name"; ObjectID = "3k8-gL-Mzs"; */
+"3k8-gL-Mzs.text" = "Responder Name";
+
+/* Class = "UIButton"; normalTitle = "Update"; ObjectID = "3kZ-ix-krz"; */
+"3kZ-ix-krz.normalTitle" = "Update";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "3uh-vg-u3G"; */
+"3uh-vg-u3G.title" = " ";
+
+/* Class = "UILabel"; text = "..."; ObjectID = "3xq-LW-qrg"; */
+"3xq-LW-qrg.text" = "...";
+
+/* Class = "UILabel"; text = "Other Medical Conditions"; ObjectID = "40C-oU-C78"; */
+"40C-oU-C78.text" = "Other Medical Conditions";
+
+/* Class = "UILabel"; text = "Describe purpose of your Cell."; ObjectID = "4CL-6E-cT6"; */
+"4CL-6E-cT6.text" = "Describe purpose of your Cell.";
+
+/* Class = "UILabel"; text = "No friends yet"; ObjectID = "4KK-L8-kfu"; */
+"4KK-L8-kfu.text" = "No friends yet";
+
+/* Class = "UILabel"; text = "Tags"; ObjectID = "4Mu-ec-KWT"; */
+"4Mu-ec-KWT.text" = "Tags";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "4SN-b9-5Hy"; */
+"4SN-b9-5Hy.placeholder" = "Phone Number";
+
+/* Class = "UILabel"; text = "CREDIT CARD"; ObjectID = "4n2-OL-mXX"; */
+"4n2-OL-mXX.text" = "CREDIT CARD";
+
+/* Class = "UIButton"; normalTitle = "3"; ObjectID = "4xZ-ph-u8Y"; */
+"4xZ-ph-u8Y.normalTitle" = "3";
+
+/* Class = "UIButton"; normalTitle = "Notify Rider"; ObjectID = "4zX-bS-pNB"; */
+"4zX-bS-pNB.normalTitle" = "Notify Rider";
+
+/* Class = "UIButton"; normalTitle = "Status"; ObjectID = "58w-nZ-CrI"; */
+"58w-nZ-CrI.normalTitle" = "Status";
+
+/* Class = "UILabel"; text = "You have not flagged any user as spam."; ObjectID = "5Gf-WM-Eh7"; */
+"5Gf-WM-Eh7.text" = "You have not flagged any user as spam.";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "5bB-dD-62o"; */
+"5bB-dD-62o.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "5fi-9D-czv"; */
+"5fi-9D-czv.title" = " ";
+
+/* Class = "UITextField"; placeholder = "confirm password"; ObjectID = "5p7-xS-78T"; */
+"5p7-xS-78T.placeholder" = "confirm password";
+
+/* Class = "UILabel"; text = "RESPONSE:"; ObjectID = "64s-cI-lDx"; */
+"64s-cI-lDx.text" = "RESPONSE:";
+
+/* Class = "UILabel"; text = "Nearby"; ObjectID = "6Eg-GX-kzU"; */
+"6Eg-GX-kzU.text" = "Nearby";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "6FS-6c-26Z"; */
+"6FS-6c-26Z.title" = " ";
+
+/* Class = "UILabel"; text = "05/26/2016 at 07:49 PM"; ObjectID = "6lx-74-NFq"; */
+"6lx-74-NFq.text" = "05/26/2016 at 07:49 PM";
+
+/* Class = "UILabel"; text = "Responses"; ObjectID = "70F-Kd-Lbt"; */
+"70F-Kd-Lbt.text" = "Responses";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "73b-ba-4C5"; */
+"73b-ba-4C5.placeholder" = "Phone Number";
+
+/* Class = "UILabel"; text = "Please confirm your country code and enter phone number"; ObjectID = "77D-Sk-aAG"; */
+"77D-Sk-aAG.text" = "Please confirm your country code and enter phone number";
+
+/* Class = "UITextField"; placeholder = "2"; ObjectID = "7HY-FO-dhF"; */
+"7HY-FO-dhF.placeholder" = "2";
+
+/* Class = "UILabel"; text = "$"; ObjectID = "7Nw-x8-odt"; */
+"7Nw-x8-odt.text" = "$";
+
+/* Class = "UIButton"; normalTitle = "Spam"; ObjectID = "7TG-pb-oUE"; */
+"7TG-pb-oUE.normalTitle" = "Spam";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "7U1-ww-Iv2"; */
+"7U1-ww-Iv2.text" = "0";
+
+/* Class = "UILabel"; text = "FACEBOOK LIVE VIDEO OPTIONS"; ObjectID = "7aP-N8-ttA"; */
+"7aP-N8-ttA.text" = "FACEBOOK LIVE VIDEO OPTIONS";
+
+/* Class = "UILabel"; text = "YOUR RESPONSE TO THIS REQUEST IS SEEN BY THE RIDER"; ObjectID = "7jX-k5-qRN"; */
+"7jX-k5-qRN.text" = "YOUR RESPONSE TO THIS REQUEST IS SEEN BY THE RIDER";
+
+/* Class = "UILabel"; text = "Retreiving"; ObjectID = "7pW-PW-5SD"; */
+"7pW-PW-5SD.text" = "Retreiving";
+
+/* Class = "UIButton"; normalTitle = "AB-"; ObjectID = "81S-Q3-ETa"; */
+"81S-Q3-ETa.normalTitle" = "AB-";
+
+/* Class = "UIButton"; normalTitle = "Read More"; ObjectID = "84H-3n-IDE"; */
+"84H-3n-IDE.normalTitle" = "Read More";
+
+/* Class = "UILabel"; text = "Retreiving City..."; ObjectID = "8Bc-Dg-3kO"; */
+"8Bc-Dg-3kO.text" = "Retreiving City...";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8ID-bb-gHD"; */
+"8ID-bb-gHD.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8MB-Nb-nGL"; */
+"8MB-Nb-nGL.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "8ZV-yA-vG6"; */
+"8ZV-yA-vG6.title" = " ";
+
+/* Class = "UILabel"; text = "These are supposedly your public servants. If you feel intimidated by the police, they are not doing their job correctly. Always be polite, as police can often act irrationally if offended."; ObjectID = "8e6-da-NsI"; */
+"8e6-da-NsI.text" = "These are supposedly your public servants. If you feel intimidated by the police, they are not doing their job correctly. Always be polite, as police can often act irrationally if offended.";
+
+/* Class = "UILabel"; text = "Friend Name"; ObjectID = "8hz-eH-jRQ"; */
+"8hz-eH-jRQ.text" = "Friend Name";
+
+/* Class = "UILabel"; text = "LOADING..."; ObjectID = "8k6-xZ-MD9"; */
+"8k6-xZ-MD9.text" = "LOADING...";
+
+/* Class = "UILabel"; text = "Loading messages..."; ObjectID = "8ka-FP-3VK"; */
+"8ka-FP-3VK.text" = "Loading messages...";
+
+/* Class = "UILabel"; text = "Additional text message if any"; ObjectID = "8vq-ha-zS8"; */
+"8vq-ha-zS8.text" = "Additional text message if any";
+
+/* Class = "UILabel"; text = "Warning: Time delay setting does not apply to alerts issued via the Cell 411 Bluetooth Panic Button!"; ObjectID = "96e-nG-H9R"; */
+"96e-nG-H9R.text" = "Warning: Time delay setting does not apply to alerts issued via the Cell 411 Bluetooth Panic Button!";
+
+/* Class = "UILabel"; text = "25 miles"; ObjectID = "9B3-6N-aZE"; */
+"9B3-6N-aZE.text" = "25 miles";
+
+/* Class = "UIButton"; normalTitle = "Ride Completed"; ObjectID = "9B6-lM-C1Y"; */
+"9B6-lM-C1Y.normalTitle" = "Ride Completed";
+
+/* Class = "UILabel"; text = "Cell Name"; ObjectID = "9Ck-Mh-gpZ"; */
+"9Ck-Mh-gpZ.text" = "Cell Name";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "9L0-hq-egc"; */
+"9L0-hq-egc.title" = " ";
+
+/* Class = "UILabel"; text = "PATROL MODE"; ObjectID = "9gN-GA-HhZ"; */
+"9gN-GA-HhZ.text" = "PATROL MODE";
+
+/* Class = "UIButton"; normalTitle = "Advanced Panic Settings"; ObjectID = "9hq-dQ-zrV"; */
+"9hq-dQ-zrV.normalTitle" = "Advanced Panic Settings";
+
+/* Class = "UITabBarItem"; title = "Cells"; ObjectID = "9k5-1x-5Bl"; */
+"9k5-1x-5Bl.title" = "Cells";
+
+/* Class = "UILabel"; text = "NEW PUBLIC CELL ALERT"; ObjectID = "9lb-yV-HLs"; */
+"9lb-yV-HLs.text" = "NEW PUBLIC CELL ALERT";
+
+/* Class = "UILabel"; text = "LOADING..."; ObjectID = "A4z-v5-T0H"; */
+"A4z-v5-T0H.text" = "LOADING...";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "A7V-zs-DAX"; */
+"A7V-zs-DAX.placeholder" = "Last Name";
+
+/* Class = "UILabel"; text = "Cell Name"; ObjectID = "AMc-ot-FJD"; */
+"AMc-ot-FJD.text" = "Cell Name";
+
+/* Class = "UIButton"; normalTitle = "Spam"; ObjectID = "APK-oA-aL6"; */
+"APK-oA-aL6.normalTitle" = "Spam";
+
+/* Class = "UILabel"; text = "Comment"; ObjectID = "AZ7-5F-hht"; */
+"AZ7-5F-hht.text" = "Comment";
+
+/* Class = "UILabel"; text = "Contact Number"; ObjectID = "Aq5-bt-Ieu"; */
+"Aq5-bt-Ieu.text" = "Contact Number";
+
+/* Class = "UILabel"; text = "REMEMBER: The police are allowed to LIE to you in order to incriminate you! You do not have to speak or answer any questions. Use Cell 411 to stream live video to your friends and record the interaction. It cannot be detected by the police even if your phone is destroyed or confiscated!"; ObjectID = "AvQ-ra-Vnv"; */
+"AvQ-ra-Vnv.text" = "REMEMBER: The police are allowed to LIE to you in order to incriminate you! You do not have to speak or answer any questions. Use Cell 411 to stream live video to your friends and record the interaction. It cannot be detected by the police even if your phone is destroyed or confiscated!";
+
+/* Class = "UILabel"; text = "Friend Name"; ObjectID = "Avd-lk-1VM"; */
+"Avd-lk-1VM.text" = "Friend Name";
+
+/* Class = "UILabel"; text = "PICKUP COST"; ObjectID = "BYg-Mj-tCL"; */
+"BYg-Mj-tCL.text" = "PICKUP COST";
+
+/* Class = "UILabel"; text = "Rate this user"; ObjectID = "BbI-XJ-meD"; */
+"BbI-XJ-meD.text" = "Rate this user";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "BbX-bd-2jk"; */
+"BbX-bd-2jk.title" = " ";
+
+/* Class = "UILabel"; text = "LOADING..."; ObjectID = "BfR-WF-N83"; */
+"BfR-WF-N83.text" = "LOADING...";
+
+/* Class = "UILabel"; text = "Device Name:"; ObjectID = "BjT-bQ-yWS"; */
+"BjT-bQ-yWS.text" = "Device Name:";
+
+/* Class = "UITextField"; placeholder = "Email Address"; ObjectID = "Brb-RZ-1bB"; */
+"Brb-RZ-1bB.placeholder" = "Email Address";
+
+/* Class = "UILabel"; text = "You are never required to talk to police. Speaking to an officer can only be used to hurt you. Only reveal your identity if you're driving."; ObjectID = "BsD-Nk-7V4"; */
+"BsD-Nk-7V4.text" = "You are never required to talk to police. Speaking to an officer can only be used to hurt you. Only reveal your identity if you're driving.";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "C6t-5U-9hN"; */
+"C6t-5U-9hN.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Unblock User"; ObjectID = "CJd-Lu-EpQ"; */
+"CJd-Lu-EpQ.normalTitle" = "Unblock User";
+
+/* Class = "UILabel"; text = "email"; ObjectID = "CKI-bg-buA"; */
+"CKI-bg-buA.text" = "email";
+
+/* Class = "UIButton"; normalTitle = "Reset"; ObjectID = "CN0-on-hz9"; */
+"CN0-on-hz9.normalTitle" = "Reset";
+
+/* Class = "UILabel"; text = "Would you like to add some note for the drivers?"; ObjectID = "CNv-oC-y46"; */
+"CNv-oC-y46.text" = "Would you like to add some note for the drivers?";
+
+/* Class = "UILabel"; text = "VIDEO SIZE"; ObjectID = "CSV-2f-rBF"; */
+"CSV-2f-rBF.text" = "VIDEO SIZE";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "CqH-ih-Cve"; */
+"CqH-ih-Cve.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Ride Settings"; ObjectID = "Csv-RI-kod"; */
+"Csv-RI-kod.normalTitle" = "Ride Settings";
+
+/* Class = "UILabel"; text = "Contact Number"; ObjectID = "D0h-n2-Un7"; */
+"D0h-n2-Un7.text" = "Contact Number";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "D2E-q2-Ewy"; */
+"D2E-q2-Ewy.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = "Select"; ObjectID = "D5h-Rn-B4k"; */
+"D5h-Rn-B4k.title" = "Select";
+
+/* Class = "UILabel"; text = "Turning this feature on will enable the fake delete button on video alerts in Alerts tab."; ObjectID = "DMP-jA-V62"; */
+"DMP-jA-V62.text" = "Turning this feature on will enable the fake delete button on video alerts in Alerts tab.";
+
+/* Class = "UILabel"; text = "Open hours"; ObjectID = "DhG-PZ-iin"; */
+"DhG-PZ-iin.text" = "Open hours";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "DiW-TX-trj"; */
+"DiW-TX-trj.normalTitle" = "Done";
+
+/* Class = "UITextField"; placeholder = "Contact Number"; ObjectID = "DkL-eE-ZyN"; */
+"DkL-eE-ZyN.placeholder" = "Contact Number";
+
+/* Class = "UILabel"; text = "AB+"; ObjectID = "DsT-18-ipq"; */
+"DsT-18-ipq.text" = "AB+";
+
+/* Class = "UILabel"; text = "N/A"; ObjectID = "Dtt-zX-Ghz"; */
+"Dtt-zX-Ghz.text" = "N/A";
+
+/* Class = "UILabel"; text = "email"; ObjectID = "E28-wo-wPn"; */
+"E28-wo-wPn.text" = "email";
+
+/* Class = "UILabel"; text = "Member of zero Cells"; ObjectID = "EH0-V7-90l"; */
+"EH0-V7-90l.text" = "Member of zero Cells";
+
+/* Class = "UILabel"; text = "UPLOAD CONTACTS"; ObjectID = "ELm-ne-ScV"; */
+"ELm-ne-ScV.text" = "UPLOAD CONTACTS";
+
+/* Class = "UILabel"; text = "05/26/16 at 7:49 PM"; ObjectID = "EUY-dt-rsm"; */
+"EUY-dt-rsm.text" = "05/26/16 at 7:49 PM";
+
+/* Class = "UILabel"; text = "Retrieving city..."; ObjectID = "EXs-gv-BRn"; */
+"EXs-gv-BRn.text" = "Retrieving city...";
+
+/* Class = "UILabel"; text = "email"; ObjectID = "EZE-cZ-iAf"; */
+"EZE-cZ-iAf.text" = "email";
+
+/* Class = "UIButton"; normalTitle = "2"; ObjectID = "EcZ-5E-nno"; */
+"EcZ-5E-nno.normalTitle" = "2";
+
+/* Class = "UILabel"; text = "Retreiving"; ObjectID = "Ed1-0P-XfI"; */
+"Ed1-0P-XfI.text" = "Retreiving";
+
+/* Class = "UILabel"; text = "Scan the QR code generated by a friend to add them to your friend list"; ObjectID = "EiM-wu-Rta"; */
+"EiM-wu-Rta.text" = "Scan the QR code generated by a friend to add them to your friend list";
+
+/* Class = "UIButton"; normalTitle = "+1"; ObjectID = "EyW-te-JYH"; */
+"EyW-te-JYH.normalTitle" = "+1";
+
+/* Class = "UILabel"; text = "LOADING..."; ObjectID = "FCW-zo-j12"; */
+"FCW-zo-j12.text" = "LOADING...";
+
+/* Class = "UILabel"; text = "Turning this feature on will link your account with Facebook so that next time you can simply login with Facebook."; ObjectID = "FEb-FT-CxM"; */
+"FEb-FT-CxM.text" = "Turning this feature on will link your account with Facebook so that next time you can simply login with Facebook.";
+
+/* Class = "UIButton"; normalTitle = "4"; ObjectID = "FF1-6S-VlU"; */
+"FF1-6S-VlU.normalTitle" = "4";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "FJb-pW-yDi"; */
+"FJb-pW-yDi.title" = " ";
+
+/* Class = "UILabel"; text = "BROADCAST REQUEST RADIUS"; ObjectID = "FP6-OA-mJw"; */
+"FP6-OA-mJw.text" = "BROADCAST REQUEST RADIUS";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "FTj-5S-5pC"; */
+"FTj-5S-5pC.text" = "Category";
+
+/* Class = "UILabel"; text = "DROP AT"; ObjectID = "FbD-ck-dnB"; */
+"FbD-ck-dnB.text" = "DROP AT";
+
+/* Class = "UILabel"; text = "Don't have an account? "; ObjectID = "Fgq-Kg-Hu9"; */
+"Fgq-Kg-Hu9.text" = "Don't have an account? ";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "Fhm-ct-GdB"; */
+"Fhm-ct-GdB.title" = "Save";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "FxG-J6-CYr"; */
+"FxG-J6-CYr.title" = " ";
+
+/* Class = "UILabel"; text = "CELL 411"; ObjectID = "FxI-FS-EFg"; */
+"FxI-FS-EFg.text" = "CELL 411";
+
+/* Class = "UILabel"; text = "05/26/2016 at 07:49 PM"; ObjectID = "FzN-51-fIp"; */
+"FzN-51-fIp.text" = "05/26/2016 at 07:49 PM";
+
+/* Class = "UIButton"; normalTitle = "Add Friend"; ObjectID = "G3X-Ut-L4E"; */
+"G3X-Ut-L4E.normalTitle" = "Add Friend";
+
+/* Class = "UIButton"; selectedTitle = "Request Sent"; ObjectID = "G3X-Ut-L4E"; */
+"G3X-Ut-L4E.selectedTitle" = "Request Sent";
+
+/* Class = "UILabel"; text = "KNOW YOUR RIGHTS!"; ObjectID = "GAO-rI-f10"; */
+"GAO-rI-f10.text" = "KNOW YOUR RIGHTS!";
+
+/* Class = "UILabel"; text = "(1 to 50)"; ObjectID = "GCo-RK-JoU"; */
+"GCo-RK-JoU.text" = "(1 to 50)";
+
+/* Class = "UILabel"; text = "Activate account"; ObjectID = "GI3-tQ-Op1"; */
+"GI3-tQ-Op1.text" = "Activate account";
+
+/* Class = "UILabel"; text = "Cell 411 App Developers"; ObjectID = "GJ0-qZ-Huc"; */
+"GJ0-qZ-Huc.text" = "Cell 411 App Developers";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "GLC-rt-Jvd"; */
+"GLC-rt-Jvd.title" = " ";
+
+/* Class = "UITextField"; placeholder = "Mobile Number"; ObjectID = "GN5-IP-kbg"; */
+"GN5-IP-kbg.placeholder" = "Mobile Number";
+
+/* Class = "UILabel"; text = "0 Selected"; ObjectID = "Gck-e1-pYO"; */
+"Gck-e1-pYO.text" = "0 Selected";
+
+/* Class = "UIButton"; normalTitle = "1"; ObjectID = "GxO-bE-3HX"; */
+"GxO-bE-3HX.normalTitle" = "1";
+
+/* Class = "UILabel"; text = "Cell Name"; ObjectID = "HlI-2q-RsE"; */
+"HlI-2q-RsE.text" = "Cell Name";
+
+/* Class = "UILabel"; text = "YOUTUBE LIVE VIDEO OPTIONS"; ObjectID = "HoJ-Nb-biP"; */
+"HoJ-Nb-biP.text" = "YOUTUBE LIVE VIDEO OPTIONS";
+
+/* Class = "UILabel"; text = "BE POLITE, BUT FIRM"; ObjectID = "IC6-4j-Esz"; */
+"IC6-4j-Esz.text" = "BE POLITE, BUT FIRM";
+
+/* Class = "UILabel"; text = "PAYMENT MODE"; ObjectID = "IDW-ND-qx9"; */
+"IDW-ND-qx9.text" = "PAYMENT MODE";
+
+/* Class = "UIButton"; normalTitle = "0"; ObjectID = "IUO-Yf-uqR"; */
+"IUO-Yf-uqR.normalTitle" = "0";
+
+/* Class = "UIButton"; normalTitle = "Disconnect from Facebook"; ObjectID = "Ilk-3C-TN6"; */
+"Ilk-3C-TN6.normalTitle" = "Disconnect from Facebook";
+
+/* Class = "UILabel"; text = "Allergies"; ObjectID = "Iom-ZP-Hwn"; */
+"Iom-ZP-Hwn.text" = "Allergies";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Ip8-7f-8ap"; */
+"Ip8-7f-8ap.title" = " ";
+
+/* Class = "UILabel"; text = "If they are asking to search you, your things, your car, or home, it's because they need your consent. They won't ask to search if they have a warrant or \"probable cause\". If an officer searches you without your permission, do not resist the search but always say you do not consent."; ObjectID = "Isd-jA-UHD"; */
+"Isd-jA-UHD.text" = "If they are asking to search you, your things, your car, or home, it's because they need your consent. They won't ask to search if they have a warrant or \"probable cause\". If an officer searches you without your permission, do not resist the search but always say you do not consent.";
+
+/* Class = "UILabel"; text = "AFTER 10 SECONDS"; ObjectID = "Iu2-dA-OGI"; */
+"Iu2-dA-OGI.text" = "AFTER 10 SECONDS";
+
+/* Class = "UILabel"; text = "(1-50 miles)"; ObjectID = "JGn-75-Klo"; */
+"JGn-75-Klo.text" = "(1-50 miles)";
+
+/* Class = "UILabel"; text = "This will enable streaming live videos to Cell 411 TV Facebook Page."; ObjectID = "JGp-0T-riX"; */
+"JGp-0T-riX.text" = "This will enable streaming live videos to Cell 411 TV Facebook Page.";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "JKf-lS-1md"; */
+"JKf-lS-1md.title" = " ";
+
+/* Class = "UILabel"; text = "DESCRIPTION"; ObjectID = "Jdd-aB-ZWi"; */
+"Jdd-aB-ZWi.text" = "DESCRIPTION";
+
+/* Class = "UILabel"; text = "PUBLISH ALERTS TO YOUR FACEBOOK WALL"; ObjectID = "JhR-kC-Fsz"; */
+"JhR-kC-Fsz.text" = "PUBLISH ALERTS TO YOUR FACEBOOK WALL";
+
+/* Class = "UIButton"; normalTitle = "Video Settings"; ObjectID = "Jj8-xj-7BU"; */
+"Jj8-xj-7BU.normalTitle" = "Video Settings";
+
+/* Class = "UILabel"; text = "Time to wait before issuing Panic Alert"; ObjectID = "Jjb-GB-taz"; */
+"Jjb-GB-taz.text" = "Time to wait before issuing Panic Alert";
+
+/* Class = "UILabel"; text = "State:"; ObjectID = "Jpu-LM-3yB"; */
+"Jpu-LM-3yB.text" = "State:";
+
+/* Class = "UIButton"; normalTitle = "A-"; ObjectID = "K3b-it-oCw"; */
+"K3b-it-oCw.normalTitle" = "A-";
+
+/* Class = "UILabel"; text = "Friend Name"; ObjectID = "KIy-mb-7NR"; */
+"KIy-mb-7NR.text" = "Friend Name";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "KeU-bh-9HN"; */
+"KeU-bh-9HN.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "6"; ObjectID = "LFe-ty-0JA"; */
+"LFe-ty-0JA.normalTitle" = "6";
+
+/* Class = "UILabel"; text = "Contact Name"; ObjectID = "LFp-7h-R83"; */
+"LFp-7h-R83.text" = "Contact Name";
+
+/* Class = "UILabel"; text = "PICKUP FROM"; ObjectID = "LRG-b0-qF8"; */
+"LRG-b0-qF8.text" = "PICKUP FROM";
+
+/* Class = "UILabel"; text = "Virgil Vaduva requested a ride."; ObjectID = "LRe-EQ-ORL"; */
+"LRe-EQ-ORL.text" = "Virgil Vaduva requested a ride.";
+
+/* Class = "UIButton"; normalTitle = "Sign Up with Facebook"; ObjectID = "Lqn-dO-n1Y"; */
+"Lqn-dO-n1Y.normalTitle" = "Sign Up with Facebook";
+
+/* Class = "UILabel"; text = "Drop Location"; ObjectID = "LtY-bk-g9q"; */
+"LtY-bk-g9q.text" = "Drop Location";
+
+/* Class = "UIButton"; normalTitle = "O+"; ObjectID = "LwH-U6-1p5"; */
+"LwH-U6-1p5.normalTitle" = "O+";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "M5F-9G-aXl"; */
+"M5F-9G-aXl.title" = " ";
+
+/* Class = "UILabel"; text = "Virgil Vaduva issued a Fire alert."; ObjectID = "MJ3-W9-kf4"; */
+"MJ3-W9-kf4.text" = "Virgil Vaduva issued a Fire alert.";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "MRp-4O-he4"; */
+"MRp-4O-he4.normalTitle" = "Send";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "MfD-or-MKp"; */
+"MfD-or-MKp.placeholder" = "First Name";
+
+/* Class = "UILabel"; text = "Virgil Vaduva issued a Fire alert."; ObjectID = "MfV-Zb-yIo"; */
+"MfV-Zb-yIo.text" = "Virgil Vaduva issued a Fire alert.";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "MhD-XQ-n3Z"; */
+"MhD-XQ-n3Z.text" = "Title";
+
+/* Class = "UILabel"; text = "Retreiving"; ObjectID = "N0F-cf-Y7g"; */
+"N0F-cf-Y7g.text" = "Retreiving";
+
+/* Class = "UIButton"; normalTitle = "STATUS"; ObjectID = "NTH-sX-Xyk"; */
+"NTH-sX-Xyk.normalTitle" = "STATUS";
+
+/* Class = "UILabel"; text = "Turning this feature on will increase your GPS accuracy but it may decrease your battery life."; ObjectID = "Nfa-aG-dI9"; */
+"Nfa-aG-dI9.text" = "Turning this feature on will increase your GPS accuracy but it may decrease your battery life.";
+
+/* Class = "UILabel"; text = "Contact Number"; ObjectID = "Nfj-p6-I9w"; */
+"Nfj-p6-I9w.text" = "Contact Number";
+
+/* Class = "UITextField"; placeholder = "Cell Name"; ObjectID = "Nxd-Ug-etY"; */
+"Nxd-Ug-etY.placeholder" = "Cell Name";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "NyB-Af-KyW"; */
+"NyB-Af-KyW.normalTitle" = "Cancel";
+
+/* Class = "UISegmentedControl"; O1F-I2-edm.segmentTitles[0] = "Miles"; ObjectID = "O1F-I2-edm"; */
+"O1F-I2-edm.segmentTitles[0]" = "Miles";
+
+/* Class = "UISegmentedControl"; O1F-I2-edm.segmentTitles[1] = "Kilometers"; ObjectID = "O1F-I2-edm"; */
+"O1F-I2-edm.segmentTitles[1]" = "Kilometers";
+
+/* Class = "UIButton"; normalTitle = "Request Verification"; ObjectID = "O7i-BR-fyg"; */
+"O7i-BR-fyg.normalTitle" = "Request Verification";
+
+/* Class = "UILabel"; text = "ASK \"AM I BEING DETAINED?\" IF YOU ARE NOT, LEAVE"; ObjectID = "OEf-rp-vea"; */
+"OEf-rp-vea.text" = "ASK \"AM I BEING DETAINED?\" IF YOU ARE NOT, LEAVE";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "OHw-br-6aB"; */
+"OHw-br-6aB.placeholder" = "password";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "OMT-PO-HXU"; */
+"OMT-PO-HXU.title" = " ";
+
+/* Class = "UILabel"; text = "Member Name"; ObjectID = "Odq-xn-U1P"; */
+"Odq-xn-U1P.text" = "Member Name";
+
+/* Class = "UITabBarItem"; title = "Friends"; ObjectID = "Ofs-Xx-1Pr"; */
+"Ofs-Xx-1Pr.title" = "Friends";
+
+/* Class = "UILabel"; text = "Private Cell"; ObjectID = "OnG-Hq-fkl"; */
+"OnG-Hq-fkl.text" = "Private Cell";
+
+/* Class = "UILabel"; text = "05/26/16 at 7:49 PM"; ObjectID = "Ood-jL-PxS"; */
+"Ood-jL-PxS.text" = "05/26/16 at 7:49 PM";
+
+/* Class = "UILabel"; text = "GENERAL VIDEO SETTINGS"; ObjectID = "Ovy-Mq-vpR"; */
+"Ovy-Mq-vpR.text" = "GENERAL VIDEO SETTINGS";
+
+/* Class = "UILabel"; text = "GPS ACCURATE TRACKING"; ObjectID = "P8X-qE-PXx"; */
+"P8X-qE-PXx.text" = "GPS ACCURATE TRACKING";
+
+/* Class = "UILabel"; text = "Blood Group"; ObjectID = "PBB-dB-s1u"; */
+"PBB-dB-s1u.text" = "Blood Group";
+
+/* Class = "UILabel"; text = "You have a pending ride request."; ObjectID = "PJv-68-4GX"; */
+"PJv-68-4GX.text" = "You have a pending ride request.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Pfg-Np-JsV"; */
+"Pfg-Np-JsV.text" = "Label";
+
+/* Class = "UILabel"; text = "DO NOT ANSWER QUESTIONS"; ObjectID = "PhA-1m-bhg"; */
+"PhA-1m-bhg.text" = "DO NOT ANSWER QUESTIONS";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Pid-Ms-rG8"; */
+"Pid-Ms-rG8.title" = " ";
+
+/* Class = "UILabel"; text = "Select the Cells that will receive the alert"; ObjectID = "PnN-JS-U4P"; */
+"PnN-JS-U4P.text" = "Select the Cells that will receive the alert";
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "PpH-F0-GnK"; */
+"PpH-F0-GnK.normalTitle" = "Sign In";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Pw5-UP-4QM"; */
+"Pw5-UP-4QM.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Pza-Qh-PBK"; */
+"Pza-Qh-PBK.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Get Started"; ObjectID = "Q78-Q9-rVL"; */
+"Q78-Q9-rVL.normalTitle" = "Get Started";
+
+/* Class = "UILabel"; text = "DELETE VIDEO OPTION"; ObjectID = "QBv-Ya-WJw"; */
+"QBv-Ya-WJw.text" = "DELETE VIDEO OPTION";
+
+/* Class = "UIButton"; normalTitle = "Manage Cell 411 Panic Button(s)"; ObjectID = "QLe-S5-68b"; */
+"QLe-S5-68b.normalTitle" = "Manage Cell 411 Panic Button(s)";
+
+/* Class = "UIButton"; normalTitle = "B-"; ObjectID = "QO7-Sf-0Cf"; */
+"QO7-Sf-0Cf.normalTitle" = "B-";
+
+/* Class = "UILabel"; text = "Additional Note"; ObjectID = "QQa-S3-eIV"; */
+"QQa-S3-eIV.text" = "Additional Note";
+
+/* Class = "UILabel"; text = "I requested a ride."; ObjectID = "QW6-bb-nGQ"; */
+"QW6-bb-nGQ.text" = "I requested a ride.";
+
+/* Class = "UILabel"; text = "You need some friends or incidents to chat about. Join a public Cell in your area or respond to an alert if you want to chat."; ObjectID = "QY8-yb-oas"; */
+"QY8-yb-oas.text" = "You need some friends or incidents to chat about. Join a public Cell in your area or respond to an alert if you want to chat.";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Qin-HU-q6w"; */
+"Qin-HU-q6w.title" = " ";
+
+/* Class = "UILabel"; text = "Virgil Vaduva"; ObjectID = "Qmr-wi-LSC"; */
+"Qmr-wi-LSC.text" = "Virgil Vaduva";
+
+/* Class = "UILabel"; text = "$"; ObjectID = "Qrf-QC-V4n"; */
+"Qrf-QC-V4n.text" = "$";
+
+/* Class = "UILabel"; text = "We will not sell or disclose your data to any third private party"; ObjectID = "Qt1-Fq-Vag"; */
+"Qt1-Fq-Vag.text" = "We will not sell or disclose your data to any third private party";
+
+/* Class = "UILabel"; text = "Last Message"; ObjectID = "Qtt-we-p1m"; */
+"Qtt-we-p1m.text" = "Last Message";
+
+/* Class = "UILabel"; text = "Request Accepted"; ObjectID = "R96-VX-54j"; */
+"R96-VX-54j.text" = "Request Accepted";
+
+/* Class = "UILabel"; text = "Public Cells that you own or joined will appear here"; ObjectID = "ROO-3f-8Nn"; */
+"ROO-3f-8Nn.text" = "Public Cells that you own or joined will appear here";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "RRj-na-W9B"; */
+"RRj-na-W9B.title" = " ";
+
+/* Class = "UILabel"; text = "05/26/16 at 7:49 PM"; ObjectID = "Rmf-nh-uDt"; */
+"Rmf-nh-uDt.text" = "05/26/16 at 7:49 PM";
+
+/* Class = "UIButton"; normalTitle = "9"; ObjectID = "Rsx-fK-0Z7"; */
+"Rsx-fK-0Z7.normalTitle" = "9";
+
+/* Class = "UIButton"; normalTitle = "Change Currency"; ObjectID = "Rwd-sr-69k"; */
+"Rwd-sr-69k.normalTitle" = "Change Currency";
+
+/* Class = "UILabel"; text = "Emergency Contact Name"; ObjectID = "SAM-e6-hhC"; */
+"SAM-e6-hhC.text" = "Emergency Contact Name";
+
+/* Class = "UIButton"; normalTitle = "7"; ObjectID = "SJf-Oy-SCG"; */
+"SJf-Oy-SCG.normalTitle" = "7";
+
+/* Class = "UILabel"; text = "RECORD YOUR INTERACTION"; ObjectID = "SPP-oE-8XY"; */
+"SPP-oE-8XY.text" = "RECORD YOUR INTERACTION";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "Sfp-Ks-uwA"; */
+"Sfp-Ks-uwA.text" = "Address";
+
+/* Class = "UITabBarItem"; title = "Map"; ObjectID = "SjR-Io-XbJ"; */
+"SjR-Io-XbJ.title" = "Map";
+
+/* Class = "UITextField"; placeholder = "E-mail Address "; ObjectID = "T0u-bp-Oyc"; */
+"T0u-bp-Oyc.placeholder" = "E-mail Address ";
+
+/* Class = "UILabel"; text = "You can delete your account at any time"; ObjectID = "T5Q-bi-32y"; */
+"T5Q-bi-32y.text" = "You can delete your account at any time";
+
+/* Class = "UIButton"; normalTitle = "O-"; ObjectID = "T5T-VI-yTt"; */
+"T5T-VI-yTt.normalTitle" = "O-";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "T6P-RC-cWf"; */
+"T6P-RC-cWf.normalTitle" = "Submit";
+
+/* Class = "UILabel"; text = "Friend Name"; ObjectID = "T74-rk-Bps"; */
+"T74-rk-Bps.text" = "Friend Name";
+
+/* Class = "UILabel"; text = "Include Security Guards"; ObjectID = "T9y-dJ-ocs"; */
+"T9y-dJ-ocs.text" = "Include Security Guards";
+
+/* Class = "UITextField"; placeholder = "Title"; ObjectID = "TRf-on-p8L"; */
+"TRf-on-p8L.placeholder" = "Title";
+
+/* Class = "UILabel"; text = "AFTER 5 SECONDS"; ObjectID = "TbE-sf-23f"; */
+"TbE-sf-23f.text" = "AFTER 5 SECONDS";
+
+/* Class = "UIButton"; normalTitle = "Login with Facebook"; ObjectID = "TfC-V2-okL"; */
+"TfC-V2-okL.normalTitle" = "Login with Facebook";
+
+/* Class = "UILabel"; text = "LOADING..."; ObjectID = "Tj2-FP-gpO"; */
+"Tj2-FP-gpO.text" = "LOADING...";
+
+/* Class = "UILabel"; text = "PICK UP LOCATION"; ObjectID = "Tm7-so-7Ii"; */
+"Tm7-so-7Ii.text" = "PICK UP LOCATION";
+
+/* Class = "UILabel"; text = "Open hours"; ObjectID = "TuQ-vH-VAR"; */
+"TuQ-vH-VAR.text" = "Open hours";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "TxH-RS-xgi"; */
+"TxH-RS-xgi.title" = " ";
+
+/* Class = "UILabel"; text = "Friend Name"; ObjectID = "Tzg-ML-s0f"; */
+"Tzg-ML-s0f.text" = "Friend Name";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "UKi-OR-0ch"; */
+"UKi-OR-0ch.placeholder" = "Phone Number";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Ub2-Ah-5mX"; */
+"Ub2-Ah-5mX.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "4.4"; ObjectID = "UfJ-kG-hrw"; */
+"UfJ-kG-hrw.text" = "4.4";
+
+/* Class = "UILabel"; text = "DROP LOCATION"; ObjectID = "UnX-3s-SLU"; */
+"UnX-3s-SLU.text" = "DROP LOCATION";
+
+/* Class = "UILabel"; text = "Other Medical Conditions (e.g seizures, heart problems, etc.)"; ObjectID = "V1F-a0-Ys2"; */
+"V1F-a0-Ys2.text" = "Other Medical Conditions (e.g seizures, heart problems, etc.)";
+
+/* Class = "UILabel"; text = "Battery: Retrieving..."; ObjectID = "V9q-uG-xPS"; */
+"V9q-uG-xPS.text" = "Battery: Retrieving...";
+
+/* Class = "UIButton"; normalTitle = "Stream Video"; ObjectID = "VMQ-qF-Ypf"; */
+"VMQ-qF-Ypf.normalTitle" = "Stream Video";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "VRF-k6-eq4"; */
+"VRF-k6-eq4.title" = " ";
+
+/* Class = "UILabel"; text = "Info about contacts in your address book, including names, phone numbers and emails will be sent to Cell 411 to help you and other find friends faster and to help us provide a better service. You can turn this off in Settings and manage or delete contact information you share with Cell 411."; ObjectID = "Va4-3S-dBG"; */
+"Va4-3S-dBG.text" = "Info about contacts in your address book, including names, phone numbers and emails will be sent to Cell 411 to help you and other find friends faster and to help us provide a better service. You can turn this off in Settings and manage or delete contact information you share with Cell 411.";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "Vcu-jh-8h7"; */
+"Vcu-jh-8h7.text" = "OR";
+
+/* Class = "UILabel"; text = "CELL 411 PANIC BUTTON SETTINGS"; ObjectID = "W8e-O0-b6b"; */
+"W8e-O0-b6b.text" = "CELL 411 PANIC BUTTON SETTINGS";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "WE7-yU-49p"; */
+"WE7-yU-49p.normalTitle" = "Sign Up";
+
+/* Class = "UILabel"; text = "Turning this feature on will let the app to publish alerts to your Facebook wall whenever you issue one, so that your Facebook friends can help you out in emergency."; ObjectID = "WFQ-9X-szu"; */
+"WFQ-9X-szu.text" = "Turning this feature on will let the app to publish alerts to your Facebook wall whenever you issue one, so that your Facebook friends can help you out in emergency.";
+
+/* Class = "UILabel"; text = "Do you also want to start streaming live video globally ?"; ObjectID = "WGo-xC-ZEH"; */
+"WGo-xC-ZEH.text" = "Do you also want to start streaming live video globally ?";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "WVU-c0-OTL"; */
+"WVU-c0-OTL.title" = " ";
+
+/* Class = "UILabel"; text = "Cell Type"; ObjectID = "WXx-oM-VtQ"; */
+"WXx-oM-VtQ.text" = "Cell Type";
+
+/* Class = "UIBarButtonItem"; title = "Select"; ObjectID = "Wpc-XW-Ukx"; */
+"Wpc-XW-Ukx.title" = "Select";
+
+/* Class = "UILabel"; text = "Public Cells"; ObjectID = "X2h-E1-6zh"; */
+"X2h-E1-6zh.text" = "Public Cells";
+
+/* Class = "UILabel"; text = "LOADING..."; ObjectID = "X8V-Db-iCt"; */
+"X8V-Db-iCt.text" = "LOADING...";
+
+/* Class = "UILabel"; text = "Verify your phone"; ObjectID = "XBo-iQ-wws"; */
+"XBo-iQ-wws.text" = "Verify your phone";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "XOH-nL-cle"; */
+"XOH-nL-cle.title" = "Done";
+
+/* Class = "UIBarButtonItem"; title = "Update"; ObjectID = "XPa-th-KC2"; */
+"XPa-th-KC2.title" = "Update";
+
+/* Class = "UILabel"; text = "Tap on Manage Cell 411 Panic Button(s) to manage your hardware panic buttons and tap Advanced Panic Settings to configure the time, recipients and additional text to be sent while issuing Panic alert."; ObjectID = "XVa-LH-QIH"; */
+"XVa-LH-QIH.text" = "Tap on Manage Cell 411 Panic Button(s) to manage your hardware panic buttons and tap Advanced Panic Settings to configure the time, recipients and additional text to be sent while issuing Panic alert.";
+
+/* Class = "UILabel"; text = "username@email.com"; ObjectID = "Xvb-h6-XVX"; */
+"Xvb-h6-XVX.text" = "username@email.com";
+
+/* Class = "UILabel"; text = "Loved it"; ObjectID = "Xx7-uZ-wDk"; */
+"Xx7-uZ-wDk.text" = "Loved it";
+
+/* Class = "UILabel"; text = "25 miles"; ObjectID = "YE5-Wr-knc"; */
+"YE5-Wr-knc.text" = "25 miles";
+
+/* Class = "UIButton"; normalTitle = "Status"; ObjectID = "YN9-ej-zV6"; */
+"YN9-ej-zV6.normalTitle" = "Status";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "YNj-mJ-0uw"; */
+"YNj-mJ-0uw.title" = " ";
+
+/* Class = "UITextField"; placeholder = "0.2"; ObjectID = "YOD-uy-u0H"; */
+"YOD-uy-u0H.placeholder" = "0.2";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "YOD-wy-qaA"; */
+"YOD-wy-qaA.title" = " ";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "YTf-wu-0Mg"; */
+"YTf-wu-0Mg.placeholder" = "password";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "YY0-ww-b8z"; */
+"YY0-ww-b8z.title" = "Done";
+
+/* Class = "UILabel"; text = "Blood Group"; ObjectID = "Ygl-Jy-F1n"; */
+"Ygl-Jy-F1n.text" = "Blood Group";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "ZCE-O3-O21"; */
+"ZCE-O3-O21.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "Contact Name"; ObjectID = "ZLG-Ea-CEj"; */
+"ZLG-Ea-CEj.text" = "Contact Name";
+
+/* Class = "UILabel"; text = "AB+"; ObjectID = "ZQq-An-jD5"; */
+"ZQq-An-jD5.text" = "AB+";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "ZZ8-ET-ZSv"; */
+"ZZ8-ET-ZSv.title" = " ";
+
+/* Class = "UILabel"; text = "Cell Name"; ObjectID = "Zfx-bO-PXi"; */
+"Zfx-bO-PXi.text" = "Cell Name";
+
+/* Class = "UILabel"; text = "Retrieving city..."; ObjectID = "ZpD-1R-jor"; */
+"ZpD-1R-jor.text" = "Retrieving city...";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "ZvS-oj-udT"; */
+"ZvS-oj-udT.normalTitle" = "Sign Up";
+
+/* Class = "UILabel"; text = "Additional Note (Optional)"; ObjectID = "ZyW-oF-Hc5"; */
+"ZyW-oF-Hc5.text" = "Additional Note (Optional)";
+
+/* Class = "UIButton"; normalTitle = "Find My Device"; ObjectID = "a4N-pE-cqU"; */
+"a4N-pE-cqU.normalTitle" = "Find My Device";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "a52-HH-lyD"; */
+"a52-HH-lyD.normalTitle" = "Cancel";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "a73-jd-1Nm"; */
+"a73-jd-1Nm.title" = " ";
+
+/* Class = "UILabel"; text = "RIDE REQUESTS"; ObjectID = "aEO-2X-KYN"; */
+"aEO-2X-KYN.text" = "RIDE REQUESTS";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "aR6-us-wgb"; */
+"aR6-us-wgb.text" = "Description";
+
+/* Class = "UIButton"; normalTitle = "Request Ride"; ObjectID = "aiz-JG-CQt"; */
+"aiz-JG-CQt.normalTitle" = "Request Ride";
+
+/* Class = "UILabel"; text = "ATTENTION!"; ObjectID = "amf-Xz-2we"; */
+"amf-Xz-2we.text" = "ATTENTION!";
+
+/* Class = "UIButton"; normalTitle = "Send it again"; ObjectID = "amq-Ai-9iW"; */
+"amq-Ai-9iW.normalTitle" = "Send it again";
+
+/* Class = "UILabel"; text = "BLOOD GROUP"; ObjectID = "auT-B6-Y6p"; */
+"auT-B6-Y6p.text" = "BLOOD GROUP";
+
+/* Class = "UILabel"; text = "VIRGIL VADUVA"; ObjectID = "axH-s3-qTA"; */
+"axH-s3-qTA.text" = "VIRGIL VADUVA";
+
+/* Class = "UILabel"; text = "Your recent chats will appear here."; ObjectID = "b01-Ne-2lk"; */
+"b01-Ne-2lk.text" = "Your recent chats will appear here.";
+
+/* Class = "UILabel"; text = "virgil@cell411.com"; ObjectID = "b1T-eq-h9c"; */
+"b1T-eq-h9c.text" = "virgil@cell411.com";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "bGs-ud-yIF"; */
+"bGs-ud-yIF.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "Public Cells can be officially verified by Cell 411 to confirm the identity of the owner and the legitimacy of the Cell. In order to be verified, please use a specific name for your Cell. For example, a Cell named \"New York City\" is misleading as it is not owned by the City of New York, however a Cell named \"New York City 55th St. Crime Watch\" is more specific and likely to be verified."; ObjectID = "bOj-Ve-F1f"; */
+"bOj-Ve-F1f.text" = "Public Cells can be officially verified by Cell 411 to confirm the identity of the owner and the legitimacy of the Cell. In order to be verified, please use a specific name for your Cell. For example, a Cell named \"New York City\" is misleading as it is not owned by the City of New York, however a Cell named \"New York City 55th St. Crime Watch\" is more specific and likely to be verified.";
+
+/* Class = "UILabel"; text = "Turning this feature on will update your location constantly so that you always see your updated location but it may decrease your battery life."; ObjectID = "blo-j2-ojq"; */
+"blo-j2-ojq.text" = "Turning this feature on will update your location constantly so that you always see your updated location but it may decrease your battery life.";
+
+/* Class = "UILabel"; text = "DESCRIPTION"; ObjectID = "bw6-bE-uuN"; */
+"bw6-bE-uuN.text" = "DESCRIPTION";
+
+/* Class = "UITextField"; placeholder = "Select Resolution"; ObjectID = "c1S-7o-ans"; */
+"c1S-7o-ans.placeholder" = "Select Resolution";
+
+/* Class = "UILabel"; text = "Virgil Vaduva"; ObjectID = "c2J-aQ-VNX"; */
+"c2J-aQ-VNX.text" = "Virgil Vaduva";
+
+/* Class = "UILabel"; text = "05/26/2016 at 07:49 PM"; ObjectID = "cAj-00-sVH"; */
+"cAj-00-sVH.text" = "05/26/2016 at 07:49 PM";
+
+/* Class = "UIButton"; normalTitle = "Spam"; ObjectID = "cCf-2A-o8h"; */
+"cCf-2A-o8h.normalTitle" = "Spam";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "cG3-MF-G9J"; */
+"cG3-MF-G9J.title" = "Done";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "cHd-RP-WAy"; */
+"cHd-RP-WAy.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "cZk-7O-saK"; */
+"cZk-7O-saK.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Forget Device"; ObjectID = "cfe-qJ-qkh"; */
+"cfe-qJ-qkh.normalTitle" = "Forget Device";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cqJ-nD-iTe"; */
+"cqJ-nD-iTe.text" = "Label";
+
+/* Class = "UILabel"; text = "NEVER CONSENT TO SEARCHES"; ObjectID = "dH6-6d-jVe"; */
+"dH6-6d-jVe.text" = "NEVER CONSENT TO SEARCHES";
+
+/* Class = "UILabel"; text = "DARK MODE"; ObjectID = "dei-Mx-txh"; */
+"dei-Mx-txh.text" = "DARK MODE";
+
+/* Class = "UIButton"; normalTitle = "Status"; ObjectID = "dg5-Xm-OkC"; */
+"dg5-Xm-OkC.normalTitle" = "Status";
+
+/* Class = "UIButton"; normalTitle = "Try Now"; ObjectID = "dhc-Ox-I66"; */
+"dhc-Ox-I66.normalTitle" = "Try Now";
+
+/* Class = "UILabel"; text = "123,456"; ObjectID = "dhx-cM-ihe"; */
+"dhx-cM-ihe.text" = "123,456";
+
+/* Class = "UILabel"; text = "You have read and hereby agree to our updated privacy policy"; ObjectID = "djh-ya-lBE"; */
+"djh-ya-lBE.text" = "You have read and hereby agree to our updated privacy policy";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "dmg-D1-8qV"; */
+"dmg-D1-8qV.title" = " ";
+
+/* Class = "UILabel"; text = "Allergies (e.g drug allergy, skin allergy, rhinitis, etc.)"; ObjectID = "dyr-s5-Daa"; */
+"dyr-s5-Daa.text" = "Allergies (e.g drug allergy, skin allergy, rhinitis, etc.)";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "dzN-bb-GXr"; */
+"dzN-bb-GXr.title" = " ";
+
+/* Class = "UILabel"; text = "MY PROFILE"; ObjectID = "e6Z-iA-Q6f"; */
+"e6Z-iA-Q6f.text" = "MY PROFILE";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "eI9-mF-Ww3"; */
+"eI9-mF-Ww3.text" = "Category";
+
+/* Class = "UILabel"; text = "Cell Name"; ObjectID = "eTh-Wf-RXM"; */
+"eTh-Wf-RXM.text" = "Cell Name";
+
+/* Class = "UILabel"; text = "PATROL MODE RADIUS"; ObjectID = "ehi-5k-0fV"; */
+"ehi-5k-0fV.text" = "PATROL MODE RADIUS";
+
+/* Class = "UILabel"; text = "cell411@email.com"; ObjectID = "ejZ-Kh-4ET"; */
+"ejZ-Kh-4ET.text" = "cell411@email.com";
+
+/* Class = "UILabel"; text = "SAVE VIDEO LOCALLY"; ObjectID = "ekc-g8-NJ4"; */
+"ekc-g8-NJ4.text" = "SAVE VIDEO LOCALLY";
+
+/* Class = "UILabel"; text = "Friend Name"; ObjectID = "enX-PK-vm1"; */
+"enX-PK-vm1.text" = "Friend Name";
+
+/* Class = "UILabel"; text = "Profile setup:"; ObjectID = "euz-Wn-iHr"; */
+"euz-Wn-iHr.text" = "Profile setup:";
+
+/* Class = "UILabel"; text = "Emergency"; ObjectID = "ew4-RO-NSw"; */
+"ew4-RO-NSw.text" = "Emergency";
+
+/* Class = "UITextField"; placeholder = "Additional note (optional)"; ObjectID = "fJc-m8-ONH"; */
+"fJc-m8-ONH.placeholder" = "Additional note (optional)";
+
+/* Class = "UILabel"; text = "MY ADDITIONAL NOTE:"; ObjectID = "fNz-Xm-dhl"; */
+"fNz-Xm-dhl.text" = "MY ADDITIONAL NOTE:";
+
+/* Class = "UILabel"; text = "CASH"; ObjectID = "fUF-aM-HOO"; */
+"fUF-aM-HOO.text" = "CASH";
+
+/* Class = "UILabel"; text = "All Friends"; ObjectID = "fcA-Gy-Lu5"; */
+"fcA-Gy-Lu5.text" = "All Friends";
+
+/* Class = "UILabel"; text = "Virgil Vaduva"; ObjectID = "fdY-Ci-P3g"; */
+"fdY-Ci-P3g.text" = "Virgil Vaduva";
+
+/* Class = "UIButton"; normalTitle = "Pick Location"; ObjectID = "g1K-MS-Wad"; */
+"g1K-MS-Wad.normalTitle" = "Pick Location";
+
+/* Class = "UILabel"; text = "Exact Match"; ObjectID = "g1T-gz-CeY"; */
+"g1T-gz-CeY.text" = "Exact Match";
+
+/* Class = "UIButton"; normalTitle = "Blocked Users and Spammers"; ObjectID = "g5M-bv-sFN"; */
+"g5M-bv-sFN.normalTitle" = "Blocked Users and Spammers";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "g8f-oM-tHa"; */
+"g8f-oM-tHa.placeholder" = "Last Name";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "gIz-17-d2T"; */
+"gIz-17-d2T.text" = "Name";
+
+/* Class = "UILabel"; text = "YOU"; ObjectID = "gLX-hH-bbL"; */
+"gLX-hH-bbL.text" = "YOU";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "gMI-U0-Bpx"; */
+"gMI-U0-Bpx.placeholder" = "Name";
+
+/* Class = "UILabel"; text = "Device Id:"; ObjectID = "gNi-Z6-Wea"; */
+"gNi-Z6-Wea.text" = "Device Id:";
+
+/* Class = "UILabel"; text = "05/26/16 at 7:49 PM"; ObjectID = "gQH-oX-QdW"; */
+"gQH-oX-QdW.text" = "05/26/16 at 7:49 PM";
+
+/* Class = "UILabel"; text = "Code not received? "; ObjectID = "gQm-J2-SMq"; */
+"gQm-J2-SMq.text" = "Code not received? ";
+
+/* Class = "UILabel"; text = "Please tap on add member icon on top right to add your friends or phone contacts to this Cell."; ObjectID = "gSf-lj-hXQ"; */
+"gSf-lj-hXQ.text" = "Please tap on add member icon on top right to add your friends or phone contacts to this Cell.";
+
+/* Class = "UILabel"; text = "Current Location"; ObjectID = "gcA-xE-0UW"; */
+"gcA-xE-0UW.text" = "Current Location";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "h7J-A5-XZb"; */
+"h7J-A5-XZb.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "Pickup Location"; ObjectID = "hJJ-ro-zto"; */
+"hJJ-ro-zto.text" = "Pickup Location";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "hag-Qv-Ewi"; */
+"hag-Qv-Ewi.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "Cell Name"; ObjectID = "hf0-um-nq1"; */
+"hf0-um-nq1.text" = "Cell Name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hgo-Hm-aOW"; */
+"hgo-Hm-aOW.text" = "Label";
+
+/* Class = "UILabel"; text = "VIRGIL VADUVA"; ObjectID = "hmv-y2-Pfe"; */
+"hmv-y2-Pfe.text" = "VIRGIL VADUVA";
+
+/* Class = "UILabel"; text = "This will enable streaming live videos to your own YouTube Live Channel."; ObjectID = "hto-ir-mbE"; */
+"hto-ir-mbE.text" = "This will enable streaming live videos to your own YouTube Live Channel.";
+
+/* Class = "UIButton"; normalTitle = "Ok"; ObjectID = "i4c-Cc-nuH"; */
+"i4c-Cc-nuH.normalTitle" = "Ok";
+
+/* Class = "UILabel"; text = "Radius 100 miles"; ObjectID = "iKr-H9-oCc"; */
+"iKr-H9-oCc.text" = "Radius 100 miles";
+
+/* Class = "UILabel"; text = "Please select the payment mode you accept"; ObjectID = "iNY-m6-q9a"; */
+"iNY-m6-q9a.text" = "Please select the payment mode you accept";
+
+/* Class = "UILabel"; text = "$"; ObjectID = "iTA-Nm-aT8"; */
+"iTA-Nm-aT8.text" = "$";
+
+/* Class = "UILabel"; text = "N/A"; ObjectID = "idd-a7-yik"; */
+"idd-a7-yik.text" = "N/A";
+
+/* Class = "UIButton"; normalTitle = "Status"; ObjectID = "imd-TX-pKa"; */
+"imd-TX-pKa.normalTitle" = "Status";
+
+/* Class = "UILabel"; text = "YOUR RESPONSE TO THIS REQUEST IS SEEN BY THE RIDER"; ObjectID = "imr-LC-Hvt"; */
+"imr-LC-Hvt.text" = "YOUR RESPONSE TO THIS REQUEST IS SEEN BY THE RIDER";
+
+/* Class = "UILabel"; text = "Your friends can use Cell 411 to scan this code and add you as a friend."; ObjectID = "jBb-dV-ghk"; */
+"jBb-dV-ghk.text" = "Your friends can use Cell 411 to scan this code and add you as a friend.";
+
+/* Class = "UILabel"; text = "email"; ObjectID = "jDJ-Cc-OBu"; */
+"jDJ-Cc-OBu.text" = "email";
+
+/* Class = "UILabel"; text = "CRYPTO"; ObjectID = "jK9-Ul-0aX"; */
+"jK9-Ul-0aX.text" = "CRYPTO";
+
+/* Class = "UIButton"; normalTitle = "+1"; ObjectID = "jOl-UP-7HE"; */
+"jOl-UP-7HE.normalTitle" = "+1";
+
+/* Class = "UILabel"; text = "MY COST:"; ObjectID = "jZl-Db-ECA"; */
+"jZl-Db-ECA.text" = "MY COST:";
+
+/* Class = "UIButton"; normalTitle = "A+"; ObjectID = "jsg-ZE-q0W"; */
+"jsg-ZE-q0W.normalTitle" = "A+";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "jxb-ZZ-4I2"; */
+"jxb-ZZ-4I2.title" = " ";
+
+/* Class = "UILabel"; text = "Allergies"; ObjectID = "k0v-0F-ejo"; */
+"k0v-0F-ejo.text" = "Allergies";
+
+/* Class = "UILabel"; text = "Please enter your four digit verification code below"; ObjectID = "k6T-GX-Bjf"; */
+"k6T-GX-Bjf.text" = "Please enter your four digit verification code below";
+
+/* Class = "UILabel"; text = "Turning this feature on will prompt you to pick custom location whenever you issue an alert."; ObjectID = "k7k-GC-TH2"; */
+"k7k-GC-TH2.text" = "Turning this feature on will prompt you to pick custom location whenever you issue an alert.";
+
+/* Class = "UILabel"; text = "Save video to local storage while streaming."; ObjectID = "k8U-ra-MGi"; */
+"k8U-ra-MGi.text" = "Save video to local storage while streaming.";
+
+/* Class = "UILabel"; text = "Choose your audience to send alert"; ObjectID = "kao-iO-aZ8"; */
+"kao-iO-aZ8.text" = "Choose your audience to send alert";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password ?"; ObjectID = "km4-Tj-M1Q"; */
+"km4-Tj-M1Q.normalTitle" = "Forgot Password ?";
+
+/* Class = "UITextField"; placeholder = "Select Category"; ObjectID = "l2v-KV-rXr"; */
+"l2v-KV-rXr.placeholder" = "Select Category";
+
+/* Class = "UILabel"; text = "Ride Status:"; ObjectID = "lJm-zy-orA"; */
+"lJm-zy-orA.text" = "Ride Status:";
+
+/* Class = "UITabBarItem"; title = "Alerts"; ObjectID = "lNj-oy-CWw"; */
+"lNj-oy-CWw.title" = "Alerts";
+
+/* Class = "UILabel"; text = "URL"; ObjectID = "lQw-Yn-iPj"; */
+"lQw-Yn-iPj.text" = "URL";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "laR-o7-bRn"; */
+"laR-o7-bRn.normalTitle" = "OK";
+
+/* Class = "UILabel"; text = "Near By"; ObjectID = "lb7-AG-gle"; */
+"lb7-AG-gle.text" = "Near By";
+
+/* Class = "UILabel"; text = "Ride Status:"; ObjectID = "lgg-84-fHk"; */
+"lgg-84-fHk.text" = "Ride Status:";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "loG-Ts-PVL"; */
+"loG-Ts-PVL.text" = "Name";
+
+/* Class = "UILabel"; text = "Request Verification"; ObjectID = "lta-qQ-bgE"; */
+"lta-qQ-bgE.text" = "Request Verification";
+
+/* Class = "UIButton"; normalTitle = "AB+"; ObjectID = "mI8-9J-BBU"; */
+"mI8-9J-BBU.normalTitle" = "AB+";
+
+/* Class = "UILabel"; text = "Server URL:"; ObjectID = "mJm-3W-ZRO"; */
+"mJm-3W-ZRO.text" = "Server URL:";
+
+/* Class = "UIButton"; normalTitle = "+1"; ObjectID = "mVv-8M-Jfn"; */
+"mVv-8M-Jfn.normalTitle" = "+1";
+
+/* Class = "UIButton"; normalTitle = "Post alert to Facebook"; ObjectID = "mZJ-5Z-CX9"; */
+"mZJ-5Z-CX9.normalTitle" = "Post alert to Facebook";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "mjX-EI-S2B"; */
+"mjX-EI-S2B.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "msS-1A-z3L"; */
+"msS-1A-z3L.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "mv9-QN-Apu"; */
+"mv9-QN-Apu.title" = " ";
+
+/* Class = "UILabel"; text = "N/A"; ObjectID = "myY-Lz-xC9"; */
+"myY-Lz-xC9.text" = "N/A";
+
+/* Class = "UILabel"; text = "Did you reached the pickup location?"; ObjectID = "nBk-ET-2D3"; */
+"nBk-ET-2D3.text" = "Did you reached the pickup location?";
+
+/* Class = "UILabel"; text = "Request Ride"; ObjectID = "nTK-tK-s1w"; */
+"nTK-tK-s1w.text" = "Request Ride";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "nVY-Bx-pA5"; */
+"nVY-Bx-pA5.title" = " ";
+
+/* Class = "UILabel"; text = "Comment"; ObjectID = "nZX-4x-2HX"; */
+"nZX-4x-2HX.text" = "Comment";
+
+/* Class = "UILabel"; text = "LOADING..."; ObjectID = "nfI-Ym-Af2"; */
+"nfI-Ym-Af2.text" = "LOADING...";
+
+/* Class = "UILabel"; text = "COST/MILE"; ObjectID = "o0Z-cr-6HH"; */
+"o0Z-cr-6HH.text" = "COST/MILE";
+
+/* Class = "UIButton"; normalTitle = "Add Friend"; ObjectID = "oRE-Ac-Ngn"; */
+"oRE-Ac-Ngn.normalTitle" = "Add Friend";
+
+/* Class = "UIButton"; selectedTitle = "Unfriend"; ObjectID = "oRE-Ac-Ngn"; */
+"oRE-Ac-Ngn.selectedTitle" = "Unfriend";
+
+/* Class = "UILabel"; text = "DISPATCH MODE"; ObjectID = "oVU-b6-cWB"; */
+"oVU-b6-cWB.text" = "DISPATCH MODE";
+
+/* Class = "UIButton"; normalTitle = "Cancel Request"; ObjectID = "oWe-PM-feY"; */
+"oWe-PM-feY.normalTitle" = "Cancel Request";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "oXl-6R-IFM"; */
+"oXl-6R-IFM.text" = "Label";
+
+/* Class = "UILabel"; text = "N/A"; ObjectID = "ock-Nw-yR2"; */
+"ock-Nw-yR2.text" = "N/A";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "olQ-6C-5om"; */
+"olQ-6C-5om.text" = "Description";
+
+/* Class = "UILabel"; text = "CELL 411"; ObjectID = "omb-rX-MG3"; */
+"omb-rX-MG3.text" = "CELL 411";
+
+/* Class = "UIButton"; normalTitle = "B+"; ObjectID = "onb-vH-RbV"; */
+"onb-vH-RbV.normalTitle" = "B+";
+
+/* Class = "UILabel"; text = "No friend requests"; ObjectID = "p5k-X4-WoG"; */
+"p5k-X4-WoG.text" = "No friend requests";
+
+/* Class = "UILabel"; text = "Contact Name"; ObjectID = "pBV-FU-YWb"; */
+"pBV-FU-YWb.text" = "Contact Name";
+
+/* Class = "UITextField"; placeholder = "eg: k9xw-s042-scx9-ecxd"; ObjectID = "pU3-ne-JLo"; */
+"pU3-ne-JLo.placeholder" = "eg: k9xw-s042-scx9-ecxd";
+
+/* Class = "UILabel"; text = "LOADING..."; ObjectID = "pgR-oh-LDZ"; */
+"pgR-oh-LDZ.text" = "LOADING...";
+
+/* Class = "UILabel"; text = "Enable this to receive ride requests if you are willing to give rides. Profile photo and phone number verification is reuiqred to enable Ride Requests."; ObjectID = "plZ-93-b3Y"; */
+"plZ-93-b3Y.text" = "Enable this to receive ride requests if you are willing to give rides. Profile photo and phone number verification is reuiqred to enable Ride Requests.";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "pmG-p6-b53"; */
+"pmG-p6-b53.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Connect to Facebook"; ObjectID = "pme-T6-kt1"; */
+"pme-T6-kt1.normalTitle" = "Connect to Facebook";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "q1h-Ua-h4P"; */
+"q1h-Ua-h4P.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "qAo-iy-DYo"; */
+"qAo-iy-DYo.title" = " ";
+
+/* Class = "UILabel"; text = "METRIC SELECTION"; ObjectID = "qBy-Af-TsZ"; */
+"qBy-Af-TsZ.text" = "METRIC SELECTION";
+
+/* Class = "UILabel"; text = "Friends are always helpful in emergencies"; ObjectID = "qfs-kW-ygW"; */
+"qfs-kW-ygW.text" = "Friends are always helpful in emergencies";
+
+/* Class = "UITabBarItem"; title = "Chats"; ObjectID = "r4A-6S-0mL"; */
+"r4A-6S-0mL.title" = "Chats";
+
+/* Class = "UILabel"; text = "PANIC alert recipients"; ObjectID = "rES-gy-EaY"; */
+"rES-gy-EaY.text" = "PANIC alert recipients";
+
+/* Class = "UITextField"; placeholder = "2"; ObjectID = "rQ2-Jd-lzd"; */
+"rQ2-Jd-lzd.placeholder" = "2";
+
+/* Class = "UILabel"; text = "Cell Description"; ObjectID = "rVQ-9l-F3f"; */
+"rVQ-9l-F3f.text" = "Cell Description";
+
+/* Class = "UILabel"; text = "ADDITIONAL NOTE:"; ObjectID = "reC-kz-iNE"; */
+"reC-kz-iNE.text" = "ADDITIONAL NOTE:";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "rgM-aN-oaP"; */
+"rgM-aN-oaP.title" = " ";
+
+/* Class = "UILabel"; text = "User Name"; ObjectID = "rm3-by-Gov"; */
+"rm3-by-Gov.text" = "User Name";
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "rrC-GI-WBL"; */
+"rrC-GI-WBL.placeholder" = "email";
+
+/* Class = "UILabel"; text = "Virgil Vaduva wants a Ride"; ObjectID = "rxU-wd-DfF"; */
+"rxU-wd-DfF.text" = "Virgil Vaduva wants a Ride";
+
+/* Class = "UILabel"; text = "No Cell members added yet"; ObjectID = "s46-8r-TEl"; */
+"s46-8r-TEl.text" = "No Cell members added yet";
+
+/* Class = "UILabel"; text = "Include Security Guards"; ObjectID = "s9S-i9-dj4"; */
+"s9S-i9-dj4.text" = "Include Security Guards";
+
+/* Class = "UIButton"; normalTitle = "Reject"; ObjectID = "sXP-Zi-f0y"; */
+"sXP-Zi-f0y.normalTitle" = "Reject";
+
+/* Class = "UILabel"; text = "Broadcast Emergency Alert"; ObjectID = "sbF-Yc-wNi"; */
+"sbF-Yc-wNi.text" = "Broadcast Emergency Alert";
+
+/* Class = "UILabel"; text = "Emergency Contact Phone"; ObjectID = "smt-Xj-mSa"; */
+"smt-Xj-mSa.text" = "Emergency Contact Phone";
+
+/* Class = "UILabel"; text = "LOCATION UPDATES"; ObjectID = "swW-mx-7jM"; */
+"swW-mx-7jM.text" = "LOCATION UPDATES";
+
+/* Class = "UILabel"; text = "ADDITIONAL NOTE:"; ObjectID = "t1z-Fl-VAS"; */
+"t1z-Fl-VAS.text" = "ADDITIONAL NOTE:";
+
+/* Class = "UILabel"; text = "Zoom or move map to bring the alert location under the center of pin for dispatch mode."; ObjectID = "t2w-tj-msm"; */
+"t2w-tj-msm.text" = "Zoom or move map to bring the alert location under the center of pin for dispatch mode.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "t88-Fs-2S1"; */
+"t88-Fs-2S1.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "tBI-P8-pmn"; */
+"tBI-P8-pmn.title" = " ";
+
+/* Class = "UILabel"; text = "INSTANTLY"; ObjectID = "tIz-1U-3VE"; */
+"tIz-1U-3VE.text" = "INSTANTLY";
+
+/* Class = "UILabel"; text = "Cameras are your best defence against the police. If they know they are being recorded, they will be less tempted to violate your rights."; ObjectID = "tUO-g3-gsg"; */
+"tUO-g3-gsg.text" = "Cameras are your best defence against the police. If they know they are being recorded, they will be less tempted to violate your rights.";
+
+/* Class = "UILabel"; text = "Turning this feature on will allow you to receive Cell 411 alerts when someone in the patrol radius needs help.This feature requires Location Updates to be turned on."; ObjectID = "u6F-9f-F1i"; */
+"u6F-9f-F1i.text" = "Turning this feature on will allow you to receive Cell 411 alerts when someone in the patrol radius needs help.This feature requires Location Updates to be turned on.";
+
+/* Class = "UILabel"; text = "BARTERING"; ObjectID = "uQS-om-a5g"; */
+"uQS-om-a5g.text" = "BARTERING";
+
+/* Class = "UILabel"; text = "Enable Fall Detection"; ObjectID = "uRC-ze-UcN"; */
+"uRC-ze-UcN.text" = "Enable Fall Detection";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "uRD-L3-4eR"; */
+"uRD-L3-4eR.title" = " ";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "uoh-j4-i0h"; */
+"uoh-j4-i0h.text" = "Title";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "urD-75-jGQ"; */
+"urD-75-jGQ.title" = " ";
+
+/* Class = "UILabel"; text = "email"; ObjectID = "v2N-P5-03d"; */
+"v2N-P5-03d.text" = "email";
+
+/* Class = "UILabel"; text = "PICK UP LOCATION"; ObjectID = "v7P-bs-eTv"; */
+"v7P-bs-eTv.text" = "PICK UP LOCATION";
+
+/* Class = "UILabel"; text = "If you are not being detained, just walk away. Officers must be able to articulate their \"reasonable suspicion\" that a crime has been or is about to be committed in order to detain you."; ObjectID = "vD0-PC-7Gw"; */
+"vD0-PC-7Gw.text" = "If you are not being detained, just walk away. Officers must be able to articulate their \"reasonable suspicion\" that a crime has been or is about to be committed in order to detain you.";
+
+/* Class = "UIButton"; normalTitle = "Broadcast"; ObjectID = "vQC-mZ-alS"; */
+"vQC-mZ-alS.normalTitle" = "Broadcast";
+
+/* Class = "UILabel"; text = "HEAVY POLICE THREAT IN EFFECT"; ObjectID = "vR0-Xc-yC5"; */
+"vR0-Xc-yC5.text" = "HEAVY POLICE THREAT IN EFFECT";
+
+/* Class = "UILabel"; text = "Turning this feature on will enable Cell 411 to continuously upload your phone contacts in order to inform you when they join Cell 411 so that you can friend with them if you want."; ObjectID = "vRX-vF-iFX"; */
+"vRX-vF-iFX.text" = "Turning this feature on will enable Cell 411 to continuously upload your phone contacts in order to inform you when they join Cell 411 so that you can friend with them if you want.";
+
+/* Class = "UILabel"; text = "Virgil Vaduva"; ObjectID = "vWe-Aw-Cgq"; */
+"vWe-Aw-Cgq.text" = "Virgil Vaduva";
+
+/* Class = "UILabel"; text = "You agree to have your data processed by us"; ObjectID = "vlx-23-LUh"; */
+"vlx-23-LUh.text" = "You agree to have your data processed by us";
+
+/* Class = "UILabel"; text = "In order to send alerts to Cells please first create your own Cell and add at least 1 member, or alternatively join an existing public Cell."; ObjectID = "vwu-kh-Hxp"; */
+"vwu-kh-Hxp.text" = "In order to send alerts to Cells please first create your own Cell and add at least 1 member, or alternatively join an existing public Cell.";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "w00-aS-SXY"; */
+"w00-aS-SXY.placeholder" = "First Name";
+
+/* Class = "UIButton"; normalTitle = "Add Phone"; ObjectID = "w0z-dm-rT5"; */
+"w0z-dm-rT5.normalTitle" = "Add Phone";
+
+/* Class = "UILabel"; text = "email"; ObjectID = "wHu-Id-6qy"; */
+"wHu-Id-6qy.text" = "email";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "wTy-0g-bXy"; */
+"wTy-0g-bXy.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "URL"; ObjectID = "wYV-sa-kMZ"; */
+"wYV-sa-kMZ.text" = "URL";
+
+/* Class = "UILabel"; text = "CELL 411"; ObjectID = "x0s-yM-bV8"; */
+"x0s-yM-bV8.text" = "CELL 411";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "xDf-CQ-X5G"; */
+"xDf-CQ-X5G.title" = " ";
+
+/* Class = "UILabel"; text = "Cells are groups of friends you can configure to customize alerting"; ObjectID = "xVI-d9-KfP"; */
+"xVI-d9-KfP.text" = "Cells are groups of friends you can configure to customize alerting";
+
+/* Class = "UILabel"; text = "Virgil Vaduva"; ObjectID = "xXb-a8-foV"; */
+"xXb-a8-foV.text" = "Virgil Vaduva";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xwP-B6-7B1"; */
+"xwP-B6-7B1.text" = "Label";
+
+/* Class = "UILabel"; text = "Retreiving info..."; ObjectID = "y6a-Se-r6h"; */
+"y6a-Se-r6h.text" = "Retreiving info...";
+
+/* Class = "UILabel"; text = "05/26/16 at 7:49 PM"; ObjectID = "yKP-kb-trW"; */
+"yKP-kb-trW.text" = "05/26/16 at 7:49 PM";
+
+/* Class = "UILabel"; text = "Turning this feature on will enable dark mode"; ObjectID = "yPz-EF-TuX"; */
+"yPz-EF-TuX.text" = "Turning this feature on will enable dark mode";
+
+/* Class = "UILabel"; text = "This user has no profile picture available"; ObjectID = "yc7-nx-8OQ"; */
+"yc7-nx-8OQ.text" = "This user has no profile picture available";
+
+/* Class = "UILabel"; text = "CELL 411"; ObjectID = "yd4-OU-Xn2"; */
+"yd4-OU-Xn2.text" = "CELL 411";
+
+/* Class = "UILabel"; text = "CURRENT LOCATION"; ObjectID = "ydv-6q-XqL"; */
+"ydv-6q-XqL.text" = "CURRENT LOCATION";
+
+/* Class = "UILabel"; text = "LOADING..."; ObjectID = "yjk-xB-ydI"; */
+"yjk-xB-ydI.text" = "LOADING...";
+
+/* Class = "UILabel"; text = "Reviewed by Virgil Vaduva"; ObjectID = "yqt-Ms-zBY"; */
+"yqt-Ms-zBY.text" = "Reviewed by Virgil Vaduva";
+
+/* Class = "UILabel"; text = "Public Cell"; ObjectID = "yxW-Ll-bOv"; */
+"yxW-Ll-bOv.text" = "Public Cell";
+
+/* Class = "UIButton"; normalTitle = "Rename My Device"; ObjectID = "z0D-38-C1Z"; */
+"z0D-38-C1Z.normalTitle" = "Rename My Device";
+
+/* Class = "UILabel"; text = "LOADING..."; ObjectID = "zHT-ok-h46"; */
+"zHT-ok-h46.text" = "LOADING...";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "zNw-YA-8Kz"; */
+"zNw-YA-8Kz.text" = "OR";
+
+/* Class = "UILabel"; text = "Cell Name"; ObjectID = "zVd-M9-NzJ"; */
+"zVd-M9-NzJ.text" = "Cell Name";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "zaL-EN-l2X"; */
+"zaL-EN-l2X.normalTitle" = "Sign Up";
+
+/* Class = "UILabel"; text = "\"Send or receive alerts while emergencies like Cop Blocking, Fire, Medical, Crime, Police Arrest, Danger, Broken Car, etc.\""; ObjectID = "zdQ-Qi-73v"; */
+"zdQ-Qi-73v.text" = "\"Send or receive alerts while emergencies like Cop Blocking, Fire, Medical, Crime, Police Arrest, Danger, Broken Car, etc.\"";
+
+/* Class = "UIButton"; normalTitle = "Ok"; ObjectID = "zgZ-La-duF"; */
+"zgZ-La-duF.normalTitle" = "Ok";
+
+/* Class = "UILabel"; text = "CONFIGURE COST"; ObjectID = "zuk-Jw-wJ3"; */
+"zuk-Jw-wJ3.text" = "CONFIGURE COST";
+
+/* Class = "UILabel"; text = "CONNECT TO FACEBOOK"; ObjectID = "zvR-vj-25E"; */
+"zvR-vj-25E.text" = "CONNECT TO FACEBOOK";

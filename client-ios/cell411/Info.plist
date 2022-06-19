@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Cell 411</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>8.2</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb977143409065687</string>
+				<string>Cell411</string>
+				<string>GMCell411</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>8.2.0</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>fcb76d4268d3cac7454931e25deef46bc94a4124</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Crashlytics</string>
+			</dict>
+		</array>
+	</dict>
+	<key>FacebookAppID</key>
+	<string>977143409065687</string>
+	<key>FacebookDisplayName</key>
+	<string>Cell 411</string>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+		<string>comgooglemaps</string>
+		<string>comgooglemaps-x-callback</string>
+		<string>GMCell411</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Please allow bluetooth access in order to connect your Panic Button.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Please allow bluetooth access in order to connect your Panic Button.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Requires camera access to send out photo alert or to take picture of the person deleting the video if fake delete option is turned on from app settings.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>To show contact list for inviting contacts</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Cell 411 needs your location to help others find you when you issue an alert, to improve your overall experience and to provide you services like: Ride Requests, New Public Cell Alerts and Patrol Mode. With "Always" access to your location we'll be able to send you accurate location based notifications.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Cell 411 needs your location to help others find you when you issue an alert, to improve your overall experience and to provide you services like: Ride Requests, New Public Cell Alerts and Patrol Mode. With "Always" access to your location we'll be able to send you accurate location based notifications.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Cell 411 needs your location to help others find you when you issue an alert, to improve your overall experience and to provide you services like: Ride Requests, New Public Cell Alerts and Patrol Mode.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Required for Live Streaming</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Motion data needed to improve location accuracy without consuming much battery.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Please allow Cell 411 to access your photo library in order to save photo or video.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Please allow Cell 411 to access your photo library in order to send out photo alert.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>bluetooth-central</string>
+		<string>location</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
+</dict>
+</plist>

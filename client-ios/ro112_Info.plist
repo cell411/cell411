@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>RO 112</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.2</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb2057393051161570</string>
+				<string>RO112</string>
+				<string>GMRO112</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1.2.5</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>fcb76d4268d3cac7454931e25deef46bc94a4124</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Crashlytics</string>
+			</dict>
+		</array>
+	</dict>
+	<key>FacebookAppID</key>
+	<string>2057393051161570</string>
+	<key>FacebookDisplayName</key>
+	<string>RO 112</string>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+		<string>comgooglemaps</string>
+		<string>comgooglemaps-x-callback</string>
+		<string>GMRO112</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Permite accesul Bluetooth pentru a-ți putea conecta Butonul de Panică.</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Permite accesul Bluetooth pentru a-ți putea conecta Butonul de Panică.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Necesită accesul la cameră pentru a trimite alerte foto.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Pentru a afișa lista de contacte în scopul invitării acestora</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>RO 112 needs your location to help others find you when you issue an alert, to improve your overall experience and to provide you services like: New Public Cell Alerts and Patrol Mode. With "Always" access to your location we'll be able to send you accurate location based notifications.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>RO 112 needs your location to help others find you when you issue an alert, to improve your overall experience and to provide you services like: New Public Cell Alerts and Patrol Mode. With "Always" access to your location we'll be able to send you accurate location based notifications.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>RO 112 needs your location to help others find you when you issue an alert, to improve your overall experience and to provide you services like: New Public Cell Alerts and Patrol Mode.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Necesar pentru Transmisii Video în Direct</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Datele de gesticulare sunt necesare pentru a îmbunătăți acuratețea localizării fără a consuma prea multă baterie.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Permite te rog accesul RO 112 la biblioteca de poze pentru a putea salva fotografii și filmări.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Permite te rog accesul RO 112 la biblioteca de poze pentru a putea trimite alerte foto.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>RO112_LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

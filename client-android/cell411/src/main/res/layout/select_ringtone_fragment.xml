@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  >
+
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+    android:background="@drawable/bg_separator"
+    />
+
+  <Button
+    android:id="@+id/btn_alert_ringtone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/select_alert_ringtone"
+    />
+
+  <TextView
+    android:id="@+id/txt_alert_ringtone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/no_ringtone_selected"
+    android:textSize="20sp"
+    />
+
+  <Button
+    android:id="@+id/btn_faux_alert"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/simulate_alert"
+    />
+
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+    android:background="@drawable/bg_separator"
+    />
+
+  <Button
+    android:id="@+id/btn_request_ringtone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/select_request_ringtone"
+    />
+
+  <TextView
+    android:id="@+id/txt_request_ringtone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/no_ringtone_selected"
+    android:textSize="20sp"
+    />
+
+  <Button
+    android:id="@+id/btn_faux_request"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/simulate_alert"
+    android:textAllCaps="false"
+    />
+
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+    android:background="@drawable/bg_separator"
+    />
+
+  <Button
+    android:id="@+id/btn_chat_ringtone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/select_chat_ringtone"
+    />
+
+  <TextView
+    android:id="@+id/txt_chat_ringtone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/no_ringtone_selected"
+    android:textSize="20sp"
+    />
+
+  <Button
+    android:id="@+id/btn_faux_chat"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/simulate_alert"
+    />
+  />
+
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+    android:background="@drawable/bg_separator"
+    />
+
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    />
+
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+    android:background="@drawable/bg_separator"
+    />
+
+  <Button
+    android:id="@+id/btn_done"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/done"
+    />
+</LinearLayout>

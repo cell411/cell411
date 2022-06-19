@@ -1,0 +1,30 @@
+{
+  "name": "@parse/s3-files-adapter",
+  "version": "1.6.2",
+  "description": "AWS S3 adapter for parse-server",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "NODE_ENV=test NODE_CONFIG_DIR=./spec/config istanbul cover -x **/spec/** jasmine --captureExceptions",
+    "lint": "eslint --cache ./",
+    "lint:fix": "eslint --fix --cache ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parse-community/parse-server-s3-adapter.git"
+  },
+  "keywords": [
+    "parse-server",
+    "AWS",
+    "S3"
+  ],
+  "author": "Parse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parse-community/parse-server-s3-adapter/issues"
+  },
+  "homepage": "https://github.com/parse-community/parse-server-s3-adapter#readme",
+  "dependencies": {
+    "aws-sdk": "2.907.0"
+  }
+}

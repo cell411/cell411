@@ -1,0 +1,73 @@
+{
+  "className": "Review",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "comment": {
+      "type": "String"
+    },
+    "ratedBy": {
+      "type": "Pointer",
+      "targetClass": "_User"
+    },
+    "ratedUser": {
+      "type": "Pointer",
+      "targetClass": "_User"
+    },
+    "rating": {
+      "type": "Number"
+    },
+    "title": {
+      "type": "String"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    },
+    "readUserFields": [],
+    "writeUserFields": []
+  },
+  "indexes": {
+    "_id_": {
+      "_id": 1
+    },
+    "_created_at_-1": {
+      "_created_at": -1
+    },
+    "_p_ratedUser_1__created_at_-1__p_ratedBy_1": {
+      "_p_ratedUser": 1,
+      "_created_at": -1,
+      "_p_ratedBy": 1
+    },
+    "_p_ratedUser_1__p_ratedBy_1": {
+      "_p_ratedUser": 1,
+      "_p_ratedBy": 1
+    }
+  }
+}

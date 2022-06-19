@@ -1,0 +1,2288 @@
+/* No comment provided by engineer. */
+" Additional Note: %@" = " Notă Adițională: %@";
+
+/* No comment provided by engineer. */
+" had car accident" = " a suferit un accident de mașină";
+
+/* No comment provided by engineer. */
+" is being bullied" = " este abuzat";
+
+/* No comment provided by engineer. */
+" is being hijacked" = " este răpit";
+
+/* No comment provided by engineer. */
+" is being physical abused" = " este agresat fizic";
+
+/* No comment provided by engineer. */
+" is being pulled over by police" = " este tras pe dreapta de către poliție";
+
+/* No comment provided by engineer. */
+" is cop blocking" = " este în tergiversări cu poliția";
+
+/* No comment provided by engineer. */
+" is fallen" = " a căzut";
+
+/* No comment provided by engineer. */
+" is in danger" = " este în pericol";
+
+/* No comment provided by engineer. */
+" is in panic" = " este panicat";
+
+/* No comment provided by engineer. */
+" is in the city of %@ and" = " este în orașul %@ și";
+
+/* No comment provided by engineer. */
+" is observing a fire" = " este martor la un incendiu";
+
+/* No comment provided by engineer. */
+" is observing a natural disaster" = " este martor la un dezastru natural";
+
+/* No comment provided by engineer. */
+" is observing criminal activity" = " este martor al unei activități criminale";
+
+/* No comment provided by engineer. */
+" is observing someone being arrested" = " este martor al unui arest";
+
+/* No comment provided by engineer. */
+" is trapped/lost" = " este sechestrat/pierdut";
+
+/* No comment provided by engineer. */
+" issued a %@ 112 alert." = " a emis o alertă %@ 112.";
+
+/* No comment provided by engineer. */
+" issued a %@ 411 alert." = " a emis o alertă %@ 411.";
+
+/* No comment provided by engineer. */
+" issued a %@ alert." = " a emis o alertă %@.";
+
+/* No comment provided by engineer. */
+" issued this alert" = " a emis o alertă";
+
+/* No comment provided by engineer. */
+" needs medical attention" = " necesită atenție medicală";
+
+/* No comment provided by engineer. */
+" on %@" = " pe %@";
+
+/* No comment provided by engineer. */
+"\"%@ will send your exact coordinates to trusted people so they can find you and help you when you need help most\"" = "\"%@ va trimite coordonatele tale exacte către persoane de încredere ca aceștia să te poată găsi și să te ajute când va fi nevoie\"";
+
+/* No comment provided by engineer. */
+"\"Let your friends and neighbours know of lurking dangers in your community and improve safety in your neighborhood\"" = "Anunță-ți prietenii și vecinii de pericolele ascunse din comunitatea ta și îmbunătățește siguranța din zonă";
+
+/* No comment provided by engineer. */
+"\"This is the app that allows you to issue and respond to emergencies from your family, friends and neighbors in real time\"" = "Aceasta este aplicația ce îți permite să emiți sau să răspunzi în timp real la urgențele familiei, cercului de prieteni sau vecinilor tăi";
+
+/* No comment provided by engineer. */
+"\"When you are in an emergency, just press the emergency button and you are instantly connected with our highly trained emergency response management team who will dispatch the correct rescue or support asset to your emergency.\"" = "Când ești într-o situație de urgență, doar apasă butonul de urgență și vei fi instant conectat cu echipa noastră de intervenție care va trimite ajutorul adecvat.";
+
+/* No comment provided by engineer. */
+"\"With %@ you can setup neighborhood watch, community and family groups.\"" = "\"Prin %@ îți poți pune în funcțiune patrula zonală, trupa comunitară sau de familie.\"";
+
+/* No comment provided by engineer. */
+"\"You can stream live video and audio to all your friends and groups, to one person or one thousand. The video cannot be deleted or erased.\"" = "Poți difuza video și audio în direct tuturor prietenilor și grupurilor tale, fie unei singure persoane, fie la o mie. Acest video nu poate fi șters.";
+
+/* No comment provided by engineer. */
+"\"iER is South Africa’s only national dedicated emergency response and disaster management network. With iER you are connected with 1000’s of emergency and security personnel who will come to your assistance when needed.\"" = "iER este singura rețea națională de răspuns de urgență și de gestionare a dezastrelor dedicată din Africa de Sud. Cu iER ești conectat cu 1000 de profesioniști în urgențe și de securitate, ce vor veni în ajutorul tău atunci când este necesar.";
+
+/* No comment provided by engineer. */
+"%@ %@ Ride" = "%@ %@ Cursă";
+
+/* No comment provided by engineer. */
+"%@ %@ away" = "%@ %@ distanță";
+
+/* No comment provided by engineer. */
+"%@ %@ connected" = "%@ %@ conectat";
+
+/* No comment provided by engineer. */
+"%@ %@ disconnected" = "%@ %@ deconectat";
+
+/* No comment provided by engineer. */
+"%@ %@ ride" = "%@ %@ cursă";
+
+/* No comment provided by engineer. */
+"%@ 112 Alert" = "%@ Alertă 112";
+
+/* No comment provided by engineer. */
+"%@ 411 Alert" = "%@ Alertă 411";
+
+/* No comment provided by engineer. */
+"%@ ALERTS" = "%@ ALERTE";
+
+/* No comment provided by engineer. */
+"%@ Alert" = "Alertă de %@";
+
+/* No comment provided by engineer. */
+"%@ Call Centre" = "%@ Centru Dispecerat";
+
+/* No comment provided by engineer. */
+"%@ PANIC BUTTON SETTINGS" = "%@ SETĂRI ALE BUTONULUI DE PANICĂ";
+
+/* No comment provided by engineer. */
+"%@ already created" = "%@ deja a fost creat";
+
+/* No comment provided by engineer. */
+"%@ already exists" = "%@ deja există";
+
+/* No comment provided by engineer. */
+"%@ and" = "%@ și";
+
+/* No comment provided by engineer. */
+"%@ at %@" = "%@ la %@";
+
+/* No comment provided by engineer. */
+"%@ blocked successfully." = "%@ blocat cu succes.";
+
+/* No comment provided by engineer. */
+"%@ can't help you this time." = "%@ nu te poate ajuta momentan.";
+
+/* No comment provided by engineer. */
+"%@ can't help you this time: %@" = "%@ nu te poate ajuta momentan: %@";
+
+/* No comment provided by engineer. */
+"%@ connected" = "%@ conectat";
+
+/* No comment provided by engineer. */
+"%@ does not have permission to use the camera." = "%@ nu are permisiunea de a folosi camera.";
+
+/* No comment provided by engineer. */
+"%@ doesn't have permission to use Camera, please change privacy settings" = "%@ nu are permisiunea de a folosi Camera, te rugăm schimbă setările de confidențialitate";
+
+/* No comment provided by engineer. */
+"%@ has sent you a Cell join request on %@ Cell!" = "%@ ți-a trimis o cerere de aderare pentru Celula %@!";
+
+/* No comment provided by engineer. */
+"%@ has streamed live video. Would you like to watch it? You can also watch this video later from Alerts tab" = "%@ a difuzat un video în direct. Ai dori să îl privești? Poți de asemenea să te uiți la acest vide mai târziu din tab-ul de Alerte";
+
+/* No comment provided by engineer. */
+"%@ in around %@" = "%@ în aproximativ %@";
+
+/* No comment provided by engineer. */
+"%@ invited you to install %@ to respond to emergencies: %@" = "%@ te-a invitat să îți instalezi %@ pentru a putea răspunde la situații de urgență: %@";
+
+/* No comment provided by engineer. */
+"%@ is %@ away and is on the way to help you out" = "%@ este la %@ distanță și este în drum spre tine pentru a te ajuta";
+
+/* No comment provided by engineer. */
+"%@ is about %@ away" = "%@ este la aprox. %@ distanță";
+
+/* No comment provided by engineer. */
+"%@ is already blocked." = "%@ este deja blocat.";
+
+/* No comment provided by engineer. */
+"%@ is already registered, please use different email" = "%@ este deja înregistrat, te rugăm folosește un email diferit";
+
+/* No comment provided by engineer. */
+"%@ is at this location" = "%@ este localizat aici";
+
+/* No comment provided by engineer. */
+"%@ is not using %@. Do you want to send them an email invitation to join you?" = "%@ nu folosește %@. Dorești să îi trimiți o invitație prin email pentru a ți se alătura?";
+
+/* No comment provided by engineer. */
+"%@ is on the way to help you out" = "%@ este în drum spre tine pentru a te ajuta";
+
+/* No comment provided by engineer. */
+"%@ is on the way to help you out!" = "%@ este în drum spre tine pentru a te ajuta!";
+
+/* No comment provided by engineer. */
+"%@ is selected" = "%@ este selectat";
+
+/* No comment provided by engineer. */
+"%@ is selected for this ride" = "%@ a fost selectat(ă) pentru această cursă";
+
+/* No comment provided by engineer. */
+"%@ is streaming live video. Would you like to watch it? You can also watch this video later from Alerts tab" = "%@ difuzează un video în direct. Ai dori să îl privești? Poți de asemenea să te uiți la acest vide mai târziu din tab-ul de Alerte";
+
+/* No comment provided by engineer. */
+"%@ issued a %@ 112 alert" = "%@ a emis o alertă %@ 112";
+
+/* No comment provided by engineer. */
+"%@ issued a %@ 411 alert" = "%@ a emis o alertă %@ 411";
+
+/* No comment provided by engineer. */
+"%@ issued a %@ alert" = "%@ a emis o alertă %@";
+
+/* No comment provided by engineer. */
+"%@ selected %@'s ride" = "%@ a selectat cursa %@";
+
+/* No comment provided by engineer. */
+"%@ sent to %@" = "%@ trimis către %@";
+
+/* No comment provided by engineer. */
+"%@ sent to Security Guards" = "%@ trimis către Gărzile de Securitate";
+
+/* No comment provided by engineer. */
+"%@ wants to add you as a friend in the %@ network. If approved, this user will be able to send you emergency alerts." = "%@ dorește să te adaugă ca prieten în rețeaua %@. În caz de aprobare, acest utilizator îți va putea trimite alerte de urgență.";
+
+/* No comment provided by engineer. */
+"%@%@ disconnected" = "%@%@ deconectat";
+
+/* No comment provided by engineer. */
+"%@'s Button" = "Butonul %@";
+
+/* No comment provided by engineer. */
+"%@, a Facebook user" = "%@, un utilizator de Facebook";
+
+/* No comment provided by engineer. */
+"%@, a Facebook user is on the way to help you out!" = "%@, un utilizator de Facebook este pe drum spre tine să te ajute!";
+
+/* No comment provided by engineer. */
+"%@, a friend of %@" = "%@, un prieten al lui %@";
+
+/* No comment provided by engineer. */
+"%@, a friend of %@ is on the way to help you out!" = "%@, un prieten al lui %@ este în drum spre tine să te ajute!";
+
+/* No comment provided by engineer. */
+"%@, a member of %@" = "%@, un membru al %@";
+
+/* No comment provided by engineer. */
+"%@, a member of %@ is on the way to help you out!" = "%@, un membru al %@ este în drum spre tine să te ajute!";
+
+/* No comment provided by engineer. */
+"%@, tap here to send an alert" = "%@, atinge aici pentru a trimite o alertă";
+
+/* No comment provided by engineer. */
+"%@\n-Upload your car image" = "%@\n-Încarcă poză cu mașina ta";
+
+/* No comment provided by engineer. */
+"%@\n-Upload your profile pic" = "%@\n-Încarcă-ți poza de profil";
+
+/* No comment provided by engineer. */
+"%@\n-Verify your phone" = "%@\n-Verifică-ți telefonul";
+
+/* No comment provided by engineer. */
+"%@\nAdditional Note: %@" = "%@\nNotă Adițională: %@";
+
+/* No comment provided by engineer. */
+"%d miles" = "%d mile";
+
+/* No comment provided by engineer. */
+"%d selected" = "%d selectate";
+
+/* No comment provided by engineer. */
+"%d users" = "%d utilizatori";
+
+/* No comment provided by engineer. */
+"'s car broke down" = " are mașina stricată";
+
+/* No comment provided by engineer. */
+"(1-50 miles)" = "(1-50 mile)";
+
+/* No comment provided by engineer. */
+"(1-80 kms)" = "(1-80 km)";
+
+/* No comment provided by engineer. */
+", forwarded by %@" = ", înaintat de %@";
+
+/* No comment provided by engineer. */
+"- All Friend(s)\n" = "- Toți prietenii \n";
+
+/* No comment provided by engineer. */
+"- Near By users\n" = "- Utilizatori din apropriere\n";
+
+/* No comment provided by engineer. */
+"- Non App User Cell(s):" = "- Celule non-utilizatorilor ai aplicației:";
+
+/* No comment provided by engineer. */
+"- Private Cell(s):" = "- Celule private:";
+
+/* No comment provided by engineer. */
+"- Public Cell(s):" = "- Celule publice:";
+
+/* No comment provided by engineer. */
+"1 user" = "1 utilizator";
+
+/* No comment provided by engineer. */
+"A Cell join request is sent to the owner of %@ Cell for approval" = "O cerere de aderare la Celulă a fost trimisă către deținătorul Celulei %@ spre aprobare";
+
+/* No comment provided by engineer. */
+"A friend invite is sent to" = "O cerere de prietenie va fi trimisă către";
+
+/* No comment provided by engineer. */
+"A friend invite was send to" = "O cerere de prietenie a fost trimisă către";
+
+/* No comment provided by engineer. */
+"A new Public Cell called" = "O nouă Celulă Publică a fost solicitată";
+
+/* No comment provided by engineer. */
+"ACCEPT" = "AJUTĂ";
+
+/* No comment provided by engineer. */
+"ADDITIONAL NOTE" = "NOTĂ ADIȚIONALĂ";
+
+/* No comment provided by engineer. */
+"ALERTS" = "ALERTE";
+
+/* No comment provided by engineer. */
+"ALLERGIES" = "ALERGII";
+
+/* No comment provided by engineer. */
+"Add" = "Adaugă";
+
+/* No comment provided by engineer. */
+"Add Friend" = "Adaugă Prieten";
+
+/* No comment provided by engineer. */
+"Add a note" = "Adaugă notă";
+
+/* No comment provided by engineer. */
+"Add a note?" = "Adaugă notă?";
+
+/* No comment provided by engineer. */
+"Add friend" = "Adaugă prieten";
+
+/* No comment provided by engineer. */
+"Add from phone contact" = "Adaugă din lista de contacte";
+
+/* No comment provided by engineer. */
+"Additional Note" = "Notă adițională";
+
+/* No comment provided by engineer. */
+"Additional text message if any" = "Text adițional dacă se dorește";
+
+/* No comment provided by engineer. */
+"Additional text: %@" = "Text adițional: %@";
+
+/* No comment provided by engineer. */
+"Alert" = "Alertă";
+
+/* No comment provided by engineer. */
+"Alert sent successfully" = "Alertă trimisă cu succes";
+
+/* No comment provided by engineer. */
+"Alerts Responded" = "Alerte Răspunse";
+
+/* No comment provided by engineer. */
+"Alerts Sent" = "Alerte Trimise";
+
+/* No comment provided by engineer. */
+"All Friends" = "Toți prietenii";
+
+/* No comment provided by engineer. */
+"Allergies" = "Alergii";
+
+/* No comment provided by engineer. */
+"An email has been sent with reset password instructions, please check your email" = "Un e-mail cu instrucțiuni de resetare a parolei a fost trimis, te rugăm verifică-ți mesajele";
+
+/* No comment provided by engineer. */
+"An error occurred, please try again." = "S-a produs o eroare, te rugăm încearcă din nou.";
+
+/* No comment provided by engineer. */
+"An unknown error occurred." = "S-a produs o eroare necunoscută.";
+
+/* No comment provided by engineer. */
+"App requires to connect to Facebook in order to publish alerts when you issue one" = "Aplicația necesită să se conecteze la Facebook pentru a putea publica alertele ce le vei emite";
+
+/* No comment provided by engineer. */
+"App requires to connect to Facebook in order to stream videos to your Facebook Wall when you stream one." = "Aplicația necesită să se conecteze la Facebook pentru a putea difuza video în direct pe peretele tău când va fi cazul.";
+
+/* No comment provided by engineer. */
+"Approve" = "Aprobă";
+
+/* No comment provided by engineer. */
+"Are you lost with a broken car?" = "Ești rătăcit cu o mașină stricată?";
+
+/* No comment provided by engineer. */
+"Are you sure you want to delete %@ Public Cell?" = "Ești sigur că vrei să ștergi Celula Publică %@?";
+
+/* No comment provided by engineer. */
+"Are you sure you want to disconnect your account from Facebook? App will no longer be able to publish alerts or stream live video to your Facebook wall." = "Ești sigur că vrei să îți deconectezi contul de Facebook? Aplicația nu va mai putea publica alerte sau difuza video în direct pe peretele tău de Facebook.";
+
+/* No comment provided by engineer. */
+"Are you sure you want to disconnect your account from Facebook? App will no longer be able to publish alerts to your Facebook wall." = "Ești sigur că vrei să îți deconectezi contul de Facebook? Aplicația nu va mai putea publica alerte pe peretele tău de Facebook.";
+
+/* No comment provided by engineer. */
+"Are you sure you want to flag %@ as a spammer?" = "Ești sigur că vrei să-l marchezi pe %@ ca spammer?";
+
+/* No comment provided by engineer. */
+"Are you sure you want to forget this device?" = "Ești sigur că vrei să uiți acest dispozitiv?";
+
+/* No comment provided by engineer. */
+"Are you sure you want to remove %@ from list?" = "Ești sigur că vrei să-l înlături pe %@ din listă?";
+
+/* No comment provided by engineer. */
+"Are you sure you want to remove %@ from the Cell?" = "Ești sigur că vrei să-l înlături pe %@ din Celulă?";
+
+/* No comment provided by engineer. */
+"Are you sure you want to remove %@ from this Cell?" = "Ești sigur că vrei să-l înlături pe %@ din această Celulă?";
+
+/* No comment provided by engineer. */
+"Are you sure you want to share your current location?" = "Ești sigur că vrei să-ți faci cunoscută localizarea curentă?";
+
+/* No comment provided by engineer. */
+"Are you sure, you want to logout? You will no longer be able to receive and send emergency alerts!" = "Ești sigur că vrei să te deloghezi? Nu vei mai putea să primești sau să trimiți alerte de urgență!";
+
+/* No comment provided by engineer. */
+"Arrested" = "Arestat";
+
+/* No comment provided by engineer. */
+"Atleast one payment form has to be selected" = "Selectează cel puțin o metodă de plată";
+
+/* No comment provided by engineer. */
+"Attention" = "Atenție";
+
+/* No comment provided by engineer. */
+"Authorization Status" = "Stare autorizare";
+
+/* No comment provided by engineer. */
+"BLOOD GROUP" = "GRUPA SANGUINĂ";
+
+/* No comment provided by engineer. */
+"Battery: %d%%" = "Baterie: %d%%";
+
+/* No comment provided by engineer. */
+"Battery: Retrieving" = "Baterie: Recepționare";
+
+/* No comment provided by engineer. */
+"Blood Group" = "Grupă sanguină";
+
+/* No comment provided by engineer. */
+"Blood Type" = "Tipul sanguin";
+
+/* No comment provided by engineer. */
+"Bluetooth BLE hardware is unsupported on this device" = "Modulul BLE Bluetooth nu este suportat de acest dispozitiv";
+
+/* No comment provided by engineer. */
+"Broadcast message" = "Difuzează mesaj";
+
+/* No comment provided by engineer. */
+"Bullied" = "Agresat";
+
+/* No comment provided by engineer. */
+"By creating your %@ account you agree" = "Prin crearea contului tău %@ te declari de acord";
+
+/* No comment provided by engineer. */
+"By sending alerts to nearby users, strangers who are not your friends may receive these alerts.  Are you sure you want to alert strangers when issuing a panic alert?" = "Prin trimiterea de alerte către utilizatorii din apropiere, acestea vor putea fi primite de către străini ce nu îți sunt prieteni. Ești sigur că vrei să alertezi străini când vei emite public?";
+
+/* No comment provided by engineer. */
+"CALL EMERGENCY CONTACT" = "SUNA PERSOANA DE CONTACT DE URGENȚĂ";
+
+/* No comment provided by engineer. */
+"CANNOT HELP" = "NU POT AJUTA";
+
+/* No comment provided by engineer. */
+"CHANGE PASSWORD" = "SCHIMBĂ PAROLA";
+
+/* No comment provided by engineer. */
+"CLOSE" = "ÎNCHIDE";
+
+/* No comment provided by engineer. */
+"COLLAPSE" = "COLAPSEAZĂ";
+
+/* No comment provided by engineer. */
+"COST/KM" = "COST/KM";
+
+/* No comment provided by engineer. */
+"COST/MILE" = "COST/MILĂ";
+
+/* No comment provided by engineer. */
+"CURRENT LOCATION" = "LOCATIZARE CURENTĂ";
+
+/* No comment provided by engineer. */
+"Call" = "Sună";
+
+/* No comment provided by engineer. */
+"Camera" = "Cameră";
+
+/* No comment provided by engineer. */
+"Cancel" = "Anulare";
+
+/* No comment provided by engineer. */
+"Cancelled" = "Anulat";
+
+/* No comment provided by engineer. */
+"Car Accident" = "Accident mașină";
+
+/* No comment provided by engineer. */
+"Category not available" = "Categorie indisponibilă";
+
+/* No comment provided by engineer. */
+"Cell Name" = "Nume celulă";
+
+/* No comment provided by engineer. */
+"Cell added successfully" = "Celulă adăugată cu succes";
+
+/* No comment provided by engineer. */
+"Cell name" = "Nume celulă";
+
+/* No comment provided by engineer. */
+"Cell updated successfully" = "Celulă actualizată cu succes";
+
+/* No comment provided by engineer. */
+"Change" = "Schimbă";
+
+/* No comment provided by engineer. */
+"Change Currency" = "Schimbă Valuta";
+
+/* No comment provided by engineer. */
+"Chat expired, can't share image" = "Chat expirat, imaginea a nu putut fi partajată";
+
+/* No comment provided by engineer. */
+"Chat expired, can't share location" = "Chat expirat, localizarea nu a putut fi partajată";
+
+/* No comment provided by engineer. */
+"Choose your %@ Bluetooth Panic Button" = "Alege-ți Butonul %@ Bluetooth de Panică";
+
+/* No comment provided by engineer. */
+"Close" = "Închide";
+
+/* No comment provided by engineer. */
+"Coming Soon" = "În curând";
+
+/* No comment provided by engineer. */
+"Confirm" = "Confirmare";
+
+/* No comment provided by engineer. */
+"Confirm password didn't match." = "Parola de confirmare nu s-a potrivit.";
+
+/* No comment provided by engineer. */
+"Confirmed" = "Confirmat";
+
+/* No comment provided by engineer. */
+"Connect" = "Conectează";
+
+/* No comment provided by engineer. */
+"Connected" = "Conectat";
+
+/* No comment provided by engineer. */
+"Connected to Facebook successfully, please enable \"Publish Alert To Your Facebook Wall\" option from settings if needed." = "Conectarea la Facebook reușită, te rugăm permite opțiunea \"Publică Alerte pe Peretele Tău de Facebook\" din meniul setări.";
+
+/* No comment provided by engineer. */
+"Connecting" = "Conectare";
+
+/* No comment provided by engineer. */
+"Connection Error" = "Eroare de conectare";
+
+/* No comment provided by engineer. */
+"Contacts" = "Contacte";
+
+/* No comment provided by engineer. */
+"Continue" = "Continuare";
+
+/* No comment provided by engineer. */
+"Cost" = "Cost";
+
+/* No comment provided by engineer. */
+"Cost cannot be empty." = "Prețul nu poate fi gol.";
+
+/* No comment provided by engineer. */
+"Coworkers" = "Colegi";
+
+/* No comment provided by engineer. */
+"Create Private Cell" = "Creează Celulă Privată";
+
+/* No comment provided by engineer. */
+"Create Public Cell" = "Creează Celulă Publică";
+
+/* No comment provided by engineer. */
+"Create new Private Cell" = "Creează o nouă Celulă Privată";
+
+/* No comment provided by engineer. */
+"Crime" = "Crimă";
+
+/* No comment provided by engineer. */
+"Current Location Not Found" = "Localizarea curentă nu a fost găsită";
+
+/* No comment provided by engineer. */
+"DROP LOCATION" = "DESTINAȚIA";
+
+/* No comment provided by engineer. */
+"Danger" = "Pericol";
+
+/* No comment provided by engineer. */
+"Decide Later" = "Decide altădată";
+
+/* No comment provided by engineer. */
+"Delete Video Option Disabled" = "Opțiunea de Ștergere Video Dezactivată";
+
+/* No comment provided by engineer. */
+"Delete Video Option Enabled" = "Opțiunea de Ștergere Video Activată";
+
+/* No comment provided by engineer. */
+"Deny" = "Refuză";
+
+/* No comment provided by engineer. */
+"Device Name: %@" = "Nume Dispozitiv: %@";
+
+/* No comment provided by engineer. */
+"Device id: %@" = "Cod dispozitiv: %@";
+
+/* No comment provided by engineer. */
+"Device name: %@" = "Nume dispozitiv: %@";
+
+/* No comment provided by engineer. */
+"Did you purchase a Bluetooth panic button from %@ or do you want to issue a panic alert?" = "Ai achiziționat un buton de panică Bluetooth de la %@ sau dorești să emiți o alertă de panică?";
+
+/* No comment provided by engineer. */
+"Did you reached the pickup location?" = "Ai ajuns la locul de întâlnire?";
+
+/* No comment provided by engineer. */
+"Disconnected" = "Deconectat";
+
+/* No comment provided by engineer. */
+"Disconnecting" = "Deconectare";
+
+/* No comment provided by engineer. */
+"Disliked it" = "Nu mi-a plăcut";
+
+/* No comment provided by engineer. */
+"Dispatch Mode Disabled" = "Mod Dispecerat Dezactivat";
+
+/* No comment provided by engineer. */
+"Dispatch Mode Enabled" = "Mod Dispecerat Activat";
+
+/* No comment provided by engineer. */
+"Distance is %@ and can be covered in around %@ with an estimated cost of %@" = "Distanța este de %@ și poate fi parcursă în aproximativ %@ cu un cost estimat de %@";
+
+/* No comment provided by engineer. */
+"Do It Later" = "Amânare";
+
+/* No comment provided by engineer. */
+"Do it later" = "Amânare";
+
+/* No comment provided by engineer. */
+"Do you also want to add %@ back as a %@ friend?" = "Dorești să readaugi pe %@ ca prieten de %@?";
+
+/* No comment provided by engineer. */
+"Do you also want to start streaming live video globally?" = "Vrei de asemenea să difuzezi în direct la nivel global?";
+
+/* No comment provided by engineer. */
+"Do you also want to start streaming live video to all friends?" = "Vrei de asemenea să difuzezi în direct tuturor prietenilor?";
+
+/* No comment provided by engineer. */
+"Do you also want to start streaming live video to the %@ Cell?" = "Vrei de asemenea să difuzezi în direct către Celula %@?";
+
+/* No comment provided by engineer. */
+"Do you also want to start streaming live video?" = "Vrei de asemenea să difuzezi în direct?";
+
+/* No comment provided by engineer. */
+"Do you want directions to the pickup location?" = "Dorești indicații către locul de întâlnire?";
+
+/* No comment provided by engineer. */
+"Do you want to remove %@ ?" = "Dorești să înlături pe %@ ?";
+
+/* No comment provided by engineer. */
+"Do you want to remove %@ from your friend list ?" = "Dorești să înlături %@ din lista ta de prieteni?";
+
+/* No comment provided by engineer. */
+"Do you want to send additional note to" = "Dorești să trimiți o notă adițională către";
+
+/* No comment provided by engineer. */
+"Do you want to send additional note to %@?" = "Dorești să trimiți o notă adițională către %@";
+
+/* No comment provided by engineer. */
+"Don't show again" = "Nu mai arăta";
+
+/* No comment provided by engineer. */
+"Done" = "Încheiat";
+
+/* No comment provided by engineer. */
+"Downloaded" = "Descărcat";
+
+/* No comment provided by engineer. */
+"Due to iOS limitations the panic button will not function properly if users manually \"kill\" the app; please run %@ as intended and do not stop the processes manually!" = "Datorită limitărilor iOS butonul de panică nu va funcționa adecvat dacă utilizatorii vor \"ucide\" manual aplicația; te rugăm rulează %@ așa cum a fost intenționat și nu opri procesul manual!";
+
+/* No comment provided by engineer. */
+"EXPAND" = "EXTINDERE";
+
+/* No comment provided by engineer. */
+"EXPLORE CELLS" = "EXPLOREAZĂ CELULE";
+
+/* No comment provided by engineer. */
+"Edit Cell" = "Editare Celulă";
+
+/* No comment provided by engineer. */
+"Email Required" = "Email obligatoriu";
+
+/* No comment provided by engineer. */
+"Enable Fall Detection" = "Activează detectarea căzăturii";
+
+/* No comment provided by engineer. */
+"Enter Message" = "Introdu Mesaj";
+
+/* No comment provided by engineer. */
+"Enter Your Name" = "Introdu-ți Numele";
+
+/* No comment provided by engineer. */
+"Enter alert description" = "Introdu descrierea alertei";
+
+/* No comment provided by engineer. */
+"Enter device name" = "Introdu numele dispozitivului";
+
+/* No comment provided by engineer. */
+"Enter your email" = "Introdu-ți adresa de email";
+
+/* No comment provided by engineer. */
+"Enter your name" = "Introdu-ți numele";
+
+/* No comment provided by engineer. */
+"Error" = "Eroare";
+
+/* No comment provided by engineer. */
+"Error Occurred" = "S-a comis o eroare";
+
+/* No comment provided by engineer. */
+"Error Sending %@ to Security Guards" = "Eroare în Transmiterea %@ către Gărzile de Securitate";
+
+/* No comment provided by engineer. */
+"Error occurred: Try again later." = "Eroare: Încearcă mai târziu.";
+
+/* No comment provided by engineer. */
+"Explore Cells" = "Explorează Celule";
+
+/* No comment provided by engineer. */
+"FALLEN ALERT" = "ALERTĂ CĂZĂTURĂ";
+
+/* No comment provided by engineer. */
+"FAQ" = "Î/R";
+
+/* No comment provided by engineer. */
+"FAQ & Tutorials" = "Î/R și Tutoriale";
+
+/* No comment provided by engineer. */
+"FORWARD ALERT" = "DISTRIBUIE ALERTA CĂTRE ALȚII";
+
+/* No comment provided by engineer. */
+"FORWARDED ALERT" = "ALERTĂ REDIRECȚIONATĂ";
+
+/* No comment provided by engineer. */
+"FORWARDED BY" = "REDIRECȚIONATĂ DE";
+
+/* No comment provided by engineer. */
+"FRIENDS" = "PRIETENI";
+
+/* No comment provided by engineer. */
+"Fall detection accuracy depends on the nature and impact of the fall.\nTests have shown that fall detection works better if %@ Panic Button is used with the clip or pendant. For best results always press the button for 2-8 seconds. Proceed enabling fall detection?" = "Acuratețea detectării căzăturii depinde de natura impactului la cădere.\nTestele au arătat că detectarea căzăturii funcționează mai bine dacă Butonul de Panică %@ este folosit cu clema sau pandantivul. Pentru cele mai bune rezultate apasă mereu butonul timp de 2-8 secunde. Continuăm activarea detecției de căzătură?";
+
+/* No comment provided by engineer. */
+"Fallen" = "Căzut";
+
+/* No comment provided by engineer. */
+"Family" = "Familie";
+
+/* No comment provided by engineer. */
+"Fire" = "Incendiu";
+
+/* No comment provided by engineer. */
+"Forward Alert?" = "Redirecționează alerta?";
+
+/* No comment provided by engineer. */
+"Friend %@" = "Prieten %@";
+
+/* No comment provided by engineer. */
+"Friends" = "Prieteni";
+
+/* No comment provided by engineer. */
+"GLOBAL ALERT" = "ALERTĂ GLOBALĂ";
+
+/* No comment provided by engineer. */
+"GPS Accurate Tracking Disabled" = "Urmărire Precisă GPS Dezactivată";
+
+/* No comment provided by engineer. */
+"GPS Accurate Tracking Enabled" = "][Urmărire Precisă GPS Activată";
+
+/* No comment provided by engineer. */
+"Gallery" = "Galerie";
+
+/* No comment provided by engineer. */
+"General" = "General";
+
+/* No comment provided by engineer. */
+"Generate Q.R. Code" = "Generează Cod Q.R.";
+
+/* No comment provided by engineer. */
+"Go to Settings>Privacy and turn on Location Services for %@ to determine your current location." = "Navighează la Setări>Confidențialitate și activează Serviciile Localizare pentru %@ pentru a determina localizarea curentă.";
+
+/* No comment provided by engineer. */
+"Go to Settings>Privacy and turn on Location Services to determine your current location." = "Navighează la Setări>Confidențialitate și activează Serviciile Localizare pentru a-ți determina localizarea curentă.";
+
+/* No comment provided by engineer. */
+"Hated it" = "Am detestat-o";
+
+/* No comment provided by engineer. */
+"Hi, I am using %@ to issue alerts while emergencies. It's free. Why don't you check it out on your phone.\n%@" = "Salut, folosesc %@ pentru a emite alerte în caz de urgențe. E gratis. Testeaz-o și tu.\n%@";
+
+/* No comment provided by engineer. */
+"Hi, I am using %@ to issue alerts while emergencies. It's free. Why don't you check it out on your phone.\nhttp://getcell411.com" = "Salut, folosesc %@ pentru a emite alerte în caz de urgențe. E gratis. Testeaz-o și tu.\nhttp://getcell411.com";
+
+/* No comment provided by engineer. */
+"Hi, I am using %@ to issue alerts while emergencies. It's free. Why don't you check it out on your phone.\nhttp://www.ier.co.za/index.html" = "Salut, folosesc %@ pentru a emite alerte în caz de urgențe. E gratis. Testeaz-o și tu.\nwww.ier.co.za/index.html";
+
+/* No comment provided by engineer. */
+"Hi, feel free to scan my QR code and join me on %@ network to get help in emergency." = "Salut, ești binevenit să-mi scanezi codul QR și să mi te alături pe rețeaua %@ pentru a primi ajutor în caz de urgențe.";
+
+/* No comment provided by engineer. */
+"Hijack" = "Deturnare";
+
+/* No comment provided by engineer. */
+"Hybrid" = "Hibrid";
+
+/* No comment provided by engineer. */
+"I" = "I";
+
+/* No comment provided by engineer. */
+"If approved, this member will be able to send emergency alerts to the members of this Cell" = "După aprobare, acest membru va putea trimite alerte de urgență către membri acestei Celule";
+
+/* No comment provided by engineer. */
+"Image (Download the latest version via %@ to view this image)" = "Imagine (Descarcă ultima versiune prin %@ sau afișează această imagine)";
+
+/* No comment provided by engineer. */
+"Image Saved Successfully" = "Imagine salvată cu succes";
+
+/* No comment provided by engineer. */
+"Image(Tap to view)" = "Imagine(Atinge pentru a vizualiza)";
+
+/* No comment provided by engineer. */
+"Import Contacts" = "Importă Contacte";
+
+/* No comment provided by engineer. */
+"Include %@ Call Centre" = "Include Centrul de Dispecerat %@";
+
+/* No comment provided by engineer. */
+"Interested" = "Interesat";
+
+/* No comment provided by engineer. */
+"Invalid Code" = "Cod invalid";
+
+/* No comment provided by engineer. */
+"Invite" = "Invită";
+
+/* No comment provided by engineer. */
+"Invite Facebook Friends" = "Invită-ți Prietenii de Facebook";
+
+/* No comment provided by engineer. */
+"Invite sent successfully" = "Invitație trimisă cu succes";
+
+/* No comment provided by engineer. */
+"Invites" = "Invitații";
+
+/* No comment provided by engineer. */
+"Is this correct email: \"%@\"?" = "Acesta este emailul corect: \"%@\"?";
+
+/* No comment provided by engineer. */
+"Issuing unnecessary ride requests can lead to being blocked for abuse or your account being suspended. Do you want to continue?" = "Emiterea solicitărilor de curse inutile poate rezulta în blocarea utilizatorului pentru abuz sau suspendarea contului. Dorești să continui?";
+
+/* No comment provided by engineer. */
+"It's OK" = "E bine";
+
+/* No comment provided by engineer. */
+"JOIN" = "ADERARE";
+
+/* No comment provided by engineer. */
+"JOINED CELLS" = "CELULE ADERATE";
+
+/* No comment provided by engineer. */
+"Join Cell" = "Aderă la celulă";
+
+/* No comment provided by engineer. */
+"Join this Cell" = "Aderă la această Celulă";
+
+/* No comment provided by engineer. */
+"Km" = "Km";
+
+/* No comment provided by engineer. */
+"Kms" = "Km";
+
+/* No comment provided by engineer. */
+"Know your rights" = "Cunoaște-ți drepturile";
+
+/* No comment provided by engineer. */
+"LEAVE" = "PLEACĂ";
+
+/* No comment provided by engineer. */
+"LIVE" = "ÎN DIRECT";
+
+/* No comment provided by engineer. */
+"LOADING..." = "ÎNCĂRCARE...";
+
+/* No comment provided by engineer. */
+"Later" = "Mai târziu";
+
+/* No comment provided by engineer. */
+"Leave this Cell" = "Părăsește această Celulă";
+
+/* No comment provided by engineer. */
+"Liked it" = "Mi-a plăcut";
+
+/* No comment provided by engineer. */
+"Location" = "Localizare";
+
+/* No comment provided by engineer. */
+"Location Services Disabled" = "Serviciile de Localizare Dezactivate";
+
+/* No comment provided by engineer. */
+"Location Updates Disabled" = "Actualizări de Localizare Dezactivate";
+
+/* No comment provided by engineer. */
+"Location Updates Enabled" = "Actualizări de Localizare Activate";
+
+/* No comment provided by engineer. */
+"Logout" = "Delogare";
+
+/* No comment provided by engineer. */
+"Loved it" = "M-am îndrăgostit de ea";
+
+/* No comment provided by engineer. */
+"MEDICAL CONDITIONS" = "CONDIȚII MEDICALE";
+
+/* No comment provided by engineer. */
+"MY PRIVATE CELLS" = "CELULELE MELE PRIVATE";
+
+/* No comment provided by engineer. */
+"MY PUBLIC CELLS" = "CELULELE MELE PUBLICE";
+
+/* No comment provided by engineer. */
+"Manage %@ Panic Button(s)" = "Administrare %@ Butoane de Panică";
+
+/* No comment provided by engineer. */
+"Manage %@ Panic Buttons" = "Administrare %@ Butoane de Panică";
+
+/* No comment provided by engineer. */
+"Map Type" = "Tip hartă";
+
+/* No comment provided by engineer. */
+"Medical" = "Medical";
+
+/* No comment provided by engineer. */
+"Medical Details" = "Detalii medicale";
+
+/* No comment provided by engineer. */
+"Messsage Broadcasted" = "Mesaj Difuzat";
+
+/* No comment provided by engineer. */
+"Mute" = "Pe mut";
+
+/* No comment provided by engineer. */
+"My Profile" = "Profilul Meu";
+
+/* No comment provided by engineer. */
+"N/A" = "N/A";
+
+/* No comment provided by engineer. */
+"Natural Disaster" = "Dezastru Natural";
+
+/* No comment provided by engineer. */
+"Need Bluetooth for Panic Button to work" = "Necesită Bluetooth pentru funcționarea Butonului de Panică";
+
+/* No comment provided by engineer. */
+"Neighborhood Watch" = "Veghere zonală";
+
+/* No comment provided by engineer. */
+"New Message" = "Mesaj Nou";
+
+/* No comment provided by engineer. */
+"New Public Cell Alert Disabled" = "Alerta de Noi Celule Publice Dezactivată";
+
+/* No comment provided by engineer. */
+"New Public Cell Alert Enabled" = "Alerta de Noi Celule Publice Activată";
+
+/* No comment provided by engineer. */
+"No" = "Nu";
+
+/* No comment provided by engineer. */
+"No members in the selected Cell" = "Niciun membru în această Celulă";
+
+/* No comment provided by engineer. */
+"No more Cells to load" = "Nu mai sunt Celule de încărcat";
+
+/* No comment provided by engineer. */
+"Not Interested" = "Nu mă interesează";
+
+/* No comment provided by engineer. */
+"Not Now" = "Nu Acum";
+
+/* No comment provided by engineer. */
+"Not Verified" = "Neverificat";
+
+/* No comment provided by engineer. */
+"Nothing to update" = "Nimic de actualizat";
+
+/* No comment provided by engineer. */
+"Notifications" = "Notificări";
+
+/* No comment provided by engineer. */
+"Notify Again" = "Notifică din nou";
+
+/* No comment provided by engineer. */
+"Notify Rider" = "Notificare pasager";
+
+/* No comment provided by engineer. */
+"OK" = "FIE";
+
+/* No comment provided by engineer. */
+"OTHER MEDICAL CONDITIONS" = "ALTE CONDIȚII MEDICALE";
+
+/* No comment provided by engineer. */
+"OWNED CELLS" = "CELULE DEȚINUTE";
+
+/* No comment provided by engineer. */
+"Officially Verified" = "Verificat oficial";
+
+/* No comment provided by engineer. */
+"Ok" = "Fie";
+
+/* No comment provided by engineer. */
+"Oops! There is no driver available. Try increasing the radius." = "Opa! Niciun șofer disponibil. Încearcă să mărești raza.";
+
+/* No comment provided by engineer. */
+"Oops!!! This Cell no longer exist." = "Opa!!! Această Celulă nu mai există.";
+
+/* No comment provided by engineer. */
+"Other Medical Conditions" = "Alte condiții medicale";
+
+/* No comment provided by engineer. */
+"Our team is working hard to make this feature available to you very soon :-)" = "Echipa noastră lucrează din greu ca această facilitate să îți devină disponibilă cât de curând :-)";
+
+/* No comment provided by engineer. */
+"PANIC ALERT" = "ALERTĂ PANICĂ";
+
+/* No comment provided by engineer. */
+"PAYMENT MODE" = "MODE DE PLATĂ";
+
+/* No comment provided by engineer. */
+"PENDING" = "ÎN AȘTEPTARE";
+
+/* No comment provided by engineer. */
+"PICK UP LOCATION" = "LOC DE ÎNTÂLNIRE";
+
+/* No comment provided by engineer. */
+"Pairing your panic button" = "Împerechere cu butonul de panică";
+
+/* No comment provided by engineer. */
+"Panic" = "Panică";
+
+/* No comment provided by engineer. */
+"Patrol Mode Disabled" = "Mod Patrulare Dezactivat";
+
+/* No comment provided by engineer. */
+"Patrol Mode Enabled" = "Mod Patrulare Activat";
+
+/* No comment provided by engineer. */
+"Pending" = "În așteptare";
+
+/* No comment provided by engineer. */
+"Phone added successfully" = "Telefon adăugat cu succes";
+
+/* No comment provided by engineer. */
+"Phone number added successfully" = "Număr de telefon adăugat cu succes";
+
+/* No comment provided by engineer. */
+"Phone number updated successfully" = "Număr de telefon actualizat cu succes";
+
+/* No comment provided by engineer. */
+"Phone updated successfully" = "Telefon actualizat cu succes";
+
+/* No comment provided by engineer. */
+"Phone verified successfully" = "Telefon verificat cu succes";
+
+/* No comment provided by engineer. */
+"Photo" = "Foto";
+
+/* No comment provided by engineer. */
+"Photo Alert" = "Alertă foto";
+
+/* No comment provided by engineer. */
+"Physical Abuse" = "Abuz Fizic";
+
+/* No comment provided by engineer. */
+"Please allow access to contacts for %@" = "Permite accesul la contacte pentru %@";
+
+/* No comment provided by engineer. */
+"Please authorize %@ to use Bluetooth" = "Autorizează %@ pentru folosirea de Bluetooth";
+
+/* No comment provided by engineer. */
+"Please authorize %@ to use Bluetooth for Panic Button to work" = "Autorizează %@ pentru folosirea de Bluetooth pentru funcționarea Butonului de Panică";
+
+/* No comment provided by engineer. */
+"Please check your email for password reset instructions." = "Verifică-ți e-mailul pentru instrucțiuni de resetare a parolei.";
+
+/* No comment provided by engineer. */
+"Please choose a category" = "Alege o categorie";
+
+/* No comment provided by engineer. */
+"Please enter a valid email address" = "Introdu o adresă de e-mail validă";
+
+/* No comment provided by engineer. */
+"Please enter Cell name" = "Introdu numele Celulei";
+
+/* No comment provided by engineer. */
+"Please enter confirm password" = "Introdu parola de confirmare";
+
+/* No comment provided by engineer. */
+"Please enter cost/mile" = "Introdu prețul/milă";
+
+/* No comment provided by engineer. */
+"Please enter cost/min" = "Introdu prețul/minut";
+
+/* No comment provided by engineer. */
+"Please enter drop location" = "Introdu destinația";
+
+/* No comment provided by engineer. */
+"Please enter email" = "Introdu adresa de e-mail";
+
+/* No comment provided by engineer. */
+"Please enter firstname" = "Introdu numele";
+
+/* No comment provided by engineer. */
+"Please enter lastname" = "Introdu prenumele";
+
+/* No comment provided by engineer. */
+"Please enter mobile number" = "Introdu numărul de mobil";
+
+/* No comment provided by engineer. */
+"Please enter password" = "Introdu parola";
+
+/* No comment provided by engineer. */
+"Please enter phone number" = "Introdu numărul de telefon";
+
+/* No comment provided by engineer. */
+"Please enter pickup cost" = "Introdu prețul de pornire";
+
+/* No comment provided by engineer. */
+"Please enter valid email" = "Introdu o adresă de e-mail validă";
+
+/* No comment provided by engineer. */
+"Please enter valid emergency mobile number" = "Introdu un număr de mobil de urgență valid";
+
+/* No comment provided by engineer. */
+"Please enter valid mobile number" = "Introdu un număr de mobil valid";
+
+/* No comment provided by engineer. */
+"Please enter your currency below" = "Introdu valuta preferată mai jos";
+
+/* No comment provided by engineer. */
+"Please enter your email" = "Introdu-ți adresa de e-mail";
+
+/* No comment provided by engineer. */
+"Please enter your name so that %@ can recognize you." = "Introdu-ți numele ca %@ să te poată recunoaște.";
+
+/* No comment provided by engineer. */
+"Please give a brief description for your Cell" = "Introdu o scurtă descriere a Celulei tale";
+
+/* No comment provided by engineer. */
+"Please install the latest version to view this alert" = "Instalează ultima versiune pentru a vedea această alertă";
+
+/* No comment provided by engineer. */
+"Please press and hold panic button for 30 seconds to turn it off in order to avoid battery drain." = "Apasă și ține apăsat 30 timp de secunde butonul de panică pentru a-l stinge și a evita epuizarea bateriei.";
+
+/* No comment provided by engineer. */
+"Please provide a valid Server Url if you want to stream to your own live YouTube Channel. It should be like %@" = "Introdu un Url de Server valid dacă dorești să difuzezi în direct către Canalul tău de YouTube. Ar trebui să arate precum %@";
+
+/* No comment provided by engineer. */
+"Please provide a valid Stream name/key if you want to stream to your own live YouTube Channel." = "Introdu un nume/cheie validă de Stream pentru a difuza în direct către canalul tău YouTube live.";
+
+/* No comment provided by engineer. */
+"Please select at least 1 friend" = "Selectează cel puțin 1 prieten";
+
+/* No comment provided by engineer. */
+"Please select at least 1 non app user" = "Selectează cel puțin 1 non-utilizator al aplicației";
+
+/* No comment provided by engineer. */
+"Please select country for your emergency contact" = "Selectează țara pentru contactul tău de urgență";
+
+/* No comment provided by engineer. */
+"Please select if you would like %@ to use kilometers or miles as the standard distance unit." = "Selectează dacă ai dori ca %@ să folosească kilometri sau mile ca unitate standard de distanță";
+
+/* No comment provided by engineer. */
+"Please select your country" = "Selectează-ți țara";
+
+/* No comment provided by engineer. */
+"Please turn on Bluetooth on your device" = "Activează opțiunea Bluetooth pe dispozitivul tău";
+
+/* No comment provided by engineer. */
+"Please turn on Bluetooth on your device for Panic Button to work" = "Activează opțiunea Bluetooth pe dispozitivul tău ca Butonul de Panică să poată funcționa";
+
+/* No comment provided by engineer. */
+"Please update your email." = "Actualizează-ți adresa de e-mail.";
+
+/* No comment provided by engineer. */
+"Please verify your phone" = "Verifică-ți telefonul";
+
+/* No comment provided by engineer. */
+"Please wait" = "Te rog așteaptă";
+
+/* No comment provided by engineer. */
+"Please wait..." = "Te rog așteaptă...";
+
+/* No comment provided by engineer. */
+"Police Interaction" = "Interacțiune cu poliția";
+
+/* No comment provided by engineer. */
+"Press and hold your %@ BT device for 10 seconds until you hear a beep and the light flashes green, then release the button." = "Apasă și ține apăsat pe dispozitivul tău de BT %@ timp de 10 secunde până când vei auzi un bip și lumina va clipi verde, apoi dă drumul butonului.";
+
+/* No comment provided by engineer. */
+"Proceed" = "Continuare";
+
+/* No comment provided by engineer. */
+"Public Cells" = "Celule Publice";
+
+/* No comment provided by engineer. */
+"Public Cells can be officially verified by %@ to confirm the identity of the owner and the legitimacy of the Cell. In order to be verified, please use a specific name for your Cell. For example, a Cell named \"New York City\" is misleading as it is not owned by the City of New York, however a Cell named \"New York City 55th St. Crime Watch\" is more specific and likely to be verified." = "Celulele Publice pot fi verificate oficial de către%@ pentru confirmarea identității proprietarului și legitimitatea Celulei. Pentru a fi verificat, folosește un nume specific pentru Celula ta. De exemplu, o Celulă numită \"New York City\" este înșelătoare, deoarece nu este deținută de către orașul New York, totuși o Celulă numită \"New York City 55th St. Crime Watch\" este mai specifică și este mai probabil să fie aprobată.";
+
+/* No comment provided by engineer. */
+"Publish Alerts To Your Facebook Wall Disabled" = "Publicarea Alertelor pe peretele tău de Facebook a fost Dezactivată";
+
+/* No comment provided by engineer. */
+"Publish Alerts To Your Facebook Wall Enabled" = "Publicarea Alertelor pe peretele tău de Facebook a fost Activată";
+
+/* No comment provided by engineer. */
+"RECIPIENTS:" = "RECIPIENȚI:";
+
+/* No comment provided by engineer. */
+"REMEMBER: The police are allowed to LIE to you in order to incriminate you! You do not have to speak or answer any questions. Use %@ to stream live video to your friends and record the interaction. It cannot be detected by the police even if your phone is destroyed or confiscated!" = "ȚINE MINTE: Polițiștii au voie să te MINTĂ pentru a te incrimina! Nu ești obligat să vorbești sau să răspunzi la întrebări. Folosește %@ pentru a difuza video în direct către prietenii tăi și a înregistra interacțiunea. Aceasta nu poate fi detectată de către poliție chiar dacă telefonul este distrus sau confiscat!";
+
+/* No comment provided by engineer. */
+"REQUESTS" = "SOLICITĂRI";
+
+/* No comment provided by engineer. */
+"RIDE REQUESTS" = "SOLCITĂRI CURSE";
+
+/* No comment provided by engineer. */
+"Rate this app" = "Evaluează această aplicație";
+
+/* No comment provided by engineer. */
+"Re-invite" = "Re-invită";
+
+/* No comment provided by engineer. */
+"Reject" = "Refuză";
+
+/* No comment provided by engineer. */
+"Rejected" = "Refuzat";
+
+/* No comment provided by engineer. */
+"Remove Member" = "Înlăturare Membru";
+
+/* No comment provided by engineer. */
+"Rename your device" = "Redenumește-ți dispozitivul";
+
+/* No comment provided by engineer. */
+"Request Accepted" = "Solicitare acceptată";
+
+/* No comment provided by engineer. */
+"Request Cancelled" = "Solicitare anulată";
+
+/* No comment provided by engineer. */
+"Request Expired" = "Solicitare expirată";
+
+/* No comment provided by engineer. */
+"Request New Ride" = "Solicită cursă nouă";
+
+/* No comment provided by engineer. */
+"Request Rejected" = "Solicitare refuzată";
+
+/* No comment provided by engineer. */
+"Request sent to %d drivers" = "Solicitarea a fost trimisă la %d șoferi";
+
+/* No comment provided by engineer. */
+"Request verification" = "Solicită verificare";
+
+/* No comment provided by engineer. */
+"Resend" = "Retrimite";
+
+/* No comment provided by engineer. */
+"Resend Code" = "Retrimite cod";
+
+/* No comment provided by engineer. */
+"Response sent successfully" = "Răspuns trimis cu succes";
+
+/* No comment provided by engineer. */
+"Retreiving" = "Recepționare";
+
+/* No comment provided by engineer. */
+"Retreiving City..." = "Recepționare Oraș...";
+
+/* No comment provided by engineer. */
+"Retreiving city..." = "Recepționare oraș...";
+
+/* No comment provided by engineer. */
+"Retreiving..." = "Recepționare...";
+
+/* No comment provided by engineer. */
+"Retrieving Info..." = "Recepționare informații...";
+
+/* No comment provided by engineer. */
+"Reviewed by %@" = "Revizuit de %@";
+
+/* No comment provided by engineer. */
+"Ride Cost" = "Costul cursei";
+
+/* No comment provided by engineer. */
+"Ride Hailing" = "Autostop";
+
+/* No comment provided by engineer. */
+"Ride Requests Disabled" = "Solicitările de Cursă Dezactivate";
+
+/* No comment provided by engineer. */
+"Ride Requests Enabled" = "Solicitările de Cursă Activate";
+
+/* No comment provided by engineer. */
+"Ride Status" = "Stare Cursă";
+
+/* No comment provided by engineer. */
+"Ride not selected" = "Cursa nu a fost selectată";
+
+/* No comment provided by engineer. */
+"SEARCH" = "CAUTĂ";
+
+/* No comment provided by engineer. */
+"Satellite" = "Satelit";
+
+/* No comment provided by engineer. */
+"Save" = "Salvează";
+
+/* No comment provided by engineer. */
+"Scan Q.R. Code" = "Scanează cod Q.R.";
+
+/* No comment provided by engineer. */
+"Scan QR Code" = "Scanează cod QR";
+
+/* No comment provided by engineer. */
+"Scanning Unavailable" = "Scanare indisponibilă";
+
+/* No comment provided by engineer. */
+"School Friends" = "Colegi de școală";
+
+/* No comment provided by engineer. */
+"Search by name, phone or email" = "Căutare după nume, telefon sau e-mail";
+
+/* No comment provided by engineer. */
+"Searching your location..." = "Căutarea localizării tale...";
+
+/* No comment provided by engineer. */
+"See Requests" = "Vizualizează solicitări";
+
+/* No comment provided by engineer. */
+"Select" = "Selectează";
+
+/* No comment provided by engineer. */
+"Selected" = "Selectat";
+
+/* No comment provided by engineer. */
+"Send" = "Trimite";
+
+/* No comment provided by engineer. */
+"Send Global Alert?" = "Trimite alertă globală?";
+
+/* No comment provided by engineer. */
+"Send arrested alert?" = "Trimite alertă de arest?";
+
+/* No comment provided by engineer. */
+"Send bullied alert?" = "Trimite alertă de abuzare?";
+
+/* No comment provided by engineer. */
+"Send car accident alert?" = "Trimite alertă de accident mașină?";
+
+/* No comment provided by engineer. */
+"Send crime alert?" = "Trimite alertă de crimă?";
+
+/* No comment provided by engineer. */
+"Send danger alert?" = "Trimite alertă de pericol?";
+
+/* No comment provided by engineer. */
+"Send fire alert?" = "Trimite alertă de incendiu?";
+
+/* No comment provided by engineer. */
+"Send general alert?" = "Trimite alertă generală?";
+
+/* No comment provided by engineer. */
+"Send hijack alert?" = "Trimită alertă de deturnare?";
+
+/* No comment provided by engineer. */
+"Send medical alert?" = "Trimite alertă medicală?";
+
+/* No comment provided by engineer. */
+"Send natural disaster alert?" = "Trimite alertă de dezastru natural?";
+
+/* No comment provided by engineer. */
+"Send photo alert?" = "Trimite alertă foto?";
+
+/* No comment provided by engineer. */
+"Send physical abuse alert?" = "Trimite alertă de abuz fizic?";
+
+/* No comment provided by engineer. */
+"Send police interaction alert?" = "Trimite alertă de interacțiune cu poliția?";
+
+/* No comment provided by engineer. */
+"Send trapped/lost alert?" = "Trimite alertă de sechestrare/pierdut?";
+
+/* No comment provided by engineer. */
+"Send vehicle broken alert?" = "Trimite alertă de mașină stricată?";
+
+/* No comment provided by engineer. */
+"Send vehicle pulled over alert?" = "Trimite alertă de vehicul tras pe dreapta?";
+
+/* No comment provided by engineer. */
+"Session Expired" = "Sesiunea a expirat";
+
+/* No comment provided by engineer. */
+"Settings" = "Setări";
+
+/* No comment provided by engineer. */
+"Setup neighborhood watch or family groups" = "Inițiază supraveghere zonală sau grupuri de familie";
+
+/* No comment provided by engineer. */
+"Share Image" = "Partajare Imagine";
+
+/* No comment provided by engineer. */
+"Share Location" = "Partajare Localizare";
+
+/* No comment provided by engineer. */
+"Share this app" = "Partajează această aplicație";
+
+/* No comment provided by engineer. */
+"Sms/Email" = "Sms/E-mail";
+
+/* No comment provided by engineer. */
+"Some error occurred" = "A intervenit o eroare";
+
+/* No comment provided by engineer. */
+"Some error occurred, please try again." = "A intervenit o eroare, încearcă din nou.";
+
+/* No comment provided by engineer. */
+"Some error occurred, try again later." = "A intervenit o eroare, încearcă mai târziu.";
+
+/* No comment provided by engineer. */
+"Sorry, we are unable to send friend invite on this email." = "Îmi pare rău, nu am putut trimite invitație de prietenie pe această adresă de e-mail.";
+
+/* No comment provided by engineer. */
+"Sorry, we cannot send Cell join request to this user on your behalf" = "Îmi pare rău, dar nu putem trimite cerere de aderare la Celula acestui utilizator din partea ta";
+
+/* No comment provided by engineer. */
+"Sorry, we cannot send friend request to this user on your behalf" = "Îmi pare rău, dar nu putem trimite cerere de prietenie acestui utilizator din partea ta";
+
+/* No comment provided by engineer. */
+"Spam" = "Spam";
+
+/* No comment provided by engineer. */
+"Standard" = "Standard";
+
+/* No comment provided by engineer. */
+"State: Connected" = "Stare: Conectat";
+
+/* No comment provided by engineer. */
+"State: Disconnected" = "Stare: Deconectat";
+
+/* No comment provided by engineer. */
+"Stream and share live video with?" = "Difuzează video în direct și partajează cu?";
+
+/* No comment provided by engineer. */
+"Stream live HD video" = "Difuzare video HD în direct";
+
+/* No comment provided by engineer. */
+"Submit" = "Trimite";
+
+/* No comment provided by engineer. */
+"Tap on Manage %@ Panic Button(s) to manage your hardware panic buttons and tap Advanced Panic Settings to configure the time, recipients and additional text to be sent while issuing Panic alert." = "Atinge pe Administrare Butonul de Panică %@ pentru a-ți administra butoanele de panică fizice și atinge Setări Avansate de Panică pentru a configura ora, recipienții și textul adițional ce va fi transmis odată cu emiterea alertelor de Panică.";
+
+/* No comment provided by engineer. */
+"The owner of Cell" = "Proprietarul Celulei";
+
+/* No comment provided by engineer. */
+"No messages appear in this Cell" = "Nu apar mesaje în această celulă";
+
+/* No comment provided by engineer. */
+"There are currently no messages related to this alert" = "Nu există mesaje cu această alertă";
+
+/* No comment provided by engineer. */
+"There is already an account registered with mobile number %@. Please use different mobile number." = "Există deja un cont înregistrat cu numărul de mobil %@. Folosește un număr de mobil diferit.";
+
+/* No comment provided by engineer. */
+"There is already an account under %@. Please tap on Forgot Password if you cannot remember your password." = "Există deja un cont sub %@. Apasă pe Am Uitat Parola dacă nu ți-o mai aduci aminte.";
+
+/* No comment provided by engineer. */
+"This device does not have a camera." = "Acest dispozitiv nu are cameră.";
+
+/* No comment provided by engineer. */
+"This friend already added" = "Acest prieten a fost deja adăugat";
+
+/* No comment provided by engineer. */
+"This request is cancelled." = "Solicitarea a fost anulată.";
+
+/* No comment provided by engineer. */
+"This request is expired!" = "Această solicitare a expirat!";
+
+/* No comment provided by engineer. */
+"This ride request is cancelled" = "Această solicitare de cursă a fost anulată";
+
+/* No comment provided by engineer. */
+"This ride request is expired" = "Această solicitare de cursă a expirat";
+
+/* No comment provided by engineer. */
+"This will allow your live video streams to be shared to the general public on Facebook. Should you share obscene or sensitive footage, your account may be suspended or banned permanently. Do you want to continue?" = "Această facilitate va permite filmărilor tale să fie partajate publicului larg pe Facebook. Dacă transmiți secvențe video obscene sau sensibile, contul tău poate fi suspendat sau interzis definitiv. Dorești să continui?";
+
+/* No comment provided by engineer. */
+"This will enable streaming live videos to %@ TV Channel." = "Aceasta va activa difuzarea video în direct către canalul TV %@";
+
+/* No comment provided by engineer. */
+"This will enable streaming live videos to %@ TV Facebook Page." = "Aceasta va activa difuzarea video în direct către Pagina de Facebook %@";
+
+/* No comment provided by engineer. */
+"To accept credit cards please use a squareup.com credit card reader, or a similar reader from another vendor" = "Pentru a accepta carduri de credit folosește un cititor de carduri squareup.com, sau un cititor similar al oricărui alt furnizor";
+
+/* No comment provided by engineer. */
+"To stream to your own YouTube Live Channel via %@ you need to retrieve your YouTube stream key and URL from your YouTube Live settings and enter them below. For further help, please read the FAQ and follow the tutorial at %@" = "Pentru a difuza către Canalul tău propriu de YouTube prin %@ va trebui să îți recuperezi cheia de difuzare YouTube de la setările contului tău de YouTube Live și să o introduci mai jos. Pentru asistență adițională, te invităm să citești secția de Întrebări și Răspunsuri respectiv să urmărești tutorialul la %@";
+
+/* No comment provided by engineer. */
+"Too much time has passed since this alert was issued and you may no longer respond to it." = "Prea mult timp a trecut de când această alertă a fost emisă și prin urmare nu mai poți să răspunzi la ea.";
+
+/* No comment provided by engineer. */
+"Trapped" = "Blocat";
+
+/* No comment provided by engineer. */
+"Turning location updates off will also disable New Public Cell Alert. Do you still want to turn it off?" = "Dezactivarea actualizărilor de localizare va dezactiva totodată și Noile Alerte Publice. Ești sigur că vrei să dezactivezi?";
+
+/* No comment provided by engineer. */
+"Turning location updates off will also disable Patrol Mode and New Public Cell Alert. Do you still want to turn it off?" = "Dezactivarea actualizărilor de localizare va dezactiva totodată Modul de Patrulare și Noile Alerte Publice. Ești sigur că vrei să dezactivezi?";
+
+/* No comment provided by engineer. */
+"Turning location updates off will also disable Patrol Mode. Do you still want to turn it off?" = "Dezactivarea actualizărilor de localizare va dezactiva totodată și Modul de Patrulare. Ești sigur că vrei să dezactivezi?";
+
+/* No comment provided by engineer. */
+"Turning this feature on will allow you to receive %@ alert whenever a new Public Cell is created nearby you. This feature requires Location Updates to be turned on." = "Activând această funcție va permite recepționarea de alerte %@ de fiecare dată când o noua Celula Publică este creată în apropierea ta. Această funcție necesită ca Actualizările de Localizare să fie activate.";
+
+/* No comment provided by engineer. */
+"Turning this feature on will allow you to receive %@ alerts when someone in the patrol radius needs help.This feature requires Location Updates to be turned on." = "Activând această funcție va permite recepționarea de alerte %@ de fiecare dată când cineva aflat în raza de patrulare necesită ajutor. Această funcție necesită ca Actualizările de Localizare să fie activate.";
+
+/* No comment provided by engineer. */
+"Unable to connect, please try again later" = "Conectare nereușită, încearcă mai târziu.";
+
+/* No comment provided by engineer. */
+"Unable to determine your current location.Please check your internet connection." = "Localizarea actuală nu a putut fi determinată. Verifică conexiunea de internet.";
+
+/* No comment provided by engineer. */
+"Unable to fetch your current location.Please Check your internet connection." = "Localizarea actuală nu a putut fi recepționată. Verifică conexiunea de internet.";
+
+/* No comment provided by engineer. */
+"Unable to get directions. Check your connection" = "Indicațiile nu au putut fi recepționate. Verifică conexiunea";
+
+/* No comment provided by engineer. */
+"Unable to load the photo" = "Fotografia nu a putut fi încărcată";
+
+/* No comment provided by engineer. */
+"Unable to send SMS on phone number %@, valid number should start with country code followed by contact number. Please open Contacts app and update it if it's not correct." = "SMS-ul nu a putut fi trimis către numărul de telefon %@, un număr valid ar trebui să înceapă cu codul de țară urmat de numărul de contact. Deschide aplicația de Contacte și actualizează numărul dacă nu e scris corect.";
+
+/* No comment provided by engineer. */
+"Unable to send photo alert. Please try again." = "Alerta foto nu a putut fi trimisă. Încearcă din nou.";
+
+/* No comment provided by engineer. */
+"Unable to send verification code, is %@ your correct number?\nYour number should start with your country code followed by your contact number" = "Codul de verificare nu a putut fi trimis, este %@ numărul tău corect?\nNumărul tău ar trebui să înceapă cu codul de țară urmat de numărul tău de contact";
+
+/* No comment provided by engineer. */
+"Unfriend" = "Rupe prietenia";
+
+/* No comment provided by engineer. */
+"Unmute" = "Activează sunet";
+
+/* No comment provided by engineer. */
+"Unrecognized" = "Nerecunoscut";
+
+/* No comment provided by engineer. */
+"Update" = "Actualizare";
+
+/* No comment provided by engineer. */
+"Updated Successfully" = "Actualizare cu succes";
+
+/* No comment provided by engineer. */
+"Uploading failed, please try again." = "Actualizare eșuată, încearcă din nou.";
+
+/* No comment provided by engineer. */
+"User must be logged in" = "Utilizatorul trebuie să fie logat";
+
+/* No comment provided by engineer. */
+"Vehicle Broken" = "Vehicul Stricat";
+
+/* No comment provided by engineer. */
+"Vehicle Pulled" = "Vehicul Tractat";
+
+/* No comment provided by engineer. */
+"Verification Pending" = "Verificare în așteptare";
+
+/* No comment provided by engineer. */
+"Verification Required" = "Necesită verificare";
+
+/* No comment provided by engineer. */
+"Verification code sent" = "Cod de verificare trimis";
+
+/* No comment provided by engineer. */
+"Verify" = "Verifică";
+
+/* No comment provided by engineer. */
+"Video" = "Video";
+
+/* No comment provided by engineer. */
+"Video Streaming Alert" = "Alertă de difuzare video";
+
+/* No comment provided by engineer. */
+"Video link" = "Link video";
+
+/* No comment provided by engineer. */
+"Video streaming starting..." = "Începe difuzarea video...";
+
+/* No comment provided by engineer. */
+"Video streaming stopping..." = "Difuzare video încheiată...";
+
+/* No comment provided by engineer. */
+"View" = "Vizualizează";
+
+/* No comment provided by engineer. */
+"View Profile" = "Vizualizează Profil";
+
+/* No comment provided by engineer. */
+"Waiting" = "În așteptare";
+
+/* No comment provided by engineer. */
+"Warning" = "Atenție";
+
+/* No comment provided by engineer. */
+"Watch Now" = "Urmărește acum";
+
+/* No comment provided by engineer. */
+"We are sorry, you have been logged out, please login again." = "Ne pare rău, ai fost dat afară, loghează-te din nou";
+
+/* No comment provided by engineer. */
+"Welcome to %@" = "Bine ai venit pe %@";
+
+/* No comment provided by engineer. */
+"Welcome to Cell 411. Your verification code is" = "Bine ai venit pe Cell 112. Codul tău de verificare este";
+
+/* No comment provided by engineer. */
+"What would you like to do?" = "Ce ai dori să faci?";
+
+/* No comment provided by engineer. */
+"When this feature is enabled, a picture will be taken of anyone attempting to delete a %@ video alert using your phone's front camera. The video will not be deleted and will appear again when the app is relaunched" = "Când această funcție este activată, se va face o fotografie oricui încearcă să șteargă o alertă video %@ utilizând camera foto frontală a telefonului. Videoclipul nu va fi șters ci va apărea din nou în momentul relansării aplicației";
+
+/* No comment provided by engineer. */
+"When you are in Danger" = "Când ești în Pericol";
+
+/* No comment provided by engineer. */
+"When you are in an emergency" = "Când ești într-o situație de urgență";
+
+/* No comment provided by engineer. */
+"Working..." = "Calculare...";
+
+/* No comment provided by engineer. */
+"Would you like to enable publishing alerts to your Facebook Wall when you issue one?" = "Dorești să activezi publicarea alertelor pe peretele tău de Facebook?";
+
+/* No comment provided by engineer. */
+"Yes" = "Da";
+
+/* No comment provided by engineer. */
+"You" = "Tu";
+
+/* No comment provided by engineer. */
+"You already have a %@ Account. Please login with your existing account, go to Settings, then Connect your account with Facebook" = "Deja ai un cont de %@. Loghează-te cu contul existent, navighează la Setări, apoi conectează-te la contul tău de Facebook";
+
+/* No comment provided by engineer. */
+"You already reached the pickup location" = "Ai ajuns deja la locul de întâlnire";
+
+/* No comment provided by engineer. */
+"You are a member of this Cell" = "Ești membru al acestei Celule";
+
+/* No comment provided by engineer. */
+"You are here" = "Ești aici";
+
+/* No comment provided by engineer. */
+"You are in a Patrol Mode and recieved a Global Alert" = "Ești în Modul de Patrulare și ai primit o Alertă Globală";
+
+/* No comment provided by engineer. */
+"You are not a member of this Cell" = "Nu ești membru al acestei Celule";
+
+/* No comment provided by engineer. */
+"You are selected" = "Ai fost selectat";
+
+/* No comment provided by engineer. */
+"You are sending a GLOBAL alert! All %@ users with \"Patrol Mode\" enabled and within a %@ %@ radius will see your alert!" = "Trimiți o alertă GLOBALĂ! Toți utilizatorii %@ cu \"Modul Patrulare\" activat și aflați în raza %@ %@ vor vedea alerta ta!";
+
+/* No comment provided by engineer. */
+"You are the owner of this Cell" = "Ești proprietarul acestei Celule";
+
+/* No comment provided by engineer. */
+"You can add review once the ride is confirmed." = "Poți adăuga un calificativ odată ce cursa a luat sfârșit.";
+
+/* No comment provided by engineer. */
+"You can contact the rider once they confirm your ride." = "Poți contacta pasagerul odată ce acesta îți confirmă cursa.";
+
+/* No comment provided by engineer. */
+"You can navigate to the drop location of the rider once they confirm your ride." = "Poți naviga la destinația pasagerului odată ce acesta îți confirmă cursa.";
+
+/* No comment provided by engineer. */
+"You can navigate to the pickup location of the rider once they confirm your ride." = "Poți naviga la locul de întâlnire a pasagerului odată ce acesta îți confirmă cursa.";
+
+/* No comment provided by engineer. */
+"You cannot add yourself as friend" = "Nu poți să te adaugi pe tine însuți ca prieten";
+
+/* No comment provided by engineer. */
+"You cannot respond to this alert." = "Nu poți răspunde la această alertă.";
+
+/* No comment provided by engineer. */
+"You cannot respond to your own alerts." = "Nu poți răspunde la propriile tale alerte.";
+
+/* No comment provided by engineer. */
+"You have a pending pickup" = "Ai o ridicare în așteptare";
+
+/* No comment provided by engineer. */
+"You have a pending ride request" = "Ai o solicitare de cursă în așteptare";
+
+/* No comment provided by engineer. */
+"You have rejected %@ for this ride" = "Ai refuzat %@ pentru această cursă";
+
+/* No comment provided by engineer. */
+"You have selected %@ for this ride" = "Ai selectat %@ pentru această cursă";
+
+/* No comment provided by engineer. */
+"You must have at least two friends and must have issued an alert to some Private Cell in order to issue alerts globally." = "Trebuie să ai cel puțin doi prieteni și o alertă inițiată către o Celulă Privată pentru a putea emite alerte la nivel global.";
+
+/* No comment provided by engineer. */
+"You recieved a Global Alert" = "Ai primit o Alertă Globală";
+
+/* No comment provided by engineer. */
+"You were removed from Cell %@ by the owner" = "Ai fost înlăturat din Celula %@ de către proprietarul acesteia";
+
+/* No comment provided by engineer. */
+"Your %@ Panic Button \"%@\" battery is below 10 percent. Please replace the battery as soon as possible!" = "Bateria Butonului tău de Panică %@ \"%@\" este sub 10 la sută. Înlocuiește-ți bateria cât de curând posibil!";
+
+/* No comment provided by engineer. */
+"Your Facebook session is expired, please connect to Facebook again to publish alerts when you issue one" = "Sesiunea ta de Facebook a expirat, te rugăm reconectează-te la Facebook pentru a putea publica alertele când le emiți";
+
+/* No comment provided by engineer. */
+"Your Facebook session is expired, please login again to continue." = "Sesiunea ta de Facebook a expirat, te rugăm reconectează-te pentru a continua.";
+
+/* No comment provided by engineer. */
+"Your account has been blocked for violating the %@ Terms of Service." = "Contul tău a fost blocat din cauza încălcării Termenilor de Funcționare %@";
+
+/* No comment provided by engineer. */
+"Your account has been blocked for violating the Cell 411 Terms of Service." = "Contul tău a fost blocat din cauza încălcării termenilor de funcționare Cell 112.";
+
+/* No comment provided by engineer. */
+"Your account has been temporarily suspended for violating the %@ Terms of Service." = "Contul tău a fost suspendat temporar din cauza încălcării Termenilor de Funcționare %@.";
+
+/* No comment provided by engineer. */
+"Your account has been temporarily suspended for violating the Cell 411 Terms of Service." = "Contul tău a fost suspendat temporar din cauza încălcării termenilor de funcționare Cell 112.";
+
+/* No comment provided by engineer. */
+"Your friends can use %@ to scan this code and add you as a friend." = "Prietenii tăi pot folosi %@ pentru a scana acest cod și a te adăuga pe tine ca prieten.";
+
+/* No comment provided by engineer. */
+"Your new friend" = "Noul tău prieten";
+
+/* No comment provided by engineer. */
+"Your request has been sent to the owner of this Cell for approval" = "Solicitarea ta a fost trimisă către proprietarul acestei Celule pentru aprobare";
+
+/* No comment provided by engineer. */
+"Your response to this request is not yet seen by the rider" = "Răspunsul tău la această solicitare încă nu a fost văzut de către pasager";
+
+/* No comment provided by engineer. */
+"Your response to this request is seen by the rider" = "Răspunsul tău la această solicitare a fost văzut de către pasager";
+
+/* No comment provided by engineer. */
+"\nYou can view the location here: %@" = "\nPoți vizualiza localizarea aici: %@";
+
+/* No comment provided by engineer. */
+"a member of" = "membru al";
+
+/* No comment provided by engineer. */
+"approved your" = "ți-a aprobat";
+
+/* No comment provided by engineer. */
+"approved your friend request!" = "ți-a aprobat cererea de prietenie!";
+
+/* No comment provided by engineer. */
+"approved your request to join the Cell!" = "ți-a aprobat solicitarea de aderare a Celulei!";
+
+/* No comment provided by engineer. */
+"approved your ride!" = "ți-a aprobat cursa!";
+
+/* No comment provided by engineer. */
+"denied your request to join the Cell!" = "ți-a refuzat solicitarea de aderare la Celulă!";
+
+/* No comment provided by engineer. */
+"few mins" = "câteva minute";
+
+/* No comment provided by engineer. */
+"for approval" = "pentru aprobare";
+
+/* No comment provided by engineer. */
+"forwarded an emergency alert!" = "a redirecționat o alertă de urgență!";
+
+/* No comment provided by engineer. */
+"has just been created in your area." = "tocmai a fost creată în zona ta.";
+
+/* No comment provided by engineer. */
+"has just been created in your area. Tap on Join Cell to join this Public Cell, or Cancel to ignore" = "tocmai a fost creată în zona ta. Apasă Aderare Celulă pentru a te alătura sau Anulare pentru a ignora";
+
+/* No comment provided by engineer. */
+"has rejected your ride :(" = "ți-a refuzat cursa :(";
+
+/* No comment provided by engineer. */
+"has sent you a %@ friend request!" = "ți-a trimis o cerere de prietenie %@!";
+
+/* No comment provided by engineer. */
+"has sent you a Cell 411 friend request!" = "ți-a trimis o cerere de prietenie Cell 112!";
+
+/* No comment provided by engineer. */
+"has sent you an %@ friend request!" = "ți-a trimis o cerere de prietenie %@!";
+
+/* No comment provided by engineer. */
+"has sent you an iER friend request!" = "[ți-a trimis o cerere de prietenie iER!]";
+
+/* No comment provided by engineer. */
+"hours" = "ore";
+
+/* No comment provided by engineer. */
+"hr" = "ore";
+
+/* No comment provided by engineer. */
+"hrs" = "ore";
+
+/* No comment provided by engineer. */
+"in around" = "în jur";
+
+/* No comment provided by engineer. */
+"is not part of any Cell. Would you like to add this friend to a Cell?" = "nu face parte din nicio celulă. Dorești să adaugi acest prieten unei celule?";
+
+/* No comment provided by engineer. */
+"is requesting a ride" = "solicită o cursă";
+
+/* No comment provided by engineer. */
+"is streaming live video!" = "difuzează un video în direct!";
+
+/* No comment provided by engineer. */
+"issued a fallen alert!" = "a emis o alertă de cădere!";
+
+/* No comment provided by engineer. */
+"issued a panic alert!" = "a emis o alertă de panică!";
+
+/* No comment provided by engineer. */
+"issued a photo alert!" = "a emis o alertă foto!";
+
+/* No comment provided by engineer. */
+"issued a photo alert. Would you like to view it? You can also view it later from Alerts tab" = "a emis o alertă foto. Dorești să o vezi? Poți să o vezi și mai târziu din tab-ul Alerte";
+
+/* No comment provided by engineer. */
+"issued an emergency alert!" = "a emis o alertă de urgență!";
+
+/* No comment provided by engineer. */
+"join this Cell" = "aderă la această Celulă";
+
+/* No comment provided by engineer. */
+"km" = "km";
+
+/* No comment provided by engineer. */
+"kms" = "km";
+
+/* No comment provided by engineer. */
+"kms." = "km.";
+
+/* No comment provided by engineer. */
+"leave this Cell" = "părăsește această Celulă";
+
+/* No comment provided by engineer. */
+"meter" = "metru";
+
+/* No comment provided by engineer. */
+"mile" = "milă";
+
+/* No comment provided by engineer. */
+"miles" = "mile";
+
+/* No comment provided by engineer. */
+"min" = "minut";
+
+/* No comment provided by engineer. */
+"mins" = "minute";
+
+/* No comment provided by engineer. */
+"mins." = "minute.";
+
+/* No comment provided by engineer. */
+"offered to give you a" = "s-a oferit să îți acorde o";
+
+/* No comment provided by engineer. */
+"offered to give you a ride" = "s-a oferit să îți acorde o cursă";
+
+/* No comment provided by engineer. */
+"reached the pickup location and is ready to pick you up" = "a ajuns la locul de întâlnire și e pregătit pentru a te lua";
+
+/* No comment provided by engineer. */
+"requested a" = "a solicitat o";
+
+/* No comment provided by engineer. */
+"today at %@" = "astăzi la %@";
+
+/* No comment provided by engineer. */
+"wants to join your Cell" = "dorește să adere Celulei tale";
+
+/* No comment provided by engineer. */
+"%@ has just joined %@ would you like add them as friend" = "%@ tocmai sa alăturat %@ ai dori să îi adaugi ca prieteni";
+
+/* No comment provided by engineer. */
+"Check who's on %@ network by uploading your contacts and then you can choose with whom you want to connect" = "Verifică cine este deja în rețeaua %@ prin încărcarea contactelor și apoi vei putea alege cu cine vrei să te conectezi";
+
+/* No comment provided by engineer. */
+"Contacts deleted successfully" = "Contactele au fost șterse";
+
+/* No comment provided by engineer. */
+"Contacts uploaded successfully" = "Contactele au fost încărcate";
+
+/* No comment provided by engineer. */
+"Disable" = "Dezactivare";
+
+/* No comment provided by engineer. */
+"Error uploading contacts" = "Eroare în încărcarea contactelor";
+
+/* No comment provided by engineer. */
+"Friend request sent." = "Cerere de prietenie trimisă.";
+
+/* No comment provided by engineer. */
+"Info about contacts in your address book, including names, phone numbers and emails will be sent to %@ to help you and other find friends faster and to help us provide a better service. You can turn this off in Settings and manage or delete contact information you share with %@." = "nformații despre persoanele de contact din agendă, inclusiv numele, numerele de telefon și e-mailurile vor fi trimise către %@ pentru a-ți găsiți mai repede prieteni și inclusiv în a ne ajuta să îți furnizăm un serviciu mai bun. Poți dezactiva această fincție din Setări respectiv poți gestiona sau șterge informațiile contactelor pe care le trimiți prin %@.";
+
+/* No comment provided by engineer. */
+"Previously uploaded contacts will be deleted and you will no longer get notification when someone joins %@." = "Contactele încărcate anterior vor fi șterse și nu vei mai primi notificări când cineva se alătură %@.";
+
+/* No comment provided by engineer. */
+"Turning this feature ON will enable %@ to continuously upload your phone contacts in order to inform you when they join %@ so that you can friend with them if you want." = "Activarea acestei funcții va permite %@ să încarce în mod continuu persoanele de contact din telefon pentru a te informa când se alătură %@, astfel încât să îi poți adăuga ca prieteni dacă dorești.";
+
+/* No comment provided by engineer. */
+"Upload Contacts Disabled" = "Încărcarea Contactelor Dezactivată";
+
+/* No comment provided by engineer. */
+"Upload Contacts Enabled" = "Încărcarea Contactelor Activată";
+
+/* No comment provided by engineer. */
+"1 Hour" = "o oră";
+
+/* No comment provided by engineer. */
+"1 Month" = "o lună";
+
+/* No comment provided by engineer. */
+"6 Hours" = "6 ore";
+
+/* No comment provided by engineer. */
+"24 Hours" = "24 ore";
+
+/* No comment provided by engineer. */
+"Accept" = "AJUTĂ";
+
+/* No comment provided by engineer. */
+"By creating your %@ account you agree to our %@" = "Prin crearea contului tău %@ te declari de acord cu %@";
+
+/* No comment provided by engineer. */
+"Call Emergency Contact" = "Sună Persoana de Contact de Urgentă";
+
+/* No comment provided by engineer. */
+"Cannot Help" = "NU POT AJUTA";
+
+/* No comment provided by engineer. */
+"Collapse" = "Colapsează";
+
+/* No comment provided by engineer. */
+"Expand" = "Extinde";
+
+/* No comment provided by engineer. */
+"Forward Alert" = "DISTRIBUIE ALERTA CĂTRE ALȚII";
+
+/* No comment provided by engineer. */
+"Mute for..." = "Stinge sunetul pentru...";
+
+/* No comment provided by engineer. */
+"Radius %@ %@" = "Raza %@ %@";
+
+/* No comment provided by engineer. */
+"Search" = "Căutare";
+
+/* No comment provided by engineer. */
+"Terms & Conditions" = "Termeni și Condiții";
+
+/* No comment provided by engineer. */
+"Warning: Time delay setting does not apply to alerts issued via the %@ Bluetooth Panic Button!" = "Atenție: Setarea de discrepanță temporală nu se aplică alertelor inițiate prin Butonul de Panică Bluetooth al %@";
+
+/* No comment provided by engineer. */
+"Privacy Policy" = "Politică de Confidențialitate";
+
+/* No comment provided by engineer. */
+"%@ Update" = "%@ Actualizată";
+
+/* No comment provided by engineer. */
+"terms" = "termenii";
+
+/* No comment provided by engineer. */
+"Please confirm that you agree to our %@ and check each of the points below, hereby acknowledging that you took them into consideration and agree with all of them." = "Te rugăm să confirmi că ești de acord cu %@ noștri și să bifezi toate punctele de mai jos, prin prezenta declarând că ai luat la cunoștiință și ești de acord cu fiecare din acestea.";
+
+/* No comment provided by engineer. */
+" issued a pre-authorisation alert" = " a emis o alertă prealabilă autorizării";
+
+/* No comment provided by engineer. */
+"%@, someone in your area" = "%@, cineva din zona ta";
+
+/* No comment provided by engineer. */
+"%@.\nGo to Settings>Privacy and turn on Location Services to determine your current location." = "%@.\nNavighează la Setări>Confidențialitate și activează Serviciile de Localizare pentru a-ți putea stabili locația curentă.";
+
+/* No comment provided by engineer. */
+"%@.\nPlease go to Settings>Privacy and turn on Location Services for %@ to determine your current location." = "%@.\nTe rugăm navighează la Setări>Confidențialitate și activează Serviciile de Localizare pentru ca %@ să te poată localiza.";
+
+/* No comment provided by engineer. */
+"%d%% completed" = "%d%% finalizat";
+
+/* No comment provided by engineer. */
+"1. Make at least 2 friends\n2. Join at least 2 Public Cells\n3. Your profile must be 80% complete\n4. One week should pass since signing up" = "1. Fă-ți cel puțin 2 prieteni\n2. Aderă la cel puțin 2 Celule Publice\n3. Profilul trebuie să-ți fie 80% completat\n4. Trebuie să treacă o săptămână de la înscriere";
+
+/* No comment provided by engineer. */
+"Activism" = "Activism";
+
+/* No comment provided by engineer. */
+"Requirements not yet met for Global Alert privileges:" = "Criterii încă neîndeplinite pentru privilegii de Alerte Globale:";
+
+/* No comment provided by engineer. */
+"Cannot enable Location Updates without location access." = "Actualizările de localizare nu pot fi activate fără acces la serviciul de localizare.";
+
+/* No comment provided by engineer. */
+"Cannot enable New Public Cell Alerts without location access." = "Alertea a Noi Celule Publice nu poate fi activată fără acces la serviciul de localizare.";
+
+/* No comment provided by engineer. */
+"Cannot enable Patrol Mode without location access." = "Modul Patrulare nu poate fi activat fără acces la serviciul de localizare.";
+
+/* No comment provided by engineer. */
+"Cannot enable Ride Requests without location access." = "Solicitările de Curese nu pot fi activate fără acces la serviciul de localizare.";
+
+/* No comment provided by engineer. */
+"Cannot send an alert without location access." = "Alerta nu poate fi trimisă fără acces la serviciul de localizare.";
+
+/* No comment provided by engineer. */
+"Cannot share current location." = "Localizarea curentă nu poate fi partajată.";
+
+/* No comment provided by engineer. */
+"Cannot share location." = "Localizarea nu poate fi partajată.";
+
+/* No comment provided by engineer. */
+"Cells" = "Celule";
+
+/* No comment provided by engineer. */
+"Commercial" = "Comercial";
+
+/* No comment provided by engineer. */
+"Community Safety" = "Siguranță comunitară";
+
+/* No comment provided by engineer. */
+"Education" = "Educație";
+
+/* No comment provided by engineer. */
+"Enable" = "Activare";
+
+/* No comment provided by engineer. */
+"Enable Location" = "Activare Localizare";
+
+/* No comment provided by engineer. */
+"Global Alert" = "Alertă Globală";
+
+/* No comment provided by engineer. */
+"Global alert requirements" = "Cerințe pentru Alertare Globală";
+
+/* No comment provided by engineer. */
+"Government" = "Guvern";
+
+/* No comment provided by engineer. */
+"In order to provide reliable service %@ needs your location" = "Pentru a oferi servicii de încredere %@ are nevoie să îți cunoască localizarea";
+
+/* No comment provided by engineer. */
+"Journalism" = "Jurnalism";
+
+/* No comment provided by engineer. */
+"Location DEACTIVATED - last known location will be displayed" = "Localizarea DEACTIVATĂ - va fi afișată ultima poziție cunoscută";
+
+/* No comment provided by engineer. */
+"Neighbours" = "Vecini";
+
+/* No comment provided by engineer. */
+"Personal Safety" = "Siguranță Personală";
+
+/* No comment provided by engineer. */
+"Please enter description" = "Introdu descrierea";
+
+/* No comment provided by engineer. */
+"Please select any audience" = "Selectează orice audiență";
+
+/* No comment provided by engineer. */
+"Pre-Authorisation" = "Pre-Autorizare";
+
+/* No comment provided by engineer. */
+"Private Cell" = "Celulă Privată";
+
+/* No comment provided by engineer. */
+"Public Cell" = "Celulă Publică";
+
+/* No comment provided by engineer. */
+"Pulled Over" = "Tras pe dreapta";
+
+/* No comment provided by engineer. */
+"Real time location ACTIVATED" = "Localizare în timp real ACTIVATĂ";
+
+/* No comment provided by engineer. */
+"Retrieving Location" = "Recepționarea Localizării";
+
+/* No comment provided by engineer. */
+"Retrieving..." = "Recepționare...";
+
+/* No comment provided by engineer. */
+"SMS/Email" = "SMS/Email";
+
+/* No comment provided by engineer. */
+"Schoolmates" = "Colegi de școală";
+
+/* No comment provided by engineer. */
+"Send pre-authorisation alert?" = "Trimite alertă pre-autorizare?";
+
+/* No comment provided by engineer. */
+"Send pulled over alert?" = "Trimite alertă de tras pe dreapta?";
+
+/* No comment provided by engineer. */
+"Some error occurred, please try again" = "A apărut o eroare, încercă din nou";
+
+/* No comment provided by engineer. */
+"Tap Advanced Panic Settings to configure the time, recipients and additional text to be sent while issuing Panic alert." = "Accesează Setările Avansate de Panică pentru a configura timpul, destinatarii și textul adițional care va fi trimis în cazul emiterii unei Alerte de Panică.";
+
+/* No comment provided by engineer. */
+"Turning on Location Updates requires %@ to access your location." = "Activarea Actualizărilor Localizate necesită accesul %@ la locația ta.";
+
+/* No comment provided by engineer. */
+"Turning on New Public Cell Alerts requires %@ to access your location." = "Activarea Alertelor de Noi Celule Publice necesită accesul %@ la locația ta.";
+
+/* No comment provided by engineer. */
+"Turning on Patrol Mode requires %@ to access your location." = "Activarea modului Patrulare necesită accesul %@ la locația ta.";
+
+/* No comment provided by engineer. */
+"Turning on Ride Requests requires %@ to access your location." = "Activarea Solicitărilor de Curse necesită accesul %@ la locația ta.";
+
+/* No comment provided by engineer. */
+"Turning location updates off will also disable Patrol Mode and Ride Requests. Do you still want to turn it off?" = "Dezactivarea actualizărilor de localizare va dezactiva de asemenea Modul Patrulare și Solicitările de Curse. Sigur dorești să îl dezactivezi?";
+
+/* No comment provided by engineer. */
+"Turning location updates off will also disable Patrol Mode, New Public Cell Alert and Ride Requests. Do you still want to turn it off?" = "Dezactivarea actualizărilor de localizare va dezactiva de asemenea Modul Patrulare, alertele Creării a Noi Celule Publice și Solicitările de Curse. Sigur dorești să îl dezactivezi?";
+
+/* No comment provided by engineer. */
+"Turning location updates off will also disable Ride Requests and New Public Cell Alert. Do you still want to turn it off?" = "Dezactivarea actualizărilor de localizare va dezactiva de asemenea Modul Patrulare și alertele Creării a Noi Celule Publice. Sigur dorești să îl dezactivezi?";
+
+/* No comment provided by engineer. */
+"Turning location updates off will also disable Ride Requests. Do you still want to turn it off?" = "Dezactivarea actualizărilor de localizare va dezactiva de asemenea Solicitările de Curse. Sigur dorești să îl dezactivezi?";
+
+/* No comment provided by engineer. */
+"Using last known location." = "Se va utiliza ultima locație cunoscută.";
+
+/* No comment provided by engineer. */
+"user" = "utilizator";
+
+/* No comment provided by engineer. */
+"users" = "utilizatori";
+
+/* No comment provided by engineer. */
+"Add Phone Number" = "Adaugă numărul de telefon";
+
+/* No comment provided by engineer. */
+"Advance Settings" = "Setări avansate";
+
+/* No comment provided by engineer. */
+"Alerts" = "Alerte";
+
+/* No comment provided by engineer. */
+"Are you sure you want to disconnect your account from Facebook?" = "Ești sigur că vrei să îți deconectezi contul de Facebook?";
+
+/* No comment provided by engineer. */
+"Blocked Users" = "Utilizatori blocați";
+
+/* No comment provided by engineer. */
+"Broadcast Message" = "Difuzează mesaj";
+
+/* No comment provided by engineer. */
+"Chats" = "Chats";
+
+/* No comment provided by engineer. */
+"Connect and notify" = "Conectare și notificare";
+
+/* No comment provided by engineer. */
+"Edit Profile" = "Editare profil";
+
+/* No comment provided by engineer. */
+"In an emergency" = "Într-o situație de urgență";
+
+/* No comment provided by engineer. */
+"Know Your Rights" = "Cunoaște-ți drepturile";
+
+/* No comment provided by engineer. */
+"Map" = "Hartă";
+
+/* No comment provided by engineer. */
+"My Device" = "Dispozitivul meu";
+
+/* No comment provided by engineer. */
+"Pick Location" = "Alege locul";
+
+/* No comment provided by engineer. */
+"QR Code" = "Cod QR";
+
+/* No comment provided by engineer. */
+"Request Ride" = "Solicită cursă";
+
+/* No comment provided by engineer. */
+"Request Verification" = "Solicită verificare";
+
+/* No comment provided by engineer. */
+"Reviews" = "Calificative";
+
+/* No comment provided by engineer. */
+"Ride Detail" = "Cursă: Detalii";
+
+/* No comment provided by engineer. */
+"Ride Responses" = "Cursă: Răspunsuri";
+
+/* No comment provided by engineer. */
+"Ride Settings" = "Setări cursă";
+
+/* No comment provided by engineer. */
+"Scan Code" = "Scanează cod";
+
+/* No comment provided by engineer. */
+"Select Contacts" = "Selectare Contacte";
+
+/* No comment provided by engineer. */
+"Select Friends" = "Selectează prieteni";
+
+/* No comment provided by engineer. */
+"Select One" = "Selectează unul";
+
+/* No comment provided by engineer. */
+"Select Private Cells" = "Selectează Celulele Private";
+
+/* No comment provided by engineer. */
+"Select Public Cells" = "Selectează Celule Publice";
+
+/* No comment provided by engineer. */
+"Update Phone Number" = "Actualizare număr de telefon";
+
+/* No comment provided by engineer. */
+"Update Public Cell" = "Actualizează Ceula Publică";
+
+/* No comment provided by engineer. */
+"Video Settings" = "Setări video";
+
+/* No comment provided by engineer. */
+"\n- number of Public Cells joined so far" = "\n- numărul Celuelor Publice aderate";
+
+/* No comment provided by engineer. */
+"\n- number of friends in %@" = "\n- numărul prietenilor din %@";
+
+/* No comment provided by engineer. */
+"\n- profile status only %d%% complete" = "\n- profilul îți este %d%% complet";
+
+/* No comment provided by engineer. */
+"\n- time passed since signing up to %@" = "\n- perioada de la înscrierea în %@";
+
+/* No comment provided by engineer. */
+"This app is currently for testing purposes only, not yet intended for public use. Proceed only if you have early access credentials." = "Această aplicație este în prezent disponibilă exclusiv cu scop de testare, ne fiind încă destinată publicului. Procedați numai dacă aveți acreditări de acces timpuriu.";
+
+/* No comment provided by engineer. */
+"Thank you for your interest, we will inform you via the e-mail you have provided as soon as this app becomes public." = "Mulțumim pentru interes, vă vom informa prin e-mailul pe care l-ați furnizat de îndată ce această aplicație devine publică.";
+
+/* No comment provided by engineer. */
+" is being harassed" = " este abuzat";
+
+/* No comment provided by engineer. */
+"Send harassed alert?" = "Trimite alertă de abuzare?";

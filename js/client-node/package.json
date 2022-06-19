@@ -1,0 +1,9 @@
+{
+  "name": "client-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "q": "^1.5.1"
+  }
+}

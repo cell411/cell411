@@ -1,0 +1,132 @@
+{
+  "className": "_User",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "username": {
+      "type": "String"
+    },
+    "password": {
+      "type": "String"
+    },
+    "email": {
+      "type": "String"
+    },
+    "emailVerified": {
+      "type": "Boolean"
+    },
+    "authData": {
+      "type": "Object"
+    },
+    "firstName": {
+      "type": "String"
+    },
+    "lastName": {
+      "type": "String"
+    },
+    "mobileNumber": {
+      "type": "String"
+    },
+    "friends": {
+      "type": "Relation",
+      "targetClass": "_User"
+    },
+    "emergencyContactName": {
+      "type": "String"
+    },
+    "emergencyContactNumber": {
+      "type": "String"
+    },
+    "PatrolMode": {
+      "type": "Number"
+    },
+    "location": {
+      "type": "GeoPoint"
+    },
+    "spamUsers": {
+      "type": "Relation",
+      "targetClass": "_User"
+    },
+    "spammedBy": {
+      "type": "Relation",
+      "targetClass": "_User"
+    },
+    "otherMedicalConditions": {
+      "type": "String"
+    },
+    "allergies": {
+      "type": "String"
+    },
+    "bloodType": {
+      "type": "String"
+    },
+    "newPublicCellAlert": {
+      "type": "Number"
+    },
+    "privilege": {
+      "type": "String"
+    },
+    "clientFirmId": {
+      "type": "Number"
+    },
+    "roleId": {
+      "type": "Number"
+    },
+    "imageName": {
+      "type": "Number"
+    },
+    "phoneVerified": {
+      "type": "Boolean"
+    },
+    "tag": {
+      "type": "Array"
+    },
+    "city": {
+      "type": "String"
+    },
+    "isDeleted": {
+      "type": "Number"
+    },
+    "rideRequestAlert": {
+      "type": "Boolean"
+    },
+    "syncContacts": {
+      "type": "Number"
+    },
+    "carImageName": {
+      "type": "Number"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    },
+    "readUserFields": [],
+    "writeUserFields": []
+  }
+}

@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "0.12"
+  - "4"
+  - "6"
+  - "8"
+  - "10"
+  - "11"
+before_script:
+  - tmp=$(mktemp --directory)
+  - bash -O dotglob -O extglob -c 'mv !(node_modules|test) "$1"/' bash "$tmp"
+  - pack=$(npm pack "$tmp")
+  - tar --strip-components=1 -x -v -f "$pack"
+  - npm install --no-save

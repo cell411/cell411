@@ -1,0 +1,59 @@
+{
+  "className": "Log",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "actionId": {
+      "type": "Number"
+    },
+    "modifier_entity": {
+      "type": "Pointer",
+      "targetClass": "_User"
+    },
+    "modified_entity": {
+      "type": "Pointer",
+      "targetClass": "_User"
+    },
+    "modified_value": {
+      "type": "Array"
+    },
+    "modified_entity_name": {
+      "type": "String"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    }
+  },
+  "indexes": {
+    "_id_": {
+      "_id": 1
+    }
+  }
+}

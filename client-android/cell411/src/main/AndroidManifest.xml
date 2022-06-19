@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        package="com.safearx.cell411.dev"
+        android:installLocation="auto"
+        >
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.Manifest.permission.MODIFY_AUDIO_ROUTING" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+            android:name="android.hardware.microphone"
+            android:required="true"
+            />
+    <uses-feature
+            android:name="android.hardware.location.gps"
+            android:required="true"
+            />
+    <uses-feature
+            android:name="android.hardware.camera"
+            android:required="false"
+            />
+    <uses-feature
+            android:name="android.hardware.camera.autofocus"
+            android:required="false"
+            />
+
+    <application
+            android:name="cell411.Cell411"
+            android:allowBackup="false"
+            android:icon="@mipmap/appicon"
+            android:label="@string/app_name"
+            android:largeHeap="true"
+            android:networkSecurityConfig="@xml/network_security_config"
+            android:theme="@style/AppTheme"
+            android:dataExtractionRules="@xml/data_extraction_rules"
+            android:fullBackupContent="false"
+            tools:targetApi="s"
+            >
+
+        <activity
+                android:name="cell411.ui.chats.NewChatActivity"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="stateHidden"
+                tools:ignore="LockedOrientationActivity"
+                />
+        <activity
+                android:name="cell411.MainActivity"
+                android:exported="true"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.NoActionBar"
+                tools:ignore="LockedOrientationActivity"
+                >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="cell411.ui.welcome.LoginActivity"
+                android:exported="true"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:windowSoftInputMode="stateHidden"
+                tools:ignore="LockedOrientationActivity"
+                />
+        <activity
+                android:name="cell411.ui.welcome.RegisterActivity"
+                android:exported="true"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:windowSoftInputMode="stateHidden"
+                tools:ignore="LockedOrientationActivity"
+                />
+
+        <activity
+                android:name="cell411.ui.utils.CustomNotificationActivity"
+                android:label="@string/notifications"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                />
+        <activity
+                android:name="cell411.ui.utils.KnowYourRightsActivity"
+                android:label="@string/title_know_your_rights"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                />
+        <activity
+                android:name="cell411.ui.self.ChangePasswordActivity"
+                android:label="@string/title_change_password"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                />
+        <activity
+                android:name="cell411.ui.self.ProfileViewActivity"
+                android:label="@string/title_view_profile"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                android:exported="true"
+                >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="cell411.ui.self.ProfileEditActivity"
+                android:label="@string/title_edit_profile"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                />
+        <activity
+                android:name="cell411.ui.cells.PublicCellCreateOrEditActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                />
+        <activity
+                android:name="cell411.ui.alerts.AlertDetailActivity"
+                android:configChanges="screenSize|orientation"
+                android:theme="@style/PopupDialog"
+                />
+        <activity
+                android:name="cell411.ui.alerts.ImageScreenActivity"
+                android:exported="true"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                        android:host="photo"
+                        android:scheme="cell411"
+                        />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="cell411.ui.alerts.AlertActivity"
+                android:configChanges="screenSize|orientation"
+                android:exported="true"
+                android:theme="@style/PopupDialog"
+                >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                        android:host="alert"
+                        android:scheme="cell411"
+                        />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="cell411.ui.friends.UserActivity"
+                android:configChanges="screenSize|orientation"
+                />
+        <activity
+                android:name="cell411.ui.cells.PublicCellMembersActivity"
+                android:label="@string/title_public_cell"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                />
+        <activity
+                android:name="cell411.ui.self.SpammedUsersActivity"
+                android:label="@string/title_blocked_users"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                />
+        <activity
+                android:name="cell411.ui.self.EnterPhoneActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                />
+        <activity
+                android:name="cell411.ui.self.ProfileImageActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                />
+        <activity
+                android:name="cell411.ui.cells.PrivateCellMembersActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                />
+        <activity
+                android:name="cell411.ui.friends.SelectFriendsActivity"
+                android:label="@string/title_select_friends"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                />
+        <activity
+                android:name="cell411.ui.alerts.AlertIssuingActivity"
+                android:configChanges="screenSize|orientation"
+                android:theme="@style/PopupDialog"
+                android:windowSoftInputMode="stateHidden"
+                />
+        <activity
+                android:name="cell411.ui.utils.AboutActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity"
+                />
+        <activity android:name="cell411.ui.utils.SettingsActivity" />
+        <activity android:name="cell411.ui.utils.ip.ImagePickerActivity" />
+
+        <provider
+                android:name="androidx.core.content.FileProvider"
+                android:authorities="app.copblock.dev.file.provider"
+                android:exported="false"
+                android:grantUriPermissions="true"
+                >
+            <meta-data
+                    android:name="android.support.FILE_PROVIDER_PATHS"
+                    android:resource="@xml/file_paths"
+                    />
+        </provider>
+
+    </application>
+
+</manifest>

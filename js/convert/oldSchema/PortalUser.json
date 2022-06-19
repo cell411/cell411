@@ -1,0 +1,56 @@
+{
+  "className": "PortalUser",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "user": {
+      "type": "Pointer",
+      "targetClass": "_User"
+    },
+    "isActive": {
+      "type": "Number"
+    },
+    "userRole": {
+      "type": "Pointer",
+      "targetClass": "UserRole"
+    },
+    "tag": {
+      "type": "Array"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    }
+  },
+  "indexes": {
+    "_id_": {
+      "_id": 1
+    }
+  }
+}

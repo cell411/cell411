@@ -1,0 +1,2341 @@
+/* No comment provided by engineer. */
+" is being bullied" = " wird schikaniert";
+
+/* No comment provided by engineer. */
+" is being hijacked" = " wird entführt";
+
+/* No comment provided by engineer. */
+" is being pulled over by police" = " wird von der Polizei angehalten";
+
+/* No comment provided by engineer. */
+" is cop blocking" = " behindert die Polizei";
+
+/* No comment provided by engineer. */
+" is fallen" = " ist gestürzt";
+
+/* No comment provided by engineer. */
+" is in danger" = " ist in Gefahr";
+
+/* No comment provided by engineer. */
+" is in panic" = " ist in Panik";
+
+/* No comment provided by engineer. */
+" is observing a fire" = " beobachtet ein Feuer";
+
+/* No comment provided by engineer. */
+" is observing criminal activity" = " beobachtet kriminelle Aktivitäten";
+
+/* No comment provided by engineer. */
+" is observing someone being arrested" = " beobachtet jemanden, der verhaftet wird";
+
+/* No comment provided by engineer. */
+" issued this alert" = " löste diesen Alarm aus";
+
+/* No comment provided by engineer. */
+" needs medical attention" = " benötigt medizinische Hilfe";
+
+/* No comment provided by engineer. */
+"\"Let your friends and neighbours know of lurking dangers in your community and improve safety in your neighborhood\"" = "Informieren Sie Ihre Freunde und Nachbarn über lauernde Gefahren in Ihrer Gemeinschaft und verbessern Sie die Sicherheit in Ihrer Nachbarschaft.";
+
+/* No comment provided by engineer. */
+"\"This is the app that allows you to issue and respond to emergencies from your family, friends and neighbors in real time\"" = "Dies ist die App, die es Ihnen erlaubt, Notfälle zu veröffentlichen und auf die von Ihrer Familie, den Freunden und Nachbarn in Echtzeit zu reagieren.";
+
+/* No comment provided by engineer. */
+"\"When you are in an emergency, just press the emergency button and you are instantly connected with our highly trained emergency response management team who will dispatch the correct rescue or support asset to your emergency.\"" = "Wenn Sie in einem Notfall sind, drücken Sie einfach den Notfallknopf und Sie werden sofort mit unserem gut ausgebildeten Notfall-Team verbunden, das Sie zur korrekten Rettungs- oder Hilfsstelle für Ihren Notfall verbindet.";
+
+/* No comment provided by engineer. */
+"\"You can stream live video and audio to all your friends and groups, to one person or one thousand. The video cannot be deleted or erased.\"" = "Sie können Live-Video und Audio an alle Ihre Freunde und Gruppen streamen, an eine Person oder Tausende. Das Video kann nicht gelöscht werden.";
+
+/* No comment provided by engineer. */
+"\"iER is South Africa’s only national dedicated emergency response and disaster management network. With iER you are connected with 1000’s of emergency and security personnel who will come to your assistance when needed.\"" = "iER ist die einzige zweckbestimmte Notfall- und Katastrophen-Managementnetzwerk in Südafrika. Mit iER sind Sie mit Tausenden von Notfall- und Sicherheitsmitarbeiter verbunden, die Ihnen falls nötig zur Hilfe kommen.";
+
+/* No comment provided by engineer. */
+"'s car broke down" = "s Auto ist liegengeblieben.";
+
+/* No comment provided by engineer. */
+"(1-50 miles)" = "(1-50 Meilen)";
+
+/* No comment provided by engineer. */
+"(1-80 kms)" = "(1-80 km)";
+
+/* No comment provided by engineer. */
+"- All Friend(s)
+" = "- Alle Freunde ";
+
+/* No comment provided by engineer. */
+"- Near By users
+" = "- Benutzer in der Nähe ";
+
+/* No comment provided by engineer. */
+"- Private Cell(s):" = "- Private Zelle(n):";
+
+/* No comment provided by engineer. */
+"- Public Cell(s):" = "- Öffentliche Zelle(n):";
+
+/* No comment provided by engineer. */
+"1 user" = "1 Benutzer";
+
+/* No comment provided by engineer. */
+"A friend invite was send to" = "Ein Freund lud Sie ein zu";
+
+/* No comment provided by engineer. */
+"A new Public Cell called" = "Ein neue öffentlich Zelle namens";
+
+/* No comment provided by engineer. */
+"ADD" = "HINZUFÜGEN";
+
+/* No comment provided by engineer. */
+"ADDITIONAL NOTE" = "ZUSÄTZLICHE MITTEILUNG";
+
+/* No comment provided by engineer. */
+"ALLERGIES" = "ALLERGIEN";
+
+/* No comment provided by engineer. */
+"Add" = "Hinzufügen";
+
+/* No comment provided by engineer. */
+"Add a note" = "Mitteilung hinzufügen";
+
+/* No comment provided by engineer. */
+"Add a note?" = "Mitteilung hinzufügen?";
+
+/* No comment provided by engineer. */
+"Additional Note" = "Zusätzliche Mitteilung";
+
+/* No comment provided by engineer. */
+"Additional text message if any" = "Zusätzliche optionale Textmitteilung";
+
+/* No comment provided by engineer. */
+"Alert" = "Alarm";
+
+/* No comment provided by engineer. */
+"Alert sent successfully" = "Alarm erfolgreich gesendet";
+
+/* No comment provided by engineer. */
+"All Friends" = "Alle Freunde";
+
+/* No comment provided by engineer. */
+"Allergies" = "Allergien";
+
+/* No comment provided by engineer. */
+"An email has been sent with reset password instructions, please check your email" = "Es wurde eine E-Mail mit Anweisungen zum Zurücksetzen gesendet. Bitte sehen Sie in Ihren E-Mails nach.";
+
+/* No comment provided by engineer. */
+"An unknown error occurred." = "Ein unbekannter Fehler ist aufgetreten.";
+
+/* No comment provided by engineer. */
+"App requires to connect to Facebook in order to publish alerts when you issue one" = "Die App erfordert eine Verbindung zu Facebook, um Alarme zu veröffentlichen, wenn Sie einen ausgeben.";
+
+/* No comment provided by engineer. */
+"App requires to connect to Facebook in order to stream videos to your Facebook Wall when you stream one." = "Die App erfordert eine Verbindung zu Facebook, um Videos an Ihre Facebook-Pinnwand zu streamen, wenn es eines gibt.";
+
+/* No comment provided by engineer. */
+"Approve" = "Genehmigen";
+
+/* No comment provided by engineer. */
+"Are you lost with a broken car?" = "Sind Sie mit einem defekten Auto gestrandet?";
+
+/* No comment provided by engineer. */
+"Are you sure you want to disconnect your account from Facebook? App will no longer be able to publish alerts or stream live video to your Facebook wall." = "Möchten Sie Ihr Facebook-Konto wirklich trennen? Die App kann keine weiteren Alarme oder Live-Videos auf Ihrer Facebook-Pinnwand veröffentlichen.";
+
+/* No comment provided by engineer. */
+"Are you sure you want to disconnect your account from Facebook? App will no longer be able to publish alerts to your Facebook wall." = "Möchten Sie Ihr Facebook-Konto wirklich trennen? Die App kann keine weiteren Alarme an Ihrer Facebook-Pinnwand veröffentlichen.";
+
+/* No comment provided by engineer. */
+"Are you sure you want to forget this device?" = "Möchten Sie dieses Gerät wirklich vergessen?";
+
+/* No comment provided by engineer. */
+"Are you sure, you want to logout? You will no longer be able to receive and send emergency alerts!" = "Möchten Sie sich wirklich abmelden? Sie können keine weiteren Notfallalarme empfangen oder senden!";
+
+/* No comment provided by engineer. */
+"Atleast one payment form has to be selected" = "Mindestens eine Zahlungsform muss ausgewählt werden.";
+
+/* No comment provided by engineer. */
+"Attention" = "Achtung";
+
+/* No comment provided by engineer. */
+"Authorization Status" = "Autorisierungsstatus";
+
+/* No comment provided by engineer. */
+"BLOOD GROUP" = "BLUTGRUPPE";
+
+/* No comment provided by engineer. */
+"Battery: Retrieving" = "Batterie: Wird abgerufen ...";
+
+/* No comment provided by engineer. */
+"Blood Type" = "Blutgruppe";
+
+/* No comment provided by engineer. */
+"Bluetooth BLE hardware is unsupported on this device" = "Bluetooth-BLE-Hardware wird auf diesem Gerät nicht unterstützt.";
+
+/* No comment provided by engineer. */
+"By sending alerts to nearby users, strangers who are not your friends may receive these alerts.  Are you sure you want to alert strangers when issuing a panic alert?" = "Durch die Sendung eines Alarms an Benutzer in der Nähe, können Fremde, die nicht Ihre Freunde sind, diese Alarme erhalten. Möchten Sie wirklich Fremde alarmieren, wenn Sie einen Panikalarm auslösen?";
+
+/* No comment provided by engineer. */
+"CHANGE PASSWORD" = "PASSWORT ÄNDERN";
+
+/* No comment provided by engineer. */
+"CLOSE" = "SCHLIESSEN";
+
+/* No comment provided by engineer. */
+"Camera" = "Kamera";
+
+/* No comment provided by engineer. */
+"Cancel" = "Abbrechen";
+
+/* No comment provided by engineer. */
+"Cancelled" = "Storniert";
+
+/* No comment provided by engineer. */
+"Category not available" = "Kategorie nicht verfügbar";
+
+/* No comment provided by engineer. */
+"Cell Name" = "Zellenname";
+
+/* No comment provided by engineer. */
+"Cell added successfully" = "Zelle erfolgreich hinzugefügt";
+
+/* No comment provided by engineer. */
+"Cell name" = "Zellenname";
+
+/* No comment provided by engineer. */
+"Close" = "Schließen";
+
+/* No comment provided by engineer. */
+"Coming Soon" = "Kommt bald";
+
+/* No comment provided by engineer. */
+"Confirmed" = "Bestätigt";
+
+/* No comment provided by engineer. */
+"Connect" = "Verbinden";
+
+/* No comment provided by engineer. */
+"Connected" = "Verbunden";
+
+/* No comment provided by engineer. */
+"Connecting" = "Verbindung";
+
+/* No comment provided by engineer. */
+"Connection Error" = "Verbindungsfehler";
+
+/* No comment provided by engineer. */
+"Continue" = "Weiter";
+
+/* No comment provided by engineer. */
+"Cost cannot be empty." = "Kosten dürfen nicht leer sein.";
+
+/* No comment provided by engineer. */
+"Coworkers" = "Kollegen";
+
+/* No comment provided by engineer. */
+"Create new Cell" = "Neue Zelle erstellen";
+
+/* No comment provided by engineer. */
+"Current Location Not Found" = "Aktueller Standort nicht gefunden";
+
+/* No comment provided by engineer. */
+"Deny" = "Ablehnen";
+
+/* No comment provided by engineer. */
+"Did you reached the pickup location?" = "Haben Sie den Abholort erreicht?";
+
+/* No comment provided by engineer. */
+"Disconnected" = "Getrennt";
+
+/* No comment provided by engineer. */
+"Disconnecting" = "Verbindung wird getrennt";
+
+/* No comment provided by engineer. */
+"Do It Later" = "Später erledigen";
+
+/* No comment provided by engineer. */
+"Do it later" = "Später erledigen";
+
+/* No comment provided by engineer. */
+"Do you also want to start streaming live video globally?" = "Möchten außerdem das Streamen von weltweitem Live-Video starten?";
+
+/* No comment provided by engineer. */
+"Do you also want to start streaming live video to all friends?" = "Möchten Sie außerdem das Streamen von Live-Video an alle Freunde starten?";
+
+/* No comment provided by engineer. */
+"Do you also want to start streaming live video?" = "Möchten Sie außerdem das Streamen von Live-Video starten?";
+
+/* No comment provided by engineer. */
+"Do you want directions to the pickup location?" = "Möchten Sie eine Wegbeschreibung zum Abholort erhalten?";
+
+/* No comment provided by engineer. */
+"Do you want to send additional note to" = "Zusätzlich Sendung einer Mitteilung an";
+
+/* No comment provided by engineer. */
+"Done" = "Fertig";
+
+/* No comment provided by engineer. */
+"Downloaded" = "Heruntergeladen";
+
+/* No comment provided by engineer. */
+"EXPLORE CELLS" = "ZELLEN ERKUNDEN";
+
+/* No comment provided by engineer. */
+"Email Required" = "E-Mail-Adresse erforderlich";
+
+/* No comment provided by engineer. */
+"Enable Fall Detection" = "Sturzerkennung aktivieren";
+
+/* No comment provided by engineer. */
+"Enter alert description" = "Alarmbeschreibung eingeben";
+
+/* No comment provided by engineer. */
+"Enter device name" = "Gerätename eingeben";
+
+/* No comment provided by engineer. */
+"Enter email address" = "E-Mail-Adresse eingeben";
+
+/* No comment provided by engineer. */
+"Enter your email" = "Geben Sie Ihre E-Mail-Adresse ein.";
+
+/* No comment provided by engineer. */
+"Error occurred: Try again later." = "Fehler aufgetreten: Später erneut versuchen.";
+
+/* No comment provided by engineer. */
+"FALLEN ALERT" = "STURZALARM";
+
+/* No comment provided by engineer. */
+"FAQ" = "Häufige Fragen";
+
+/* No comment provided by engineer. */
+"FAQ & TUTORIALS" = "HÄUFIGE FRAGEN UND ANLEITUNGEN";
+
+/* No comment provided by engineer. */
+"FORWARDED ALERT" = "WEITERGELEITETER ALARM";
+
+/* No comment provided by engineer. */
+"FRIENDS" = "FREUNDE";
+
+/* No comment provided by engineer. */
+"Family" = "Familie";
+
+/* No comment provided by engineer. */
+"Forward Alert?" = "Alarm weiterleiten?";
+
+/* No comment provided by engineer. */
+"Friends" = "Freunde";
+
+/* No comment provided by engineer. */
+"GENERATE Q.R. CODE" = "QR-CODE ERZEUGEN";
+
+/* No comment provided by engineer. */
+"GLOBAL ALERT" = "WELTWEITER ALARM";
+
+/* No comment provided by engineer. */
+"Gallery" = "Galerie";
+
+/* No comment provided by engineer. */
+"Go to Settings>Privacy and turn on Location Services to determine your current location." = "Gehen Sie in Einstellungen>Privatspähre und schalten Sie die Ortungsdienste ein, um Ihren aktuellen Standort zu bestimmen.";
+
+/* No comment provided by engineer. */
+"Hybrid" = "Hybrid";
+
+/* No comment provided by engineer. */
+"I" = "Ich";
+
+/* No comment provided by engineer. */
+"INVITE" = "EINLADEN";
+
+/* No comment provided by engineer. */
+"INVITE CONTACTS" = "KONTAKTE EINLADEN";
+
+/* No comment provided by engineer. */
+"If approved, this member will be able to send emergency alerts to the members of this Cell" = "Nach der Genehmigung kann dieser Benutzer Notfallalarme an die Mitglieder dieser Zelle senden.";
+
+/* No comment provided by engineer. */
+"Image Saved Successfully" = "Bild erfolgreich aktualisiert";
+
+/* No comment provided by engineer. */
+"Invalid Code" = "Ungültiger Code";
+
+/* No comment provided by engineer. */
+"Invite sent successfully" = "Einladung erfolgreich gesendet";
+
+/* No comment provided by engineer. */
+"Issuing unnecessary ride requests can lead to being blocked for abuse or your account being suspended. Do you want to continue?" = "Die Veröffentlichung unnötiger Fahrtanfragen kann zur Blockierung wegen Missbrauchs oder Sperrung Ihres Kontos führen. Möchten Sie fortfahren?";
+
+/* No comment provided by engineer. */
+"JOINED CELLS" = "BEIGETRETENE ZELLEN";
+
+/* No comment provided by engineer. */
+"Join Cell" = "Zelle beitreten";
+
+/* No comment provided by engineer. */
+"Join This Cell" = "Dieser Zelle beitreten";
+
+/* No comment provided by engineer. */
+"KNOW YOUR RIGHTS" = "KENNE DEINE RECHTE";
+
+/* No comment provided by engineer. */
+"Km" = "km";
+
+/* No comment provided by engineer. */
+"Kms" = "km";
+
+/* No comment provided by engineer. */
+"LOGOUT" = "ABMELDUNG";
+
+/* No comment provided by engineer. */
+"Later" = "Später";
+
+/* No comment provided by engineer. */
+"Leave This Cell" = "Diese Zelle verlassen";
+
+/* No comment provided by engineer. */
+"Location Services Disabled" = "Ortungsdienste deaktiviert";
+
+/* No comment provided by engineer. */
+"Logout" = "Abmeldung";
+
+/* No comment provided by engineer. */
+"MY PRIVATE CELLS" = "MEINE PRIVATEN ZELLEN";
+
+/* No comment provided by engineer. */
+"MY PROFILE" = "MEIN PROFIL";
+
+/* No comment provided by engineer. */
+"MY PUBLIC CELLS" = "MEINE ÖFFENTLICHEN ZELLEN";
+
+/* No comment provided by engineer. */
+"Map Type" = "Kartentyp";
+
+/* No comment provided by engineer. */
+"Medical Details" = "Medizinische Details";
+
+/* No comment provided by engineer. */
+"N/A" = "Entfällt";
+
+/* No comment provided by engineer. */
+"Need Bluetooth for Panic Button to work" = "Zur Funktion des Panikknopfs wird Bluetooth benötigt.";
+
+/* No comment provided by engineer. */
+"Neighborhood Watch" = "Nachbarschaftswache";
+
+/* No comment provided by engineer. */
+"No" = "Nein";
+
+/* No comment provided by engineer. */
+"No members in the selected Cell" = "Keine Mitglieder in der ausgewählten Zelle";
+
+/* No comment provided by engineer. */
+"No more Cells to load" = "Keine weiteren zu ladende Zellen";
+
+/* No comment provided by engineer. */
+"Not Verified" = "Nicht bestätigt";
+
+/* No comment provided by engineer. */
+"Notify Again" = "Erneut benachrichtigen";
+
+/* No comment provided by engineer. */
+"Notify Rider" = "Fahrer benachrichtigen";
+
+/* No comment provided by engineer. */
+"OK" = "OK";
+
+/* No comment provided by engineer. */
+"OTHER MEDICAL CONDITIONS" = "ANDERE MEDIZINISCHE UMSTÄNDE";
+
+/* No comment provided by engineer. */
+"OWNED CELLS" = "EIGENE ZELLEN";
+
+/* No comment provided by engineer. */
+"Officially Verified" = "Offiziell bestätigt";
+
+/* No comment provided by engineer. */
+"Ok" = "Ok";
+
+/* No comment provided by engineer. */
+"Oops! There is no driver available. Try increasing the radius." = "Upps! Es sind keine Fahrer verfügbar. Versuchen Sie, den Radius zu vergrößern.";
+
+/* No comment provided by engineer. */
+"Oops!!! This Cell no longer exist." = "Upps!!! Diese Zelle existiert nicht mehr.";
+
+/* No comment provided by engineer. */
+"Other Medical Conditions" = "Andere medizinische Umstände";
+
+/* No comment provided by engineer. */
+"Our team is working hard to make this feature available to you very soon :-)" = "Unser Team arbeitet hart daran, diese Funktion für Sie bald verfügbar zu machen. :-)";
+
+/* No comment provided by engineer. */
+"PANIC ALERT" = "PANIKALARM";
+
+/* No comment provided by engineer. */
+"Pairing your panic button" = "Ihr Panikknopf wird gepaart.";
+
+/* No comment provided by engineer. */
+"Pending" = "Ausstehend";
+
+/* No comment provided by engineer. */
+"Photo" = "Foto";
+
+/* No comment provided by engineer. */
+"Photo Alert" = "Fotoalarm";
+
+/* No comment provided by engineer. */
+"Please choose a category" = "Bitte eine Kategorie auswählen";
+
+/* No comment provided by engineer. */
+"Please enter a valid email address" = "Bitte eine gültige E-Mail-Adresse eingeben.";
+
+/* No comment provided by engineer. */
+"Please enter Cell name" = "Bitte Zellennamen eingeben";
+
+/* No comment provided by engineer. */
+"Please enter cost/mile" = "Bitte Kosten/Meile eingeben";
+
+/* No comment provided by engineer. */
+"Please enter cost/min" = "Bitte Kosten/Min. eingeben";
+
+/* No comment provided by engineer. */
+"Please enter drop location" = "Bitte Ausstiegsort eingeben";
+
+/* No comment provided by engineer. */
+"Please enter email" = "Bitte E-Mail-Adresse eingeben";
+
+/* No comment provided by engineer. */
+"Please enter firstname" = "Bitte Vornamen eingeben";
+
+/* No comment provided by engineer. */
+"Please enter lastname" = "Bitte Nachnamen eingeben";
+
+/* No comment provided by engineer. */
+"Please enter mobile number" = "Bitte Mobilnummer eingeben";
+
+/* No comment provided by engineer. */
+"Please enter password" = "Bitte Passwort eingeben";
+
+/* No comment provided by engineer. */
+"Please enter pickup cost" = "Bitte Abholkosten eingeben";
+
+/* No comment provided by engineer. */
+"Please enter valid email" = "Bitte gültige E-Mail-Adresse eingeben";
+
+/* No comment provided by engineer. */
+"Please enter your email" = "Bitte geben Sie Ihre E-Mail-Adresse ein.";
+
+/* No comment provided by engineer. */
+"Please give a brief description for your Cell" = "Bitte geben Sie eine kurze Bescheibung Ihrer Zelle.";
+
+/* No comment provided by engineer. */
+"Please install the latest version to view this alert" = "Bitte installieren Sie die neuste Version, um diesen Alarm anzusehen.";
+
+/* No comment provided by engineer. */
+"Please press and hold panic button for 30 seconds to turn it off in order to avoid battery drain." = "Bitte drücken und halten Sie den Panikknopf 30 Sekunden lang, um ihn abzuschalten und den Batterieverbrauch zu vermeiden.";
+
+/* No comment provided by engineer. */
+"Please provide a valid Stream name/key if you want to stream to your own live YouTube Channel." = "Bitte geben Sie einen gültigen Stream-Namen/-Schlüssel ein, wenn Sie an Ihren eigenen Live-YouTube-Kanal streamen möchten.";
+
+/* No comment provided by engineer. */
+"Please turn on Bluetooth on your device" = "Bitte schalten Sie Bluetooth auf Ihrem Gerät ein.";
+
+/* No comment provided by engineer. */
+"Please turn on Bluetooth on your device for Panic Button to work" = "Zur Funktion des Panikknopfs bitte auf Ihrem Gerät Bluetooth einschalten.";
+
+/* No comment provided by engineer. */
+"Please update your email." = "Bitte aktualisieren Sie Ihre E-Mail-Adresse.";
+
+/* No comment provided by engineer. */
+"Please verify your phone" = "Bitte bestätigen Sie Ihr Telefon.";
+
+/* No comment provided by engineer. */
+"Please wait" = "Bitte warten";
+
+/* No comment provided by engineer. */
+"Please wait..." = "Bitte warten ...";
+
+/* No comment provided by engineer. */
+"Police Interaction" = "Polizeiinteraktion";
+
+/* No comment provided by engineer. */
+"Proceed" = "Fortfahren";
+
+/* No comment provided by engineer. */
+"RATE THIS APP" = "DIESE APP BEWERTEN";
+
+/* No comment provided by engineer. */
+"RE-INVITE" = "ERNEUT EINLADEN";
+
+/* No comment provided by engineer. */
+"REQUESTS" = "ANFRAGEN";
+
+/* No comment provided by engineer. */
+"RESEND" = "ERNEUT SENDEN";
+
+/* No comment provided by engineer. */
+"RIDE REQUESTS" = "FAHRTANFRAGEN";
+
+/* No comment provided by engineer. */
+"Rejected" = "Abgelehnt";
+
+/* No comment provided by engineer. */
+"Rename your device" = "Benennen Sie Ihr Gerät um.";
+
+/* No comment provided by engineer. */
+"Request Cancelled" = "Anfrage storniert";
+
+/* No comment provided by engineer. */
+"Request Expired" = "Anfrage abgelaufen";
+
+/* No comment provided by engineer. */
+"Request New Ride" = "Neue Fahrt anfragen";
+
+/* No comment provided by engineer. */
+"Request Verification" = "Anfragebestätigung";
+
+/* No comment provided by engineer. */
+"Resend Code" = "Code erneut senden";
+
+/* No comment provided by engineer. */
+"Response sent successfully" = "Antwort erfolgreich gesendet";
+
+/* No comment provided by engineer. */
+"Retreiving..." = "Abfrage ...";
+
+/* No comment provided by engineer. */
+"Retrieving Info..." = "Information wird abgerufen ...";
+
+/* No comment provided by engineer. */
+"Ride Hailing" = "Fahrtruf";
+
+/* No comment provided by engineer. */
+"Ride not selected" = "Fahrt nicht ausgewählt";
+
+/* No comment provided by engineer. */
+"SCAN Q.R. CODE" = "QR-CODE SCANNEN";
+
+/* No comment provided by engineer. */
+"SEARCH" = "SUCHEN";
+
+/* No comment provided by engineer. */
+"SETTINGS" = "EINSTELLUNGEN";
+
+/* No comment provided by engineer. */
+"SHARE THIS APP" = "DIESE APP TEILEN";
+
+/* No comment provided by engineer. */
+"Satellite" = "Satellit";
+
+/* No comment provided by engineer. */
+"Save" = "Speichern";
+
+/* No comment provided by engineer. */
+"Scan QR Code" = "QR-Code scannen";
+
+/* No comment provided by engineer. */
+"Scanning Unavailable" = "Scannen nicht verfügbar";
+
+/* No comment provided by engineer. */
+"School Friends" = "Schulfreunde";
+
+/* No comment provided by engineer. */
+"Search for friend" = "Nach Freund suchen";
+
+/* No comment provided by engineer. */
+"Searching your location..." = "Ihr Standort wird gesucht ...";
+
+/* No comment provided by engineer. */
+"Security Guards" = "Wachmänner";
+
+/* No comment provided by engineer. */
+"See Requests" = "Anfragen ansehen";
+
+/* No comment provided by engineer. */
+"Selected" = "Ausgewählt";
+
+/* No comment provided by engineer. */
+"Send" = "Senden";
+
+/* No comment provided by engineer. */
+"Send Global Alert?" = "Weltweiten Alarm senden?";
+
+/* No comment provided by engineer. */
+"Send arrested alert?" = "Verhaftungsalarm senden?";
+
+/* No comment provided by engineer. */
+"Send bullied alert?" = "Schikaniert-Alarm senden?";
+
+/* No comment provided by engineer. */
+"Send crime alert?" = "Verbrechensalarm senden?";
+
+/* No comment provided by engineer. */
+"Send danger alert?" = "Gefahrenalarm senden?";
+
+/* No comment provided by engineer. */
+"Send fire alert?" = "Feueralarm senden?";
+
+/* No comment provided by engineer. */
+"Send general alert?" = "Allgemeinen Alarm senden?";
+
+/* No comment provided by engineer. */
+"Send hijack alert?" = "Entführungsalarm senden?";
+
+/* No comment provided by engineer. */
+"Send medical alert?" = "Medizinischen Alarm senden?";
+
+/* No comment provided by engineer. */
+"Send photo alert?" = "Fotoalarm senden?";
+
+/* No comment provided by engineer. */
+"Send police interaction alert?" = "Alarm über Polizeiinteraktion senden?";
+
+/* No comment provided by engineer. */
+"Send vehicle broken alert?" = "Autopannenalarm senden?";
+
+/* No comment provided by engineer. */
+"Send vehicle pulled over alert?" = "Alarm „Fahrzeug angehalten“ senden?";
+
+/* No comment provided by engineer. */
+"Settings" = "Einstellungen";
+
+/* No comment provided by engineer. */
+"Setup neighborhood watch or family groups" = "Nachbarschaftswache oder Familiengruppen einrichten";
+
+/* No comment provided by engineer. */
+"Some error occurred" = "Einige Fehler sind aufgetreten.";
+
+/* No comment provided by engineer. */
+"Some error occurred, please try again." = "Einige Fehler sind aufgetreten. Bitte erneut versuchen.";
+
+/* No comment provided by engineer. */
+"Some error occurred, try again later." = "Einige Fehler sind aufgetreten. Später erneut versuchen.";
+
+/* No comment provided by engineer. */
+"Sorry, we cannot send Cell join request to this user on your behalf" = "Entschuldigung, wir können diesem Nutzer keine Einladung zum Zellbeitritt in Ihrem Namen senden.";
+
+/* No comment provided by engineer. */
+"Sorry, we cannot send friend request to this user on your behalf" = "Entschuldigung, wir können an diesen Benutzer keine Freundschaftsanfrage in Ihrem Namen senden.";
+
+/* No comment provided by engineer. */
+"Standard" = "Standard";
+
+/* No comment provided by engineer. */
+"Stream and share live video with?" = "Live-Video streamen und teilen?";
+
+/* No comment provided by engineer. */
+"Stream live HD video" = "Live HD-Video streamen";
+
+/* No comment provided by engineer. */
+"Submit" = "Absenden";
+
+/* No comment provided by engineer. */
+"The owner of Cell" = "Der Eigentümer der Zelle";
+
+/* No comment provided by engineer. */
+"This device does not have a camera." = "Dieses Gerät hat keine Kamera.";
+
+/* No comment provided by engineer. */
+"This friend already added" = "Dieser Freund wurde bereits hinzugefügt.";
+
+/* No comment provided by engineer. */
+"This request is cancelled." = "Diese Anfrage ist storniert.";
+
+/* No comment provided by engineer. */
+"This request is expired!" = "Diese Anfrage ist abgelaufen!";
+
+/* No comment provided by engineer. */
+"This ride request is cancelled" = "Diese Fahrtanfrage ist storniert.";
+
+/* No comment provided by engineer. */
+"This ride request is expired" = "Diese Fahrtanfrage ist abgelaufen.";
+
+/* No comment provided by engineer. */
+"This will allow your live video streams to be shared to the general public on Facebook. Should you share obscene or sensitive footage, your account may be suspended or banned permanently. Do you want to continue?" = "Dadurch können Ihre Live-Video-Streams auf Facebook mit der Öffentlichkeit geteilt werden. Sollten Sie obszöne oder heikles Material teilen, kann Ihr Konto ausgesetzt oder dauerhaft gesperrt werden. Möchten Sie fortfahren?";
+
+/* No comment provided by engineer. */
+"To accept credit cards please use a squareup.com credit card reader, or a similar reader from another vendor" = "Um Kreditkarten zu akzeptieren, benutzen Sie bitte einen Kreditkartenleser von squareup.com oder einen ähnlichen Leser eines anderen Anbieters.";
+
+/* No comment provided by engineer. */
+"Too much time has passed since this alert was issued and you may no longer respond to it." = "Seit der Veröffenlichung dieses Alarms ist zu viel Zeit vergangen und Sie können nicht mehr darauf antworten.";
+
+/* No comment provided by engineer. */
+"Turning location updates off will also disable New Public Cell Alert. Do you still want to turn it off?" = "Das Abschalten der Standortaktualisierungen wird auch neue Alarme aus öffentlichen Zellen deaktivieren. Möchten Sie sie trotzdem abschalten?";
+
+/* No comment provided by engineer. */
+"Turning location updates off will also disable Patrol Mode and New Public Cell Alert. Do you still want to turn it off?" = "Das Abschalten der Standortaktualisierung wird auch den Patrouillenmodus und neue öffentliche Zellalarme deaktivieren. Möchten Sie trotzdem abschalten?";
+
+/* No comment provided by engineer. */
+"Turning location updates off will also disable Patrol Mode. Do you still want to turn it off?" = "Das Abschalten der Standortaktualisierung wird auch den Patrouillenmodus deaktivieren. Möchten Sie trotzdem abschalten?";
+
+/* No comment provided by engineer. */
+"Unable to connect, please try again later" = "Verbindung nicht möglich. Bitte später erneut versuchen.";
+
+/* No comment provided by engineer. */
+"Unable to determine your current location.Please check your internet connection." = "Bestimmung Ihres aktuellen Standorts nicht möglich. Bitte prüfen Sie Ihre Internetverbindung.";
+
+/* No comment provided by engineer. */
+"Unable to fetch your current location.Please Check your internet connection." = "Abfrage Ihres aktuellen Standorts nicht möglich. Bitte prüfen Sie Ihre Internetverbindung.";
+
+/* No comment provided by engineer. */
+"Unable to get directions. Check your connection" = "Abruf der Wegbeschreibung nicht möglich. Prüfen Sie Ihre Verbindung.";
+
+/* No comment provided by engineer. */
+"Unable to load the photo" = "Laden des Fotos nicht möglich.";
+
+/* No comment provided by engineer. */
+"Unable to send photo alert. Please try again." = "Senden des Fotoalarms nicht möglich. Bitte erneut versuchen.";
+
+/* No comment provided by engineer. */
+"Update" = "AKTUALISIEREN";
+
+/* No comment provided by engineer. */
+"Update Mobile" = "Mobilgerät aktualisieren";
+
+/* No comment provided by engineer. */
+"Updated Successfully" = "Erfolgreich aktualisiert";
+
+/* No comment provided by engineer. */
+"User must be logged in" = "Benutzer muss angemeldet sein.";
+
+/* No comment provided by engineer. */
+"Verification Pending" = "Bestätigung ausstehend";
+
+/* No comment provided by engineer. */
+"Verification Required" = "Bestätigung erforderlich";
+
+/* No comment provided by engineer. */
+"Verification code sent" = "Bestätigungscode gesendet";
+
+/* No comment provided by engineer. */
+"Verify" = "Bestätigen";
+
+/* No comment provided by engineer. */
+"Video Streaming Alert" = "Alarm über Video-Streaming";
+
+/* No comment provided by engineer. */
+"Video link" = "Video-Link";
+
+/* No comment provided by engineer. */
+"Video streaming starting..." = "Video-Stream wird gestartet ...";
+
+/* No comment provided by engineer. */
+"Video streaming stopping..." = "Video-Stream wird angehalten ...";
+
+/* No comment provided by engineer. */
+"View" = "Ansehen";
+
+/* No comment provided by engineer. */
+"Waiting" = "Warte";
+
+/* No comment provided by engineer. */
+"Warning" = "Warnung";
+
+/* No comment provided by engineer. */
+"Watch Now" = "Jetzt ansehen";
+
+/* No comment provided by engineer. */
+"Welcome to Cell 411. Your verification code is" = "Willkommen bei Cell 112. Ihr Bestätigungscode ist";
+
+/* No comment provided by engineer. */
+"What would you like to do?" = "Was möchten Sie tun?";
+
+/* No comment provided by engineer. */
+"When you are in Danger" = "Wenn Sie in Gefahr sind";
+
+/* No comment provided by engineer. */
+"When you are in an emergency" = "Wenn Sie einen Notfall haben";
+
+/* No comment provided by engineer. */
+"Working..." = "Funktioniert ...";
+
+/* No comment provided by engineer. */
+"Would you like to enable publishing alerts to your Facebook Wall when you issue one?" = "Möchten Sie die Veröffentlichung von Alarmen auf Ihrer Facebook-Pinnwand aktivieren, wenn sie welche ausgeben?";
+
+/* No comment provided by engineer. */
+"Yes" = "Ja";
+
+/* No comment provided by engineer. */
+"You already reached the pickup location" = "Sie haben den Abholort bereits erreicht.";
+
+/* No comment provided by engineer. */
+"You are a member of this Cell" = "Sie sind ein Mitglied dieser Zelle.";
+
+/* No comment provided by engineer. */
+"You are here" = "Sie sind hier.";
+
+/* No comment provided by engineer. */
+"You are in a Patrol Mode and recieved a Global Alert" = "Sie sind im Patrouillenmodus und erhielten einen weltweiten Alarm.";
+
+/* No comment provided by engineer. */
+"You are not a member of this Cell" = "Sie sind kein Mitglied dieser Zelle.";
+
+/* No comment provided by engineer. */
+"You are selected" = "Sie wurden ausgewählt";
+
+/* No comment provided by engineer. */
+"You are the owner of this Cell" = "Sie sind der Eigentümer dieser Zelle.";
+
+/* No comment provided by engineer. */
+"You can add review once the ride is confirmed." = "Sie können eine Bewertung hinzufügen, sobald die Fahrt bestätigt ist.";
+
+/* No comment provided by engineer. */
+"You can contact the rider once they confirm your ride." = "Sie können den Fahrer kontaktieren, sobald er Ihre Fahrt bestätigt.";
+
+/* No comment provided by engineer. */
+"You can navigate to the drop location of the rider once they confirm your ride." = "Sie können zum Ausstiegsort des Fahrers navigieren, sobald er Ihre Fahrt bestätigt hat.";
+
+/* No comment provided by engineer. */
+"You can navigate to the pickup location of the rider once they confirm your ride." = "Sie können zum Abholort des Fahrers navigieren, sobald er Ihre Fahrt bestätigt.";
+
+/* No comment provided by engineer. */
+"You cannot add yourself as friend" = "Sie können sich nicht selbst als Freund hinzufügen.";
+
+/* No comment provided by engineer. */
+"You cannot respond to this alert." = "Sie können nicht auf Ihren eigenen Alarm antworten.";
+
+/* No comment provided by engineer. */
+"You cannot respond to your own alerts." = "Sie können nicht auf Ihren eigenen Alarm antworten.";
+
+/* No comment provided by engineer. */
+"You have a pending pickup" = "Sie haben eine ausstehende Abholung.";
+
+/* No comment provided by engineer. */
+"You have a pending ride request" = "Sie haben eine ausstehende Fahrtanfrage.";
+
+/* No comment provided by engineer. */
+"You must have at least two friends and must have issued an alert to some Private Cell in order to issue alerts globally." = "Sie müssen mindestens zwei Freunde und einen Alarm in einigen privaten Zellen ausgelöst haben, um weltweite Alarme auszulösen.";
+
+/* No comment provided by engineer. */
+"You recieved a Global Alert" = "Sie erhielten einen weltweiten Alarm.";
+
+/* No comment provided by engineer. */
+"Your account has been blocked for violating the Cell 411 Terms of Service." = "Ihr Konto wurde wegen Verstoßes gegen die Nutzungsbedingungen von Cell 112 gesperrt.";
+
+/* No comment provided by engineer. */
+"Your account has been temporarily suspended for violating the Cell 411 Terms of Service." = "Ihr Konto wurde wegen Verstoß gegen die Nutzungsbedingungen von Cell 112 zeitweise ausgesetzt.";
+
+/* No comment provided by engineer. */
+"Your new friend" = "Ihr(e) neue(r) Freund(in)";
+
+/* No comment provided by engineer. */
+"Your request has been sent to the owner of this Cell for approval" = "Ihre Anfrage wurde zur Genehmigung an den Eigentümer dieser Zelle gesendet.";
+
+/* No comment provided by engineer. */
+"Your response to this request is not yet seen by the rider" = "Ihre Antwort zu dieser Anfrage wurde vom Fahrer noch nicht angesehen.";
+
+/* No comment provided by engineer. */
+"Your response to this request is seen by the rider" = "Ihre Antwort zu dieser Anfrage wurde vom Fahrer angesehen.";
+
+/* No comment provided by engineer. */
+"a member of" = "ein Mitglied von";
+
+/* No comment provided by engineer. */
+"approved your" = "genehmigte Ihre";
+
+/* No comment provided by engineer. */
+"approved your request to join the Cell!" = "genehmigte Ihre Anfrage zum Beitritt der Zelle!";
+
+/* No comment provided by engineer. */
+"denied your request to join the Cell!" = "verweigerte Ihre Anfrage zum Beitritt der Zelle!";
+
+/* No comment provided by engineer. */
+"few mins" = "wenige Minuten";
+
+/* No comment provided by engineer. */
+"for approval" = "zur Genehmigung";
+
+/* No comment provided by engineer. */
+"has just been created in your area." = "wurde gerade in Ihrem Gebiet erstellt.";
+
+/* No comment provided by engineer. */
+"has just been created in your area. Tap on Join Cell to join this Public Cell, or Cancel to ignore" = "wurde gerade in Ihrem Gebiet erstellt. Tippen Sie auf „Zelle beitreten“, um dieser öffentlichen Zelle beizutreten oder „Abbrechen“ zum Ignorieren.";
+
+/* No comment provided by engineer. */
+"hours" = "Stunden";
+
+/* No comment provided by engineer. */
+"hr" = "Std.";
+
+/* No comment provided by engineer. */
+"hrs" = "Std.";
+
+/* No comment provided by engineer. */
+"in around" = "in ungefähr";
+
+/* No comment provided by engineer. */
+"is not part of any Cell. Would you like to add this friend to a Cell?" = "ist nicht Teil einer Zelle. Möchten Sie diese(n) Freund(in) zu einer Zelle hinzufügen?";
+
+/* No comment provided by engineer. */
+"issued a photo alert. Would you like to view it? You can also view it later from Alerts tab" = "veröffentlichte einen Fotoalarm. Möchten Sie ihn ansehen? Sie können ihn auch später im Reiter Alarme ansehen.";
+
+/* No comment provided by engineer. */
+"join this Cell" = "dieser Zelle beitreten";
+
+/* No comment provided by engineer. */
+"km" = "km";
+
+/* No comment provided by engineer. */
+"kms" = "km";
+
+/* No comment provided by engineer. */
+"kms." = "km.";
+
+/* No comment provided by engineer. */
+"leave this Cell" = "diese Zelle verlassen";
+
+/* No comment provided by engineer. */
+"meter" = "Meter";
+
+/* No comment provided by engineer. */
+"mile" = "Meile";
+
+/* No comment provided by engineer. */
+"miles" = "Meilen";
+
+/* No comment provided by engineer. */
+"min" = "Min.";
+
+/* No comment provided by engineer. */
+"mins" = "Min.";
+
+/* No comment provided by engineer. */
+"mins." = "Min.";
+
+/* No comment provided by engineer. */
+"offered to give you a" = "bot Ihnen eine Fahrt an.";
+
+/* No comment provided by engineer. */
+"requested a" = "forderte eine Fahrt an.";
+
+/* No comment provided by engineer. */
+"wants to join your Cell" = "möchte Ihrer Zelle beitreten.";
+
+/* No comment provided by engineer. */
+"Warning: Time delay setting does not apply to alerts issued via the %@ Bluetooth Panic Button!" = "Warnung: Die Festlegung einer Zeitverzögerung gilt nicht für Alarme, die über den %@ Bluetooth-Panikknopf ausgelöst werden!";
+
+/* No comment provided by engineer. */
+" is being harassed" = " wird belästigt";
+
+/* No comment provided by engineer. */
+"Send harassed alert?" = "Schikanierte Warnung senden?";
+
+/* No comment provided by engineer. */
+" Additional Note: %@" = " Zusätzliche Anmerkung: %@";
+
+/* No comment provided by engineer. */
+" had car accident" = "hatte Autounfall";
+
+/* No comment provided by engineer. */
+" is being physical abused" = "wird körperlich verletzt";
+
+/* No comment provided by engineer. */
+" is in the city of %@ and" = "ist in der Stadt von %@ und";
+
+/* No comment provided by engineer. */
+" is observing a natural disaster" = "beobachtet eine Naturkatastrophe";
+
+/* No comment provided by engineer. */
+" is trapped/lost" = "ist gefangen / verloren";
+
+/* No comment provided by engineer. */
+" issued a %@ 112 alert." = "hat einen %@ 112 Alarm ausgegeben";
+
+/* No comment provided by engineer. */
+" issued a %@ 411 alert." = "hat einen %@ 411-Alarm ausgegeben.";
+
+/* No comment provided by engineer. */
+" issued a %@ alert." = "hat einen %@ -Alarm ausgegeben.";
+
+/* No comment provided by engineer. */
+" issued a pre-authorisation alert" = "gab eine Vorautorisierung aus";
+
+/* No comment provided by engineer. */
+" on %@" = " auf %@";
+
+/* No comment provided by engineer. */
+"%@ %@ Ride" = "%@ %@ Fahrt";
+
+/* No comment provided by engineer. */
+"%@ %@ away" = "%@ %@ abwesend";
+
+/* No comment provided by engineer. */
+"%@ %@ connected" = "%@ %@ in Verbindung gebracht";
+
+/* No comment provided by engineer. */
+"%@ %@ disconnected" = "%@ %@ getrennt";
+
+/* No comment provided by engineer. */
+"%@ %@ ride" = "%@ %@ gefahren";
+
+/* No comment provided by engineer. */
+"%@ 112 Alert" = "%@ 112 Alarm";
+
+/* No comment provided by engineer. */
+"%@ 411 Alert" = "%@ 411 Alarm";
+
+/* No comment provided by engineer. */
+"%@ ALERTS" = "%@ Warnungen";
+
+/* No comment provided by engineer. */
+"%@ Alert" = "%@ Warnung";
+
+/* No comment provided by engineer. */
+"%@ Call Centre" = "%@ Call-Center";
+
+/* No comment provided by engineer. */
+"%@ PANIC BUTTON SETTINGS" = "%@ PANIKKNOPF-EINSTELLUNGEN";
+
+/* No comment provided by engineer. */
+"%@ Update" = "%@ Update";
+
+/* No comment provided by engineer. */
+"%@ already created" = "%@ bereits erstellt";
+
+/* No comment provided by engineer. */
+"%@ already exists" = "%@ ist bereits vorhanden";
+
+/* No comment provided by engineer. */
+"%@ and" = "%@ und";
+
+/* No comment provided by engineer. */
+"%@ at %@" = "%@ beim %@";
+
+/* No comment provided by engineer. */
+"%@ blocked successfully." = "%@ wurde erfolgreich blockiert.";
+
+/* No comment provided by engineer. */
+"%@ can't help you this time." = "%@ kann dir diesmal nicht helfen.";
+
+/* No comment provided by engineer. */
+"%@ can't help you this time: %@" = "%@ kann dir diesmal nicht helfen:%@";
+
+/* No comment provided by engineer. */
+"%@ connected" = "%@ in Verbindung gebracht";
+
+/* No comment provided by engineer. */
+"%@ does not have permission to use the camera." = "%@ hat keine Berechtigung zur Verwendung der Kamera.";
+
+/* No comment provided by engineer. */
+"%@ doesn't have permission to use Camera, please change privacy settings" = "%@ hat keine Berechtigung zur Verwendung der Kamera, bitte ändern Sie die Datenschutzeinstellungen";
+
+/* No comment provided by engineer. */
+"%@ has just joined %@ would you like add them as friend" = "%@ hat sich gerade%@ angeschlossen. Möchten Sie sie als Freund hinzufügen?";
+
+/* No comment provided by engineer. */
+"%@ has sent you a Cell join request on %@ Cell!" = "%@ hat Ihnen eine Zellen-Beitrittsanfrage an %@ Cell gesendet!";
+
+/* No comment provided by engineer. */
+"%@ has streamed live video. Would you like to watch it? You can also watch this video later from Alerts tab" = "%@ hat Live-Video gestreamt. Möchten Sie es sehen? Sie können dieses Video auch später auf der Registerkarte \"Alerts\" ansehen.";
+
+/* No comment provided by engineer. */
+"%@ in around %@" = "%@ in ungefähr %@";
+
+/* No comment provided by engineer. */
+"%@ invited you to install %@ to respond to emergencies: %@" = "%@ hat Sie zur Installation von %@ eingeladen, um auf Notfälle zu reagieren:%@";
+
+/* No comment provided by engineer. */
+"%@ is %@ away and is on the way to help you out" = "%@ ist %@ entfernt und ist unterwegs, um Ihnen zu helfen";
+
+/* No comment provided by engineer. */
+"%@ is about %@ away" = "%@ ist ungefähr %@ entfernt";
+
+/* No comment provided by engineer. */
+"%@ is already blocked." = "%@ ist bereits gesperrt.";
+
+/* No comment provided by engineer. */
+"%@ is already registered, please use different email" = "%@ ist bereits registriert, bitte verwenden Sie eine andere E-Mail";
+
+/* No comment provided by engineer. */
+"%@ is at this location" = "%@ ist an diesem Standort";
+
+/* No comment provided by engineer. */
+"%@ is not using %@. Do you want to send them an email invitation to join you?" = "%@ verwendet %@ nicht. Möchten Sie ihnen eine E-Mail-Einladung senden, um sich Ihnen anzuschließen?";
+
+/* No comment provided by engineer. */
+"%@ is on the way to help you out" = "%@ ist auf dem Weg, Ihnen zu helfen";
+
+/* No comment provided by engineer. */
+"%@ is on the way to help you out!" = "%@ ist auf dem Weg, Ihnen zu helfen!";
+
+/* No comment provided by engineer. */
+"%@ is selected" = "%@ ist ausgewählt";
+
+/* No comment provided by engineer. */
+"%@ is selected for this ride" = "%@ ist für diese Fahrt ausgewählt";
+
+/* No comment provided by engineer. */
+"%@ is streaming live video. Would you like to watch it? You can also watch this video later from Alerts tab" = "%@ streamt Live-Video. Möchten Sie es sehen? Sie können dieses Video auch später auf der Registerkarte \"Alerts\" ansehen.";
+
+/* No comment provided by engineer. */
+"%@ issued a %@ 112 alert" = "%@ hat eine %@ 112-Warnung ausgegeben";
+
+/* No comment provided by engineer. */
+"%@ issued a %@ 411 alert" = "%@ hat eine %@ 411-Warnung ausgegeben";
+
+/* No comment provided by engineer. */
+"%@ issued a %@ alert" = "%@ hat einen %@ -Alarm ausgegeben";
+
+/* No comment provided by engineer. */
+"%@ selected %@'s ride" = "%@ ausgewählte %@s Fahrt";
+
+/* No comment provided by engineer. */
+"%@ sent to %@" = "%@ gesendet an %@";
+
+/* No comment provided by engineer. */
+"%@ sent to Security Guards" = "%@ an die Sicherheitsbeamten gesendet";
+
+/* No comment provided by engineer. */
+"%@ wants to add you as a friend in the %@ network. If approved, this user will be able to send you emergency alerts." = "%@ möchte Sie als Freund im %@ -Netzwerk hinzufügen. Bei Bestätigung kann dieser Benutzer Ihnen Notfallalarme senden.";
+
+/* No comment provided by engineer. */
+"%@%@ disconnected" = "%@%@ getrennt";
+
+/* No comment provided by engineer. */
+"%@'s Button" = "%@ Taste";
+
+/* No comment provided by engineer. */
+"%@, a Facebook user" = "%@, ein Facebook-Nutzer";
+
+/* No comment provided by engineer. */
+"%@, a Facebook user is on the way to help you out!" = "%@, ein Facebook-Nutzer ist unterwegs, um Ihnen zu helfen!";
+
+/* No comment provided by engineer. */
+"%@, a friend of %@" = "%@, ein Freund von %@";
+
+/* No comment provided by engineer. */
+"%@, a friend of %@ is on the way to help you out!" = "%@, ein Freund von%@ ist unterwegs, um Ihnen zu helfen!";
+
+/* No comment provided by engineer. */
+"%@, a member of %@" = "%@, ein Mitglied von %@";
+
+/* No comment provided by engineer. */
+"%@, a member of %@ is on the way to help you out!" = "%@, ein Mitglied von %@ ist unterwegs, um Ihnen zu helfen!";
+
+/* No comment provided by engineer. */
+"%@, someone in your area" = "%@, jemand in Ihrer Nähe";
+
+/* No comment provided by engineer. */
+"%@, tap here to send an alert" = "%@, hier tippen, um eine Benachrichtigung zu senden";
+
+/* No comment provided by engineer. */
+"%@.\nGo to Settings>Privacy and turn on Location Services to determine your current location." = "%@. \nGehen Sie zu Einstellungen> Datenschutz und aktivieren Sie die Ortungsdienste, um Ihren aktuellen Standort zu ermitteln.";
+
+/* No comment provided by engineer. */
+"%@.\nPlease go to Settings>Privacy and turn on Location Services for %@ to determine your current location." = "%@.\nBitte gehen Sie zu Einstellungen> Datenschutz und aktivieren Sie Ortungsdienste für %@, um Ihren aktuellen Standort zu ermitteln.";
+
+/* No comment provided by engineer. */
+"%@\n-Upload your car image" = "%@\n-Laden Sie Ihr Fahrzeugbild hoch";
+
+/* No comment provided by engineer. */
+"%@\n-Upload your profile pic" = "%@\n-Upload Ihres Profilbildes";
+
+/* No comment provided by engineer. */
+"%@\n-Verify your phone" = "%@\n-Überprüfen Sie Ihr Telefon";
+
+/* No comment provided by engineer. */
+"%@\nAdditional Note: %@" = "%@\nZusatzhinweis:%@";
+
+/* No comment provided by engineer. */
+"%d selected" = "%d ausgewählt";
+
+/* No comment provided by engineer. */
+"%d users" = "%d Benutzer";
+
+/* No comment provided by engineer. */
+"%d%% completed" = "%d%% abgeschlossen";
+
+/* No comment provided by engineer. */
+", forwarded by %@" = ", weitergeleitet von %@";
+
+/* No comment provided by engineer. */
+"- All Friend(s)\n" = "- Alle Freunde\n";
+
+/* No comment provided by engineer. */
+"- Near By users\n" = "- In der Nähe von Benutzern\n";
+
+/* No comment provided by engineer. */
+"- Non App User Cell(s):" = "- Nicht-App-Benutzerzellen:";
+
+/* No comment provided by engineer. */
+"1 Hour" = "1 Stunde";
+
+/* No comment provided by engineer. */
+"1 Month" = "1 Monat";
+
+/* No comment provided by engineer. */
+"1. Make at least 2 friends\n2. Join at least 2 Public Cells\n3. Your profile must be 80% complete\n4. One week should pass since signing up" = "1. Befreunde Dich mit mindestens 2 Menschen\n2. Schließe dich mindestens 2 öffentlichen Zellen an\n3. Ihr Profil muss zu 80% vollständig sein\n4. Eine Woche sollte seit der Anmeldung vergehen.";
+
+/* No comment provided by engineer. */
+"6 Hours" = "6 Stunden";
+
+/* No comment provided by engineer. */
+"24 Hours" = "24 Stunden";
+
+/* No comment provided by engineer. */
+"A Cell join request is sent to the owner of %@ Cell for approval" = "Eine Zellenverbindungsanforderung wird zur Genehmigung an den Eigentümer von %@ Cell gesendet.";
+
+/* No comment provided by engineer. */
+"A friend invite is sent to" = "Eine Freundschaftseinladung wird gesendet an";
+
+/* No comment provided by engineer. */
+"ALERTS" = "WARNUNGEN";
+
+/* No comment provided by engineer. */
+"Accept" = "Akzeptieren";
+
+/* No comment provided by engineer. */
+"Activate account" = "Konto aktivieren";
+
+/* No comment provided by engineer. */
+"Activism" = "Aktivismus";
+
+/* No comment provided by engineer. */
+"Add Friend" = "Freund hinzufügen";
+
+/* No comment provided by engineer. */
+"Add Phone Number" = "Telefonnummer hinzufügen";
+
+/* No comment provided by engineer. */
+"Add friend" = "Freund hinzufügen";
+
+/* No comment provided by engineer. */
+"Add from phone contact" = "Vom Telefonkontakt hinzufügen";
+
+/* No comment provided by engineer. */
+"Additional text: %@" = "Zusätzlicher Text: %@";
+
+/* No comment provided by engineer. */
+"Advance Settings" = "Voreinstellungen";
+
+/* No comment provided by engineer. */
+"Alerts" = "Warnungen";
+
+/* No comment provided by engineer. */
+"Alerts Responded" = "Alarme beantwortet";
+
+/* No comment provided by engineer. */
+"Alerts Sent" = "Alarme gesendet";
+
+/* No comment provided by engineer. */
+"An error occurred, please try again." = "Es ist ein Fehler aufgetreten. Versuchen Sie es erneut.";
+
+/* No comment provided by engineer. */
+"Are you sure you want to delete %@ Public Cell?" = "Sind Sie sicher, dass Sie %@ öffentliche Zellen löschen möchten?";
+
+/* No comment provided by engineer. */
+"Are you sure you want to disconnect your account from Facebook?" = "Sind Sie sicher, dass Sie Ihr Konto von Facebook trennen möchten?";
+
+/* No comment provided by engineer. */
+"Are you sure you want to flag %@ as a spammer?" = "Sind Sie sicher, dass Sie %@ als Spammer kennzeichnen möchten?";
+
+/* No comment provided by engineer. */
+"Are you sure you want to remove %@ from list?" = "Sind Sie sicher, dass Sie %@ aus der Liste entfernen möchten?";
+
+/* No comment provided by engineer. */
+"Are you sure you want to remove %@ from the Cell?" = "Sind Sie sicher, dass Sie %@ aus der Zelle entfernen möchten?";
+
+/* No comment provided by engineer. */
+"Are you sure you want to remove %@ from this Cell?" = "Sind Sie sicher, dass Sie %@ aus dieser Zelle entfernen möchten?";
+
+/* No comment provided by engineer. */
+"Are you sure you want to share your current location?" = "Sind Sie sicher, dass Sie Ihren aktuellen Standort freigeben möchten?";
+
+/* No comment provided by engineer. */
+"Arrested" = "Verhaftet";
+
+/* No comment provided by engineer. */
+"Battery: %d%%" = "Batterie:%d%%";
+
+/* No comment provided by engineer. */
+"Blocked Users" = "Blockierte Benutzer";
+
+/* No comment provided by engineer. */
+"Blood Group" = "Blutgruppe";
+
+/* No comment provided by engineer. */
+"Broadcast Message" = "Broadcast-Nachricht";
+
+/* No comment provided by engineer. */
+"Broadcast message" = "Broadcast-Nachricht";
+
+/* No comment provided by engineer. */
+"Bullied" = "Gemobbt";
+
+/* No comment provided by engineer. */
+"By creating your %@ account you agree" = "Durch das Erstellen Ihres %@ Kontos stimmen Sie zu";
+
+/* No comment provided by engineer. */
+"By creating your %@ account you agree to our %@" = "Durch das Erstellen Ihres %@ Kontos stimmen Sie unserem %@ zu.";
+
+/* No comment provided by engineer. */
+"COST/KM" = "KOSTEN / KM";
+
+/* No comment provided by engineer. */
+"COST/MILE" = "KOSTEN / MEILE";
+
+/* No comment provided by engineer. */
+"CURRENT LOCATION" = "AKTUELLER STANDORT";
+
+/* No comment provided by engineer. */
+"Call" = "Anruf";
+
+/* No comment provided by engineer. */
+"Call Emergency Contact" = "Notfallkontakt anrufen";
+
+/* No comment provided by engineer. */
+"Cannot Help" = "Kann nicht helfen";
+
+/* No comment provided by engineer. */
+"Cannot enable Location Updates without location access." = "Standortaktualisierungen können nicht ohne Standortzugriff ermöglicht werden.";
+
+/* No comment provided by engineer. */
+"Cannot enable New Public Cell Alerts without location access." = "Neue öffentliche Zellbenachrichtigungen können nicht ohne Standortzugriff ermöglicht werden.";
+
+/* No comment provided by engineer. */
+"Cannot enable Patrol Mode without location access." = "Patrol-Modus kann nicht ohne Standortzugriff aktiviert werden.";
+
+/* No comment provided by engineer. */
+"Cannot enable Ride Requests without location access." = "Fahraufträge können nicht ohne Standortzugriff aktiviert werden.";
+
+/* No comment provided by engineer. */
+"Cannot send an alert without location access." = "Es kann keine Warnung ohne Standortzugriff gesendet werden.";
+
+/* No comment provided by engineer. */
+"Cannot share current location." = "Aktueller Standort kann nicht mitgeteilt werden.";
+
+/* No comment provided by engineer. */
+"Cannot share location." = "Standort kann nicht freigegeben werden.";
+
+/* No comment provided by engineer. */
+"Car Accident" = "Autounfall";
+
+/* No comment provided by engineer. */
+"Cell updated successfully" = "Zelle erfolgreich aktualisiert";
+
+/* No comment provided by engineer. */
+"Cells" = "Zellen";
+
+/* No comment provided by engineer. */
+"Change" = "Veränderung";
+
+/* No comment provided by engineer. */
+"Change Currency" = "Währung ändern";
+
+/* No comment provided by engineer. */
+"Chat expired, can't share image" = "Gespräch abgelaufen, Bild kann nicht freigegeben werden";
+
+/* No comment provided by engineer. */
+"Chat expired, can't share location" = "Gespräch abgelaufen, Standort kann nicht freigegeben werden";
+
+/* No comment provided by engineer. */
+"Chats" = "Gespräche";
+
+/* No comment provided by engineer. */
+"Check who's on %@ network by uploading your contacts and then you can choose with whom you want to connect" = "Prüfen Sie, wer sich in %@ network befindet, indem Sie Ihre Kontakte hochladen. Anschließend können Sie auswählen, mit wem Sie sich verbinden möchten.";
+
+/* No comment provided by engineer. */
+"Choose your %@ Bluetooth Panic Button" = "Wählen Sie Ihren %@ Bluetooth Panic Button";
+
+/* No comment provided by engineer. */
+"Collapse" = "Zusammenbruch";
+
+/* No comment provided by engineer. */
+"Commercial" = "Kommerziell";
+
+/* No comment provided by engineer. */
+"Community Safety" = "Gemeinschaftssicherheit";
+
+/* No comment provided by engineer. */
+"Confirm" = "Bestätigen";
+
+/* No comment provided by engineer. */
+"Confirm password didn't match." = "Passwort stimmt nicht überein";
+
+/* No comment provided by engineer. */
+"Connect and notify" = "Verbinden und benachrichtigen";
+
+/* No comment provided by engineer. */
+"Connected to Facebook successfully, please enable \"Publish Alert To Your Facebook Wall\" option from settings if needed." = "Bei erfolgreicher Verbindung mit Facebook aktivieren Sie ggf. die Option \"Alert auf Ihrer Facebook-Wand veröffentlichen\" in den Einstellungen.";
+
+/* No comment provided by engineer. */
+"Contacts" = "Kontakte";
+
+/* No comment provided by engineer. */
+"Contacts deleted successfully" = "Kontakte erfolgreich gelöscht";
+
+/* No comment provided by engineer. */
+"Contacts uploaded successfully" = "Kontakte erfolgreich hochgeladen";
+
+/* No comment provided by engineer. */
+"Cost" = "Kosten";
+
+/* No comment provided by engineer. */
+"Create Private Cell" = "Private Zelle erstellen";
+
+/* No comment provided by engineer. */
+"Create Public Cell" = "Öffentliche Zelle erstellen";
+
+/* No comment provided by engineer. */
+"Create new Private Cell" = "Neue private Zelle erstellen";
+
+/* No comment provided by engineer. */
+"Crime" = "Kriminalität";
+
+/* No comment provided by engineer. */
+"DROP LOCATION" = "Ziel";
+
+/* No comment provided by engineer. */
+"Danger" = "Gefahr";
+
+/* No comment provided by engineer. */
+"Decide Later" = "Entscheide später";
+
+/* No comment provided by engineer. */
+"Delete Video Option Disabled" = "Video Option löschen deaktiviert";
+
+/* No comment provided by engineer. */
+"Delete Video Option Enabled" = "Video-Option löschen aktiviert";
+
+/* No comment provided by engineer. */
+"Device Name: %@" = "Gerätename: %@";
+
+/* No comment provided by engineer. */
+"Device id: %@" = "Geräte ID: %@";
+
+/* No comment provided by engineer. */
+"Device name: %@" = "Gerätename: %@";
+
+/* No comment provided by engineer. */
+"Did you purchase a Bluetooth panic button from %@ or do you want to issue a panic alert?" = "Haben Sie eine Bluetooth-Panikschaltfläche von %@ gekauft oder möchten Sie eine Panikwarnung ausgeben?";
+
+/* No comment provided by engineer. */
+"Disable" = "Deaktivieren";
+
+/* No comment provided by engineer. */
+"Disliked it" = "Hat mir nicht gefallen";
+
+/* No comment provided by engineer. */
+"Dispatch Mode Disabled" = "Versandmodus deaktiviert";
+
+/* No comment provided by engineer. */
+"Dispatch Mode Enabled" = "Versandmodus aktiviert";
+
+/* No comment provided by engineer. */
+"Distance is %@ and can be covered in around %@ with an estimated cost of %@" = "Entfernung ist %@ und kann in %@ mit geschätzten Kosten von %@ abgedeckt werden.";
+
+/* No comment provided by engineer. */
+"Do you also want to add %@ back as a %@ friend?" = "Möchten Sie %@ als Freund von %@ wieder hinzufügen?";
+
+/* No comment provided by engineer. */
+"Do you also want to start streaming live video to the %@ Cell?" = "Möchten Sie auch Live-Videos streamen?";
+
+/* No comment provided by engineer. */
+"Do you want to remove %@ ?" = "Möchten Sie %@ entfernen?";
+
+/* No comment provided by engineer. */
+"Do you want to remove %@ from your friend list ?" = "Möchten Sie %@ aus Ihrer Freundesliste entfernen?";
+
+/* No comment provided by engineer. */
+"Do you want to send additional note to %@?" = "Möchten Sie eine zusätzliche Notiz an %@ senden?";
+
+/* No comment provided by engineer. */
+"Don't show again" = "Nicht mehr anzeigen";
+
+/* No comment provided by engineer. */
+"Due to iOS limitations the panic button will not function properly if users manually \"kill\" the app; please run %@ as intended and do not stop the processes manually!" = "Aufgrund von iOS-Einschränkungen funktioniert die Panikschaltfläche nicht ordnungsgemäß, wenn Benutzer die App manuell \"stoppen\"; Bitte führen Sie %@ wie vorgesehen aus und stoppen Sie die Prozesse nicht manuell!";
+
+/* No comment provided by engineer. */
+"Edit Cell" = "Zelle bearbeiten";
+
+/* No comment provided by engineer. */
+"Edit Profile" = "Profil bearbeiten";
+
+/* No comment provided by engineer. */
+"Education" = "Bildung";
+
+/* No comment provided by engineer. */
+"Enable" = "Aktivieren";
+
+/* No comment provided by engineer. */
+"Enable Location" = "Aktiviere Standort";
+
+/* No comment provided by engineer. */
+"Enter Message" = "Nachricht eingeben";
+
+/* No comment provided by engineer. */
+"Enter Your Name" = "Gib deinen Namen ein";
+
+/* No comment provided by engineer. */
+"Enter your name" = "Gib deinen Namen ein";
+
+/* No comment provided by engineer. */
+"Error" = "Fehler";
+
+/* No comment provided by engineer. */
+"Error Occurred" = "Ein Fehler ist aufgetreten";
+
+/* No comment provided by engineer. */
+"Error Sending %@ to Security Guards" = "Fehler beim Senden von %@ an Sicherheitskräfte";
+
+/* No comment provided by engineer. */
+"Error uploading contacts" = "Fehler beim Hochladen von Kontakten";
+
+/* No comment provided by engineer. */
+"Expand" = "Erweitern";
+
+/* No comment provided by engineer. */
+"Explore Cells" = "Zellen erkunden";
+
+/* No comment provided by engineer. */
+"FAQ & Tutorials" = "FAQ & Anleitungen";
+
+/* No comment provided by engineer. */
+"FORWARDED BY" = "Weitergeleitet von";
+
+/* No comment provided by engineer. */
+"Fall detection accuracy depends on the nature and impact of the fall.\nTests have shown that fall detection works better if %@ Panic Button is used with the clip or pendant. For best results always press the button for 2-8 seconds. Proceed enabling fall detection?" = "Die Genauigkeit der Sturzerkennung hängt von der Art und Weise des Sturzes ab.\nTests haben gezeigt, dass die Sturzerkennung besser funktioniert, wenn der %@ Panic Button mit dem Clip oder dem Anhänger verwendet wird. Für beste Ergebnisse drücken Sie die Taste immer für 2-8 Sekunden. Möchten Sie die Sturzerkennung aktivieren?";
+
+/* No comment provided by engineer. */
+"Fallen" = "Sturz";
+
+/* No comment provided by engineer. */
+"Fire" = "Feuer";
+
+/* No comment provided by engineer. */
+"Forward Alert" = "Warnung weiterleiten";
+
+/* No comment provided by engineer. */
+"Friend %@" = "Freund %@";
+
+/* No comment provided by engineer. */
+"Friend request sent." = "Freundschaftsanfrage gesendet.";
+
+/* No comment provided by engineer. */
+"GPS Accurate Tracking Disabled" = "GPS genaues Tracking deaktiviert";
+
+/* No comment provided by engineer. */
+"GPS Accurate Tracking Enabled" = "GPS genaues Tracking aktiviert";
+
+/* No comment provided by engineer. */
+"General" = "Allgemeines";
+
+/* No comment provided by engineer. */
+"Generate Q.R. Code" = "Generiere Q.R. Code";
+
+/* No comment provided by engineer. */
+"Global Alert" = "Globale Warnung";
+
+/* No comment provided by engineer. */
+"Global alert requirements" = "Globale Alarmvoraussetzungen";
+
+/* No comment provided by engineer. */
+"Government" = "Regierung";
+
+/* No comment provided by engineer. */
+"Hated it" = "Fand ich furchtbar";
+
+/* No comment provided by engineer. */
+"Hi, I am using %@ to issue alerts while emergencies. It's free. Why don't you check it out on your phone.\n%@" = "Hallo, ich verwende %@, um in Notfällen Alarme auszustellen. Es ist kostenlos. Warum schaust du es nicht auf deinem Handy an?\n%@";
+
+/* No comment provided by engineer. */
+"Hi, I am using %@ to issue alerts while emergencies. It's free. Why don't you check it out on your phone.\nhttp://getcell411.com" = "Hallo, ich verwende %@, um in Notfällen Alarme auszustellen. Es ist kostenlos. Warum schaust du es nicht auf deinem Handy an?\nhttp: //getcell411.com";
+
+/* No comment provided by engineer. */
+"Hi, I am using %@ to issue alerts while emergencies. It's free. Why don't you check it out on your phone.\nhttp://www.ier.co.za/index.html" = "Hallo, ich verwende %@, um in Notfällen Alarme auszustellen. Es ist kostenlos. Warum schaust du es nicht auf deinem Handy an?\nhttp: //www.ier.co.za/index.html";
+
+/* No comment provided by engineer. */
+"Hi, feel free to scan my QR code and join me on %@ network to get help in emergency." = "Hallo, fühl Dich frei, meinen QR-Code zu scannen und meinem Netzwork beizutreten, um im Notfall Hilfe zu erhalten.";
+
+/* No comment provided by engineer. */
+"Hijack" = "Entführen";
+
+/* No comment provided by engineer. */
+"Image (Download the latest version via %@ to view this image)" = "Image (Lade die neueste Version über %@ herunter, um dieses Bild zu sehen)";
+
+/* No comment provided by engineer. */
+"Image(Tap to view)" = "Bild (zum Anzeigen antippen)";
+
+/* No comment provided by engineer. */
+"Import Contacts" = "Kontakte importieren";
+
+/* No comment provided by engineer. */
+"In an emergency" = "In einem Notfall";
+
+/* No comment provided by engineer. */
+"In order to provide reliable service %@ needs your location" = "Um zuverlässigen Service zu bieten, benötigt %@ Ihren Standort.";
+
+/* No comment provided by engineer. */
+"Include %@ Call Centre" = "Call Center mit einbeziehen";
+
+/* No comment provided by engineer. */
+"Info about contacts in your address book, including names, phone numbers and emails will be sent to %@ to help you and other find friends faster and to help us provide a better service. You can turn this off in Settings and manage or delete contact information you share with %@." = "Informationen zu Kontakten in Ihrem Adressbuch, einschließlich Namen, Telefonnummern und E-Mails, werden an %@ gesendet, um Ihnen und anderen dabei zu helfen, Freunde schneller zu finden und einen besseren Service zu bieten. Sie können dies in den Einstellungen deaktivieren und die mit %@ freigegebenen Kontaktinformationen verwalten oder löschen.";
+
+/* No comment provided by engineer. */
+"Interested" = "Interessiert";
+
+/* No comment provided by engineer. */
+"Invite" = "Einladen";
+
+/* No comment provided by engineer. */
+"Invite Facebook Friends" = "Facebook-Freunde einladen";
+
+/* No comment provided by engineer. */
+"Invites" = "Lädt ein";
+
+/* No comment provided by engineer. */
+"Is this correct email: \"%@\"?" = "Ist diese E-Mail korrekt: \"%@\"?";
+
+/* No comment provided by engineer. */
+"It's OK" = "Es ist in Ordnung";
+
+/* No comment provided by engineer. */
+"JOIN" = "BEITRETEN";
+
+/* No comment provided by engineer. */
+"Join this Cell" = "Dieser Zelle beitreten";
+
+/* No comment provided by engineer. */
+"Journalism" = "Journalismus";
+
+/* No comment provided by engineer. */
+"Know Your Rights" = "Kenne deine Rechte";
+
+/* No comment provided by engineer. */
+"Know your rights" = "Kenne deine Rechte";
+
+/* No comment provided by engineer. */
+"LEAVE" = "VERLASSEN";
+
+/* No comment provided by engineer. */
+"LIVE" = "LEBEN";
+
+/* No comment provided by engineer. */
+"LOADING..." = "WIRD GELADEN...";
+
+/* No comment provided by engineer. */
+"Leave this Cell" = "Diese Zelle verlassen";
+
+/* No comment provided by engineer. */
+"Liked it" = "hat es gefallen";
+
+/* No comment provided by engineer. */
+"Location" = "Ort";
+
+/* No comment provided by engineer. */
+"Location DEACTIVATED - last known location will be displayed" = "Ort DEAKTIVIERT - der letzte bekannte Ort wird angezeigt";
+
+/* No comment provided by engineer. */
+"Location Updates Disabled" = "Standortaktualisierungen deaktiviert";
+
+/* No comment provided by engineer. */
+"Location Updates Enabled" = "Standortaktualisierungen aktiviert";
+
+/* No comment provided by engineer. */
+"Loved it" = "Hat es geliebt";
+
+/* No comment provided by engineer. */
+"MEDICAL CONDITIONS" = "Medizinische Gründe";
+
+/* No comment provided by engineer. */
+"Manage %@ Panic Button(s)" = "%@ Panikknöpfe verwalten";
+
+/* No comment provided by engineer. */
+"Manage %@ Panic Buttons" = "%@  Panikknopf verwalten";
+
+/* No comment provided by engineer. */
+"Map" = "Karte";
+
+/* No comment provided by engineer. */
+"Medical" = "Medizinisch";
+
+/* No comment provided by engineer. */
+"Messsage Broadcasted" = "Nachricht gesendet";
+
+/* No comment provided by engineer. */
+"Mute" = "Stumm";
+
+/* No comment provided by engineer. */
+"Mute for..." = "Stumm für ...";
+
+/* No comment provided by engineer. */
+"My Device" = "Mein Gerät";
+
+/* No comment provided by engineer. */
+"My Profile" = "Mein Profil";
+
+/* No comment provided by engineer. */
+"Natural Disaster" = "Naturkatastrophe";
+
+/* No comment provided by engineer. */
+"Neighbours" = "Nachbarn";
+
+/* No comment provided by engineer. */
+"New Message" = "Neue Nachricht";
+
+/* No comment provided by engineer. */
+"New Public Cell Alert Disabled" = "Neuer öffentlicher Zellenalarm deaktiviert";
+
+/* No comment provided by engineer. */
+"New Public Cell Alert Enabled" = "Neue öffentliche Zellbenachrichtigung aktiviert";
+
+/* No comment provided by engineer. */
+"No messages appear in this Cell" = "In dieser Zelle erscheinen keine Meldungen";
+
+/* No comment provided by engineer. */
+"Not Interested" = "Nicht interessiert";
+
+/* No comment provided by engineer. */
+"Not Now" = "Nicht jetzt";
+
+/* No comment provided by engineer. */
+"Nothing to update" = "Nichts zu aktualisieren";
+
+/* No comment provided by engineer. */
+"Notifications" = "Benachrichtigungen";
+
+/* No comment provided by engineer. */
+"PAYMENT MODE" = "ZAHLUNGSART";
+
+/* No comment provided by engineer. */
+"PENDING" = "SCHWEBEND";
+
+/* No comment provided by engineer. */
+"PICK UP LOCATION" = "TREFFPUNKT";
+
+/* No comment provided by engineer. */
+"Panic" = "Panik";
+
+/* No comment provided by engineer. */
+"Patrol Mode Disabled" = "Patrol-Modus deaktiviert";
+
+/* No comment provided by engineer. */
+"Patrol Mode Enabled" = "Patrol-Modus aktiviert";
+
+/* No comment provided by engineer. */
+"Personal Safety" = "Persönliche Sicherheit";
+
+/* No comment provided by engineer. */
+"Phone added successfully" = "Telefon erfolgreich hinzugefügt";
+
+/* No comment provided by engineer. */
+"Phone number added successfully" = "Telefonnummer erfolgreich hinzugefügt";
+
+/* No comment provided by engineer. */
+"Phone number updated successfully" = "Telefonnummer erfolgreich aktualisiert";
+
+/* No comment provided by engineer. */
+"Phone updated successfully" = "Telefon erfolgreich aktualisiert";
+
+/* No comment provided by engineer. */
+"Phone verified successfully" = "Telefon erfolgreich verifiziert";
+
+/* No comment provided by engineer. */
+"Physical Abuse" = "Körperliche Misshandlungen";
+
+/* No comment provided by engineer. */
+"Pick Location" = "Ort auswählen";
+
+/* No comment provided by engineer. */
+"Please allow access to contacts for %@" = "Bitte erlauben Sie Zugriff auf Kontakte für %@";
+
+/* No comment provided by engineer. */
+"Please authorize %@ to use Bluetooth" = "Bitte autorisieren Sie %@ zur Verwendung von Bluetooth";
+
+/* No comment provided by engineer. */
+"Please authorize %@ to use Bluetooth for Panic Button to work" = "Bitte berechtigen Sie %@ zur Verwendung von Bluetooth für die Panic-Taste.";
+
+/* No comment provided by engineer. */
+"Please check your email for password reset instructions." = "Bitte überprüfen Sie Ihre E-Mail auf Anweisungen zum Zurücksetzen des Passworts.";
+
+/* No comment provided by engineer. */
+"Please confirm that you agree to our %@ and check each of the points below, hereby acknowledging that you took them into consideration and agree with all of them." = "Bitte bestätigen Sie, dass Sie mit unserem %@ einverstanden sind, und überprüfen Sie die folgenden Punkte. Hiermit bestätigen Sie, dass Sie diese berücksichtigt haben und mit allen Punkten einverstanden sind.";
+
+/* No comment provided by engineer. */
+"Please enter confirm password" = "Bitte bestätigen Sie das Passwort";
+
+/* No comment provided by engineer. */
+"Please enter description" = "Bitte Beschreibung eingeben";
+
+/* No comment provided by engineer. */
+"Please enter phone number" = "Bitte Telefonnummer eingeben";
+
+/* No comment provided by engineer. */
+"Please enter valid emergency mobile number" = "Bitte gültige Handy-Notrufnummer eingeben";
+
+/* No comment provided by engineer. */
+"Please enter valid mobile number" = "Bitte gültige Handynummer eingeben";
+
+/* No comment provided by engineer. */
+"Please enter your currency below" = "Bitte geben Sie unten Ihre Währung ein";
+
+/* No comment provided by engineer. */
+"Please enter your name so that %@ can recognize you." = "Bitte geben Sie Ihren Namen ein, damit %@ Sie erkennen kann.";
+
+/* No comment provided by engineer. */
+"Please provide a valid Server Url if you want to stream to your own live YouTube Channel. It should be like %@" = "Bitte geben Sie eine gültige Server-URL an, wenn Sie zu Ihrem eigenen YouTube-Kanal streamen möchten. Es sollte wie %@ sein";
+
+/* No comment provided by engineer. */
+"Please select any audience" = "Bitte wählen Sie eine beliebige Zielgruppe aus";
+
+/* No comment provided by engineer. */
+"Please select at least 1 friend" = "Bitte wählen Sie mindestens 1 Freund aus";
+
+/* No comment provided by engineer. */
+"Please select at least 1 non app user" = "Bitte wählen Sie mindestens 1 Nicht-App-Benutzer aus";
+
+/* No comment provided by engineer. */
+"Please select country for your emergency contact" = "Bitte wählen Sie ein Land für Ihren Notfallkontakt";
+
+/* No comment provided by engineer. */
+"Please select if you would like %@ to use kilometers or miles as the standard distance unit." = "Bitte wählen Sie aus, ob %@ Kilometer oder Meilen als Einheit für Entfernungen standardmäßig  verwendet werden soll.";
+
+/* No comment provided by engineer. */
+"Please select your country" = "Bitte wählen Sie Ihr Land aus";
+
+/* No comment provided by engineer. */
+"Pre-Authorisation" = "Vorabgenehmigung";
+
+/* No comment provided by engineer. */
+"Press and hold your %@ BT device for 10 seconds until you hear a beep and the light flashes green, then release the button." = "Halten Sie Ihr %@ BT-Gerät 10 Sekunden lang gedrückt, bis Sie einen Signalton hören und das Licht grün blinkt. Lassen Sie dann die Taste los.";
+
+/* No comment provided by engineer. */
+"Previously uploaded contacts will be deleted and you will no longer get notification when someone joins %@." = "Zuvor hochgeladene Kontakte werden gelöscht und Sie erhalten keine Benachrichtigung mehr, wenn jemand %@ beitritt.";
+
+/* No comment provided by engineer. */
+"Privacy Policy" = "Datenschutz-Bestimmungen";
+
+/* No comment provided by engineer. */
+"Private Cell" = "Private Zelle";
+
+/* No comment provided by engineer. */
+"Public Cell" = "Öffentliche Zelle";
+
+/* No comment provided by engineer. */
+"Public Cells" = "Öffentliche Zellen";
+
+/* No comment provided by engineer. */
+"Public Cells can be officially verified by %@ to confirm the identity of the owner and the legitimacy of the Cell. In order to be verified, please use a specific name for your Cell. For example, a Cell named \"New York City\" is misleading as it is not owned by the City of New York, however a Cell named \"New York City 55th St. Crime Watch\" is more specific and likely to be verified." = "Öffentliche Zellen können von %@ offiziell überprüft werden, um die Identität des Inhabers und die Legitimität der Zelle zu bestätigen. Um verifiziert zu werden, verwenden Sie bitte einen spezifischen Namen für Ihre Zelle. Zum Beispiel ist eine Zelle mit dem Namen \"New York City\" irreführend, da sie nicht im Besitz der Stadt New York ist. Eine Zelle mit dem Namen \"New York City 55th St. Crime Watch\" ist jedoch spezifischer und es ist daher wahrscheinlicher, dass diese verifiziert wird";
+
+/* No comment provided by engineer. */
+"Publish Alerts To Your Facebook Wall Disabled" = "Veröffentlichen Sie Benachrichtigungen auf Ihrer Facebook-Wand deaktiviert";
+
+/* No comment provided by engineer. */
+"Publish Alerts To Your Facebook Wall Enabled" = "Alerts auf Ihrer Facebook-Wand aktivieren";
+
+/* No comment provided by engineer. */
+"Pulled Over" = "Von der Polizei angehalten worden";
+
+/* No comment provided by engineer. */
+"QR Code" = "QR-Code";
+
+/* No comment provided by engineer. */
+"RECIPIENTS:" = "EMPFÄNGER:";
+
+/* No comment provided by engineer. */
+"REMEMBER: The police are allowed to LIE to you in order to incriminate you! You do not have to speak or answer any questions. Use %@ to stream live video to your friends and record the interaction. It cannot be detected by the police even if your phone is destroyed or confiscated!" = "Erinnern Sie sich: Die Polizei darf Sie anlügen, um Sie zu belasten! Sie müssen keine Fragen beantworten oder antworten. Verwenden Sie %@, um Live-Videos an Ihre Freunde zu streamen und die Interaktion aufzuzeichnen. Es kann von der Polizei nicht erkannt werden, selbst wenn Ihr Telefon zerstört oder konfisziert wird!";
+
+/* No comment provided by engineer. */
+"Radius %@ %@" = "Radius %@ %@";
+
+/* No comment provided by engineer. */
+"Rate this app" = "Bewerte diese App";
+
+/* No comment provided by engineer. */
+"Re-invite" = "Einladung wiederholen";
+
+/* No comment provided by engineer. */
+"Real time location ACTIVATED" = "Echtzeitstandort AKTIVIERT";
+
+/* No comment provided by engineer. */
+"Reject" = "Ablehnen";
+
+/* No comment provided by engineer. */
+"Remove Member" = "Mitglied entfernen";
+
+/* No comment provided by engineer. */
+"Request Accepted" = "Anfrage akzeptiert";
+
+/* No comment provided by engineer. */
+"Request Rejected" = "Antrag abgelehnt";
+
+/* No comment provided by engineer. */
+"Request Ride" = "Fahranfrage";
+
+/* No comment provided by engineer. */
+"Request sent to %d drivers" = "Anfrage an %d Fahrer gesendet";
+
+/* No comment provided by engineer. */
+"Request verification" = "Anforderungsbestätigung";
+
+/* No comment provided by engineer. */
+"Requirements not yet met for Global Alert privileges:" = "Anforderungen für globale Alert-Berechtigungen noch nicht erfüllt:";
+
+/* No comment provided by engineer. */
+"Resend" = "Erneut senden";
+
+/* No comment provided by engineer. */
+"Retreiving" = "Zurückverfolgen";
+
+/* No comment provided by engineer. */
+"Retreiving City..." = "Stadt zurückverfolgen ...";
+
+/* No comment provided by engineer. */
+"Retreiving city..." = "Stadt zurückverfolgen...";
+
+/* No comment provided by engineer. */
+"Retrieving Location" = "Ort abrufen";
+
+/* No comment provided by engineer. */
+"Retrieving..." = "Abrufen ...";
+
+/* No comment provided by engineer. */
+"Reviewed by %@" = "Rezensiert von %@";
+
+/* No comment provided by engineer. */
+"Reviews" = "Rezensionen";
+
+/* No comment provided by engineer. */
+"Ride Cost" = "Fahrkosten";
+
+/* No comment provided by engineer. */
+"Ride Detail" = "Fahrdetail";
+
+/* No comment provided by engineer. */
+"Ride Requests Disabled" = "Fahranfragen deaktiviert";
+
+/* No comment provided by engineer. */
+"Ride Requests Enabled" = "Fahranfragen aktiviert";
+
+/* No comment provided by engineer. */
+"Ride Responses" = "Fahrantworten";
+
+/* No comment provided by engineer. */
+"Ride Settings" = "Fahreinstellungen";
+
+/* No comment provided by engineer. */
+"Ride Status" = "Fahrstatus";
+
+/* No comment provided by engineer. */
+"SMS/Email" = "SMS / Email";
+
+/* No comment provided by engineer. */
+"Scan Code" = "Code scannen";
+
+/* No comment provided by engineer. */
+"Scan Q.R. Code" = "Q.R. Code scannen";
+
+/* No comment provided by engineer. */
+"Schoolmates" = "Schulkameraden";
+
+/* No comment provided by engineer. */
+"Search" = "Suche";
+
+/* No comment provided by engineer. */
+"Search by name, phone or email" = "Suche nach Name, Telefon oder E-Mail";
+
+/* No comment provided by engineer. */
+"Select" = "Wählen";
+
+/* No comment provided by engineer. */
+"Select Contacts" = "Kontakte auswählen";
+
+/* No comment provided by engineer. */
+"Select Friends" = "Freunde auswählen";
+
+/* No comment provided by engineer. */
+"Select One" = "Einen auswählen";
+
+/* No comment provided by engineer. */
+"Select Private Cells" = "Private Zellen auswählen";
+
+/* No comment provided by engineer. */
+"Select Public Cells" = "Öffentliche Zellen auswählen";
+
+/* No comment provided by engineer. */
+"Send car accident alert?" = "Autounfallalarm senden?";
+
+/* No comment provided by engineer. */
+"Send natural disaster alert?" = "Naturkatastrophenalarm senden?";
+
+/* No comment provided by engineer. */
+"Send physical abuse alert?" = "Benachrichtigung über körperlichen Missbrauch senden";
+
+/* No comment provided by engineer. */
+"Send pre-authorisation alert?" = "Vorautorisierungsalarm senden?";
+
+/* No comment provided by engineer. */
+"Send pulled over alert?" = "Über Alarm gesendet?";
+
+/* No comment provided by engineer. */
+"Send trapped/lost alert?" = "Ich bin gefangen bzw verirrt - Alarm senden?";
+
+/* No comment provided by engineer. */
+"Session Expired" = "Sitzung abgelaufen";
+
+/* No comment provided by engineer. */
+"Share Image" = "Bild teilen";
+
+/* No comment provided by engineer. */
+"Share Location" = "Ort teilen";
+
+/* No comment provided by engineer. */
+"Share this app" = "Teile diese App";
+
+/* No comment provided by engineer. */
+"Sorry, we are unable to send friend invite on this email." = "Wir können leider keine Freunde-Einladung über diese E-Mail senden.";
+
+/* No comment provided by engineer. */
+"Spam" = "Spam";
+
+/* No comment provided by engineer. */
+"State: Connected" = "Zustand: Verbunden";
+
+/* No comment provided by engineer. */
+"State: Disconnected" = "Zustand: getrennt";
+
+/* No comment provided by engineer. */
+"Tap Advanced Panic Settings to configure the time, recipients and additional text to be sent while issuing Panic alert." = "Tippen Sie auf erweiterte Panikeinstellungen, um die Uhrzeit, die Empfänger und den zusätzlichen Text zu konfigurieren, der bei der Ausgabe einer Panikwarnung gesendet werden soll.";
+
+/* No comment provided by engineer. */
+"Tap on Manage %@ Panic Button(s) to manage your hardware panic buttons and tap Advanced Panic Settings to configure the time, recipients and additional text to be sent while issuing Panic alert." = "Tippen Sie auf Manage %@ ​​Panik-Knopf, um die Hardware-Panik-Knopf zu verwalten, und tippen Sie auf erweiterte Panikeinstellungen, um die Uhrzeit, Empfänger und zusätzlichen Text zu konfigurieren, der bei der Ausgabe des Panik-Alarms gesendet werden soll.";
+
+/* No comment provided by engineer. */
+"Terms & Conditions" = "Geschäftsbedingungen";
+
+/* No comment provided by engineer. */
+"Thank you for your interest, we will inform you via the e-mail you have provided as soon as this app becomes public." = "Vielen Dank für Ihr Interesse. Wir informieren Sie per E-Mail, sobald diese App veröffentlicht wird.";
+
+/* No comment provided by engineer. */
+"There are currently no messages related to this alert" = "Derzeit sind keine Nachrichten zu dieser Warnung vorhanden.";
+
+/* No comment provided by engineer. */
+"There is already an account registered with mobile number %@. Please use different mobile number." = "Es ist bereits ein Konto mit der Mobilnummer %@ registriert. Bitte verwenden Sie eine andere Handynummer.";
+
+/* No comment provided by engineer. */
+"There is already an account under %@. Please tap on Forgot Password if you cannot remember your password." = "Es gibt bereits ein Konto unter %@. Tippen Sie auf \"Passwort vergessen\", wenn Sie sich nicht an Ihr Passwort erinnern können.";
+
+/* No comment provided by engineer. */
+"This app is currently for testing purposes only, not yet intended for public use. Proceed only if you have early access credentials." = "Diese App ist derzeit nur zu Testzwecken und noch nicht für die öffentliche Nutzung gedacht. Fahren Sie nur fort, wenn Sie frühzeitig auf Anmeldeinformationen zugreifen.";
+
+/* No comment provided by engineer. */
+"This will enable streaming live videos to %@ TV Channel." = "Dies ermöglicht das Streaming von Live-Videos zu %@ TV Sendern.";
+
+/* No comment provided by engineer. */
+"This will enable streaming live videos to %@ TV Facebook Page." = "Dies ermöglicht das Streaming von Live-Videos auf die %@ TV-Facebook-Seite.";
+
+/* No comment provided by engineer. */
+"To stream to your own YouTube Live Channel via %@ you need to retrieve your YouTube stream key and URL from your YouTube Live settings and enter them below. For further help, please read the FAQ and follow the tutorial at %@" = "Um über %@ zu Ihrem eigenen YouTube Live Channel zu streamen, müssen Sie Ihren YouTube-Stream-Schlüssel und die URL aus Ihren YouTube Live-Einstellungen abrufen und unten eingeben. Für weitere Hilfe lesen Sie bitte die FAQ und folgen Sie dem Tutorial unter %@]";
+
+/* No comment provided by engineer. */
+"Trapped" = "Gefangen";
+
+/* No comment provided by engineer. */
+"Turning location updates off will also disable Patrol Mode and Ride Requests. Do you still want to turn it off?" = "Durch das Deaktivieren der Standortaktualisierungen werden auch Patrol-Modus und Fahranfragen deaktiviert. Möchten Sie es immer noch ausschalten?";
+
+/* No comment provided by engineer. */
+"Turning location updates off will also disable Patrol Mode, New Public Cell Alert and Ride Requests. Do you still want to turn it off?" = "Durch das Deaktivieren der Standortaktualisierungen werden auch die Patrouillefunktion, den Alarm über neue öffentliche Zellen sowie Fahranfragen deaktiviert. Möchten Sie es immer noch ausschalten?";
+
+/* No comment provided by engineer. */
+"Turning location updates off will also disable Ride Requests and New Public Cell Alert. Do you still want to turn it off?" = "Durch das Deaktivieren von Standortaktualisierungen werden auch Ride Requests und New Public Cell Alert deaktiviert. Möchten Sie es immer noch ausschalten?";
+
+/* No comment provided by engineer. */
+"Turning location updates off will also disable Ride Requests. Do you still want to turn it off?" = "Durch das Deaktivieren der Standortaktualisierungen werden auch Fahranfragen deaktiviert. Möchten Sie es immer noch ausschalten?";
+
+/* No comment provided by engineer. */
+"Turning on Location Updates requires %@ to access your location." = "Um Standortaktualisierungen zu aktivieren, ist %@ es erforderlich, auf Ihren Standort zuzugreifen.";
+
+/* No comment provided by engineer. */
+"Turning on New Public Cell Alerts requires %@ to access your location." = "Für das Aktivieren neuer öffentlicher Zellbenachrichtigungen ist %@ es erforderlich, auf Ihren Standort zuzugreifen.";
+
+/* No comment provided by engineer. */
+"Turning on Patrol Mode requires %@ to access your location." = "Um den Patrol-Modus zu aktivieren, ist %@ es erforderlich, auf Ihren Standort zuzugreifen.";
+
+/* No comment provided by engineer. */
+"Turning on Ride Requests requires %@ to access your location." = "Für die Aktivierung von Fahranfragen ist %@ es erforderlich,auf Ihren Standort zuzugreifen.";
+
+/* No comment provided by engineer. */
+"Turning this feature ON will enable %@ to continuously upload your phone contacts in order to inform you when they join %@ so that you can friend with them if you want." = "Wenn Sie diese Funktion aktivieren, werden %@ Ihre Telefonkontakte kontinuierlich hochgeladen, damit Sie darüber informiert sind, wann diese %@ beitreten, sodass Sie mit ihnen gegebenenfalls befreundet sein können.";
+
+/* No comment provided by engineer. */
+"Turning this feature on will allow you to receive %@ alert whenever a new Public Cell is created nearby you. This feature requires Location Updates to be turned on." = "Wenn Sie diese Funktion aktivieren, erhalten Sie die Benachrichtigung %@, wenn eine neue öffentliche Zelle in Ihrer Nähe erstellt wird. Für diese Funktion müssen Ortsaktualisierungen aktiviert sein.";
+
+/* No comment provided by engineer. */
+"Turning this feature on will allow you to receive %@ alerts when someone in the patrol radius needs help.This feature requires Location Updates to be turned on." = "Wenn Sie diese Funktion aktivieren, erhalten Sie %@ -Alarmmeldungen, wenn jemand im Patrouillenradius Hilfe benötigt. Für diese Funktion müssen Standortaktualisierungen aktiviert sein.";
+
+/* No comment provided by engineer. */
+"Unable to send SMS on phone number %@, valid number should start with country code followed by contact number. Please open Contacts app and update it if it's not correct." = "SMS kann nicht von dieser Telefonnummer %@ gesendet werden. Die gültige Nummer sollte mit der Landesvorwahl beginnen, gefolgt von der Kontaktnummer. Bitte öffnen Sie die Kontakte-App und aktualisieren Sie sie, falls sie nicht korrekt ist.";
+
+/* No comment provided by engineer. */
+"Unable to send verification code, is %@ your correct number?\nYour number should start with your country code followed by your contact number" = "Bestätigungscode kann nicht gesendet werden. Ist %@ Ihre korrekte Nummer?\nIhre Nummer sollte mit Ihrem Ländercode, gefolgt von Ihrer Kontaktnummer, beginnen.";
+
+/* No comment provided by engineer. */
+"Unfriend" = "Entfreunden";
+
+/* No comment provided by engineer. */
+"Unmute" = "Stummschaltung aufheben";
+
+/* No comment provided by engineer. */
+"Unrecognized" = "Unbekannt";
+
+/* No comment provided by engineer. */
+"Update Phone Number" = "Telefonnummer aktualisieren";
+
+/* No comment provided by engineer. */
+"Update Public Cell" = "Öffentliche Zelle aktualisieren";
+
+/* No comment provided by engineer. */
+"Upload Contacts Disabled" = "Upload Kontakte deaktiviert";
+
+/* No comment provided by engineer. */
+"Upload Contacts Enabled" = "Kontakte hochladen aktiviert";
+
+/* No comment provided by engineer. */
+"Uploading failed, please try again." = "Upload fehlgeschlagen, bitte erneut versuchen.";
+
+/* No comment provided by engineer. */
+"Using last known location." = "Letzte bekannte Position verwenden.";
+
+/* No comment provided by engineer. */
+"Vehicle Broken" = "Fahrzeug defekt";
+
+/* No comment provided by engineer. */
+"Video" = "Video";
+
+/* No comment provided by engineer. */
+"Video Settings" = "Video-Einstellungen";
+
+/* No comment provided by engineer. */
+"View Profile" = "Profil anzeigen";
+
+/* No comment provided by engineer. */
+"We are sorry, you have been logged out, please login again." = "Entschuldigung, Sie wurden abgemeldet, bitte melden Sie sich erneut an.";
+
+/* No comment provided by engineer. */
+"Welcome to %@" = "Willkommen bei %@";
+
+/* No comment provided by engineer. */
+"When this feature is enabled, a picture will be taken of anyone attempting to delete a %@ video alert using your phone's front camera. The video will not be deleted and will appear again when the app is relaunched" = "Wenn diese Funktion aktiviert ist, wird von allen Personen, die versuchen, einen %@ -Videoalarm mit der Frontkamera des Telefons zu löschen, ein Foto aufgenommen. Das Video wird nicht gelöscht und erscheint beim Neustart der App erneut.";
+
+/* No comment provided by engineer. */
+"You" = "Sie";
+
+/* No comment provided by engineer. */
+"You already have a %@ Account. Please login with your existing account, go to Settings, then Connect your account with Facebook" = "Sie haben bereits ein %@ Konto. Bitte loggen Sie sich mit Ihrem bestehenden Konto ein, gehen Sie zu Einstellungen und verbinden Sie dann Ihr Konto mit Facebook.";
+
+/* No comment provided by engineer. */
+"You are sending a GLOBAL alert! All %@ users with \"Patrol Mode\" enabled and within a %@ %@ radius will see your alert!" = "Sie senden eine globale Warnung! Alle %@ Benutzer mit aktiviertem \"Patrol Mode\" und innerhalb eines Radius von %@ %@ werden Ihre Warnung sehen!";
+
+/* No comment provided by engineer. */
+"You have rejected %@ for this ride" = "Sie haben %@ für diese Fahrt abgelehnt.";
+
+/* No comment provided by engineer. */
+"You have selected %@ for this ride" = "Sie haben %@ für diese Fahrt ausgewählt";
+
+/* No comment provided by engineer. */
+"You must have at least two friends and must have issued an alert to some private Cell in order to issue alerts globally." = "Sie müssen mindestens zwei Freunde haben und müssen eine Warnung an eine private Zelle ausgegeben haben, um weltweit Warnungen ausgeben zu können.";
+
+/* No comment provided by engineer. */
+"You were removed from Cell %@ by the owner" = "Sie wurden vom Besitzer der Zelle %@ entfernt";
+
+/* No comment provided by engineer. */
+"Your %@ Panic Button \"%@\" battery is below 10 percent. Please replace the battery as soon as possible!" = "Ihre %@ Panic Button \"%@\" - Batterie ist unter 10%. Bitte ersetzen Sie die Batterie so schnell wie möglich!";
+
+/* No comment provided by engineer. */
+"Your Facebook session is expired, please connect to Facebook again to publish alerts when you issue one" = "Ihre Facebook-Sitzung ist abgelaufen. Verbinden Sie sich erneut mit Facebook, um Warnungen zu veröffentlichen, wenn Sie eine ausgeben.";
+
+/* No comment provided by engineer. */
+"Your Facebook session is expired, please login again to continue." = "Ihre Facebook-Sitzung ist abgelaufen. Bitte melden Sie sich erneut an, um fortzufahren.";
+
+/* No comment provided by engineer. */
+"Your account has been blocked for violating the %@ Terms of Service." = "Ihr Konto wurde wegen Verletzung der %@ Nutzungsbedingungen gesperrt.";
+
+/* No comment provided by engineer. */
+"Your account has been temporarily suspended for violating the %@ Terms of Service." = "Ihr Konto wurde aufgrund eines Verstoßes gegen die Nutzungsbedingungen von %@ vorübergehend gesperrt.";
+
+/* No comment provided by engineer. */
+"Your account is not yet activated by administrator." = "Ihr Konto wurde vom Administrator noch nicht aktiviert.";
+
+/* No comment provided by engineer. */
+"Your friends can use %@ to scan this code and add you as a friend." = "Ihre Freunde können mit%@ diesen Code scannen und Sie als Freund hinzufügen.";
+
+/* No comment provided by engineer. */
+"\"%@ will send your exact coordinates to trusted people so they can find you and help you when you need help most\"" = "\"%@ sendet Ihre genauen Koordinaten an vertrauenswürdige Personen, damit diese Sie finden und Ihnen helfen können, wenn Sie Hilfe am dringendsten benötigen\"";
+
+/* No comment provided by engineer. */
+"\"Create your own family and community emergency response groups to get an immediate notification once an alert has been issued. Ensuring you get the emergency assistance you need when you need it.\"" = "\"Erstellen Sie Ihre eigenen Familien- und Community-Notfallgruppen, um sofort eine Benachrichtigung zu erhalten, sobald eine Warnmeldung ausgegeben wurde. Stellen Sie sicher, dass Sie die Notfallhilfe erhalten, die Sie benötigen, wenn Sie sie brauchen.\"";
+
+/* No comment provided by engineer. */
+"\"iER dispatches emergency response units to your location and is available nationwide.\niER is linked directly to each and every member and directly to the emergency response personnel, we’ll know where you are within seconds of you sending an alert using the iER App.\"" = "\"iER schickt Notrufzentralen an Ihren Standort und ist bundesweit verfügbar.\nIER ist direkt mit jedem einzelnen Mitglied und direkt mit dem Notrufpersonal verbunden. Wir wissen innerhalb von Sekunden, wo Sie sich befinden, nachdem Sie eine Warnung über das System gesendet haben iER App.\"";
+
+/* No comment provided by engineer. */
+"\"iER is South Africa’s only dedicated emergency response and disaster management network backed by our own emergency trained call centre designed to respond to any emergency situation 24 hours a day, every day!\"" = "\"iER ist Südafrikas einziges und speziell dafür vorgesehenes Notfall- und Katastrophenmanagement-Netzwerk, das von unserem eigenen Notfall-Call Center unterstützt wird, das 24 Stunden am Tag und jeden Tag auf Notfälle reagieren kann.\"";
+
+/* No comment provided by engineer. */
+"\n- number of Public Cells joined so far" = "\n- Anzahl der öffentlichen Zellen, denen bisher beigetreten wurde";
+
+/* No comment provided by engineer. */
+"\n- number of friends in %@" = "\n- Anzahl der Freunde in %@";
+
+/* No comment provided by engineer. */
+"\n- profile status only %d%% complete" = "\n- Profilstatus nur zu %d%% vollständig";
+
+/* No comment provided by engineer. */
+"\n- time passed since signing up to %@" = "\n- Zeit seit der Anmeldung bei %@ vergangen";
+
+/* No comment provided by engineer. */
+"\nYou can view the location here: %@" = "\nSie können den Ort hier ansehen:%@";
+
+/* No comment provided by engineer. */
+"approved your friend request!" = "Ihre Freundschaftsanfrage wurde bestätigt";
+
+/* No comment provided by engineer. */
+"approved your ride!" = "bestätigte deine Fahrt!";
+
+/* No comment provided by engineer. */
+"forwarded an emergency alert!" = "hat einen Notfallalarm weitergeleitet!";
+
+/* No comment provided by engineer. */
+"has rejected your ride :(" = "hat deine Fahrt abgelehnt :(";
+
+/* No comment provided by engineer. */
+"has sent you a %@ friend request!" = "hat dir eine %@-Freundschaftsanfrage gesendet!";
+
+/* No comment provided by engineer. */
+"has sent you a Cell 411 friend request!" = "hat dir eine Cell 411 Freundschaftsanfrage gesendet!";
+
+/* No comment provided by engineer. */
+"has sent you an %@ friend request!" = "hat dir eine %@-Freundschaftsanfrage gesendet!";
+
+/* No comment provided by engineer. */
+"has sent you an iER friend request!" = "hat dir eine iER Freundschaftsanfrage geschickt!";
+
+/* No comment provided by engineer. */
+"is requesting a ride" = "bittet um eine Fahrt";
+
+/* No comment provided by engineer. */
+"is streaming live video!" = "streamt Live-Video!";
+
+/* No comment provided by engineer. */
+"issued a fallen alert!" = "gab eine gefallene Warnung aus!";
+
+/* No comment provided by engineer. */
+"issued a panic alert!" = "gab eine Panikwarnung aus!";
+
+/* No comment provided by engineer. */
+"issued a photo alert!" = "gab einen Fotoalarm aus!";
+
+/* No comment provided by engineer. */
+"issued an emergency alert!" = "gab einen Notfallalarm aus!";
+
+/* No comment provided by engineer. */
+"offered to give you a ride" = "bot an, Sie mitzunehmen";
+
+/* No comment provided by engineer. */
+"reached the pickup location and is ready to pick you up" = "hat den Abholort erreicht und ist bereit, Sie abzuholen";
+
+/* No comment provided by engineer. */
+"terms" = "Begriffe";
+
+/* No comment provided by engineer. */
+"today at %@" = "heute um %@";
+
+/* No comment provided by engineer. */
+"user" = "Nutzer";
+
+/* No comment provided by engineer. */
+"users" = "Benutzer";

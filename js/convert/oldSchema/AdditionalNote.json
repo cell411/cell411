@@ -1,0 +1,83 @@
+{
+  "className": "AdditionalNote",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "cell411AlertId": {
+      "type": "String"
+    },
+    "note": {
+      "type": "String"
+    },
+    "seen": {
+      "type": "Number"
+    },
+    "writerId": {
+      "type": "String"
+    },
+    "writerDuration": {
+      "type": "String"
+    },
+    "writerName": {
+      "type": "String"
+    },
+    "alertType": {
+      "type": "String"
+    },
+    "forwardedBy": {
+      "type": "String"
+    },
+    "cellId": {
+      "type": "String"
+    },
+    "cellName": {
+      "type": "String"
+    },
+    "userType": {
+      "type": "String"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    },
+    "readUserFields": [],
+    "writeUserFields": []
+  },
+  "indexes": {
+    "_id_": {
+      "_id": 1
+    },
+    "_created_at_-1": {
+      "_created_at": -1
+    },
+    "cell411AlertId_1": {
+      "cell411AlertId": 1
+    }
+  }
+}

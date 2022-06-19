@@ -1,0 +1,41 @@
+'use strict';
+
+var assert = require('assert');
+
+var readInt8 = require('../');
+
+var bufferFrom = Buffer.from || Buffer;
+
+function test(name, run) {
+	console.log(name);
+	run();
+}
+
+test('positive 32-bit', function () {
+	assert.strictEqual(readInt8(bufferFrom([0, 0, 0, 0, 0, 0, 0, 0])), '0');
+	assert.strictEqual(readInt8(bufferFrom([0, 0, 0, 0, 0, 0, 0, 1])), '1');
+	assert.strictEqual(readInt8(bufferFrom([0, 0, 0, 0, 0, 0, 2, 0])), '512');
+	assert.strictEqual(readInt8(bufferFrom([0, 0, 0, 0, 0xff, 0xff, 0xff, 0xff])), '4294967295');
+});
+
+test('negative 32-bit', function () {
+	assert.strictEqual(readInt8(bufferFrom([0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff])), '-1');
+	assert.strictEqual(readInt8(bufferFrom([0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xfe, 0x00])), '-512');
+	assert.strictEqual(readInt8(bufferFrom([0xff, 0xff, 0xff, 0xff, 0x00, 0x00, 0x00, 0x00])), '-4294967296');
+});
+
+test('positive 64-bit', function () {
+	assert.strictEqual(readInt8(bufferFrom([0x00, 0x1f, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff])), '9007199254740991');
+	assert.strictEqual(readInt8(bufferFrom([0x7f, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff])), '9223372036854775807');
+	assert.strictEqual(readInt8(bufferFrom([0x00, 0x00, 0x00, 0x02, 0x54, 0x0b, 0xe4, 0x00])), '10000000000');
+	assert.strictEqual(readInt8(bufferFrom([0x00, 0x00, 0x00, 0x17, 0x48, 0x76, 0xe8, 0x01])), '100000000001');
+	assert.strictEqual(readInt8(bufferFrom([0x0d, 0xe0, 0xb6, 0xb3, 0xa7, 0x64, 0x00, 0x63])), '1000000000000000099');
+});
+
+test('negative 64-bit', function () {
+	assert.strictEqual(readInt8(bufferFrom([0xff, 0xe0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01])), '-9007199254740991');
+	assert.strictEqual(readInt8(bufferFrom([0x80, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00])), '-9223372036854775808');
+	assert.strictEqual(readInt8(bufferFrom([0xff, 0xff, 0xff, 0xe8, 0xb7, 0x89, 0x18, 0x00])), '-100000000000');
+	assert.strictEqual(readInt8(bufferFrom([0xff, 0xff, 0xff, 0xfd, 0xab, 0xf4, 0x1b, 0xff])), '-10000000001');
+	assert.strictEqual(readInt8(bufferFrom([0xf2, 0x1f, 0x49, 0x4c, 0x58, 0x9b, 0xff, 0x9d])), '-1000000000000000099');
+});

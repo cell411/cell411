@@ -1,0 +1,11 @@
+.idea/
+node_modules/
+coverage/
+API/
+typescript/*.js
+typescript/*.map
+test/typescript/*.js
+test/typescript/*.map
+typings/
+generated.js
+package-lock.json

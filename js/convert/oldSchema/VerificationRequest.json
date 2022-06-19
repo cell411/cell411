@@ -1,0 +1,72 @@
+{
+  "className": "VerificationRequest",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "requestedBy": {
+      "type": "Pointer",
+      "targetClass": "_User"
+    },
+    "status": {
+      "type": "String"
+    },
+    "cell": {
+      "type": "Pointer",
+      "targetClass": "PublicCell"
+    },
+    "cellName": {
+      "type": "String"
+    },
+    "name": {
+      "type": "String"
+    },
+    "nauCell": {
+      "type": "Pointer",
+      "targetClass": "PublicCell"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    },
+    "readUserFields": [],
+    "writeUserFields": []
+  },
+  "indexes": {
+    "_id_": {
+      "_id": 1
+    },
+    "_created_at_-1": {
+      "_created_at": -1
+    },
+    "_p_cell_1__created_at_-1": {
+      "_p_cell": 1,
+      "_created_at": -1
+    }
+  }
+}

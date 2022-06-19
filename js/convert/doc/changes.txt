@@ -1,0 +1,92 @@
+_User
+  delete rideRequestAlert
+  delete carImageName
+  delete syncContacts
+  delete authData
+  delete privilege
+  delete clientFirmId
+  delete tag
+  delete city
+  delete isDeleted
+
+  rename _id objectId
+  rename _created_at createdAt
+  rename _updated_at updatedAt
+
+
+  retype _hashed_password  to String (what was it?)
+
+Cell
+  delete nauMembers
+ 
+  retype members from Array to Relation
+  
+  rename owner to createdBy
+
+PublicCells
+  delete fullAddress
+  delete city
+  delete country
+  
+Cell411Alert
+  delete audienceAU
+  delete audienceNAU
+  delete cellMembers
+  delete cellName
+  delete city
+  delete country
+  delete dispatchMode
+  delete forwardedToMembers
+  delete fullAddress
+  rename geoTag to location
+  delete issuerFirstName
+  delete issuerId
+  delete issuerId
+  delete IssuerId
+  delete targetMembers
+  delete targetNAUMembers
+  delete totalAudienceAU
+  delete totalAudienceNAU
+  delete totalPatrolMembers
+  delete totalPatrolUsers
+
+ todo:
+_Users: 
+  rename PatrolMode to patrolMode
+  change number fields used as booleans to booleans
+  add a "last consent" field, and remove UserConsent table
+  replace lastName firstName with single Name
+    
+ 
+Split Cell411Alert into Alert and Request
+ "Alert": {
+ "fields":       {
+ "objectId":     {  "type":  "String"    },
+ "createdAt":    {  "type":  "Date"      },
+ "updatedAt":    {  "type":  "Date"      },
+ "ACL":          {  "type":  "ACL"       },
+ "note":         {  "type":  "String"    },
+ "global":       {  "type":  "Boolean"   },
+ "seenBy":       {  "type":  "Relation"  ,   "targetClass":  "_User"  },
+ "sentTo":       {  "type":  "Relation"  ,   "targetClass":  "_User"  },
+ "offered":      {  "type":  "Relation"  ,   "targetClass":  "_User"  },
+ "refused":      {  "type":  "Relation"  ,   "targetClass":  "_User"  },
+ "fileLink":     {  "type":  "File"      },
+ "fileType":     {  "type":  "String"    },
+ "location":     {  "type":  "GeoPoint"  },
+ "createdBy":    {  "type":  "Pointer"   ,   "targetClass":  "_User"  },
+ "problemType":  {  "type":  "String"    }
+}
+
+"Request":        {
+  "objectId":     {  "type":  "String"    },
+  "createdAt":    {  "type":  "Date"      },
+  "updatedAt":    {  "type":  "Date"      },
+  "ACL":          {  "type":  "ACL"       },
+  "cell":         {  "type":  "Pointer",  "targetClass":  "PublicCell"  },
+  "sentTo":       {  "type":  "Pointer",  "targetClass":  "_User"       },
+  "status":       {  "type":  "String"    },
+  "createdBy":    {  "type":  "Pointer",  "targetClass":  "_User"       },
+  "requestType":  {  "type":  "String"
+}
+

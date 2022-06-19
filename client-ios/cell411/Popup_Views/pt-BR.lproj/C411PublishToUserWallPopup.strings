@@ -1,0 +1,12 @@
+/* Class = "UILabel"; text = "Would you like to enable publishing alerts to your Facebook Wall when you issue one?"; ObjectID = "Aw4-Ot-QgC"; */
+"Aw4-Ot-QgC.text" = "Você gostaria de habilitar publicação dos seus alertas no seu perfil no Facebook?";
+
+/* Class = "UIButton"; normalTitle = "Enable"; ObjectID = "Dsv-MJ-9oJ"; */
+"Dsv-MJ-9oJ.normalTitle" = "Habilitar";
+
+/* Class = "UILabel"; text = "Publish alert to my Facebook Wall when I issue one"; ObjectID = "Fdx-cL-zU1"; */
+"Fdx-cL-zU1.text" = "Publicar meus alertas em meu perfil no Facebook";
+
+/* Class = "UIButton"; normalTitle = "Do it Later"; ObjectID = "Hva-pM-EJh"; */
+"Hva-pM-EJh.normalTitle" = "Mais Tarde";
+

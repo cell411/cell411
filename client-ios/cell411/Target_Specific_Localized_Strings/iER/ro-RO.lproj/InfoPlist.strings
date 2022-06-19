@@ -1,0 +1,31 @@
+/* No Localized Strings */
+
+/* (No Commment) */
+"NSBluetoothPeripheralUsageDescription" = "Permite accesul Bluetooth pentru a-ți putea conecta Butonul de Panică.";
+
+/* (No Commment) */
+"NSCameraUsageDescription" = "Necesită accesul la cameră pentru a trimite alerte foto.";
+
+/* (No Commment) */
+"NSContactsUsageDescription" = "Pentru a afișa lista de contacte în scopul invitării acestora";
+
+/* (No Commment) */
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "iER needs your location to help others find you when you issue an alert, to improve your overall experience and to provide you services like: New Public Cell Alerts. With \"Always\" access to your location we'll be able to send you accurate location based notifications.";
+
+/* (No Commment) */
+"NSLocationAlwaysUsageDescription" = "iER needs your location to help others find you when you issue an alert, to improve your overall experience and to provide you services like: New Public Cell Alerts. With \"Always\" access to your location we'll be able to send you accurate location based notifications.";
+
+/* (No Commment) */
+"NSLocationWhenInUseUsageDescription" = "iER needs your location to help others find you when you issue an alert, to improve your overall experience and to provide you services like: New Public Cell Alerts.";
+
+/* (No Commment) */
+"NSMicrophoneUsageDescription" = "Necesar pentru Transmisii Video în Direct";
+
+/* (No Commment) */
+"NSMotionUsageDescription" = "Datele de gesticulare sunt necesare pentru a îmbunătăți acuratețea localizării fără a consuma prea multă baterie.";
+
+/* (No Commment) */
+"NSPhotoLibraryUsageDescription" = "Permite te rog accesul iER la biblioteca de poze pentru a putea trimite alerte foto.";
+
+/* (No Commment) */
+"NSPhotoLibraryAddUsageDescription" = "Permite te rog accesul iER la biblioteca de poze pentru a putea salva fotografii și filmări.";

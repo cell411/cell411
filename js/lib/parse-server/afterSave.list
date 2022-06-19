@@ -1,0 +1,84 @@
+./changelogs/CHANGELOG_release.md:60:- FIX: (beforeSave/afterSave): Return value instead of Parse.Op for nested fields. [#7005](https://github.com/parse-community/parse-server/pull/7005). Thanks to [Diamond Lewis](https://github.com/dplewis).
+./changelogs/CHANGELOG_release.md:479:* Adds ability to pass a context object between `beforeSave` and `afterSave` affecting the same object.
+./changelogs/CHANGELOG_release.md:732:* Handle possible afterSave exception, thanks to [Benjamin Wilson Friedman](https://github.com/montymxb)
+./changelogs/CHANGELOG_release.md:802:* You can use Parse.Cloud.afterSave hooks on _PushStatus
+./changelogs/CHANGELOG_release.md:1555:* Fix: Better sanitization/decoding of object data for afterSave triggers [\#992](https://github.com/ParsePlatform/parse-server/pull/992) (flovilmart)
+./changelogs/CHANGELOG_release.md:1568:* Fix: Do master query for before/afterSaveHook [\#959](https://github.com/ParsePlatform/parse-server/pull/959) (wangmengyan95)
+./lib/cloud-code/Parse.Cloud.js:328: * If you want to use afterSave for a predefined class in the Parse JavaScript SDK (e.g. {@link Parse.User}), you should pass the class itself and not the String for arg1.
+./lib/cloud-code/Parse.Cloud.js:331: * Parse.Cloud.afterSave('MyCustomClass', async function(request) {
+./lib/cloud-code/Parse.Cloud.js:337: * Parse.Cloud.afterSave(Parse.User, async function(request) {
+./lib/cloud-code/Parse.Cloud.js:342: * @method afterSave
+./lib/cloud-code/Parse.Cloud.js:343: * @name Parse.Cloud.afterSave
+./lib/cloud-code/Parse.Cloud.js:350:ParseCloud.afterSave = function (parseClass, handler, validationHandler) {
+./lib/cloud-code/Parse.Cloud.js:353:  triggers.addTrigger(triggers.Types.afterSave, className, handler, _node.Parse.applicationId, validationHandler);
+./lib/cloud-code/Parse.Cloud.js:482: * Parse.Cloud.afterSaveFile(async (request) => {
+./lib/cloud-code/Parse.Cloud.js:488: * Parse.Cloud.afterSaveFile(async (request) => {
+./lib/cloud-code/Parse.Cloud.js:493: * @method afterSaveFile
+./lib/cloud-code/Parse.Cloud.js:494: * @name Parse.Cloud.afterSaveFile
+./lib/cloud-code/Parse.Cloud.js:500:ParseCloud.afterSaveFile = function (handler, validationHandler) {
+./lib/cloud-code/Parse.Cloud.js:502:  triggers.addFileTrigger(triggers.Types.afterSaveFile, handler, _node.Parse.applicationId, validationHandler);
+./lib/cloud-code/Parse.Cloud.js:715: * @property {String} triggerName The name of the trigger (`beforeSave`, `afterSave`, ...)
+./lib/cloud-code/Parse.Cloud.js:730: * @property {String} triggerName The name of the trigger (`beforeSaveFile`, `afterSaveFile`)
+./lib/cloud-code/Parse.Cloud.js:766: * @property {String} triggerName The name of the trigger (`beforeSave`, `afterSave`, ...)
+./lib/cloud-code/Parse.Cloud.js:780: * @property {String} triggerName The name of the trigger (`beforeSave`, `afterSave`, ...)
+./lib/rest.js:148:    const hasTriggers = checkTriggers(className, config, ['beforeSave', 'afterSave']);
+./lib/triggers.js:57:  afterSave: 'afterSave',
+./lib/triggers.js:63:  afterSaveFile: 'afterSaveFile',
+./lib/triggers.js:108:    throw 'Only afterSave is allowed on _PushStatus';
+./lib/triggers.js:345:  if (triggerType === Types.beforeSave || triggerType === Types.afterSave || triggerType === Types.beforeDelete || triggerType === Types.afterDelete || triggerType === Types.afterFind) {
+./lib/triggers.js:425:      if (response && typeof response === 'object' && request.triggerName === Types.afterSave) {
+./lib/triggers.js:429:      if (request.triggerName === Types.afterSave) {
+./lib/triggers.js:902:// originalParseObject is optional, we only need that for before/afterSave functions
+./lib/triggers.js:920:      if (triggerType === Types.beforeSave || triggerType === Types.afterSave || triggerType === Types.beforeDelete || triggerType === Types.afterDelete) {
+./lib/triggers.js:943:      if (triggerType === Types.afterSave || triggerType === Types.afterDelete || triggerType === Types.afterLogin) {
+./lib/RestWrite.js:465:          // IF we have a response, we'll skip the database operation / beforeSave / afterSave etc...
+./lib/RestWrite.js:1374:  } // Avoid doing any setup for triggers if there is no 'afterSave' trigger for this class.
+./lib/RestWrite.js:1377:  const hasAfterSaveHook = triggers.triggerExists(this.className, triggers.Types.afterSave, this.config.applicationId);
+./lib/RestWrite.js:1409:  }); // Run afterSave trigger
+./lib/RestWrite.js:1411:  return triggers.maybeRunTrigger(triggers.Types.afterSave, this.auth, updatedObject, originalObject, this.config, this.context).then(result => {
+./lib/RestWrite.js:1416:    _logger.default.warn('afterSave caught an error', err);
+./lib/LiveQuery/ParseLiveQueryServer.js:88:    this.subscriber.subscribe(_node.default.applicationId + 'afterSave');
+./lib/LiveQuery/ParseLiveQueryServer.js:107:      if (channel === _node.default.applicationId + 'afterSave') {
+./lib/LiveQuery/ParseLiveQueryServer.js:249:    _logger.default.verbose(_node.default.applicationId + 'afterSave is triggered');
+./lib/LiveQuery/ParseCloudCodePublisher.js:27:    this._onCloudCodeMessage(_node.default.applicationId + 'afterSave', request);
+./lib/Routers/FilesRouter.js:208:      } // run afterSaveFile trigger
+./lib/Routers/FilesRouter.js:211:      await triggers.maybeRunFileTrigger(triggers.Types.afterSaveFile, fileObject, config, req.auth);
+./src/cloud-code/Parse.Cloud.js:303: * If you want to use afterSave for a predefined class in the Parse JavaScript SDK (e.g. {@link Parse.User}), you should pass the class itself and not the String for arg1.
+./src/cloud-code/Parse.Cloud.js:306: * Parse.Cloud.afterSave('MyCustomClass', async function(request) {
+./src/cloud-code/Parse.Cloud.js:312: * Parse.Cloud.afterSave(Parse.User, async function(request) {
+./src/cloud-code/Parse.Cloud.js:317: * @method afterSave
+./src/cloud-code/Parse.Cloud.js:318: * @name Parse.Cloud.afterSave
+./src/cloud-code/Parse.Cloud.js:323:ParseCloud.afterSave = function (parseClass, handler, validationHandler) {
+./src/cloud-code/Parse.Cloud.js:327:    triggers.Types.afterSave,
+./src/cloud-code/Parse.Cloud.js:481: * Parse.Cloud.afterSaveFile(async (request) => {
+./src/cloud-code/Parse.Cloud.js:487: * Parse.Cloud.afterSaveFile(async (request) => {
+./src/cloud-code/Parse.Cloud.js:492: * @method afterSaveFile
+./src/cloud-code/Parse.Cloud.js:493: * @name Parse.Cloud.afterSaveFile
+./src/cloud-code/Parse.Cloud.js:497:ParseCloud.afterSaveFile = function (handler, validationHandler) {
+./src/cloud-code/Parse.Cloud.js:500:    triggers.Types.afterSaveFile,
+./src/cloud-code/Parse.Cloud.js:739: * @property {String} triggerName The name of the trigger (`beforeSave`, `afterSave`, ...)
+./src/cloud-code/Parse.Cloud.js:754: * @property {String} triggerName The name of the trigger (`beforeSaveFile`, `afterSaveFile`)
+./src/cloud-code/Parse.Cloud.js:790: * @property {String} triggerName The name of the trigger (`beforeSave`, `afterSave`, ...)
+./src/cloud-code/Parse.Cloud.js:804: * @property {String} triggerName The name of the trigger (`beforeSave`, `afterSave`, ...)
+./src/rest.js:197:      const hasTriggers = checkTriggers(className, config, ['beforeSave', 'afterSave']);
+./src/triggers.js:10:  afterSave: 'afterSave',
+./src/triggers.js:16:  afterSaveFile: 'afterSaveFile',
+./src/triggers.js:61:    throw 'Only afterSave is allowed on _PushStatus';
+./src/triggers.js:281:    triggerType === Types.afterSave ||
+./src/triggers.js:360:      if (response && typeof response === 'object' && request.triggerName === Types.afterSave) {
+./src/triggers.js:363:      if (request.triggerName === Types.afterSave) {
+./src/triggers.js:825:// originalParseObject is optional, we only need that for before/afterSave functions
+./src/triggers.js:860:          triggerType === Types.afterSave ||
+./src/triggers.js:895:          triggerType === Types.afterSave ||
+./src/RestWrite.js:527:          // IF we have a response, we'll skip the database operation / beforeSave / afterSave etc...
+./src/RestWrite.js:1509:  // Avoid doing any setup for triggers if there is no 'afterSave' trigger for this class.
+./src/RestWrite.js:1512:    triggers.Types.afterSave,
+./src/RestWrite.js:1547:  // Run afterSave trigger
+./src/RestWrite.js:1550:      triggers.Types.afterSave,
+./src/RestWrite.js:1563:      logger.warn('afterSave caught an error', err);
+./src/LiveQuery/ParseLiveQueryServer.js:72:    this.subscriber.subscribe(Parse.applicationId + 'afterSave');
+./src/LiveQuery/ParseLiveQueryServer.js:86:      if (channel === Parse.applicationId + 'afterSave') {
+./src/LiveQuery/ParseLiveQueryServer.js:218:    logger.verbose(Parse.applicationId + 'afterSave is triggered');
+./src/LiveQuery/ParseCloudCodePublisher.js:16:    this._onCloudCodeMessage(Parse.applicationId + 'afterSave', request);
+./src/Routers/FilesRouter.js:196:      // run afterSaveFile trigger
+./src/Routers/FilesRouter.js:198:        triggers.Types.afterSaveFile,

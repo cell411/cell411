@@ -1,0 +1,18 @@
+#!/bin/bash
+
+exec 2>&1
+echo "supervise starting parse server"
+echo >&2 this is stderr
+cd $(dirname ${BASH_SOURCE})
+pwd
+PARSE_FLAVOR=$(basename "$PWD")
+PARSE_FLAVOR=${PARSE_FLAVOR##*-}
+
+cd /home/parse/src/serv411/
+pwd
+#set -- "$@" PARSE_SERVER_LOG_LEVEL='debug'
+set -- "$@" PARSE_FLAVOR=$PARSE_FLAVOR 
+if [ $(id -un) != "parse" ]; then
+  set -- "$@" setuidgid parse
+fi
+exec env HOME=~parse "$@" node index.js

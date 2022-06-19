@@ -1,0 +1,153 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;\f2\fnil\fcharset0 Monaco;
+}
+{\colortbl;\red255\green255\blue255;\red11\green87\blue42;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid2\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+
+\f0\fs36 \cf0 Steps to create white label version of the app using Targets\
+\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\fs26 \cf0 {\listtext	1.	}\expnd0\expndtw0\kerning0
+Start by selecting your project from the navigator(i.e cell411).\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	2.	}Now right click your target 
+\b cell411, 
+\b0 and choose duplicate:\
+{\listtext	3.	}Choose 
+\b Duplicate Only
+\b0  on the popup\
+{\listtext	4.	}To identify the new target you need to do some renaming:\
+\pard\tx940\tx1440\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls1\ilvl1\cf0 {\listtext	\uc0\u8259 	}Select the new target just created and hit return to rename it (say iER)\
+{\listtext	\uc0\u8259 	}\expnd0\expndtw0\kerning0
+If you look up at the top part of XCode where you usually choose the device you want to run your app on, you\'92ll find something called a 
+\b \cf2 scheme
+\b0 \cf0  just to the left of that. You\'92ll use the scheme in just a bit to select which target you want to build. Currently you have 
+\b \cf2 cell411
+\b0 \cf0  selected, but if you expand the popup, you\'92ll find a new target just created named as 
+\b cell411 copy
+\b0 . You have to rename that too, press on the 
+\b manage schemes\'85
+\b0  option, a popup will come, select and hit return on the cell411 copy  from popup and rename it to <new target name>(say iER) and hit enter.\
+\ls1\ilvl1
+\fs36 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8259 	}
+\fs26 A new plist would be created for the new target, locate it and move it to supporting files folder.\
+\ls1\ilvl1
+\fs36 {\listtext	\uc0\u8259 	}
+\fs26 Rename this plist to 
+\b <TargetName>_Info.plist
+\b0 (say iER_Info.plist)\
+{\listtext	\uc0\u8259 	}Select your Project(
+\b cell411
+\b0 ) from the project navigator and select the new target you created and renamed(say iER) and go to 
+\b General
+\b0  Tab. You\'92ll see that your info.plist file is not linked, click on the button saying \'93
+\b Choose Info.plist File\'85
+\b0 \'94 and select the new renamed <TargetName>_Info.plist(say iER_Info.plist) file.\
+{\listtext	\uc0\u8259 	}Go to the Build Settings for the new target and Search for \'93
+\b Product Bundle Identifier
+\b0 \'94 and give the new bundle id for both 
+\b Debug
+\b0  and 
+\b Release
+\b0  options.\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	5.	}Go to Info Tab for the new Target and give new \'93Bundle Display Name\'94 required for the new app.\
+{\listtext	6.	}Go to General Tab for the new target and you can update the version number and build number for this target.\
+{\listtext	7.	}Select LaunchScreen.storyboard file and go to the first tab of Utilities Pane (Extreme Right Pane) and uncheck the new target, as you\'92ll be going to create the new LaunchScreen for this Target.\
+\pard\tx940\tx1440\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls1\ilvl1\cf0 {\listtext	\uc0\u8259 	}Create a new Launch Screen file and name it as <TargetName>_LaunchScreen.storyboard (say iER_LaunchScreen.storyboard) and make sure that the selected target should be the new target (say iER).\
+{\listtext	\uc0\u8259 	}Select the project from project navigator(cell411) and select the new target and then go to 
+\b General Tab > App Icons and Launch Images
+\b0  section and select the new Launch Screen File name i,e <TargetName>_LaunchScreen.storyboard\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	8.	}Create a new Asset folder with name <TargetName>_Media.xcassets(Make sure to select the <TargetName> for the new target) to store the assets specific for this new Target(i,e AppIcons and other images), common assets must be stored in Assets.xcassets.\
+{\listtext	9.	}Go to Build Settings of this new target and search for 
+\b Preprocessor Macros
+\b0  and update the following macros for both DEBUG and RELEASE:\
+\pard\tx940\tx1440\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls1\ilvl1\cf0 {\listtext	\uc0\u8259 	}
+\b VIDEO_STREAMING_ENABLED=1
+\b0  : Remove it if Video Streaming is not allowed.\
+{\listtext	\uc0\u8259 	}
+\b FB_ENABLED=1 
+\b0 : Remove it if Facebook is not allowed.\
+{\listtext	\uc0\u8259 	}
+\b APP_CELL411=1
+\b0  : Replace it with the new name(APP_<TARGETNAME>=1) to provide target specific code throughout the app.\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	10.	}Update the 
+\b ConfigConstants
+\b0  file and other files using the macro APP_<TARGETNAME> to provide constants specific to the new target.\
+{\listtext	11.	}If you want to remove Facebook feature from this target, you have to make following changes in the  
+\b <TargetName>_Info.plist 
+\b0 file as well for this target:\
+\pard\tx940\tx1440\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls1\ilvl1
+\f1\fs28 \cf0 {\listtext	
+\f2 \uc0\u8259 
+\f1 	}\CocoaLigature0 Remove 
+\f0\fs26 \CocoaLigature1 FB_ENABLED=1 from Preprocessor Macros under build settings of the target.
+\f1\fs28 \CocoaLigature0 \
+\ls1\ilvl1\CocoaLigature1 {\listtext	
+\f2 \uc0\u8259 
+\f1 	}\CocoaLigature0 Right-click  
+\f0\b\fs26 \CocoaLigature1 <TargetName>_Info.plist
+\f1\b0\fs28 \CocoaLigature0  and choose "Open As Source Code".\
+\pard\tx674\pardeftab674\pardirnatural\partightenfactor0
+\ls1\ilvl1\cf0 \CocoaLigature1 {\listtext	
+\f2 \uc0\u8259 
+\f1 	}\CocoaLigature0 3. Locate <key>CFBundleURLSchemes</key> which contains array of supported callback schemes.\
+\ls1\ilvl1\CocoaLigature1 {\listtext	
+\f2 \uc0\u8259 
+\f1 	}\CocoaLigature0 4. Remove  <string>fb977143409065687</string> and <string>Cell411</string> from the array of CFBundleURLSchemes\
+\ls1\ilvl1\CocoaLigature1 {\listtext	
+\f2 \uc0\u8259 
+\f1 	}\CocoaLigature0 5. Locate below snippet and remove it:\
+\ls1\ilvl1\CocoaLigature1 {\listtext	
+\f2 \uc0\u8259 
+\f1 	}\CocoaLigature0               <key>FacebookAppID</key>\
+\ls1\ilvl1\CocoaLigature1 {\listtext	
+\f2 \uc0\u8259 
+\f1 	}\CocoaLigature0               <string>977143409065687</string>\
+\ls1\ilvl1\CocoaLigature1 {\listtext	
+\f2 \uc0\u8259 
+\f1 	}\CocoaLigature0 6. Locate below snippet and remove it:\
+\ls1\ilvl1\CocoaLigature1 {\listtext	
+\f2 \uc0\u8259 
+\f1 	}\CocoaLigature0               <key>FacebookDisplayName</key>\
+\ls1\ilvl1\CocoaLigature1 {\listtext	
+\f2 \uc0\u8259 
+\f1 	}\CocoaLigature0               <string>Cell 411</string>\
+\ls1\ilvl1\CocoaLigature1 {\listtext	
+\f2 \uc0\u8259 
+\f1 	}\CocoaLigature0 7. Locate <key>LSApplicationQueriesSchemes</key> which contains array of values\
+\ls1\ilvl1\CocoaLigature1 {\listtext	
+\f2 \uc0\u8259 
+\f1 	}\CocoaLigature0 8. Remove following strings from the array:\
+\ls1\ilvl1\CocoaLigature1 {\listtext	
+\f2 \uc0\u8259 
+\f1 	}\CocoaLigature0               <string>fbapi</string>\
+\ls1\ilvl1\CocoaLigature1 {\listtext	
+\f2 \uc0\u8259 
+\f1 	}\CocoaLigature0               <string>fb-messenger-api</string>\
+\ls1\ilvl1\CocoaLigature1 {\listtext	
+\f2 \uc0\u8259 
+\f1 	}\CocoaLigature0               <string>fbauth2</string>\
+\ls1\ilvl1\CocoaLigature1 {\listtext	
+\f2 \uc0\u8259 
+\f1 	}\CocoaLigature0               <string>fbshareextension</string>\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs26 \cf0 \CocoaLigature1 \
+\
+
+\b\fs30 REFERENCE: You can also refer this tutorial for further understanding : https://www.raywenderlich.com/68613/create-paid-lite-version-iphone-app\
+\
+NOTE: MAKE SURE WHEN CREATING THE NEW FILES TO SELECT THE REQUIRED TARGETS ON WHICH THAT FILE SHOULD BE SUPPORTED.\
+
+\b0\fs26 \
+}

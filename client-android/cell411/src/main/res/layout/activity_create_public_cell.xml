@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:orientation="vertical"
+        >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/card"
+            >
+
+        <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/bg_primary_color_circle"
+                android:src="@drawable/ic_cell_name"
+                tools:ignore="ContentDescription"
+                android:layout_margin="5dp"
+                android:padding="8dp"
+                />
+
+        <EditText
+                android:id="@+id/et_cell_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:background="@color/transparent"
+                android:hint="@string/hint_cell_name"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textColor="#0277BD"
+                android:textColorHint="@color/text_disabled_hint_icon"
+                tools:ignore="RtlSymmetry"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:autoText="false"
+                />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/card"
+            android:orientation="horizontal"
+            >
+
+        <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/bg_primary_color_circle"
+                android:padding="8dp"
+                android:src="@drawable/ic_category"
+                tools:ignore="ContentDescription"
+                android:layout_margin="5dp"
+                />
+
+        <Spinner
+                android:id="@+id/sp_cell_category"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:layout_margin="5dp"
+                />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/ll_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/card"
+            >
+
+        <ImageView
+                android:id="@+id/btn_gps"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/bg_primary_color_circle"
+                android:src="@drawable/ic_pin_white"
+                android:padding="8dp"
+                android:layout_margin="5dp"
+                tools:ignore="ContentDescription"
+                />
+
+        <TextView
+                android:id="@+id/txt_city"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="@string/hint_cell_location"
+                android:textColor="#0277BD"
+                android:textColorHint="@color/text_disabled_hint_icon"
+                tools:ignore="RtlSymmetry"
+                android:minHeight="48dp"
+                android:layout_margin="5dp"
+                android:textSize="16sp"
+                android:padding="3dp"
+                android:importantForAutofill="yes"
+                android:gravity="center"
+                />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/card"
+            >
+
+        <TextView
+                android:id="@+id/txt_lbl_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:labelFor="@+id/et_cell_description"
+                android:text="@string/description"
+                android:layout_margin="5dp"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                />
+
+
+        <EditText
+                android:id="@+id/et_cell_description"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/transparent"
+                android:importantForAutofill="no"
+                android:layout_margin="5dp"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:hint="@string/cell_description"
+                android:textSize="16sp"
+                />
+    </LinearLayout>
+</LinearLayout>
+
+

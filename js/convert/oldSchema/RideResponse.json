@@ -1,0 +1,97 @@
+{
+  "className": "RideResponse",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "rideRequestId": {
+      "type": "String"
+    },
+    "seen": {
+      "type": "Boolean"
+    },
+    "status": {
+      "type": "String"
+    },
+    "additionalNote": {
+      "type": "String"
+    },
+    "cost": {
+      "type": "String"
+    },
+    "respondedBy": {
+      "type": "Pointer",
+      "targetClass": "_User"
+    },
+    "seenByDriver": {
+      "type": "Boolean"
+    },
+    "overlayDismissed": {
+      "type": "Boolean"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    },
+    "readUserFields": [],
+    "writeUserFields": []
+  },
+  "indexes": {
+    "_id_": {
+      "_id": 1
+    },
+    "_created_at_-1": {
+      "_created_at": -1
+    },
+    "_p_respondedBy_1_seenByDriver_1__id_1": {
+      "_p_respondedBy": 1,
+      "seenByDriver": 1,
+      "_id": 1
+    },
+    "_p_respondedBy_1_status_1__created_at_-1_overlayDismissed_1": {
+      "_p_respondedBy": 1,
+      "status": 1,
+      "_created_at": -1,
+      "overlayDismissed": 1
+    },
+    "rideRequestId_1__created_at_-1__p_respondedBy_1": {
+      "rideRequestId": 1,
+      "_created_at": -1,
+      "_p_respondedBy": 1
+    },
+    "rideRequestId_1__p_respondedBy_1": {
+      "rideRequestId": 1,
+      "_p_respondedBy": 1
+    },
+    "seen_1_rideRequestId_1__id_1": {
+      "seen": 1,
+      "rideRequestId": 1,
+      "_id": 1
+    }
+  }
+}

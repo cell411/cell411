@@ -1,0 +1,16 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": true,
+    "strict": true
+  },
+  "include": [
+    "typescript/spex.d.ts",
+    "test/typescript/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

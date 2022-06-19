@@ -1,0 +1,126 @@
+{
+  "className": "_User",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "username": {
+      "type": "String"
+    },
+    "password": {
+      "type": "String"
+    },
+    "email": {
+      "type": "String"
+    },
+    "emailVerified": {
+      "type": "Boolean"
+    },
+    "authData": {
+      "type": "Object"
+    },
+    "name": {
+      "type": "String"
+    },
+    "phone": {
+      "type": "String"
+    },
+    "avatar": {
+      "type": "File"
+    },
+    "blocks": {
+      "type": "Relation",
+      "targetClass": "_User"
+    },
+    "friends": {
+      "type": "Relation",
+      "targetClass": "_User"
+    },
+    "alergies": {
+      "type": "String"
+    },
+    "homeTown": {
+      "type": "GeoPoint"
+    },
+    "allergies": {
+      "type": "String"
+    },
+    "bloodType": {
+      "type": "String"
+    },
+    "privilege": {
+      "type": "Number"
+    },
+    "patrolMode": {
+      "type": "Boolean",
+      "required": true,
+      "defaultValue": true
+    },
+    "consentedTo": {
+      "type": "Pointer",
+      "targetClass": "PrivacyPolicy"
+    },
+    "newCellAlerts": {
+      "type": "Boolean",
+      "required": true,
+      "defaultValue": true
+    },
+    "phoneVerified": {
+      "type": "Boolean",
+      "required": true,
+      "defaultValue": false
+    },
+    "emergencyContactName": {
+      "type": "String"
+    },
+    "emergencyContactPhone": {
+      "type": "String"
+    },
+    "emergencyContactNumber": {
+      "type": "String"
+    },
+    "otherMedicalConditions": {
+      "type": "String"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "count": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    },
+    "protectedFields": {
+      "*": []
+    }
+  },
+  "indexes": {
+    "_id_": {
+      "_id": 1
+    }
+  }
+}

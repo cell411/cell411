@@ -1,0 +1,20 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_mute_unmute"
+        android:title="@string/mute"
+        yourapp:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_share_location"
+        android:title="@string/share_location"
+        yourapp:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_share_image"
+        android:title="@string/share_image"
+        yourapp:showAsAction="never"
+        />
+</menu>

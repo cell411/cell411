@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">54.202.50.138</domain>
+        <domain includeSubdomains="true">54.149.136.88</domain>
+        <domain includeSubdomains="true">copblock.app</domain>
+        <domain includeSubdomains="true">gravatar.com</domain>
+        <domain includeSubdomains="true">cell411inc.com</domain>
+    </domain-config>
+</network-security-config>

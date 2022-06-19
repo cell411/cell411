@@ -1,0 +1,87 @@
+{
+  "className": "Cell",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "name": {
+      "type": "String"
+    },
+    "createdBy": {
+      "type": "Pointer",
+      "targetClass": "_User"
+    },
+    "members": {
+      "type": "Array"
+    },
+    "type": {
+      "type": "Number"
+    },
+    "nauMembers": {
+      "type": "Array"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    },
+    "readUserFields": [],
+    "writeUserFields": []
+  },
+  "indexes": {
+    "_id_": {
+      "_id": 1
+    },
+    "_created_at_-1": {
+      "_created_at": -1
+    },
+    "_p_createdBy_1__created_at_-1": {
+      "_p_createdBy": 1,
+      "_created_at": -1
+    },
+    "_updated_at_-1": {
+      "_updated_at": -1
+    },
+    "_updated_at_1": {
+      "_updated_at": 1
+    },
+    "name_1": {
+      "name": 1
+    },
+    "name_-1": {
+      "name": -1
+    },
+    "name_-1__created_at_1": {
+      "name": -1,
+      "_created_at": 1
+    },
+    "_created_at_-1__id_-1": {
+      "_created_at": -1,
+      "_id": -1
+    }
+  }
+}

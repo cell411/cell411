@@ -1,0 +1,34 @@
+/* No Localized Strings */
+
+/* (No Commment) */
+"NSBluetoothPeripheralUsageDescription" = "Bitte erlauben Sie Bluetooth-Zugriff, um Ihre Panik-Taste anzuschließen.";
+
+/* (No Commment) */
+"NSCameraUsageDescription" = "Erfordert Kamerazugriff zum Senden von Fotoalarm.";
+
+/* (No Commment) */
+"NSContactsUsageDescription" = "Kontaktliste anzeigen, um weitere Kontakte einzuladen";
+
+/* (No Commment) */
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "iER needs your location to help others find you when you issue an alert, to improve your overall experience and to provide you services like: New Public Cell Alerts. With \"Always\" access to your location we'll be able to send you accurate location based notifications.";
+
+/* (No Commment) */
+"NSLocationAlwaysUsageDescription" = "iER needs your location to help others find you when you issue an alert, to improve your overall experience and to provide you services like: New Public Cell Alerts. With \"Always\" access to your location we'll be able to send you accurate location based notifications.";
+
+/* (No Commment) */
+"NSLocationWhenInUseUsageDescription" = "iER needs your location to help others find you when you issue an alert, to improve your overall experience and to provide you services like: New Public Cell Alerts.";
+
+/* (No Commment) */
+"NSMicrophoneUsageDescription" = "Für das Live-Streaming erforderlich";
+
+/* (No Commment) */
+"NSMotionUsageDescription" = "Bewegungsdaten erforderlich, um die Standortgenauigkeit zu verbessern, ohne viel Akku zu verbrauchen.";
+
+/* (No Commment) */
+"NSPhotoLibraryUsageDescription" = "Bitte erlauben Sie iER, auf Ihre Fotobibliothek zuzugreifen, um einen Fotoalarm zu versenden oder ein Foto oder Video zu speichern.";
+
+/* (No Commment) */
+"NSPhotoLibraryUsageDescription" = "Bitte erlauben Sie iER, auf Ihre Fotobibliothek zuzugreifen, um eine Fotowarnung zu versenden.";
+
+/* (No Commment) */
+"NSPhotoLibraryAddUsageDescription" = "Bitte erlauben Sie iER, auf Ihre Fotobibliothek zuzugreifen, um Fotos oder Videos zu speichern.";

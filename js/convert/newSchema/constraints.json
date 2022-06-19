@@ -1,0 +1,170 @@
+[
+  {
+    "type": "Pointer",
+    "owningTable": "ChatMsg",
+    "owningField": "chatRoom",
+    "relatedTable": "ChatRoom",
+    "relatedField": "objectId",
+    "deleteAction": "on delete cascade"
+  },
+  {
+    "type": "Pointer",
+    "owningTable": "ChatMsg",
+    "owningField": "owner",
+    "relatedTable": "_User",
+    "relatedField": "objectId",
+    "deleteAction": "on delete cascade"
+  },
+  {
+    "type": "Relation",
+    "owningTable": "_User",
+    "relationName": "friends",
+    "relatedTable": "_User",
+    "joinTable": "_Join:friends:_User",
+    "deleteAction": "on delete cascade"
+  },
+  {
+    "type": "Relation",
+    "owningTable": "_User",
+    "relationName": "spamUsers",
+    "relatedTable": "_User",
+    "joinTable": "_Join:spamUsers:_User",
+    "deleteAction": "on delete cascade"
+  },
+  {
+    "type": "Pointer",
+    "owningTable": "Alert",
+    "owningField": "chatRoom",
+    "relatedTable": "ChatRoom",
+    "relatedField": "objectId",
+    "deleteAction": "on delete cascade"
+  },
+  {
+    "type": "Pointer",
+    "owningTable": "Alert",
+    "owningField": "owner",
+    "relatedTable": "_User",
+    "relatedField": "objectId",
+    "deleteAction": "on delete cascade"
+  },
+  {
+    "type": "Pointer",
+    "owningTable": "PrivateCell",
+    "owningField": "owner",
+    "relatedTable": "_User",
+    "relatedField": "objectId",
+    "deleteAction": "on delete cascade"
+  },
+  {
+    "type": "Pointer",
+    "owningTable": "PrivateCell",
+    "owningField": "chatRoom",
+    "relatedTable": "ChatRoom",
+    "relatedField": "objectId",
+    "deleteAction": "on delete cascade"
+  },
+  {
+    "type": "Relation",
+    "owningTable": "PrivateCell",
+    "relationName": "members",
+    "relatedTable": "_User",
+    "joinTable": "_Join:members:PrivateCell",
+    "deleteAction": "on delete cascade"
+  },
+  {
+    "type": "Pointer",
+    "owningTable": "PublicCell",
+    "owningField": "chatRoom",
+    "relatedTable": "ChatRoom",
+    "relatedField": "objectId",
+    "deleteAction": "on delete cascade"
+  },
+  {
+    "type": "Pointer",
+    "owningTable": "PublicCell",
+    "owningField": "owner",
+    "relatedTable": "_User",
+    "relatedField": "objectId",
+    "deleteAction": "on delete cascade"
+  },
+  {
+    "type": "Relation",
+    "owningTable": "PublicCell",
+    "relationName": "members",
+    "relatedTable": "_User",
+    "joinTable": "_Join:members:PublicCell",
+    "deleteAction": "on delete cascade"
+  },
+  {
+    "type": "Pointer",
+    "owningTable": "Request",
+    "owningField": "sentTo",
+    "relatedTable": "_User",
+    "relatedField": "objectId",
+    "deleteAction": "on delete cascade"
+  },
+  {
+    "type": "Pointer",
+    "owningTable": "Request",
+    "owningField": "owner",
+    "relatedTable": "_User",
+    "relatedField": "objectId",
+    "deleteAction": "on delete cascade"
+  },
+  {
+    "type": "Pointer",
+    "owningTable": "Request",
+    "owningField": "cell",
+    "relatedTable": "PublicCell",
+    "relatedField": "objectId",
+    "deleteAction": "on delete cascade"
+  },
+  {
+    "type": "Relation",
+    "owningTable": "_Role",
+    "relationName": "users",
+    "relatedTable": "_User",
+    "joinTable": "_Join:users:_Role",
+    "deleteAction": "on delete cascade"
+  },
+  {
+    "type": "Relation",
+    "owningTable": "_Role",
+    "relationName": "roles",
+    "relatedTable": "_Role",
+    "joinTable": "_Join:roles:_Role",
+    "deleteAction": "on delete cascade"
+  },
+  {
+    "type": "Pointer",
+    "owningTable": "Response",
+    "owningField": "forwardedBy",
+    "relatedTable": "_User",
+    "relatedField": "objectId",
+    "deleteAction": "on delete cascade"
+  },
+  {
+    "type": "Pointer",
+    "owningTable": "Response",
+    "owningField": "alert",
+    "relatedTable": "Alert",
+    "relatedField": "objectId",
+    "deleteAction": "on delete cascade"
+  },
+  {
+    "type": "Pointer",
+    "owningTable": "Response",
+    "owningField": "owner",
+    "relatedTable": "_User",
+    "relatedField": "objectId",
+    "deleteAction": "on delete cascade"
+  },
+  {
+    "type": "Pointer",
+    "owningTable": "_Session",
+    "owningField": "user",
+    "relatedTable": "_User",
+    "relatedField": "objectId",
+    "deleteAction": "on delete cascade"
+  }
+]

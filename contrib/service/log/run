@@ -1,0 +1,7 @@
+#!/bin/sh
+cd $(dirname ${BASH_SOURCE})
+echo multilog restarted in $PWD | setuidgid parse-log logger
+set flavor=$(basename $(dirname $PWD))
+output=/var/log/cell411/$flavor/
+mkdir -p $output
+exec setuidgid parse-log multilog t $output

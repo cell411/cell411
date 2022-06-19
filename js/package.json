@@ -1,0 +1,22 @@
+{
+  "name": "cell411-server",
+  "version": "1.0.0",
+  "description": "A workspace version of the cell411 server",
+  "main": "index.js",
+  "author": "The Nobody Formerly Known As Rich Paul",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "lib/*",
+    "node-postgres/*",
+    "server/",
+    "client-node/",
+    "convert/"
+  ],
+  "scripts": {
+    "clean": "rm -fr yarn.lock node_modules",
+    "yarn": "yarn --ignore-engines install",
+    "build": "bash -c 'cd lib/parse && yarn build'; bash -c 'cd lib/parse-server && yarn build'",
+    "yarnadd": "yarn -W --ignore-engines add $*"
+  }
+}

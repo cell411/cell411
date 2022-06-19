@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="gallery_images">
+        <item>@drawable/img_phone_frame1</item>
+        <item>@drawable/img_phone_frame2</item>
+        <item>@drawable/img_phone_frame3</item>
+        <item>@drawable/img_phone_frame4</item>
+    </array>
+</resources>

@@ -1,0 +1,1226 @@
+/* Class = "UILabel"; text = "Retreiving Location..."; ObjectID = "0DE-Hg-Uac"; */
+"0DE-Hg-Uac.text" = "Recepționarea Localizării...";
+
+/* Class = "UIButton"; normalTitle = "5"; ObjectID = "0IV-1m-F9r"; */
+"0IV-1m-F9r.normalTitle" = "5";
+
+/* Class = "UILabel"; text = "Cell Name"; ObjectID = "0OK-Uf-zTC"; */
+"0OK-Uf-zTC.text" = "Denumire celulă";
+
+/* Class = "UILabel"; text = "Retreiving"; ObjectID = "0cD-3A-tcK"; */
+"0cD-3A-tcK.text" = "Recepționare";
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "0n0-ry-Wil"; */
+"0n0-ry-Wil.normalTitle" = "Logare";
+
+/* Class = "UILabel"; text = "Stream name/key:"; ObjectID = "0zi-Nu-fAc"; */
+"0zi-Nu-fAc.text" = "Nume/cheie difuzare video:";
+
+/* Class = "UILabel"; text = "Already have an account? "; ObjectID = "1Ed-4m-hCj"; */
+"1Ed-4m-hCj.text" = "Ai deja cont? ";
+
+/* Class = "UILabel"; text = "Wiselysot TestAccount1"; ObjectID = "1J7-js-bxT"; */
+"1J7-js-bxT.text" = "Wiselysot TestAccount1";
+
+/* Class = "UILabel"; text = "7:49 PM"; ObjectID = "1L0-75-Ywr"; */
+"1L0-75-Ywr.text" = "7:49 PM";
+
+/* Class = "UIButton"; normalTitle = "Accept"; ObjectID = "1gb-jw-gqa"; */
+"1gb-jw-gqa.normalTitle" = "Accept";
+
+/* Class = "UILabel"; text = "Please select if you would like Cell 411 to use kilometers or miles as the standard distance unit."; ObjectID = "1sg-3y-z6Z"; */
+"1sg-3y-z6Z.text" = "Selectează dacă dorești ca Cell 112 să folosească kilometri sau mile ca standard de măsură a distanțelor.";
+
+/* Class = "UILabel"; text = "COST/MIN"; ObjectID = "2RK-Tf-lAR"; */
+"2RK-Tf-lAR.text" = "PREȚ/MIN";
+
+/* Class = "UILabel"; text = "Turning this feature on will allow you to receive Cell 411 alert whenever a new Public Cell is created nearby you. This feature requires Location Updates to be turned on."; ObjectID = "2Tc-h1-AJy"; */
+"2Tc-h1-AJy.text" = "Activarea acestei funcții îți va permite să primești alerte Cell 112 de fiecare dată când o nouă Celulă Publică este creată în apropierea ta. Necesită Actualizarea Localizării activată.";
+
+/* Class = "UIButton"; normalTitle = "Add Phone"; ObjectID = "2UD-9Q-bT3"; */
+"2UD-9Q-bT3.normalTitle" = "Adaugă Telefon";
+
+/* Class = "UILabel"; text = "OTHER MEDICAL CONDITIONS"; ObjectID = "2Y5-So-5rw"; */
+"2Y5-So-5rw.text" = "ALTE CONDIȚII MEDICALE";
+
+/* Class = "UILabel"; text = "SILVER"; ObjectID = "2e7-zD-Dq3"; */
+"2e7-zD-Dq3.text" = "ARGINT";
+
+/* Class = "UIButton"; normalTitle = "+1"; ObjectID = "2rO-nN-9Dg"; */
+"2rO-nN-9Dg.normalTitle" = "+1";
+
+/* Class = "UIButton"; normalTitle = "8"; ObjectID = "2sw-tK-vQC"; */
+"2sw-tK-vQC.normalTitle" = "8";
+
+/* Class = "UILabel"; text = "0 Selected"; ObjectID = "3AG-dP-yT9"; */
+"3AG-dP-yT9.text" = "0 Selectate";
+
+/* Class = "UILabel"; text = "Responder Name"; ObjectID = "3k8-gL-Mzs"; */
+"3k8-gL-Mzs.text" = "Numele Respondentului";
+
+/* Class = "UIButton"; normalTitle = "Update"; ObjectID = "3kZ-ix-krz"; */
+"3kZ-ix-krz.normalTitle" = "Actualizare";
+
+/* Class = "UILabel"; text = "..."; ObjectID = "3xq-LW-qrg"; */
+"3xq-LW-qrg.text" = "...";
+
+/* Class = "UILabel"; text = "Describe purpose of your Cell."; ObjectID = "4CL-6E-cT6"; */
+"4CL-6E-cT6.text" = "Descrie scopul Celulei tale.";
+
+/* Class = "UILabel"; text = "No friends yet"; ObjectID = "4KK-L8-kfu"; */
+"4KK-L8-kfu.text" = "Încă nu ai prieteni";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "4SN-b9-5Hy"; */
+"4SN-b9-5Hy.placeholder" = "Număr telefon";
+
+/* Class = "UILabel"; text = "CREDIT CARD"; ObjectID = "4n2-OL-mXX"; */
+"4n2-OL-mXX.text" = "CARD DE CREDIT";
+
+/* Class = "UIButton"; normalTitle = "3"; ObjectID = "4xZ-ph-u8Y"; */
+"4xZ-ph-u8Y.normalTitle" = "3";
+
+/* Class = "UIButton"; normalTitle = "Notify Rider"; ObjectID = "4zX-bS-pNB"; */
+"4zX-bS-pNB.normalTitle" = "Notificare pasager";
+
+/* Class = "UILabel"; text = "You have not flagged any user as spam."; ObjectID = "5Gf-WM-Eh7"; */
+"5Gf-WM-Eh7.text" = "Nu ai marcat niciun utilizator ca spam.";
+
+/* Class = "UITextField"; placeholder = "confirm password"; ObjectID = "5p7-xS-78T"; */
+"5p7-xS-78T.placeholder" = "confirmă parola";
+
+/* Class = "UILabel"; text = "Nearby"; ObjectID = "6Eg-GX-kzU"; */
+"6Eg-GX-kzU.text" = "În apropiere";
+
+/* Class = "UILabel"; text = "05/26/2016 at 07:49 PM"; ObjectID = "6lx-74-NFq"; */
+"6lx-74-NFq.text" = "26/05/2016 la 07:49 PM";
+
+/* Class = "UITextField"; placeholder = "2"; ObjectID = "7HY-FO-dhF"; */
+"7HY-FO-dhF.placeholder" = "2";
+
+/* Class = "UILabel"; text = "$"; ObjectID = "7Nw-x8-odt"; */
+"7Nw-x8-odt.text" = "$";
+
+/* Class = "UIButton"; normalTitle = "Spam"; ObjectID = "7TG-pb-oUE"; */
+"7TG-pb-oUE.normalTitle" = "SPAM";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "7U1-ww-Iv2"; */
+"7U1-ww-Iv2.text" = "0";
+
+/* Class = "UILabel"; text = "FACEBOOK LIVE VIDEO OPTIONS"; ObjectID = "7aP-N8-ttA"; */
+"7aP-N8-ttA.text" = "OPȚIUNI VIDEO FACEBOOK LIVE";
+
+/* Class = "UILabel"; text = "YOUR RESPONSE TO THIS REQUEST IS SEEN BY THE RIDER"; ObjectID = "7jX-k5-qRN"; */
+"7jX-k5-qRN.text" = "RĂSPUNSUL TĂU LA ACEASTĂ SOLICITARE VA FI VIZIBIL DE CĂTRE PASAGER";
+
+/* Class = "UILabel"; text = "Retreiving"; ObjectID = "7pW-PW-5SD"; */
+"7pW-PW-5SD.text" = "Recepționare";
+
+/* Class = "UILabel"; text = "Retreiving City..."; ObjectID = "8Bc-Dg-3kO"; */
+"8Bc-Dg-3kO.text" = "Recepționarea orașului...";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8ID-bb-gHD"; */
+"8ID-bb-gHD.text" = "Etichetă";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8MB-Nb-nGL"; */
+"8MB-Nb-nGL.text" = "Etichetă";
+
+/* Class = "UILabel"; text = "These are supposedly your public servants. If you feel intimidated by the police, they are not doing their job correctly. Always be polite, as police can often act irrationally if offended."; ObjectID = "8e6-da-NsI"; */
+"8e6-da-NsI.text" = "Aceștia se presupun a fi funcționarii tăi publici. Dacă te simți intimidat de către poliție, înseamnă că aceștia nu își execută corect funcția. Fi mereu politicos, având în vedere că polițiștii dese ori pot acționa irațional când sunt ofensați.";
+
+/* Class = "UILabel"; text = "Friend Name"; ObjectID = "8hz-eH-jRQ"; */
+"8hz-eH-jRQ.text" = "Numele Prietenului";
+
+/* Class = "UILabel"; text = "LOADING..."; ObjectID = "8k6-xZ-MD9"; */
+"8k6-xZ-MD9.text" = "ÎNCĂRCARE...";
+
+/* Class = "UILabel"; text = "Loading messages..."; ObjectID = "8ka-FP-3VK"; */
+"8ka-FP-3VK.text" = "Încărcare mesaje...";
+
+/* Class = "UILabel"; text = "25 miles"; ObjectID = "9B3-6N-aZE"; */
+"9B3-6N-aZE.text" = "25 de mile";
+
+/* Class = "UIButton"; normalTitle = "Ride Completed"; ObjectID = "9B6-lM-C1Y"; */
+"9B6-lM-C1Y.normalTitle" = "Cursă încheiată";
+
+/* Class = "UILabel"; text = "Cell Name"; ObjectID = "9Ck-Mh-gpZ"; */
+"9Ck-Mh-gpZ.text" = "Nume celulă";
+
+/* Class = "UILabel"; text = "PATROL MODE"; ObjectID = "9gN-GA-HhZ"; */
+"9gN-GA-HhZ.text" = "MOD PATRULARE";
+
+/* Class = "UIButton"; normalTitle = "Advanced Panic Settings"; ObjectID = "9hq-dQ-zrV"; */
+"9hq-dQ-zrV.normalTitle" = "Setări de Panică Avansate";
+
+/* Class = "UITabBarItem"; title = "Cells"; ObjectID = "9k5-1x-5Bl"; */
+"9k5-1x-5Bl.title" = "Celule";
+
+/* Class = "UILabel"; text = "NEW PUBLIC CELL ALERT"; ObjectID = "9lb-yV-HLs"; */
+"9lb-yV-HLs.text" = "NOUĂ ALERTĂ CELULARĂ PUBLICĂ";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "09w-Hk-C8m"; */
+"09w-Hk-C8m.normalTitle" = "Logare";
+
+/* Class = "UIButton"; normalTitle = "STATUS"; ObjectID = "09z-0y-2xq"; */
+"09z-0y-2xq.normalTitle" = "STARE";
+
+/* Class = "UILabel"; text = "This will enable streaming live videos to Cell 411 TV Channel."; ObjectID = "10h-Id-DYX"; */
+"10h-Id-DYX.text" = "Aceasta va activa difuzarea în direct de video către Canalul TV Cell 411.";
+
+/* Class = "UILabel"; text = "03/03/2017"; ObjectID = "28D-me-FeH"; */
+"28D-me-FeH.text" = "03/03/2017";
+
+/* Class = "UILabel"; text = "OTHER MEDICAL CONDITIONS"; ObjectID = "40C-oU-C78"; */
+"40C-oU-C78.text" = "ALTE CONDIȚII MEDICALE";
+
+/* Class = "UIButton"; normalTitle = "Status"; ObjectID = "58w-nZ-CrI"; */
+"58w-nZ-CrI.normalTitle" = "Stare";
+
+/* Class = "UILabel"; text = "RESPONSE:"; ObjectID = "64s-cI-lDx"; */
+"64s-cI-lDx.text" = "RĂSPUNS:";
+
+/* Class = "UILabel"; text = "Responses"; ObjectID = "70F-Kd-Lbt"; */
+"70F-Kd-Lbt.text" = "Răspunsuri:";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "73b-ba-4C5"; */
+"73b-ba-4C5.placeholder" = "Număr Telefon";
+
+/* Class = "UILabel"; text = "Please confirm your country code and enter phone number"; ObjectID = "77D-Sk-aAG"; */
+"77D-Sk-aAG.text" = "Confirmă codul de țară și introdu numărul de telefon";
+
+/* Class = "UIButton"; normalTitle = "AB-"; ObjectID = "81S-Q3-ETa"; */
+"81S-Q3-ETa.normalTitle" = "AB-";
+
+/* Class = "UIButton"; normalTitle = "Read More"; ObjectID = "84H-3n-IDE"; */
+"84H-3n-IDE.normalTitle" = "Citește mai departe";
+
+/* Class = "UILabel"; text = "Warning: Time delay setting does not apply to alerts issued via the Cell 411 Bluetooth Panic Button!"; ObjectID = "96e-nG-H9R"; */
+"96e-nG-H9R.text" = "Atenție: Setarea de discrepanță temporală nu se aplică alertelor inițiate prin Butonul de Panică Bluetooth al Cell 112";
+
+/* Class = "UILabel"; text = "LOADING..."; ObjectID = "A4z-v5-T0H"; */
+"A4z-v5-T0H.text" = "ÎNCĂRCARE...";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "A7V-zs-DAX"; */
+"A7V-zs-DAX.placeholder" = "Prenume";
+
+/* Class = "UILabel"; text = "Cell Name"; ObjectID = "AMc-ot-FJD"; */
+"AMc-ot-FJD.text" = "Nume celulă";
+
+/* Class = "UIButton"; normalTitle = "Spam"; ObjectID = "APK-oA-aL6"; */
+"APK-oA-aL6.normalTitle" = "SPAM";
+
+/* Class = "UILabel"; text = "Comment"; ObjectID = "AZ7-5F-hht"; */
+"AZ7-5F-hht.text" = "Comentariu";
+
+/* Class = "UILabel"; text = "Contact Number"; ObjectID = "Aq5-bt-Ieu"; */
+"Aq5-bt-Ieu.text" = "Număr de contact";
+
+/* Class = "UILabel"; text = "REMEMBER: The police are allowed to LIE to you in order to incriminate you! You do not have to speak or answer any questions. Use Cell 411 to stream live video to your friends and record the interaction. It cannot be detected by the police even if your phone is destroyed or confiscated!"; ObjectID = "AvQ-ra-Vnv"; */
+"AvQ-ra-Vnv.text" = "ȚINE MINTE: Poliția are dreptul să MINTĂ pentru a te incrimina! Nu ești obligat să le vorbești sau să le răspunzi la nicio întrebare. Folosește Cell 112 să difuzezi video în direct către prietenii tăi și să înregistrezi interacțiunea. Aceasta nu poate fi detectată de către poliție chiar și dacă telefonul tău e distrus sau confiscat!";
+
+/* Class = "UILabel"; text = "Friend Name"; ObjectID = "Avd-lk-1VM"; */
+"Avd-lk-1VM.text" = "Numele Prietenului";
+
+/* Class = "UILabel"; text = "PICKUP COST"; ObjectID = "BYg-Mj-tCL"; */
+"BYg-Mj-tCL.text" = "PREȚ DE PORNIRE";
+
+/* Class = "UILabel"; text = "Rate this user"; ObjectID = "BbI-XJ-meD"; */
+"BbI-XJ-meD.text" = "Dă o notă acestui utilizator";
+
+/* Class = "UILabel"; text = "LOADING..."; ObjectID = "BfR-WF-N83"; */
+"BfR-WF-N83.text" = "ÎNCĂRCARE...";
+
+/* Class = "UILabel"; text = "Device Name:"; ObjectID = "BjT-bQ-yWS"; */
+"BjT-bQ-yWS.text" = "Numele dispozitivului:";
+
+/* Class = "UITextField"; placeholder = "Email Address"; ObjectID = "Brb-RZ-1bB"; */
+"Brb-RZ-1bB.placeholder" = "Adresa Email:";
+
+/* Class = "UILabel"; text = "You are never required to talk to police. Speaking to an officer can only be used to hurt you. Only reveal your identity if you're driving."; ObjectID = "BsD-Nk-7V4"; */
+"BsD-Nk-7V4.text" = "Niciodată nu ești obligat să vorbești cu poliția. A vorbi cu un ofițer de poliție îți poate folosi doar în a te incrimina. Identifică-te doar.";
+
+/* Class = "UIButton"; normalTitle = "Unblock User"; ObjectID = "CJd-Lu-EpQ"; */
+"CJd-Lu-EpQ.normalTitle" = "Deblochează utilizator";
+
+/* Class = "UILabel"; text = "email"; ObjectID = "CKI-bg-buA"; */
+"CKI-bg-buA.text" = "email";
+
+/* Class = "UIButton"; normalTitle = "Reset"; ObjectID = "CN0-on-hz9"; */
+"CN0-on-hz9.normalTitle" = "Resetare";
+
+/* Class = "UILabel"; text = "Would you like to add some note for the drivers?"; ObjectID = "CNv-oC-y46"; */
+"CNv-oC-y46.text" = "Ai dori să adaugi un comentariu conducătorilor?";
+
+/* Class = "UILabel"; text = "VIDEO SIZE"; ObjectID = "CSV-2f-rBF"; */
+"CSV-2f-rBF.text" = "DIMENSIUNE VIDEO";
+
+/* Class = "UIButton"; normalTitle = "Ride Settings"; ObjectID = "Csv-RI-kod"; */
+"Csv-RI-kod.normalTitle" = "Setări cursă";
+
+/* Class = "UIBarButtonItem"; title = "Select"; ObjectID = "D5h-Rn-B4k"; */
+"D5h-Rn-B4k.title" = "Selectează";
+
+/* Class = "UILabel"; text = "Turning this feature on will enable the fake delete button on video alerts in Alerts tab."; ObjectID = "DMP-jA-V62"; */
+"DMP-jA-V62.text" = "Această funcție va activa butonul fals de ștergere al alertelor video pe tab-ul Alerte.";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "DiW-TX-trj"; */
+"DiW-TX-trj.normalTitle" = "Încheiat";
+
+/* Class = "UITextField"; placeholder = "Contact Number"; ObjectID = "DkL-eE-ZyN"; */
+"DkL-eE-ZyN.placeholder" = "Număr de contact";
+
+/* Class = "UILabel"; text = "AB+"; ObjectID = "DsT-18-ipq"; */
+"DsT-18-ipq.text" = "AB+";
+
+/* Class = "UILabel"; text = "N/A"; ObjectID = "Dtt-zX-Ghz"; */
+"Dtt-zX-Ghz.text" = "N/A";
+
+/* Class = "UILabel"; text = "email"; ObjectID = "E28-wo-wPn"; */
+"E28-wo-wPn.text" = "email";
+
+/* Class = "UILabel"; text = "05/26/16 at 7:49 PM"; ObjectID = "EUY-dt-rsm"; */
+"EUY-dt-rsm.text" = "26/05/16 la 7:49 PM";
+
+/* Class = "UILabel"; text = "Retrieving city..."; ObjectID = "EXs-gv-BRn"; */
+"EXs-gv-BRn.text" = "Recepționare oraș...";
+
+/* Class = "UILabel"; text = "email"; ObjectID = "EZE-cZ-iAf"; */
+"EZE-cZ-iAf.text" = "email";
+
+/* Class = "UIButton"; normalTitle = "2"; ObjectID = "EcZ-5E-nno"; */
+"EcZ-5E-nno.normalTitle" = "2";
+
+/* Class = "UILabel"; text = "Retreiving"; ObjectID = "Ed1-0P-XfI"; */
+"Ed1-0P-XfI.text" = "Recepționare";
+
+/* Class = "UILabel"; text = "Scan the QR code generated by a friend to add them to your friend list"; ObjectID = "EiM-wu-Rta"; */
+"EiM-wu-Rta.text" = "Scanează codul QR generat de un prieten și adaugă-l în lista ta";
+
+/* Class = "UIButton"; normalTitle = "+1"; ObjectID = "EyW-te-JYH"; */
+"EyW-te-JYH.normalTitle" = "+1";
+
+/* Class = "UILabel"; text = "LOADING..."; ObjectID = "FCW-zo-j12"; */
+"FCW-zo-j12.text" = "ÎNCĂRCARE...";
+
+/* Class = "UILabel"; text = "Turning this feature on will link your account with Facebook so that next time you can simply login with Facebook."; ObjectID = "FEb-FT-CxM"; */
+"FEb-FT-CxM.text" = "Activarea acestei funcții va conecta contul tău cu cel de Facebook, ca data viitoare să te poți loga simplu prin Facebook.";
+
+/* Class = "UIButton"; normalTitle = "4"; ObjectID = "FF1-6S-VlU"; */
+"FF1-6S-VlU.normalTitle" = "4";
+
+/* Class = "UILabel"; text = "BROADCAST REQUEST RADIUS"; ObjectID = "FP6-OA-mJw"; */
+"FP6-OA-mJw.text" = "RAZA DIFUZĂRII SOLICITĂRILOR";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "FTj-5S-5pC"; */
+"FTj-5S-5pC.text" = "Categorie";
+
+/* Class = "UILabel"; text = "DROP AT"; ObjectID = "FbD-ck-dnB"; */
+"FbD-ck-dnB.text" = "LASĂ LA";
+
+/* Class = "UILabel"; text = "Don't have an account? "; ObjectID = "Fgq-Kg-Hu9"; */
+"Fgq-Kg-Hu9.text" = "Nu ai cont? ";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "Fhm-ct-GdB"; */
+"Fhm-ct-GdB.title" = "Salvare";
+
+/* Class = "UILabel"; text = "CELL 411"; ObjectID = "FxI-FS-EFg"; */
+"FxI-FS-EFg.text" = "CELL 112";
+
+/* Class = "UILabel"; text = "05/26/2016 at 07:49 PM"; ObjectID = "FzN-51-fIp"; */
+"FzN-51-fIp.text" = "26/05/16 la 7:49 PM";
+
+/* Class = "UIButton"; normalTitle = "Add Friend"; ObjectID = "G3X-Ut-L4E"; */
+"G3X-Ut-L4E.normalTitle" = "Adaugă Prieten";
+
+/* Class = "UIButton"; selectedTitle = "Request Sent"; ObjectID = "G3X-Ut-L4E"; */
+"G3X-Ut-L4E.selectedTitle" = "Solicitare Trimisă";
+
+/* Class = "UILabel"; text = "KNOW YOUR RIGHTS!"; ObjectID = "GAO-rI-f10"; */
+"GAO-rI-f10.text" = "CUNOAȘTE-ȚI DREPTURILE!";
+
+/* Class = "UILabel"; text = "(1 to 50)"; ObjectID = "GCo-RK-JoU"; */
+"GCo-RK-JoU.text" = "(1 la 50)";
+
+/* Class = "UILabel"; text = "Cell 411 App Developers"; ObjectID = "GJ0-qZ-Huc"; */
+"GJ0-qZ-Huc.text" = "Dezvoltatori ai Aplicației Cell 112";
+
+/* Class = "UITextField"; placeholder = "Mobile Number"; ObjectID = "GN5-IP-kbg"; */
+"GN5-IP-kbg.placeholder" = "Număr Mobil";
+
+/* Class = "UILabel"; text = "0 Selected"; ObjectID = "Gck-e1-pYO"; */
+"Gck-e1-pYO.text" = "0 Selectate";
+
+/* Class = "UIButton"; normalTitle = "1"; ObjectID = "GxO-bE-3HX"; */
+"GxO-bE-3HX.normalTitle" = "1";
+
+/* Class = "UILabel"; text = "Cell Name"; ObjectID = "HlI-2q-RsE"; */
+"HlI-2q-RsE.text" = "Nume celulă";
+
+/* Class = "UILabel"; text = "YOUTUBE LIVE VIDEO OPTIONS"; ObjectID = "HoJ-Nb-biP"; */
+"HoJ-Nb-biP.text" = "OPȚIUNI VIDEO YOUTUBE LIVE";
+
+/* Class = "UILabel"; text = "BE POLITE, BUT FIRM"; ObjectID = "IC6-4j-Esz"; */
+"IC6-4j-Esz.text" = "FI POLITICOS, DAR FERM";
+
+/* Class = "UILabel"; text = "PAYMENT MODE"; ObjectID = "IDW-ND-qx9"; */
+"IDW-ND-qx9.text" = "METODA PLĂȚII";
+
+/* Class = "UIButton"; normalTitle = "0"; ObjectID = "IUO-Yf-uqR"; */
+"IUO-Yf-uqR.normalTitle" = "0";
+
+/* Class = "UIButton"; normalTitle = "Disconnect from Facebook"; ObjectID = "Ilk-3C-TN6"; */
+"Ilk-3C-TN6.normalTitle" = "Deconectează-te de Facebook";
+
+/* Class = "UILabel"; text = "ALLERGIES"; ObjectID = "Iom-ZP-Hwn"; */
+"Iom-ZP-Hwn.text" = "ALERGII";
+
+/* Class = "UILabel"; text = "If they are asking to search you, your things, your car, or home, it's because they need your consent. They won't ask to search if they have a warrant or \"probable cause\". If an officer searches you without your permission, do not resist the search but always say you do not consent."; ObjectID = "Isd-jA-UHD"; */
+"Isd-jA-UHD.text" = "În caz că ți se solicită o percheziție, fie a ta sau a proprietății tale, este pentru că autoritățile necesită consimțământul tău. Nu ți se va solicita acest lucru dacă există un mandat sau o \"cauză probabilă\". Dacă ești percheziționat fără permisiune nu rezista, dar declară repetat că nu ți-ai acordat consimțământul.";
+
+/* Class = "UILabel"; text = "AFTER 10 SECONDS"; ObjectID = "Iu2-dA-OGI"; */
+"Iu2-dA-OGI.text" = "PESTE 10 SECUNDE";
+
+/* Class = "UILabel"; text = "(1-50 miles)"; ObjectID = "JGn-75-Klo"; */
+"JGn-75-Klo.text" = "(1-50 mile)";
+
+/* Class = "UILabel"; text = "This will enable streaming live videos to Cell 411 TV Facebook Page."; ObjectID = "JGp-0T-riX"; */
+"JGp-0T-riX.text" = "Activarea difuzării în direct a clipurilor video către pagina de Facebook Cell 411 TV.";
+
+/* Class = "UILabel"; text = "DESCRIPTION"; ObjectID = "Jdd-aB-ZWi"; */
+"Jdd-aB-ZWi.text" = "DESCRIERE";
+
+/* Class = "UILabel"; text = "PUBLISH ALERTS TO YOUR FACEBOOK WALL"; ObjectID = "JhR-kC-Fsz"; */
+"JhR-kC-Fsz.text" = "PUBLICĂ ALERTELE PE PERETELE TĂU DE FACEBOOK";
+
+/* Class = "UIButton"; normalTitle = "Video Settings"; ObjectID = "Jj8-xj-7BU"; */
+"Jj8-xj-7BU.normalTitle" = "Setări video";
+
+/* Class = "UILabel"; text = "Time to wait before issuing Panic Alert"; ObjectID = "Jjb-GB-taz"; */
+"Jjb-GB-taz.text" = "Timp de așteptare până la emiterea Alertei de Panică";
+
+/* Class = "UILabel"; text = "State:"; ObjectID = "Jpu-LM-3yB"; */
+"Jpu-LM-3yB.text" = "Stare:";
+
+/* Class = "UIButton"; normalTitle = "A-"; ObjectID = "K3b-it-oCw"; */
+"K3b-it-oCw.normalTitle" = "A-";
+
+/* Class = "UILabel"; text = "Friend Name"; ObjectID = "KIy-mb-7NR"; */
+"KIy-mb-7NR.text" = "Numele Prietenului";
+
+/* Class = "UIButton"; normalTitle = "6"; ObjectID = "LFe-ty-0JA"; */
+"LFe-ty-0JA.normalTitle" = "6";
+
+/* Class = "UILabel"; text = "Contact Name"; ObjectID = "LFp-7h-R83"; */
+"LFp-7h-R83.text" = "Numele persoanei de contact";
+
+/* Class = "UILabel"; text = "PICKUP FROM"; ObjectID = "LRG-b0-qF8"; */
+"LRG-b0-qF8.text" = "RIDICARE DE LA";
+
+/* Class = "UILabel"; text = "Virgil Vaduva requested a ride."; ObjectID = "LRe-EQ-ORL"; */
+"LRe-EQ-ORL.text" = "Virgil Văduva a solicitat o cursă.";
+
+/* Class = "UIButton"; normalTitle = "Sign Up with Facebook"; ObjectID = "Lqn-dO-n1Y"; */
+"Lqn-dO-n1Y.normalTitle" = "Înscriere prin Facebook";
+
+/* Class = "UILabel"; text = "Drop Location"; ObjectID = "LtY-bk-g9q"; */
+"LtY-bk-g9q.text" = "Destinație";
+
+/* Class = "UIButton"; normalTitle = "O+"; ObjectID = "LwH-U6-1p5"; */
+"LwH-U6-1p5.normalTitle" = "O+";
+
+/* Class = "UILabel"; text = "Virgil Vaduva issued a Fire alert."; ObjectID = "MJ3-W9-kf4"; */
+"MJ3-W9-kf4.text" = "Virgil Vaduva a emis o alertă de Incendiu.";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "MfD-or-MKp"; */
+"MfD-or-MKp.placeholder" = "Nume";
+
+/* Class = "UILabel"; text = "Virgil Vaduva issued a Fire alert."; ObjectID = "MfV-Zb-yIo"; */
+"MfV-Zb-yIo.text" = "Virgil Vaduva a emis o alertă de Incendiu.";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "MhD-XQ-n3Z"; */
+"MhD-XQ-n3Z.text" = "Titulatură";
+
+/* Class = "UILabel"; text = "Retreiving"; ObjectID = "N0F-cf-Y7g"; */
+"N0F-cf-Y7g.text" = "Recepționare";
+
+/* Class = "UIButton"; normalTitle = "STATUS"; ObjectID = "NTH-sX-Xyk"; */
+"NTH-sX-Xyk.normalTitle" = "STARE";
+
+/* Class = "UILabel"; text = "Turning this feature on will increase your GPS accuracy but it may decrease your battery life."; ObjectID = "Nfa-aG-dI9"; */
+"Nfa-aG-dI9.text" = "Activarea acestei funcții va îmbunătății acuratețea GPS-ului dar va scădea durata bateriei.";
+
+/* Class = "UILabel"; text = "Contact Number"; ObjectID = "Nfj-p6-I9w"; */
+"Nfj-p6-I9w.text" = "Număr de contact";
+
+/* Class = "UITextField"; placeholder = "Cell Name"; ObjectID = "Nxd-Ug-etY"; */
+"Nxd-Ug-etY.placeholder" = "Nume celulă";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "NyB-Af-KyW"; */
+"NyB-Af-KyW.normalTitle" = "Anulare";
+
+/* Class = "UISegmentedControl"; O1F-I2-edm.segmentTitles[0] = "Miles"; ObjectID = "O1F-I2-edm"; */
+"O1F-I2-edm.segmentTitles[0]" = "Mile";
+
+/* Class = "UISegmentedControl"; O1F-I2-edm.segmentTitles[1] = "Kilometers"; ObjectID = "O1F-I2-edm"; */
+"O1F-I2-edm.segmentTitles[1]" = "Kilometri";
+
+/* Class = "UIButton"; normalTitle = "Request Verification"; ObjectID = "O7i-BR-fyg"; */
+"O7i-BR-fyg.normalTitle" = "Verificare solicitare";
+
+/* Class = "UILabel"; text = "ASK \"AM I BEING DETAINED?\" IF YOU ARE NOT, LEAVE"; ObjectID = "OEf-rp-vea"; */
+"OEf-rp-vea.text" = "ÎNTREABĂ \"SUNT SUB AREST?\" DACĂ NU EȘTI, PLEACĂ";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "OHw-br-6aB"; */
+"OHw-br-6aB.placeholder" = "parola";
+
+/* Class = "UILabel"; text = "Member Name"; ObjectID = "Odq-xn-U1P"; */
+"Odq-xn-U1P.text" = "Nume Membru";
+
+/* Class = "UITabBarItem"; title = "Friends"; ObjectID = "Ofs-Xx-1Pr"; */
+"Ofs-Xx-1Pr.title" = "Prieteni";
+
+/* Class = "UILabel"; text = "Private Cell"; ObjectID = "OnG-Hq-fkl"; */
+"OnG-Hq-fkl.text" = "Celulă privată";
+
+/* Class = "UILabel"; text = "05/26/16 at 7:49 PM"; ObjectID = "Ood-jL-PxS"; */
+"Ood-jL-PxS.text" = "26/05/16 la 7:49 PM";
+
+/* Class = "UILabel"; text = "GENERAL VIDEO SETTINGS"; ObjectID = "Ovy-Mq-vpR"; */
+"Ovy-Mq-vpR.text" = "SETĂRI VIDEO GENERALE";
+
+/* Class = "UILabel"; text = "GPS ACCURATE TRACKING"; ObjectID = "P8X-qE-PXx"; */
+"P8X-qE-PXx.text" = "URMĂRIRE GPS PRECISĂ";
+
+/* Class = "UILabel"; text = "BLOOD GROUP"; ObjectID = "PBB-dB-s1u"; */
+"PBB-dB-s1u.text" = "GRUPA SANGUINĂ";
+
+/* Class = "UILabel"; text = "You have a pending ride request."; ObjectID = "PJv-68-4GX"; */
+"PJv-68-4GX.text" = "Ai o solicitare de cursă în așteptare.";
+
+/* Class = "UILabel"; text = "DO NOT ANSWER QUESTIONS"; ObjectID = "PhA-1m-bhg"; */
+"PhA-1m-bhg.text" = "SĂ NU RĂSPUNZI LA ÎNTREBĂRI";
+
+/* Class = "UIButton"; normalTitle = "Sign In"; ObjectID = "PpH-F0-GnK"; */
+"PpH-F0-GnK.normalTitle" = "Logare";
+
+/* Class = "UILabel"; text = "DELETE VIDEO OPTION"; ObjectID = "QBv-Ya-WJw"; */
+"QBv-Ya-WJw.text" = "OPȚIUNE DE ȘTERGERE VIDEO";
+
+/* Class = "UIButton"; normalTitle = "Manage Cell 411 Panic Button(s)"; ObjectID = "QLe-S5-68b"; */
+"QLe-S5-68b.normalTitle" = "Administrează Butoanele de Panică a Cell 112";
+
+/* Class = "UIButton"; normalTitle = "B-"; ObjectID = "QO7-Sf-0Cf"; */
+"QO7-Sf-0Cf.normalTitle" = "B-";
+
+/* Class = "UILabel"; text = "Additional Note"; ObjectID = "QQa-S3-eIV"; */
+"QQa-S3-eIV.text" = "Notă adițională";
+
+/* Class = "UILabel"; text = "I requested a ride."; ObjectID = "QW6-bb-nGQ"; */
+"QW6-bb-nGQ.text" = "Am solicitat o cursă.";
+
+/* Class = "UILabel"; text = "You need some friends or incidents to chat about. Join a Public Cell in your area or respond to an alert if you want to chat."; ObjectID = "QY8-yb-oas"; */
+"QY8-yb-oas.text" = "Ai nevoie de câțiva prieteni sau incidente despre care să discuți pe chat. Alătură-te unei Celule Publice în apropierea ta sau răspunde unei alerte dacă dorești să chat-uiești.";
+
+/* Class = "UILabel"; text = "Virgil Vaduva"; ObjectID = "Qmr-wi-LSC"; */
+"Qmr-wi-LSC.text" = "Virgil Văduva";
+
+/* Class = "UILabel"; text = "$"; ObjectID = "Qrf-QC-V4n"; */
+"Qrf-QC-V4n.text" = "$";
+
+/* Class = "UILabel"; text = "Last Message"; ObjectID = "Qtt-we-p1m"; */
+"Qtt-we-p1m.text" = "Ultimul Mesaj";
+
+/* Class = "UILabel"; text = "Request Accepted"; ObjectID = "R96-VX-54j"; */
+"R96-VX-54j.text" = "Solicitare Acceptată";
+
+/* Class = "UILabel"; text = "Public Cells that you own or joined will appear here"; ObjectID = "ROO-3f-8Nn"; */
+"ROO-3f-8Nn.text" = "Celulele Publice ce le deții vor apărea aici";
+
+/* Class = "UILabel"; text = "05/26/16 at 7:49 PM"; ObjectID = "Rmf-nh-uDt"; */
+"Rmf-nh-uDt.text" = "26/05/16 la 7:49 PM";
+
+/* Class = "UIButton"; normalTitle = "9"; ObjectID = "Rsx-fK-0Z7"; */
+"Rsx-fK-0Z7.normalTitle" = "9";
+
+/* Class = "UIButton"; normalTitle = "Change Currency"; ObjectID = "Rwd-sr-69k"; */
+"Rwd-sr-69k.normalTitle" = "Schimbă Valuta";
+
+/* Class = "UILabel"; text = "By creating your CELL 411 account you agree"; ObjectID = "S0i-oZ-MFO"; */
+"S0i-oZ-MFO.text" = "Prin crearea contului tau CELL 112 te declari de acord";
+
+/* Class = "UILabel"; text = "EMERGENCY CONTACT NAME"; ObjectID = "SAM-e6-hhC"; */
+"SAM-e6-hhC.text" = "NUME CONTACT DE URGENȚĂ";
+
+/* Class = "UIButton"; normalTitle = "7"; ObjectID = "SJf-Oy-SCG"; */
+"SJf-Oy-SCG.normalTitle" = "7";
+
+/* Class = "UILabel"; text = "RECORD YOUR INTERACTION"; ObjectID = "SPP-oE-8XY"; */
+"SPP-oE-8XY.text" = "ÎNREGISTREAZĂ-ȚI INTERACȚIUNEA";
+
+/* Class = "UITabBarItem"; title = "Map"; ObjectID = "SjR-Io-XbJ"; */
+"SjR-Io-XbJ.title" = "Hartă";
+
+/* Class = "UITextField"; placeholder = "E-mail Address "; ObjectID = "T0u-bp-Oyc"; */
+"T0u-bp-Oyc.placeholder" = "Adresa e-mail ";
+
+/* Class = "UIButton"; normalTitle = "O-"; ObjectID = "T5T-VI-yTt"; */
+"T5T-VI-yTt.normalTitle" = "O-";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "T6P-RC-cWf"; */
+"T6P-RC-cWf.normalTitle" = "Depune";
+
+/* Class = "UILabel"; text = "Include Security Guards"; ObjectID = "T9y-dJ-ocs"; */
+"T9y-dJ-ocs.text" = "Include gărzile de securitate";
+
+/* Class = "UILabel"; text = "Friend Name"; ObjectID = "T74-rk-Bps"; */
+"T74-rk-Bps.text" = "Nume prieten";
+
+/* Class = "UITextField"; placeholder = "Title"; ObjectID = "TRf-on-p8L"; */
+"TRf-on-p8L.placeholder" = "Titulatură";
+
+/* Class = "UILabel"; text = "AFTER 5 SECONDS"; ObjectID = "TbE-sf-23f"; */
+"TbE-sf-23f.text" = "PESTE 5 SECUNDE";
+
+/* Class = "UIButton"; normalTitle = "Login with Facebook"; ObjectID = "TfC-V2-okL"; */
+"TfC-V2-okL.normalTitle" = "Logare prin Facebook";
+
+/* Class = "UILabel"; text = "LOADING..."; ObjectID = "Tj2-FP-gpO"; */
+"Tj2-FP-gpO.text" = "ÎNCĂRCARE...";
+
+/* Class = "UILabel"; text = "PICK UP LOCATION"; ObjectID = "Tm7-so-7Ii"; */
+"Tm7-so-7Ii.text" = "LOC DE RIDICARE";
+
+/* Class = "UILabel"; text = "Friend Name"; ObjectID = "Tzg-ML-s0f"; */
+"Tzg-ML-s0f.text" = "Numele Prietenului";
+
+/* Class = "UITextField"; placeholder = "Phone Number"; ObjectID = "UKi-OR-0ch"; */
+"UKi-OR-0ch.placeholder" = "Număr Telefon";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Ub2-Ah-5mX"; */
+"Ub2-Ah-5mX.placeholder" = "Parola";
+
+/* Class = "UILabel"; text = "4.4"; ObjectID = "UfJ-kG-hrw"; */
+"UfJ-kG-hrw.text" = "4.4";
+
+/* Class = "UILabel"; text = "DROP LOCATION"; ObjectID = "UnX-3s-SLU"; */
+"UnX-3s-SLU.text" = "DESTINAȚIE";
+
+/* Class = "UILabel"; text = "Other Medical Conditions (e.g seizures, heart problems, etc.)"; ObjectID = "V1F-a0-Ys2"; */
+"V1F-a0-Ys2.text" = "Alte condiții medicale (cum ar fi convulsii, probleme de inimă, etc.)";
+
+/* Class = "UILabel"; text = "Battery: Retrieving..."; ObjectID = "V9q-uG-xPS"; */
+"V9q-uG-xPS.text" = "Baterie: Recepționare...";
+
+/* Class = "UIButton"; normalTitle = "STREAM VIDEO"; ObjectID = "VMQ-qF-Ypf"; */
+"VMQ-qF-Ypf.normalTitle" = "DIFUZARE VIDEO";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "Vcu-jh-8h7"; */
+"Vcu-jh-8h7.text" = "SAU";
+
+/* Class = "UILabel"; text = "CELL 411 PANIC BUTTON SETTINGS"; ObjectID = "W8e-O0-b6b"; */
+"W8e-O0-b6b.text" = "SETĂRI BUTON DE PANICĂ CELL 112";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "WE7-yU-49p"; */
+"WE7-yU-49p.normalTitle" = "Înscriere";
+
+/* Class = "UILabel"; text = "Turning this feature on will let the app to publish alerts to your Facebook wall whenever you issue one, so that your Facebook friends can help you out in emergency."; ObjectID = "WFQ-9X-szu"; */
+"WFQ-9X-szu.text" = "Activarea acestei funcții va permite aplicației să publice alerte pe peretele tău de Facebook când o emiți, astfel încât prietenii tăi de pe Facebook să îți poată veni în ajutor în caz de urgență.";
+
+/* Class = "UILabel"; text = "Do you also want to start streaming live video globally ?"; ObjectID = "WGo-xC-ZEH"; */
+"WGo-xC-ZEH.text" = "Dorești de asemenea să difuzezi video în direct la nivel global ?";
+
+/* Class = "UIBarButtonItem"; title = "Select"; ObjectID = "Wpc-XW-Ukx"; */
+"Wpc-XW-Ukx.title" = "Selectează";
+
+/* Class = "UILabel"; text = "Public Cells"; ObjectID = "X2h-E1-6zh"; */
+"X2h-E1-6zh.text" = "Celule publice";
+
+/* Class = "UILabel"; text = "LOADING..."; ObjectID = "X8V-Db-iCt"; */
+"X8V-Db-iCt.text" = "ÎNCĂRCARE...";
+
+/* Class = "UILabel"; text = "Verify your phone"; ObjectID = "XBo-iQ-wws"; */
+"XBo-iQ-wws.text" = "Verifică-ți telefonul";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "XOH-nL-cle"; */
+"XOH-nL-cle.title" = "Terminat";
+
+/* Class = "UIBarButtonItem"; title = "Update"; ObjectID = "XPa-th-KC2"; */
+"XPa-th-KC2.title" = "Actualizare";
+
+/* Class = "UILabel"; text = "Tap on Manage Cell 411 Panic Button(s) to manage your hardware panic buttons and tap Advanced Panic Settings to configure the time, recipients and additional text to be sent while issuing Panic alert."; ObjectID = "XVa-LH-QIH"; */
+"XVa-LH-QIH.text" = "Apasă Administrare a Butonului de Panică Cell 112 pentru setarea butoanelor de panică fizice și apasă Setări Avansate de Panică pentru a configura ora, recipienții și textul adițional ce va fi trimis când va fi emisă o alertă de Panică.";
+
+/* Class = "UILabel"; text = "username@email.com"; ObjectID = "Xvb-h6-XVX"; */
+"Xvb-h6-XVX.text" = "utilizator@email.com";
+
+/* Class = "UILabel"; text = "Loved it"; ObjectID = "Xx7-uZ-wDk"; */
+"Xx7-uZ-wDk.text" = "Superb";
+
+/* Class = "UILabel"; text = "25 miles"; ObjectID = "YE5-Wr-knc"; */
+"YE5-Wr-knc.text" = "25 de mile";
+
+/* Class = "UIButton"; normalTitle = "Status"; ObjectID = "YN9-ej-zV6"; */
+"YN9-ej-zV6.normalTitle" = "Stare";
+
+/* Class = "UITextField"; placeholder = "0.2"; ObjectID = "YOD-uy-u0H"; */
+"YOD-uy-u0H.placeholder" = "0.2";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "YTf-wu-0Mg"; */
+"YTf-wu-0Mg.placeholder" = "parolă";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "YY0-ww-b8z"; */
+"YY0-ww-b8z.title" = "Încheiat";
+
+/* Class = "UILabel"; text = "BLOOD GROUP"; ObjectID = "Ygl-Jy-F1n"; */
+"Ygl-Jy-F1n.text" = "GRUPA SANGUINĂ";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "ZCE-O3-O21"; */
+"ZCE-O3-O21.normalTitle" = "Continuă";
+
+/* Class = "UILabel"; text = "Contact Name"; ObjectID = "ZLG-Ea-CEj"; */
+"ZLG-Ea-CEj.text" = "Numele persoanei de contact";
+
+/* Class = "UILabel"; text = "AB+"; ObjectID = "ZQq-An-jD5"; */
+"ZQq-An-jD5.text" = "AB+";
+
+/* Class = "UILabel"; text = "Retrieving city..."; ObjectID = "ZpD-1R-jor"; */
+"ZpD-1R-jor.text" = "Recepționare oraș...";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "ZvS-oj-udT"; */
+"ZvS-oj-udT.normalTitle" = "Înscrie-te";
+
+/* Class = "UIButton"; normalTitle = "Find My Device"; ObjectID = "a4N-pE-cqU"; */
+"a4N-pE-cqU.normalTitle" = "Găsește-mi dispozitivul";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "a52-HH-lyD"; */
+"a52-HH-lyD.normalTitle" = "Anulare";
+
+/* Class = "UILabel"; text = "RIDE REQUESTS"; ObjectID = "aEO-2X-KYN"; */
+"aEO-2X-KYN.text" = "SOLICITĂRI CURSE";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "aR6-us-wgb"; */
+"aR6-us-wgb.text" = "Descriere";
+
+/* Class = "UIButton"; normalTitle = "Request Ride"; ObjectID = "aiz-JG-CQt"; */
+"aiz-JG-CQt.normalTitle" = "Solicită cursă";
+
+/* Class = "UILabel"; text = "ATTENTION!"; ObjectID = "amf-Xz-2we"; */
+"amf-Xz-2we.text" = "ATENȚIE!";
+
+/* Class = "UIButton"; normalTitle = "Send it again"; ObjectID = "amq-Ai-9iW"; */
+"amq-Ai-9iW.normalTitle" = "Trimite din nou";
+
+/* Class = "UILabel"; text = "BLOOD GROUP"; ObjectID = "auT-B6-Y6p"; */
+"auT-B6-Y6p.text" = "GRUPA SANGUINĂ";
+
+/* Class = "UILabel"; text = "VIRGIL VADUVA"; ObjectID = "axH-s3-qTA"; */
+"axH-s3-qTA.text" = "VIRGIL VĂDUVA";
+
+/* Class = "UILabel"; text = "Your recent chats will appear here."; ObjectID = "b01-Ne-2lk"; */
+"b01-Ne-2lk.text" = "Discuțiile tale recent vor apărea aici.";
+
+/* Class = "UILabel"; text = "virgil@cell411.com"; ObjectID = "b1T-eq-h9c"; */
+"b1T-eq-h9c.text" = "virgil@cell411.com";
+
+/* Class = "UILabel"; text = "Public Cells can be officially verified by Cell 411 to confirm the identity of the owner and the legitimacy of the Cell. In order to be verified, please use a specific name for your Cell. For example, a Cell named \"New York City\" is misleading as it is not owned by the City of New York, however a Cell named \"New York City 55th St. Crime Watch\" is more specific and likely to be verified."; ObjectID = "bOj-Ve-F1f"; */
+"bOj-Ve-F1f.text" = "Celulele Publice pot fi verificate oficial de către Cell 112 pentru a confirma identitatea proprietarului și legitimitatea Celulei. Pentru verificare folosiți un nume specific pentru Celulă. De exemplu, o Celulă numită \"București\" induce în eroare, deoarece nu este deținută de către orașul București. Pe de altă parte, o Celulă numită \"București Calea Vitan - Octavian Goga\" este mult mai specific și mai probabil să fie verificată.";
+
+/* Class = "UILabel"; text = "Turning this feature on will update your location constantly so that you always see your updated location but it may decrease your battery life."; ObjectID = "blo-j2-ojq"; */
+"blo-j2-ojq.text" = "Activarea acestei funcții va actualiza constant localizarea astfel încât să poți urmări în timp real, însă va scădea durata bateriei.";
+
+/* Class = "UILabel"; text = "DESCRIPTION"; ObjectID = "bw6-bE-uuN"; */
+"bw6-bE-uuN.text" = "DESCRIERE";
+
+/* Class = "UITextField"; placeholder = "Select Resolution"; ObjectID = "c1S-7o-ans"; */
+"c1S-7o-ans.placeholder" = "Selectează rezoluția";
+
+/* Class = "UILabel"; text = "Virgil Vaduva"; ObjectID = "c2J-aQ-VNX"; */
+"c2J-aQ-VNX.text" = "Virgil Vaduva";
+
+/* Class = "UILabel"; text = "05/26/2016 at 07:49 PM"; ObjectID = "cAj-00-sVH"; */
+"cAj-00-sVH.text" = "26/05/2016 la 07:49 PM";
+
+/* Class = "UIButton"; normalTitle = "Spam"; ObjectID = "cCf-2A-o8h"; */
+"cCf-2A-o8h.normalTitle" = "SPAM";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "cG3-MF-G9J"; */
+"cG3-MF-G9J.title" = "Încheiat";
+
+/* Class = "UIButton"; normalTitle = "Forget Device"; ObjectID = "cfe-qJ-qkh"; */
+"cfe-qJ-qkh.normalTitle" = "Uită dispozitiv";
+
+/* Class = "UILabel"; text = "NEVER CONSENT TO SEARCHES"; ObjectID = "dH6-6d-jVe"; */
+"dH6-6d-jVe.text" = "NICIODATĂ SĂ NU ÎȚI DAI CONSIMȚĂMÂNTUL ÎN A FI PERCHEZIȚIONAT";
+
+/* Class = "UIButton"; normalTitle = "Status"; ObjectID = "dg5-Xm-OkC"; */
+"dg5-Xm-OkC.normalTitle" = "Stare";
+
+/* Class = "UILabel"; text = "123,456"; ObjectID = "dhx-cM-ihe"; */
+"dhx-cM-ihe.text" = "123,456";
+
+/* Class = "UILabel"; text = "Allergies (e.g drug allergy, skin allergy, rhinitis, etc.)"; ObjectID = "dyr-s5-Daa"; */
+"dyr-s5-Daa.text" = "Alergii (cum ar fi la medicamente, alergii ale pielii, rinită, etc.)";
+
+/* Class = "UILabel"; text = "MY PROFILE"; ObjectID = "e6Z-iA-Q6f"; */
+"e6Z-iA-Q6f.text" = "PROFILUL MEU";
+
+/* Class = "UILabel"; text = "Cell Name"; ObjectID = "eTh-Wf-RXM"; */
+"eTh-Wf-RXM.text" = "Nume celulă";
+
+/* Class = "UILabel"; text = "PATROL MODE RADIUS"; ObjectID = "ehi-5k-0fV"; */
+"ehi-5k-0fV.text" = "RAZĂ PATRULARE";
+
+/* Class = "UILabel"; text = "cell411@email.com"; ObjectID = "ejZ-Kh-4ET"; */
+"ejZ-Kh-4ET.text" = "cell411@email.com";
+
+/* Class = "UILabel"; text = "SAVE VIDEO LOCALLY"; ObjectID = "ekc-g8-NJ4"; */
+"ekc-g8-NJ4.text" = "SALVEAZĂ LOCAL VIDEO";
+
+/* Class = "UILabel"; text = "Friend Name"; ObjectID = "enX-PK-vm1"; */
+"enX-PK-vm1.text" = "Numele Prietenului";
+
+/* Class = "UILabel"; text = "EMERGENCY"; ObjectID = "ew4-RO-NSw"; */
+"ew4-RO-NSw.text" = "URGENȚĂ";
+
+/* Class = "UITextField"; placeholder = "Additional note (optional)"; ObjectID = "fJc-m8-ONH"; */
+"fJc-m8-ONH.placeholder" = "Notă adițională (opțional)";
+
+/* Class = "UILabel"; text = "MY ADDITIONAL NOTE:"; ObjectID = "fNz-Xm-dhl"; */
+"fNz-Xm-dhl.text" = "NOTA MEA ADIȚIONALĂ:";
+
+/* Class = "UILabel"; text = "CASH"; ObjectID = "fUF-aM-HOO"; */
+"fUF-aM-HOO.text" = "NUMERAR";
+
+/* Class = "UILabel"; text = "All Friends"; ObjectID = "fcA-Gy-Lu5"; */
+"fcA-Gy-Lu5.text" = "Toți prietenii";
+
+/* Class = "UILabel"; text = "Virgil Vaduva"; ObjectID = "fdY-Ci-P3g"; */
+"fdY-Ci-P3g.text" = "Virgil Vaduva";
+
+/* Class = "UIButton"; normalTitle = "Pick Location"; ObjectID = "g1K-MS-Wad"; */
+"g1K-MS-Wad.normalTitle" = "Alege locul";
+
+/* Class = "UILabel"; text = "Exact Match"; ObjectID = "g1T-gz-CeY"; */
+"g1T-gz-CeY.text" = "Potrivire exactă";
+
+/* Class = "UIButton"; normalTitle = "Blocked Users and Spammers"; ObjectID = "g5M-bv-sFN"; */
+"g5M-bv-sFN.normalTitle" = "Utilizatori blocați și spammeri";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "g8f-oM-tHa"; */
+"g8f-oM-tHa.placeholder" = "Prenume";
+
+/* Class = "UILabel"; text = "YOU"; ObjectID = "gLX-hH-bbL"; */
+"gLX-hH-bbL.text" = "TU";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "gMI-U0-Bpx"; */
+"gMI-U0-Bpx.placeholder" = "Nume";
+
+/* Class = "UILabel"; text = "Device Id:"; ObjectID = "gNi-Z6-Wea"; */
+"gNi-Z6-Wea.text" = "Cod dispozitiv:";
+
+/* Class = "UILabel"; text = "05/26/16 at 7:49 PM"; ObjectID = "gQH-oX-QdW"; */
+"gQH-oX-QdW.text" = "26/05/16 la 7:49 PM";
+
+/* Class = "UILabel"; text = "Code not received? "; ObjectID = "gQm-J2-SMq"; */
+"gQm-J2-SMq.text" = "Cod nerecepționat? ";
+
+/* Class = "UILabel"; text = "Please tap on add member icon on top right to add your friends or phone contacts to this Cell."; ObjectID = "gSf-lj-hXQ"; */
+"gSf-lj-hXQ.text" = "Atinge pe icoana Adăugare Membru din dreapta sus pentru a-ți adăuga la această Celulă prietenii sau contactele din telefon.";
+
+/* Class = "UILabel"; text = "Current Location"; ObjectID = "gcA-xE-0UW"; */
+"gcA-xE-0UW.text" = "Localizare curentă";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "h7J-A5-XZb"; */
+"h7J-A5-XZb.normalTitle" = "Anulare";
+
+/* Class = "UILabel"; text = "Pickup Location"; ObjectID = "hJJ-ro-zto"; */
+"hJJ-ro-zto.text" = "Loc de ridicare";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "hag-Qv-Ewi"; */
+"hag-Qv-Ewi.normalTitle" = "Anulare";
+
+/* Class = "UILabel"; text = "Cell Name"; ObjectID = "hf0-um-nq1"; */
+"hf0-um-nq1.text" = "Nume celulă";
+
+/* Class = "UILabel"; text = "VIRGIL VADUVA"; ObjectID = "hmv-y2-Pfe"; */
+"hmv-y2-Pfe.text" = "VIRGIL VĂDUVA";
+
+/* Class = "UILabel"; text = "This will enable streaming live videos to your own YouTube Live Channel."; ObjectID = "hto-ir-mbE"; */
+"hto-ir-mbE.text" = "Asta va activa difuzarea de video în direct către canalul tău YouTube Live.";
+
+/* Class = "UIButton"; normalTitle = "Ok"; ObjectID = "i4c-Cc-nuH"; */
+"i4c-Cc-nuH.normalTitle" = "Fie";
+
+/* Class = "UILabel"; text = "100 miles"; ObjectID = "iKr-H9-oCc"; */
+"iKr-H9-oCc.text" = "100 de mile";
+
+/* Class = "UILabel"; text = "Please select the payment mode you accept"; ObjectID = "iNY-m6-q9a"; */
+"iNY-m6-q9a.text" = "Selectează metoda plății";
+
+/* Class = "UILabel"; text = "$"; ObjectID = "iTA-Nm-aT8"; */
+"iTA-Nm-aT8.text" = "$";
+
+/* Class = "UILabel"; text = "N/A"; ObjectID = "idd-a7-yik"; */
+"idd-a7-yik.text" = "N/A";
+
+/* Class = "UIButton"; normalTitle = "Status"; ObjectID = "imd-TX-pKa"; */
+"imd-TX-pKa.normalTitle" = "Stare";
+
+/* Class = "UILabel"; text = "YOUR RESPONSE TO THIS REQUEST IS SEEN BY THE RIDER"; ObjectID = "imr-LC-Hvt"; */
+"imr-LC-Hvt.text" = "RĂSPUNSUL TĂU LA ACEASTĂ SOLICITARE VA FI VĂZUTĂ DE CĂTRE PASAGER";
+
+/* Class = "UILabel"; text = "Your friends can use Cell 411 to scan this code and add you as a friend."; ObjectID = "jBb-dV-ghk"; */
+"jBb-dV-ghk.text" = "Prietenii tăi pot folosi Cell 112 pentru a scana acest cod și a te adăuga ca prieten.";
+
+/* Class = "UILabel"; text = "email"; ObjectID = "jDJ-Cc-OBu"; */
+"jDJ-Cc-OBu.text" = "email";
+
+/* Class = "UILabel"; text = "CRYPTO"; ObjectID = "jK9-Ul-0aX"; */
+"jK9-Ul-0aX.text" = "CRYPTO";
+
+/* Class = "UIButton"; normalTitle = "+1"; ObjectID = "jOl-UP-7HE"; */
+"jOl-UP-7HE.normalTitle" = "+1";
+
+/* Class = "UILabel"; text = "MY COST:"; ObjectID = "jZl-Db-ECA"; */
+"jZl-Db-ECA.text" = "PREȚUL MEU:";
+
+/* Class = "UIButton"; normalTitle = "A+"; ObjectID = "jsg-ZE-q0W"; */
+"jsg-ZE-q0W.normalTitle" = "A+";
+
+/* Class = "UILabel"; text = "ALLERGIES"; ObjectID = "k0v-0F-ejo"; */
+"k0v-0F-ejo.text" = "ALERGII";
+
+/* Class = "UILabel"; text = "Please enter your four digit verification code below"; ObjectID = "k6T-GX-Bjf"; */
+"k6T-GX-Bjf.text" = "Introdu mai jos codul de verificare din patru cifre";
+
+/* Class = "UILabel"; text = "Turning this feature on will prompt you to pick custom location whenever you issue an alert."; ObjectID = "k7k-GC-TH2"; */
+"k7k-GC-TH2.text" = "Activarea acestei funcții te va soma să alegi o poziție personalizată de fiecare dată când emiți o alertă.";
+
+/* Class = "UILabel"; text = "Save video to local storage while streaming."; ObjectID = "k8U-ra-MGi"; */
+"k8U-ra-MGi.text" = "Salvează video local în timp ce și difuzezi.";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password ?"; ObjectID = "km4-Tj-M1Q"; */
+"km4-Tj-M1Q.normalTitle" = "Ai uitat parola?";
+
+/* Class = "UITextField"; placeholder = "Select Category"; ObjectID = "l2v-KV-rXr"; */
+"l2v-KV-rXr.placeholder" = "Selectează categorie";
+
+/* Class = "UILabel"; text = "Ride Status:"; ObjectID = "lJm-zy-orA"; */
+"lJm-zy-orA.text" = "Statut cursă:";
+
+/* Class = "UITabBarItem"; title = "Alerts"; ObjectID = "lNj-oy-CWw"; */
+"lNj-oy-CWw.title" = "Alerte";
+
+/* Class = "UILabel"; text = "Near By"; ObjectID = "lb7-AG-gle"; */
+"lb7-AG-gle.text" = "În apropiere";
+
+/* Class = "UILabel"; text = "Ride Status:"; ObjectID = "lgg-84-fHk"; */
+"lgg-84-fHk.text" = "Statut cursă:";
+
+/* Class = "UILabel"; text = "Request Verification"; ObjectID = "lta-qQ-bgE"; */
+"lta-qQ-bgE.text" = "Solicită verificare";
+
+/* Class = "UIButton"; normalTitle = "AB+"; ObjectID = "mI8-9J-BBU"; */
+"mI8-9J-BBU.normalTitle" = "AB+";
+
+/* Class = "UILabel"; text = "Server URL:"; ObjectID = "mJm-3W-ZRO"; */
+"mJm-3W-ZRO.text" = "URL server:";
+
+/* Class = "UIButton"; normalTitle = "+1"; ObjectID = "mVv-8M-Jfn"; */
+"mVv-8M-Jfn.normalTitle" = "+1";
+
+/* Class = "UILabel"; text = "N/A"; ObjectID = "myY-Lz-xC9"; */
+"myY-Lz-xC9.text" = "N/A";
+
+/* Class = "UILabel"; text = "Did you reached the pickup location?"; ObjectID = "nBk-ET-2D3"; */
+"nBk-ET-2D3.text" = "Ai ajuns la locul de întâlnire?";
+
+/* Class = "UILabel"; text = "Request Ride"; ObjectID = "nTK-tK-s1w"; */
+"nTK-tK-s1w.text" = "Solicită cursă";
+
+/* Class = "UILabel"; text = "Comment"; ObjectID = "nZX-4x-2HX"; */
+"nZX-4x-2HX.text" = "Comentariu";
+
+/* Class = "UILabel"; text = "LOADING..."; ObjectID = "nfI-Ym-Af2"; */
+"nfI-Ym-Af2.text" = "ÎNCĂRCARE...";
+
+/* Class = "UILabel"; text = "COST/MILE"; ObjectID = "o0Z-cr-6HH"; */
+"o0Z-cr-6HH.text" = "PREȚ/MILĂ";
+
+/* Class = "UIButton"; normalTitle = "Add Friend"; ObjectID = "oRE-Ac-Ngn"; */
+"oRE-Ac-Ngn.normalTitle" = "Adaugă Prieten";
+
+/* Class = "UIButton"; selectedTitle = "Unfriend"; ObjectID = "oRE-Ac-Ngn"; */
+"oRE-Ac-Ngn.selectedTitle" = "Rupe prietenie";
+
+/* Class = "UILabel"; text = "DISPATCH MODE"; ObjectID = "oVU-b6-cWB"; */
+"oVU-b6-cWB.text" = "MOD EXPEDIȚIE";
+
+/* Class = "UIButton"; normalTitle = "Cancel Request"; ObjectID = "oWe-PM-feY"; */
+"oWe-PM-feY.normalTitle" = "Anulează solicitare";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "oXl-6R-IFM"; */
+"oXl-6R-IFM.text" = "Etichetă";
+
+/* Class = "UILabel"; text = "N/A"; ObjectID = "ock-Nw-yR2"; */
+"ock-Nw-yR2.text" = "N/A";
+
+/* Class = "UIButton"; normalTitle = "B+"; ObjectID = "onb-vH-RbV"; */
+"onb-vH-RbV.normalTitle" = "B+";
+
+/* Class = "UILabel"; text = "No friend requests"; ObjectID = "p5k-X4-WoG"; */
+"p5k-X4-WoG.text" = "Nu ai cereri de prietenie";
+
+/* Class = "UITextField"; placeholder = "eg: k9xw-s042-scx9-ecxd"; ObjectID = "pU3-ne-JLo"; */
+"pU3-ne-JLo.placeholder" = "ex: k9xw-s042-scx9-ecxd";
+
+/* Class = "UILabel"; text = "LOADING..."; ObjectID = "pgR-oh-LDZ"; */
+"pgR-oh-LDZ.text" = "ÎNCĂRCARE...";
+
+/* Class = "UILabel"; text = "Enable this to receive ride requests if you are willing to give rides. Profile photo and phone number verification is reuiqred to enable Ride Requests."; ObjectID = "plZ-93-b3Y"; */
+"plZ-93-b3Y.text" = "Activează această opțiune pentru a primi solicitări dacă ești dispus să și acorzi curse. Fotografia de profil și o verificare a numărului de telefon sunt necesare pentru activare.";
+
+/* Class = "UIButton"; normalTitle = "Connect to Facebook"; ObjectID = "pme-T6-kt1"; */
+"pme-T6-kt1.normalTitle" = "Conectare la Facebook";
+
+/* Class = "UILabel"; text = "METRIC SELECTION"; ObjectID = "qBy-Af-TsZ"; */
+"qBy-Af-TsZ.text" = "SELECȚIE METRICĂ";
+
+/* Class = "UITabBarItem"; title = "Chat"; ObjectID = "r4A-6S-0mL"; */
+"r4A-6S-0mL.title" = "Chat";
+
+/* Class = "UILabel"; text = "PANIC alert recipients"; ObjectID = "rES-gy-EaY"; */
+"rES-gy-EaY.text" = "Recipienți alerte PANICĂ";
+
+/* Class = "UITextField"; placeholder = "2"; ObjectID = "rQ2-Jd-lzd"; */
+"rQ2-Jd-lzd.placeholder" = "2";
+
+/* Class = "UILabel"; text = "Cell Description"; ObjectID = "rVQ-9l-F3f"; */
+"rVQ-9l-F3f.text" = "Descriere celulă";
+
+/* Class = "UILabel"; text = "ADDITIONAL NOTE:"; ObjectID = "reC-kz-iNE"; */
+"reC-kz-iNE.text" = "NOTĂ ADIȚIONALĂ:";
+
+/* Class = "UILabel"; text = "User Name"; ObjectID = "rm3-by-Gov"; */
+"rm3-by-Gov.text" = "Nume utilizator";
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "rrC-GI-WBL"; */
+"rrC-GI-WBL.placeholder" = "email";
+
+/* Class = "UILabel"; text = "Virgil Vaduva wants a Ride"; ObjectID = "rxU-wd-DfF"; */
+"rxU-wd-DfF.text" = "Virgil Văduva caută cursă";
+
+/* Class = "UILabel"; text = "Include Security Guards"; ObjectID = "s9S-i9-dj4"; */
+"s9S-i9-dj4.text" = "Include gărzi de securitate";
+
+/* Class = "UILabel"; text = "No Cell members added yet"; ObjectID = "s46-8r-TEl"; */
+"s46-8r-TEl.text" = "Niciun membru al Celulei nu a fost încă adăugat";
+
+/* Class = "UIButton"; normalTitle = "Reject"; ObjectID = "sXP-Zi-f0y"; */
+"sXP-Zi-f0y.normalTitle" = "Refuză";
+
+/* Class = "UILabel"; text = "Broadcast Emergency Alert"; ObjectID = "sbF-Yc-wNi"; */
+"sbF-Yc-wNi.text" = "Difuzează alertă de urgență";
+
+/* Class = "UILabel"; text = "EMERGENCY CONTACT PHONE"; ObjectID = "smt-Xj-mSa"; */
+"smt-Xj-mSa.text" = "TELEFONUL CONTACTULUI DE URGENȚĂ";
+
+/* Class = "UILabel"; text = "LOCATION UPDATES"; ObjectID = "swW-mx-7jM"; */
+"swW-mx-7jM.text" = "UPDATĂRI LOCALIZARE";
+
+/* Class = "UILabel"; text = "ADDITIONAL NOTE:"; ObjectID = "t1z-Fl-VAS"; */
+"t1z-Fl-VAS.text" = "NOTĂ ADIȚIONALĂ:";
+
+/* Class = "UILabel"; text = "Zoom or move map to bring the alert location under the center of pin for dispatch mode."; ObjectID = "t2w-tj-msm"; */
+"t2w-tj-msm.text" = "Pentru modul expediere mărește sau mișcă harta aliniind locul alertei sub centrul pionezei.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "t88-Fs-2S1"; */
+"t88-Fs-2S1.text" = "Etichetă";
+
+/* Class = "UILabel"; text = "INSTANTLY"; ObjectID = "tIz-1U-3VE"; */
+"tIz-1U-3VE.text" = "INSTANT";
+
+/* Class = "UILabel"; text = "Cameras are your best defence against the police. If they know they are being recorded, they will be less tempted to violate your rights."; ObjectID = "tUO-g3-gsg"; */
+"tUO-g3-gsg.text" = "Camerele sunt cea mai bună apărare împotriva abuzurilor poliției. Dacă aceștia știu că sunt înregistrați, vor fi mai puțin tentați să îți încalce drepturile.";
+
+/* Class = "UILabel"; text = "Turning this feature on will allow you to receive Cell 411 alerts when someone in the patrol radius needs help.This feature requires Location Updates to be turned on."; ObjectID = "u6F-9f-F1i"; */
+"u6F-9f-F1i.text" = "Activarea acestei funcții îți va permite să primești alerte Cell 112 când cineva aflat în raza de patrulare necesită ajutor. Această funcție necesită ca Actualizarea Localizării să fie pornită.";
+
+/* Class = "UILabel"; text = "BARTERING"; ObjectID = "uQS-om-a5g"; */
+"uQS-om-a5g.text" = "LA SCHIMB";
+
+/* Class = "UILabel"; text = "Enable Fall Detection"; ObjectID = "uRC-ze-UcN"; */
+"uRC-ze-UcN.text" = "Activează detectarea căzăturii";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "uoh-j4-i0h"; */
+"uoh-j4-i0h.text" = "Titulatură";
+
+/* Class = "UILabel"; text = "email"; ObjectID = "v2N-P5-03d"; */
+"v2N-P5-03d.text" = "email";
+
+/* Class = "UILabel"; text = "PICK UP LOCATION"; ObjectID = "v7P-bs-eTv"; */
+"v7P-bs-eTv.text" = "LOC DE PORNIRE";
+
+/* Class = "UILabel"; text = "If you are not being detained, just walk away. Officers must be able to articulate their \"reasonable suspicion\" that a crime has been or is about to be committed in order to detain you."; ObjectID = "vD0-PC-7Gw"; */
+"vD0-PC-7Gw.text" = "Dacă nu ești arestat, pur și simplu pleacă. Pentru a te reține, ofițerii de poliție trebuie să îți precizeze \"suspiciunea rezonabilă\" cum că o crimă a fost sau urmează a fi comisă.";
+
+/* Class = "UIButton"; normalTitle = "Broadcast"; ObjectID = "vQC-mZ-alS"; */
+"vQC-mZ-alS.normalTitle" = "Difuzare";
+
+/* Class = "UILabel"; text = "HEAVY POLICE THREAT IN EFFECT"; ObjectID = "vR0-Xc-yC5"; */
+"vR0-Xc-yC5.text" = "PERICOL INTENS DE POLIȚIE ÎN EFECT";
+
+/* Class = "UILabel"; text = "Virgil Vaduva"; ObjectID = "vWe-Aw-Cgq"; */
+"vWe-Aw-Cgq.text" = "Virgil Văduva";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "w00-aS-SXY"; */
+"w00-aS-SXY.placeholder" = "Nume";
+
+/* Class = "UIButton"; normalTitle = "Add Phone"; ObjectID = "w0z-dm-rT5"; */
+"w0z-dm-rT5.normalTitle" = "Adaugă Telefon";
+
+/* Class = "UILabel"; text = "email"; ObjectID = "wHu-Id-6qy"; */
+"wHu-Id-6qy.text" = "email";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "wTy-0g-bXy"; */
+"wTy-0g-bXy.normalTitle" = "Anulare";
+
+/* Class = "UILabel"; text = "CELL 411"; ObjectID = "x0s-yM-bV8"; */
+"x0s-yM-bV8.text" = "CELL 112";
+
+/* Class = "UILabel"; text = "Cells are groups of friends you can configure to customize alerting"; ObjectID = "xVI-d9-KfP"; */
+"xVI-d9-KfP.text" = "Celulele sunt grupuri de prieteni pe care le poți configura pentru alerte";
+
+/* Class = "UILabel"; text = "Virgil Vaduva"; ObjectID = "xXb-a8-foV"; */
+"xXb-a8-foV.text" = "Virgil Vaduva";
+
+/* Class = "UILabel"; text = "Retreiving info..."; ObjectID = "y6a-Se-r6h"; */
+"y6a-Se-r6h.text" = "Recepționare informații...";
+
+/* Class = "UILabel"; text = "05/26/16 at 7:49 PM"; ObjectID = "yKP-kb-trW"; */
+"yKP-kb-trW.text" = "26/05/16 la 7:49 PM";
+
+/* Class = "UILabel"; text = "This user has no profile picture available"; ObjectID = "yc7-nx-8OQ"; */
+"yc7-nx-8OQ.text" = "Acest utilizator nu are poză de profil disponibilă";
+
+/* Class = "UILabel"; text = "CELL 411"; ObjectID = "yd4-OU-Xn2"; */
+"yd4-OU-Xn2.text" = "CELL 112";
+
+/* Class = "UILabel"; text = "CURRENT LOCATION"; ObjectID = "ydv-6q-XqL"; */
+"ydv-6q-XqL.text" = "LOCALIZARE CURENTĂ";
+
+/* Class = "UILabel"; text = "LOADING..."; ObjectID = "yjk-xB-ydI"; */
+"yjk-xB-ydI.text" = "ÎNCĂRCARE...";
+
+/* Class = "UILabel"; text = "Reviewed by Virgil Vaduva"; ObjectID = "yqt-Ms-zBY"; */
+"yqt-Ms-zBY.text" = "Revizuit de Virgil Văduva";
+
+/* Class = "UILabel"; text = "Public Cell"; ObjectID = "yxW-Ll-bOv"; */
+"yxW-Ll-bOv.text" = "Celulă publică";
+
+/* Class = "UIButton"; normalTitle = "Rename My Device"; ObjectID = "z0D-38-C1Z"; */
+"z0D-38-C1Z.normalTitle" = "Redenumește Dispozitivul Meu";
+
+/* Class = "UILabel"; text = "LOADING..."; ObjectID = "zHT-ok-h46"; */
+"zHT-ok-h46.text" = "ÎNCĂRCARE...";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "zNw-YA-8Kz"; */
+"zNw-YA-8Kz.text" = "SAU";
+
+/* Class = "UILabel"; text = "Cell Name"; ObjectID = "zVd-M9-NzJ"; */
+"zVd-M9-NzJ.text" = "Nume Celulă";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "zaL-EN-l2X"; */
+"zaL-EN-l2X.normalTitle" = "Înscriere";
+
+/* Class = "UILabel"; text = "\"Send or receive alerts while emergencies like Cop Blocking, Fire, Medical, Crime, Police Arrest, Danger, Broken Car, etc.\""; ObjectID = "zdQ-Qi-73v"; */
+"zdQ-Qi-73v.text" = "Trimite sau primește alerte precum urgențe gen Incendiu, Medical, Crimă, Arest Poliție, Pericol, Mașină Stricată, etc.";
+
+/* Class = "UIButton"; normalTitle = "Ok"; ObjectID = "zgZ-La-duF"; */
+"zgZ-La-duF.normalTitle" = "Fie";
+
+/* Class = "UILabel"; text = "Radius"; ObjectID = "zlE-M5-Auz"; */
+"zlE-M5-Auz.text" = "Rază";
+
+/* Class = "UILabel"; text = "CONFIGURE COST"; ObjectID = "zuk-Jw-wJ3"; */
+"zuk-Jw-wJ3.text" = "CONFIGURARE PREȚ";
+
+/* Class = "UILabel"; text = "CONNECT TO FACEBOOK"; ObjectID = "zvR-vj-25E"; */
+"zvR-vj-25E.text" = "CONECTARE LA FACEBOOK";
+
+/* Class = "UILabel"; text = "Check who's on Cell 411 network by uploading your contacts and then you can choose with whom you want to connect"; ObjectID = "12Q-Lc-krb"; */
+"12Q-Lc-krb.text" = "Verifică cine este în rețeaua Cell 411 încărcându-ți contacte, după care vei putea alege cu cine să te conectezi";
+
+/* Class = "UILabel"; text = "UPLOAD CONTACTS"; ObjectID = "ELm-ne-ScV"; */
+"ELm-ne-ScV.text" = "ÎNCARCĂ CONTACTE";
+
+/* Class = "UIButton"; normalTitle = "Get Started"; ObjectID = "Q78-Q9-rVL"; */
+"Q78-Q9-rVL.normalTitle" = "Pornire";
+
+/* Class = "UILabel"; text = "Info about contacts in your address book, including names, phone numbers and emails will be sent to Cell 411 to help you and other find friends faster and to help us provide a better service. You can turn this off in Settings and manage or delete contact information you share with Cell 411."; ObjectID = "Va4-3S-dBG"; */
+"Va4-3S-dBG.text" = "Informații despre persoanele de contact din agendă, inclusiv numele, numerele de telefon și e-mailurile vor fi trimise către Cell 411 pentru a-ți găsiți mai repede prieteni și inclusiv în a ne ajuta să îți furnizăm un serviciu mai bun. Poți dezactiva această fincție din Setări respectiv poți gestiona sau șterge informațiile contactelor pe care le trimiți prin Cell 411.";
+
+/* Class = "UILabel"; text = "Friends are always helpful in emergencies"; ObjectID = "qfs-kW-ygW"; */
+"qfs-kW-ygW.text" = "Prietenii sunt întotdeauna de ajutor în situații de urgență";
+
+/* Class = "UILabel"; text = "Turning this feature on will enable Cell 411 to continuously upload your phone contacts in order to inform you when they join Cell 411 so that you can friend with them if you want."; ObjectID = "vRX-vF-iFX"; */
+"vRX-vF-iFX.text" = "Activarea acestei funcții va permite Cell 411 să încarce în mod continuu persoanele de contact din telefon pentru a te informa când aceștia se alătură Cell 411, astfel încât să îi poți adăuga ca prieteni dacă dorești.";
+
+/* Class = "UILabel"; text = "Additional text message if any"; ObjectID = "8vq-ha-zS8"; */
+"8vq-ha-zS8.text" = "Text suplimentar, dacă este cazul";
+
+/* Class = "UILabel"; text = "Member of zero Cells"; ObjectID = "EH0-V7-90l"; */
+"EH0-V7-90l.text" = "Membru a zero Celule";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "MRp-4O-he4"; */
+"MRp-4O-he4.normalTitle" = "Trimite";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Pfg-Np-JsV"; */
+"Pfg-Np-JsV.text" = "Etichetă";
+
+/* Class = "UILabel"; text = "Cell Type"; ObjectID = "WXx-oM-VtQ"; */
+"WXx-oM-VtQ.text" = "Tip Celulă";
+
+/* Class = "UILabel"; text = "Cell Name"; ObjectID = "Zfx-bO-PXi"; */
+"Zfx-bO-PXi.text" = "Nume Celulă";
+
+/* Class = "UILabel"; text = "Additional Note (Optional)"; ObjectID = "ZyW-oF-Hc5"; */
+"ZyW-oF-Hc5.text" = "Notă adițională (opțional)";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "bGs-ud-yIF"; */
+"bGs-ud-yIF.normalTitle" = "Anulare";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cqJ-nD-iTe"; */
+"cqJ-nD-iTe.text" = "Etichetă";
+
+/* Class = "UILabel"; text = "Profile setup:"; ObjectID = "euz-Wn-iHr"; */
+"euz-Wn-iHr.text" = "Profil completat:";
+
+/* Class = "UILabel"; text = "Choose your audience to send alert"; ObjectID = "kao-iO-aZ8"; */
+"kao-iO-aZ8.text" = "Alege-ți publicul pentru a trimite alerta";
+
+/* Class = "UILabel"; text = "In order to send alerts to Cells please first create your own Cell and add at least 1 member, or alternatively join an existing public Cell."; ObjectID = "vwu-kh-Hxp"; */
+"vwu-kh-Hxp.text" = "Pentru a putea trimite alerte către Celule, creează tu o Celulă la care apoi adaugă cel puțin 1 membru sau alternnativ alătură-te unei Celule publice existente.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xwP-B6-7B1"; */
+"xwP-B6-7B1.text" = "Etichetă";
+
+/* Class = "UILabel"; text = "We will not sell or disclose your data to any third private party"; ObjectID = "Qt1-Fq-Vag"; */
+"Qt1-Fq-Vag.text" = "Nu vom vinde sau dezvălui datele tale către niciunui terțe părți private";
+
+/* Class = "UILabel"; text = "You can delete your account at any time"; ObjectID = "T5Q-bi-32y"; */
+"T5Q-bi-32y.text" = "Îți poți șterge contul în orice moment";
+
+/* Class = "UILabel"; text = "You have read and hereby agree to our updated privacy policy"; ObjectID = "djh-ya-lBE"; */
+"djh-ya-lBE.text" = "Ai citit și prin prezenta ești de acord cu politica noastră de confidențialitate actualizată";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "laR-o7-bRn"; */
+"laR-o7-bRn.normalTitle" = "Fie";
+
+/* Class = "UIButton"; normalTitle = "Post alert to Facebook"; ObjectID = "mZJ-5Z-CX9"; */
+"mZJ-5Z-CX9.normalTitle" = "Postare alertă pe Facebook";
+
+/* Class = "UILabel"; text = "Contact Name"; ObjectID = "pBV-FU-YWb"; */
+"pBV-FU-YWb.text" = "Numele persoanei de contact";
+
+/* Class = "UILabel"; text = "You agree to have your data processed by us"; ObjectID = "vlx-23-LUh"; */
+"vlx-23-LUh.text" = "Ești de acord ca datele tale să îți fie prelucrate de către noi";

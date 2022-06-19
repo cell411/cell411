@@ -1,0 +1,6 @@
+module Pods_GTA {
+  umbrella header "Pods-GTA-umbrella.h"
+
+  export *
+  module * { export * }
+}

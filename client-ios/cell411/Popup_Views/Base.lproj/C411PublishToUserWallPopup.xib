@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="C411PublishToUserWallPopup">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bYQ-ID-Lfd">
+                    <rect key="frame" x="37.5" y="227.5" width="300" height="212"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Would you like to enable publishing alerts to your Facebook Wall when you issue one?" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aw4-Ot-QgC">
+                            <rect key="frame" x="12" y="12" width="276" height="61"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7bp-Rk-RvZ">
+                            <rect key="frame" x="12" y="100" width="20" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="7bp-Rk-RvZ" secondAttribute="height" multiplier="10:11" id="Rx1-aJ-HfL"/>
+                                <constraint firstAttribute="width" constant="20" id="tQ4-Nn-b6U"/>
+                            </constraints>
+                            <state key="normal" image="ic_box_unchecked"/>
+                            <state key="selected" image="ic_box_checked"/>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Publish alert to my Facebook Wall when I issue one" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fdx-cL-zU1">
+                            <rect key="frame" x="40" y="93" width="248" height="36"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mla-YY-pOj" userLabel="Publish Alert toggle button">
+                            <rect key="frame" x="12" y="93" width="276" height="36"/>
+                            <connections>
+                                <action selector="btnPublishAlertToFBWallToggled:" destination="iN0-l3-epB" eventType="touchUpInside" id="Zfh-qr-cXd"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1A9-8o-JvN">
+                            <rect key="frame" x="12" y="141" width="0.0" height="0.0"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="1A9-8o-JvN" secondAttribute="height" multiplier="10:11" id="NEm-7G-rEP"/>
+                                <constraint firstAttribute="width" id="Nr2-Kr-TbI"/>
+                            </constraints>
+                            <state key="normal" image="ic_box_unchecked"/>
+                            <state key="selected" image="ic_box_checked"/>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="748" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARn-An-kPG">
+                            <rect key="frame" x="20" y="141" width="268" height="0.0"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kca-bT-NkB" userLabel="Stream video toggle button">
+                            <rect key="frame" x="12" y="141" width="276" height="0.0"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dsv-MJ-9oJ">
+                            <rect key="frame" x="212" y="161" width="76" height="46"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="76" id="23M-eH-VY0"/>
+                                <constraint firstAttribute="height" constant="46" id="9pQ-cI-QGF"/>
+                            </constraints>
+                            <state key="normal" title="Enable">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnEnableTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="Kjj-8M-drR"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hva-pM-EJh">
+                            <rect key="frame" x="114" y="161" width="90" height="46"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="90" id="bcw-Mh-F4T"/>
+                            </constraints>
+                            <state key="normal" title="Do it Later">
+                                <color key="titleColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnDoItLaterTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="PVz-B3-KRT"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="1A9-8o-JvN" firstAttribute="centerY" secondItem="ARn-An-kPG" secondAttribute="centerY" id="2c5-yf-6xn"/>
+                        <constraint firstItem="Hva-pM-EJh" firstAttribute="height" secondItem="Dsv-MJ-9oJ" secondAttribute="height" id="3EL-Hv-T9F"/>
+                        <constraint firstItem="Aw4-Ot-QgC" firstAttribute="top" secondItem="bYQ-ID-Lfd" secondAttribute="top" constant="12" id="3IW-AE-oiq"/>
+                        <constraint firstItem="1A9-8o-JvN" firstAttribute="leading" secondItem="7bp-Rk-RvZ" secondAttribute="leading" id="42B-qC-LGr"/>
+                        <constraint firstItem="Kca-bT-NkB" firstAttribute="top" secondItem="ARn-An-kPG" secondAttribute="top" id="88o-b6-IA3"/>
+                        <constraint firstItem="Aw4-Ot-QgC" firstAttribute="leading" secondItem="bYQ-ID-Lfd" secondAttribute="leading" constant="12" id="9Tp-nT-WHG"/>
+                        <constraint firstItem="mla-YY-pOj" firstAttribute="trailing" secondItem="Fdx-cL-zU1" secondAttribute="trailing" id="BMf-el-sOS"/>
+                        <constraint firstItem="Kca-bT-NkB" firstAttribute="leading" secondItem="1A9-8o-JvN" secondAttribute="leading" id="BlM-Co-EWP"/>
+                        <constraint firstItem="Dsv-MJ-9oJ" firstAttribute="top" secondItem="Kca-bT-NkB" secondAttribute="bottom" constant="20" id="D6L-fq-lOv"/>
+                        <constraint firstItem="mla-YY-pOj" firstAttribute="bottom" secondItem="Fdx-cL-zU1" secondAttribute="bottom" id="DHD-uR-AcY"/>
+                        <constraint firstItem="7bp-Rk-RvZ" firstAttribute="centerY" secondItem="Fdx-cL-zU1" secondAttribute="centerY" id="FD4-m5-z28"/>
+                        <constraint firstItem="Fdx-cL-zU1" firstAttribute="leading" secondItem="7bp-Rk-RvZ" secondAttribute="trailing" constant="8" id="G6i-S0-xEY"/>
+                        <constraint firstItem="Kca-bT-NkB" firstAttribute="trailing" secondItem="ARn-An-kPG" secondAttribute="trailing" id="GC0-CV-jyc"/>
+                        <constraint firstItem="ARn-An-kPG" firstAttribute="top" secondItem="Fdx-cL-zU1" secondAttribute="bottom" constant="12" id="M2V-v2-nb3"/>
+                        <constraint firstAttribute="trailing" secondItem="Fdx-cL-zU1" secondAttribute="trailing" constant="12" id="MEt-kE-bQi"/>
+                        <constraint firstItem="Fdx-cL-zU1" firstAttribute="top" secondItem="Aw4-Ot-QgC" secondAttribute="bottom" constant="20" id="Q2D-By-Njd"/>
+                        <constraint firstAttribute="width" constant="300" id="W7T-8G-ZNE"/>
+                        <constraint firstAttribute="bottom" secondItem="Dsv-MJ-9oJ" secondAttribute="bottom" constant="5" id="W82-Uw-wwo"/>
+                        <constraint firstItem="Hva-pM-EJh" firstAttribute="bottom" secondItem="Dsv-MJ-9oJ" secondAttribute="bottom" id="YWx-Uy-Rcf"/>
+                        <constraint firstItem="ARn-An-kPG" firstAttribute="leading" secondItem="1A9-8o-JvN" secondAttribute="trailing" constant="8" id="ZSO-3Z-Gtv"/>
+                        <constraint firstItem="Kca-bT-NkB" firstAttribute="bottom" secondItem="ARn-An-kPG" secondAttribute="bottom" id="ZVd-Yz-ON0"/>
+                        <constraint firstItem="7bp-Rk-RvZ" firstAttribute="leading" secondItem="bYQ-ID-Lfd" secondAttribute="leading" constant="12" id="azD-L9-obM"/>
+                        <constraint firstAttribute="trailing" secondItem="Dsv-MJ-9oJ" secondAttribute="trailing" constant="12" id="cvu-4p-reF"/>
+                        <constraint firstItem="mla-YY-pOj" firstAttribute="top" secondItem="Fdx-cL-zU1" secondAttribute="top" id="czJ-S3-Hvt"/>
+                        <constraint firstItem="ARn-An-kPG" firstAttribute="trailing" secondItem="Fdx-cL-zU1" secondAttribute="trailing" id="eHh-iJ-f1q"/>
+                        <constraint firstAttribute="trailing" secondItem="Aw4-Ot-QgC" secondAttribute="trailing" constant="12" id="fDH-fn-1Qc"/>
+                        <constraint firstItem="Dsv-MJ-9oJ" firstAttribute="leading" secondItem="Hva-pM-EJh" secondAttribute="trailing" constant="8" id="o8O-xc-VIg"/>
+                        <constraint firstItem="mla-YY-pOj" firstAttribute="leading" secondItem="7bp-Rk-RvZ" secondAttribute="leading" id="pJo-Q9-g7f"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="bYQ-ID-Lfd" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="fXC-kH-IFm"/>
+                <constraint firstItem="bYQ-ID-Lfd" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="hxQ-5c-1wU"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnEnable" destination="Dsv-MJ-9oJ" id="RuA-0G-rir"/>
+                <outlet property="btnLater" destination="Hva-pM-EJh" id="Y76-Bq-zyu"/>
+                <outlet property="lblPublishAlertToFBWall" destination="Fdx-cL-zU1" id="Xvb-T4-vek"/>
+                <outlet property="lblTitle" destination="Aw4-Ot-QgC" id="AA8-eG-n7x"/>
+                <outlet property="tglBtnPublishAlertToFBWall" destination="7bp-Rk-RvZ" id="ZHg-Na-1cF"/>
+                <outlet property="tglBtnStreamVideoToFBWall" destination="1A9-8o-JvN" id="RnS-wR-hA4"/>
+                <outlet property="vuPublishToWallPopup" destination="bYQ-ID-Lfd" id="9sZ-sZ-LaJ"/>
+            </connections>
+            <point key="canvasLocation" x="244.5" y="326.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_box_checked" width="20" height="20"/>
+        <image name="ic_box_unchecked" width="20" height="20"/>
+    </resources>
+</document>

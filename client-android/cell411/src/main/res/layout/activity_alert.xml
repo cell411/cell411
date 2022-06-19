@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CC000000"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rl_alert_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/bg_alert_un_recognized"
+        android:visibility="visible"
+        >
+
+        <TextView
+            android:id="@+id/txt_lbl_tag"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/bg_tag"
+            android:gravity="center"
+            android:text="@string/global_alert"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            tools:ignore="SmallSp"
+            />
+
+        <TextView
+            android:id="@+id/txt_alert_time"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="50dp"
+            android:gravity="center"
+            android:text="4:20 PM"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText"
+            />
+
+        <cell411.ui.utils.CircularImageView
+            android:id="@+id/img_user"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/ic_placeholder_user"
+            android:tint="@color/text_disabled_hint_icon"
+            />
+
+        <TextView
+            android:id="@+id/txt_alert"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toEndOf="@+id/img_user"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textColorLink="@color/gray_f1"
+            android:textSize="14sp"
+            />
+
+        <LinearLayout
+            android:id="@+id/rl_forwarded_by"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_alert"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:id="@+id/txt_lbl_forwarded_by"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:labelFor="@id/txt_forwarded_by"
+                android:text="@string/forwarded_by_camel_case"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:id="@+id/txt_forwarded_by"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Boaty McBoatFace"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_additional_info"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/rl_forwarded_by"
+            android:background="@color/alert_medical_dark"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+            <LinearLayout
+                android:id="@+id/ll_additional_info"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:id="@+id/txt_lbl_additional_note"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/additional_note"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_additional_note"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/additional_note"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_lbl_blood_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/blood_group_caps"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_blood_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/not_available"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_lbl_allergies"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/allergies_caps"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_allergies"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/not_available"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_lbl_other_medical_conditions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/other_medical_conditions_caps"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    />
+
+                <TextView
+                    android:id="@+id/txt_other_medical_conditions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/not_available"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_btn_expand"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/bg_forward_alert"
+                android:gravity="center"
+                android:text="@string/expand"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bg_alert_medical_action"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:id="@+id/txt_btn_cannot_help"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/cannot_help"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view_separator_vertical"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/alert_medical"
+                />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:id="@+id/txt_btn_help"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/help"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    />
+
+                <ProgressBar
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="5dp"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_btn_forward_alert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ll_action"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_forward_alert"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="5dp"
+            >
+
+            <ImageView
+                android:id="@+id/img_forward_alert"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/ic_forward"
+                tools:ignore="ContentDescription"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img_forward_alert"
+                android:text="@string/forward_alert"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_btn_call_emergency_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rl_btn_forward_alert"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_emergency_number"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="5dp"
+            >
+
+            <ImageView
+                android:id="@+id/img_call_emergency_contact"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/fab_call"
+                app:tint="@color/red_dark"
+                tools:ignore="ContentDescription"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img_call_emergency_contact"
+                android:text="@string/call_emergency_contact"
+                android:textColor="@color/red_dark"
+                android:textSize="12sp"
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_floating_controls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rl_btn_call_emergency_contact"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            >
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/fab_start_chat"
+                app:backgroundTint="@color/colorAccent"
+                app:fabSize="mini"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck"
+                />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_navigate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/fab_navigate"
+                android:visibility="visible"
+                app:backgroundTint="@color/colorAccent"
+                app:fabSize="mini"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck"
+                />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/fab_call"
+                android:visibility="visible"
+                app:backgroundTint="@color/colorAccent"
+                app:fabSize="mini"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck"
+                />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/ll_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ll_floating_controls"
+            android:background="@color/alert_medical_dark"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="5dp"
+            >
+
+            <ImageView
+                android:id="@+id/img_pin"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/ic_pin_white"
+                />
+
+            <TextView
+                android:id="@+id/txt_distance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_city"
+                android:layout_toEndOf="@+id/img_pin"
+                android:text="@string/retrieving"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                />
+
+            <TextView
+                android:id="@+id/txt_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/img_pin"
+                android:text="@string/loading_address"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_map"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_above="@+id/ll_address"
+            android:layout_below="@+id/rl_additional_info"
+            >
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                tools:addressListener="cell411.tabs.alerts.AlertActivity"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_alert_type"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/alert_head_un_recognized"
+        tools:ignore="ContentDescription"
+        />
+
+    <ImageView
+        android:id="@+id/img_close"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/rl_alert_container"
+        android:layout_alignEnd="@+id/rl_alert_container"
+        android:layout_marginTop="-25dp"
+        android:layout_marginEnd="-15dp"
+        android:background="@drawable/bg_close"
+        android:padding="10dp"
+        android:src="@drawable/ic_close"
+        tools:ignore="ContentDescription"
+        />
+</RelativeLayout>

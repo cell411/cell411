@@ -1,0 +1,307 @@
+{
+  "className": "Cell411Alert",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "targetMembers": {
+      "type": "Array"
+    },
+    "additionalNote": {
+      "type": "String"
+    },
+    "alertType": {
+      "type": "String"
+    },
+    "issuedBy": {
+      "type": "Pointer",
+      "targetClass": "_User"
+    },
+    "location": {
+      "type": "GeoPoint"
+    },
+    "issuerFirstName": {
+      "type": "String"
+    },
+    "issuerId": {
+      "type": "String"
+    },
+    "initiatedBy": {
+      "type": "Relation",
+      "targetClass": "_User"
+    },
+    "rejectedBy": {
+      "type": "Relation",
+      "targetClass": "_User"
+    },
+    "entryFor": {
+      "type": "String"
+    },
+    "to": {
+      "type": "String"
+    },
+    "status": {
+      "type": "String"
+    },
+    "isGlobal": {
+      "type": "Number"
+    },
+    "photo": {
+      "type": "File"
+    },
+    "dispatchMode": {
+      "type": "Number"
+    },
+    "forwardedToMembers": {
+      "type": "Array"
+    },
+    "cellMembers": {
+      "type": "Relation",
+      "targetClass": "_User"
+    },
+    "cellId": {
+      "type": "String"
+    },
+    "cellName": {
+      "type": "String"
+    },
+    "forwardedAlert": {
+      "type": "Pointer",
+      "targetClass": "Cell411Alert"
+    },
+    "forwardedBy": {
+      "type": "Pointer",
+      "targetClass": "_User"
+    },
+    "seenBy": {
+      "type": "Relation",
+      "targetClass": "_User"
+    },
+    "city": {
+      "type": "String"
+    },
+    "country": {
+      "type": "String"
+    },
+    "fullAddress": {
+      "type": "String"
+    },
+    "audience": {
+      "type": "Object"
+    },
+    "alertId": {
+      "type": "Number"
+    },
+    "audienceAU": {
+      "type": "Relation",
+      "targetClass": "_User"
+    },
+    "totalAudienceAU": {
+      "type": "Number"
+    },
+    "totalAudienceNAU": {
+      "type": "Number"
+    },
+    "audienceNAU": {
+      "type": "Array"
+    },
+    "totalPatrolUsers": {
+      "type": "Number"
+    },
+    "targetNAUMembers": {
+      "type": "Array"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    },
+    "readUserFields": [],
+    "writeUserFields": []
+  },
+  "indexes": {
+    "_id_": {
+      "_id": 1
+    },
+    "_created_at_-1": {
+      "_created_at": -1
+    },
+    "_created_at_-1__id_1": {
+      "_created_at": -1,
+      "_id": 1
+    },
+    "_id_1__created_at_-1__p_issuedBy_1": {
+      "_id": 1,
+      "_created_at": -1,
+      "_p_issuedBy": 1
+    },
+    "_p_issuedBy_1__created_at_-1": {
+      "_p_issuedBy": 1,
+      "_created_at": -1
+    },
+    "_p_issuedBy_1_alertType_1__created_at_-1": {
+      "_p_issuedBy": 1,
+      "alertType": 1,
+      "_created_at": -1
+    },
+    "_p_issuedBy_1_cellId_1": {
+      "_p_issuedBy": 1,
+      "cellId": 1
+    },
+    "_p_issuedBy_1_entryFor_1_status_1": {
+      "_p_issuedBy": 1,
+      "entryFor": 1,
+      "status": 1
+    },
+    "_p_issuedBy_1_entryFor_1_to_1": {
+      "_p_issuedBy": 1,
+      "entryFor": 1,
+      "to": 1
+    },
+    "_p_issuedBy_1_status_1_to_1": {
+      "_p_issuedBy": 1,
+      "status": 1,
+      "to": 1
+    },
+    "_p_issuedBy_1_to_1": {
+      "_p_issuedBy": 1,
+      "to": 1
+    },
+    "alertType_1__created_at_-1": {
+      "alertType": 1,
+      "_created_at": -1
+    },
+    "issuerId_1__created_at_-1_cellName_1": {
+      "issuerId": 1,
+      "_created_at": -1,
+      "cellName": 1
+    },
+    "to_1__created_at_-1": {
+      "to": 1,
+      "_created_at": -1
+    },
+    "to_1__p_issuedBy_1_cellId_1": {
+      "to": 1,
+      "_p_issuedBy": 1,
+      "cellId": 1
+    },
+    "location_2d": {
+      "location": "2d"
+    },
+    "_p_issuedBy1_targetMembers1__rperm1_forwardedToMembers1__id1_alertType1_to1": {
+      "_p_issuedBy": 1,
+      "targetMembers": 1,
+      "_rperm": 1,
+      "forwardedToMembers": 1,
+      "_id": 1,
+      "alertType": 1,
+      "to": 1,
+      "alertId": 1,
+      "_p_forwardedBy": 1
+    },
+    "index2": {
+      "alertId": 1,
+      "_id": 1,
+      "_rperm": 1,
+      "_p_issuedBy": 1,
+      "to": 1,
+      "_p_forwardedBy": 1,
+      "targetMembers": 1,
+      "alertType": 1,
+      "forwardedToMembers": 1
+    },
+    "entryFor_1__p_issuedBy_1_location_1__rperm_1": {
+      "entryFor": 1,
+      "_p_issuedBy": 1,
+      "location": 1,
+      "_rperm": 1
+    },
+    "_created_at_-1__id_-1": {
+      "_created_at": -1,
+      "_id": -1
+    },
+    "status_1": {
+      "status": 1
+    },
+    "city_-1__id_-1": {
+      "city": -1,
+      "_id": -1
+    },
+    "totalPatrolUsers_1": {
+      "totalPatrolUsers": 1
+    },
+    "totalPatrolUsers_1__created_at_-1": {
+      "totalPatrolUsers": 1,
+      "_created_at": -1
+    },
+    "targetNAUMembers_1": {
+      "targetNAUMembers": 1
+    },
+    "targetNAUMembers_1__created_at_-1": {
+      "targetNAUMembers": 1,
+      "_created_at": -1
+    },
+    "alertId_1": {
+      "alertId": 1
+    },
+    "entryFor_-1__id_-1": {
+      "entryFor": -1,
+      "_id": -1
+    },
+    "_p_forwardedAlert_1_entryFor_-1__created_at_1": {
+      "_p_forwardedAlert": 1,
+      "entryFor": -1,
+      "_created_at": 1
+    },
+    "entryFor_-1": {
+      "entryFor": -1
+    },
+    "_updated_at_-1__created_at_1": {
+      "_updated_at": -1,
+      "_created_at": 1
+    },
+    "_updated_at_-1": {
+      "_updated_at": -1
+    },
+    "_updated_at_-1__id_-1": {
+      "_updated_at": -1,
+      "_id": -1
+    },
+    "status_1__updated_at_-1__created_at_1": {
+      "status": 1,
+      "_updated_at": -1,
+      "_created_at": 1
+    },
+    "status_1__created_at_1": {
+      "status": 1,
+      "_created_at": 1
+    },
+    "_created_at_1": {
+      "_created_at": 1
+    }
+  }
+}

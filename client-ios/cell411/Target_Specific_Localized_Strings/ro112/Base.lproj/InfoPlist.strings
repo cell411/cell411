@@ -1,0 +1,33 @@
+/* (No Commment) */
+"NSBluetoothAlwaysUsageDescription" = "Permite accesul Bluetooth pentru a-ți putea conecta Butonul de Panică.";
+
+/* (No Commment) */
+"NSBluetoothPeripheralUsageDescription" = "Permite accesul Bluetooth pentru a-ți putea conecta Butonul de Panică.";
+
+/* (No Commment) */
+"NSCameraUsageDescription" = "Necesită accesul la cameră pentru a trimite alerte foto.";
+
+/* (No Commment) */
+"NSContactsUsageDescription" = "Pentru a afișa lista de contacte în scopul invitării acestora";
+
+/* (No Commment) */
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "RO 112 necesită să îți cunoască localizarea pentru a-i ajuta pe alții să te găsească atunci când emiți o alertă, pentru a-ți îmbunătăți experiența de ansamblu și pentru a-ți facilita servicii precum: Alerta a Noi Celule Publice și Modul Patrulare. Cu accesul \"Întotdeauna\" la localizarea ta îți vom putea trimite notificări precise bazate pe poziționare.";
+
+/* (No Commment) */
+"NSLocationAlwaysUsageDescription" = "RO 112 necesită să îți cunoască localizarea pentru a-i ajuta pe alții să te găsească atunci când emiți o alertă, pentru a-ți îmbunătăți experiența de ansamblu și pentru a-ți facilita servicii precum: Alerta a Noi Celule Publice și Modul Patrulare. Cu accesul \"Întotdeauna\" la localizarea ta îți vom putea trimite notificări precise bazate pe poziționare.";
+
+/* (No Commment) */
+"NSLocationWhenInUseUsageDescription" = "RO 112 necesită să îți cunoască localizarea pentru a-i ajuta pe alții să te găsească atunci când emiți o alertă, pentru a-ți îmbunătăți experiența de ansamblu și pentru a-ți facilita servicii precum: Alerta a Noi Celule Publice și Modul Patrulare.";
+
+
+/* (No Commment) */
+"NSMicrophoneUsageDescription" = "Necesar pentru Transmisii Video în Direct";
+
+/* (No Commment) */
+"NSMotionUsageDescription" = "Datele de gesticulare sunt necesare pentru a îmbunătăți acuratețea localizării fără a consuma prea multă baterie.";
+
+/* (No Commment) */
+"NSPhotoLibraryUsageDescription" = "Permite te rog accesul RO 112 la biblioteca de poze pentru a putea trimite alerte foto.";
+
+/* (No Commment) */
+"NSPhotoLibraryAddUsageDescription" = "Permite te rog accesul RO 112 la biblioteca de poze pentru a putea salva fotografii și filmări.";

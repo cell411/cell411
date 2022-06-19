@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Cell411 Dev</string>
+    <bool name="is_live">true</bool>
+
+    <string name="app_url" translatable="false">https://www.getcell411.com/</string>
+    <string name="app_url_download" translatable="false">https://www.getcell411.com/download</string>
+    <string name="play_store__url" translatable="false">https://goo.gl/kig790</string>
+    <string name="faq_url" translatable="false">https://getcell411.com/#faq</string>
+    <string name="terms_and_conditions_url" translatable="false">https://getcell411.com/terms-and-conditions</string>
+    <string name="privacy_policy_url" translatable="false">https://getcell411.com/privacy-policy</string>
+
+    <bool name="is_live_streaming_enabled">true</bool>
+    <bool name="is_custom_pic_enabled">true</bool>
+
+    <bool name="is_create_public_cell_enabled">true</bool>
+
+</resources>

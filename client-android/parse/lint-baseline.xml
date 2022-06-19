@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 7.2.0" type="baseline" client="gradle" dependencies="false" name="AGP (7.2.0)" variant="all" version="7.2.0">
+
+    <issue
+        id="DefaultLocale"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead"
+        errorLine1="          PLog.d(&quot;ParseQuery&quot;, String.format("
+        errorLine2="                               ^">
+        <location
+            file="src/main/java/com/parse/controller/NetworkQueryController.java"
+            line="90"
+            column="32"/>
+    </issue>
+
+    <issue
+        id="DefaultLocale"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`."
+        errorLine1="        if(content.length()>6 &amp;&amp; content.substring(0,6).toLowerCase().equals(&quot;&lt;html>&quot;)){"
+        errorLine2="                                                        ~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/parse/rest/ParseRESTCommand.java"
+            line="267"
+            column="57"/>
+    </issue>
+
+    <issue
+        id="DefaultLocale"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead"
+        errorLine1="                Exception error = new AggregateException(String.format(&quot;There were %d exceptions.&quot;, causes.size()),"
+        errorLine2="                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/parse/boltsinternal/Task.java"
+            line="412"
+            column="58"/>
+    </issue>
+
+    <issue
+        id="WrongConstant"
+        message="Must be one or more of: PackageManager.GET_META_DATA, PackageManager.GET_RESOLVED_FILTER, PackageManager.GET_SHARED_LIBRARY_FILES, PackageManager.MATCH_ALL, PackageManager.MATCH_DISABLED_COMPONENTS, PackageManager.MATCH_DISABLED_UNTIL_USED_COMPONENTS, PackageManager.MATCH_DEFAULT_ONLY, PackageManager.MATCH_DIRECT_BOOT_AUTO, PackageManager.MATCH_DIRECT_BOOT_AWARE, PackageManager.MATCH_DIRECT_BOOT_UNAWARE, PackageManager.MATCH_SYSTEM_ONLY, PackageManager.MATCH_UNINSTALLED_PACKAGES, PackageManager.GET_DISABLED_COMPONENTS, PackageManager.GET_DISABLED_UNTIL_USED_COMPONENTS, PackageManager.GET_UNINSTALLED_PACKAGES"
+        errorLine1="      list.addAll(pm.queryBroadcastReceivers(new Intent(action), PackageManager.GET_INTENT_FILTERS));"
+        errorLine2="                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/parse/android/ManifestInfo.java"
+            line="121"
+            column="66"/>
+    </issue>
+
+    <issue
+        id="CoarseFineLocation"
+        message="If you need access to FINE location, you must request both `ACCESS_FINE_LOCATION` and `ACCESS_COARSE_LOCATION`"
+        errorLine1="    &lt;uses-permission android:name=&quot;android.permission.ACCESS_FINE_LOCATION&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="4"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="QueryPermissionsNeeded"
+        message="Consider adding a `&lt;queries>` declaration to your manifest when calling this \&#xA;method; see https://g.co/dev/packagevisibility for details"
+        errorLine1="      list.addAll(pm.queryBroadcastReceivers(new Intent(action), PackageManager.GET_INTENT_FILTERS));"
+        errorLine2="                     ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/parse/android/ManifestInfo.java"
+            line="121"
+            column="22"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.annotation:annotation than 1.4.0-beta01 is available: 1.4.0-rc01"
+        errorLine1="  implementation(&quot;androidx.annotation:annotation:1.4.0-beta01&quot;);"
+        errorLine2="                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="29"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="ParcelClassLoader"
+        message="Passing null here (to use the default class loader) will not work if you are restoring your own classes. Consider using for example `getClass().getClassLoader()` instead."
+        errorLine1="        return source.readValue(null); // No need for a class loader."
+        errorLine2="                      ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/parse/codec/ParseParcelDecoder.java"
+            line="109"
+            column="23"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 26"
+        errorLine1="    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/parse/boltsinternal/AndroidExecutors.java"
+            line="108"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 26"
+        errorLine1="    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH) {"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/parse/offline/ParseSQLiteCursor.java"
+            line="43"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 11"
+        errorLine1="  @TargetApi(Build.VERSION_CODES.HONEYCOMB)"
+        errorLine2="  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/parse/offline/ParseSQLiteCursor.java"
+            line="174"
+            column="3"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 19"
+        errorLine1="  @TargetApi(Build.VERSION_CODES.KITKAT)"
+        errorLine2="  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/parse/offline/ParseSQLiteCursor.java"
+            line="239"
+            column="3"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 23"
+        errorLine1="  @TargetApi(Build.VERSION_CODES.M)"
+        errorLine2="  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/parse/offline/ParseSQLiteCursor.java"
+            line="255"
+            column="3"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 16"
+        errorLine1="@TargetApi(Build.VERSION_CODES.JELLY_BEAN)"
+        errorLine2="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/parse/android/TaskStackBuilderHelper.java"
+            line="25"
+            column="1"/>
+    </issue>
+
+</issues>

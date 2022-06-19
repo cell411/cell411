@@ -1,0 +1,83 @@
+{
+  "className": "Alert",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "note": {
+      "type": "String"
+    },
+    "media": {
+      "type": "String"
+    },
+    "owner": {
+      "type": "Pointer",
+      "required": true,
+      "targetClass": "_User"
+    },
+    "photo": {
+      "type": "File"
+    },
+    "status": {
+      "type": "String",
+      "required": true,
+      "defaultValue": "ACTIVE"
+    },
+    "address": {
+      "type": "String"
+    },
+    "chatRoom": {
+      "type": "Pointer",
+      "targetClass": "ChatRoom"
+    },
+    "isGlobal": {
+      "type": "Boolean",
+      "required": true,
+      "defaultValue": false
+    },
+    "location": {
+      "type": "GeoPoint"
+    },
+    "problemType": {
+      "type": "String"
+    },
+    "totalPatrolUsers": {
+      "type": "Number"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "count": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    },
+    "protectedFields": {
+      "*": []
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "className": "PublicCell",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "name": {
+      "type": "String",
+      "required": true
+    },
+    "owner": {
+      "type": "Pointer",
+      "required": true,
+      "targetClass": "_User"
+    },
+    "members": {
+      "type": "Relation",
+      "targetClass": "_User"
+    },
+    "category": {
+      "type": "String",
+      "required": true
+    },
+    "location": {
+      "type": "GeoPoint",
+      "required": true
+    },
+    "verified": {
+      "type": "Boolean",
+      "required": true,
+      "defaultValue": false
+    },
+    "description": {
+      "type": "String",
+      "required": true
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "count": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    },
+    "protectedFields": {
+      "*": []
+    }
+  }
+}

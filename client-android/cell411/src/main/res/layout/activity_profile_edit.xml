@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/ll_input"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:background="#F3F3F3"
+  android:orientation="vertical"
+  android:paddingLeft="20dp"
+  android:paddingTop="20dp"
+  android:paddingRight="20dp"
+  android:paddingBottom="10dp"
+  >
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <EditText
+      android:id="@+id/et_first_name"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:autofillHints="first name"
+      android:hint="@string/hint_first_name"
+      android:inputType="textCapWords"
+      android:paddingStart="35dp"
+      android:singleLine="true"
+      android:textColor="@color/text_primary"
+      android:textColorHint="@color/text_disabled_hint_icon"
+      android:textSize="18sp"
+      />
+
+    <ImageView
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_centerVertical="true"
+      android:layout_marginStart="5dp"
+      android:src="@drawable/ic_user"
+      app:tint="@color/text_disabled_hint_icon"
+      />
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <EditText
+      android:id="@+id/et_last_name"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:hint="@string/hint_last_name"
+      android:inputType="textCapWords"
+      android:paddingStart="35dp"
+      android:singleLine="true"
+      android:textColor="@color/text_primary"
+      android:textColorHint="@color/text_disabled_hint_icon"
+      android:textSize="18sp"
+      />
+
+    <ImageView
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_centerVertical="true"
+      android:layout_marginStart="5dp"
+      android:src="@drawable/ic_user"
+      app:tint="@color/text_disabled_hint_icon"
+      tools:ignore="ContentDescription"
+      />
+  </RelativeLayout>
+
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      >
+
+        <EditText
+          android:id="@+id/et_email"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:hint="@string/hint_email"
+          android:inputType="textEmailAddress"
+          android:paddingStart="35dp"
+          android:singleLine="true"
+          android:textColor="@color/text_primary"
+          android:textColorHint="@color/text_disabled_hint_icon"
+          android:textSize="18sp"
+          />
+
+        <ImageView
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:layout_centerVertical="true"
+          android:layout_marginStart="5dp"
+          android:src="@drawable/ic_email"
+          app:tint="@color/text_disabled_hint_icon"
+          tools:ignore="ContentDescription"
+          />
+    </RelativeLayout>
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      >
+
+        <EditText
+          android:id="@+id/et_city"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:hint="@string/hint_city"
+          android:inputType="textEmailAddress"
+          android:paddingStart="35dp"
+          android:singleLine="true"
+          android:textColor="@color/text_primary"
+          android:textColorHint="@color/text_disabled_hint_icon"
+          android:textSize="18sp"
+          android:autofillHints="city"
+          />
+
+        <ImageView
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:layout_centerVertical="true"
+          android:layout_marginStart="5dp"
+          android:src="@drawable/ic_email"
+          app:tint="@color/text_disabled_hint_icon"
+          tools:ignore="ContentDescription"
+          />
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <EditText
+      android:id="@+id/et_mobile"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:hint="@string/hint_mobile"
+      android:inputType="number"
+      android:paddingStart="95dp"
+      android:singleLine="true"
+      android:textColor="@color/text_primary"
+      android:autofillHints="phone"
+      android:textColorHint="@color/text_disabled_hint_icon"
+      android:textSize="18sp"
+      />
+
+    <ImageView
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_centerVertical="true"
+      android:layout_marginStart="5dp"
+      android:src="@drawable/ic_phone"
+      app:tint="@color/text_disabled_hint_icon"
+      tools:ignore="ContentDescription"
+      />
+
+    <Spinner
+      android:id="@+id/sp_country_code"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      android:layout_centerVertical="true"
+      android:layout_marginStart="35dp"
+      android:prompt="@string/country_code"
+      android:spinnerStyle="@android:style/Widget.Spinner.DropDown"
+      />
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    >
+
+    <ImageView
+      android:id="@+id/img_emergency"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:src="@drawable/ic_emergency"
+      tools:ignore="ContentDescription"
+      />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="5dp"
+      android:layout_toEndOf="@+id/img_emergency"
+      android:text="@string/emergency"
+      android:textColor="@color/text_primary"
+      android:textSize="16sp"
+      />
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <EditText
+      android:id="@+id/et_emergency_name"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:hint="@string/hint_emergency_contact_name"
+      android:inputType="textCapWords"
+      android:paddingStart="35dp"
+      android:singleLine="true"
+      android:textColor="@color/text_primary"
+      android:textColorHint="@color/text_disabled_hint_icon"
+      android:textSize="18sp"
+      />
+
+    <ImageView
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_centerVertical="true"
+      android:layout_marginStart="5dp"
+      android:src="@drawable/ic_user"
+      app:tint="@color/text_disabled_hint_icon"
+      tools:ignore="ContentDescription"
+      />
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <EditText
+      android:id="@+id/et_emergency_mobile"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:hint="@string/hint_emergency_contact_number"
+      android:inputType="number"
+      android:paddingStart="95dp"
+      android:singleLine="true"
+      android:textColor="@color/text_primary"
+      android:textColorHint="@color/text_disabled_hint_icon"
+      android:textSize="18sp"
+      />
+
+    <ImageView
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:layout_centerVertical="true"
+      android:layout_marginStart="5dp"
+      android:src="@drawable/ic_phone"
+      app:tint="@color/text_disabled_hint_icon"
+      />
+
+    <Spinner
+      android:id="@+id/sp_emergency_mobile_country_code"
+      android:layout_width="wrap_content"
+      android:layout_height="30dp"
+      android:layout_centerVertical="true"
+      android:layout_marginStart="35dp"
+      android:prompt="@string/country_code"
+      android:spinnerStyle="@android:style/Widget.Spinner.DropDown"
+      />
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    >
+
+    <ImageView
+      android:id="@+id/img_blood_group"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:src="@drawable/ic_blood_group"
+      tools:ignore="ContentDescription"
+      />
+
+    <TextView
+      android:id="@+id/txt_lbl_blood_group"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="5dp"
+      android:layout_toEndOf="@+id/img_blood_group"
+      android:text="@string/blood_group"
+      android:textColor="@color/text_primary"
+      android:textSize="16sp"
+      />
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/bg_select_blood_group"
+    android:padding="10dp"
+    >
+
+    <LinearLayout
+      android:id="@+id/ll_blood_group"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:baselineAligned="false"
+      android:orientation="horizontal"
+      android:weightSum="4"
+      >
+
+      <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+        <TextView
+          android:id="@+id/txt_lbl_a_minus"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:layout_centerInParent="true"
+          android:background="@drawable/bg_blood_group_gray_border"
+          android:gravity="center"
+          android:text="@string/a_minus"
+          android:textColor="@color/gray_999"
+          android:textSize="14sp"
+          />
+      </RelativeLayout>
+
+      <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+        <TextView
+          android:id="@+id/txt_lbl_a_plus"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:layout_centerInParent="true"
+          android:background="@drawable/bg_blood_group_gray_border"
+          android:gravity="center"
+          android:text="@string/a_plus"
+          android:textColor="@color/gray_999"
+          android:textSize="14sp"
+          />
+      </RelativeLayout>
+
+      <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+        <TextView
+          android:id="@+id/txt_lbl_b_minus"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:layout_centerInParent="true"
+          android:background="@drawable/bg_blood_group_gray_border"
+          android:gravity="center"
+          android:text="@string/b_minus"
+          android:textColor="@color/gray_999"
+          android:textSize="14sp"
+          />
+      </RelativeLayout>
+
+      <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+        <TextView
+          android:id="@+id/txt_lbl_b_plus"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:layout_centerInParent="true"
+          android:background="@drawable/bg_blood_group_gray_border"
+          android:gravity="center"
+          android:text="@string/b_plus"
+          android:textColor="@color/gray_999"
+          android:textSize="14sp"
+          />
+      </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/ll_blood_group"
+      android:layout_marginTop="10dp"
+      android:baselineAligned="false"
+      android:orientation="horizontal"
+      android:weightSum="4"
+      >
+
+      <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+        <TextView
+          android:id="@+id/txt_lbl_ab_minus"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:layout_centerInParent="true"
+          android:background="@drawable/bg_blood_group_gray_border"
+          android:gravity="center"
+          android:text="@string/ab_minus"
+          android:textColor="@color/gray_999"
+          android:textSize="14sp"
+          />
+      </RelativeLayout>
+
+      <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+        <TextView
+          android:id="@+id/txt_lbl_ab_plus"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:layout_centerInParent="true"
+          android:background="@drawable/bg_blood_group_gray_border"
+          android:gravity="center"
+          android:text="@string/ab_plus"
+          android:textColor="@color/gray_999"
+          android:textSize="14sp"
+          />
+      </RelativeLayout>
+
+      <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+        <TextView
+          android:id="@+id/txt_lbl_o_minus"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:layout_centerInParent="true"
+          android:background="@drawable/bg_blood_group_gray_border"
+          android:gravity="center"
+          android:text="@string/o_minus"
+          android:textColor="@color/gray_999"
+          android:textSize="14sp"
+          />
+      </RelativeLayout>
+
+      <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+        <TextView
+          android:id="@+id/txt_lbl_o_plus"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+          android:layout_centerInParent="true"
+          android:background="@drawable/bg_blood_group_gray_border"
+          android:gravity="center"
+          android:text="@string/o_plus"
+          android:textColor="@color/gray_999"
+          android:textSize="14sp"
+          />
+      </RelativeLayout>
+    </LinearLayout>
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    >
+
+    <ImageView
+      android:id="@+id/img_allergies"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:src="@drawable/ic_allergy"
+      tools:ignore="ContentDescription"
+      />
+
+    <TextView
+      android:id="@+id/txt_lbl_allergies"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="5dp"
+      android:layout_toEndOf="@+id/img_allergies"
+      android:text="@string/lbl_allergies"
+      android:textColor="@color/text_primary"
+      android:textSize="16sp"
+      />
+  </RelativeLayout>
+
+  <EditText
+    android:id="@+id/et_allergies"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:hint="@string/hint_allergies"
+    android:importantForAutofill="no"
+    android:inputType="textMultiLine|textCapWords"
+    android:singleLine="true"
+    android:textColor="@color/text_primary"
+    android:textColorHint="@color/text_disabled_hint_icon"
+    android:textSize="18sp"
+    />
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    >
+
+    <ImageView
+      android:id="@+id/img_other_medical_conditions"
+      android:layout_width="20dp"
+      android:layout_height="20dp"
+      android:src="@drawable/ic_other_medical_conditions"
+      tools:ignore="ContentDescription"
+      />
+
+    <TextView
+      android:id="@+id/txt_lbl_other_medical_conditions"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="5dp"
+      android:layout_toEndOf="@+id/img_other_medical_conditions"
+      android:text="@string/lbl_other_medical_conditions"
+      android:textColor="@color/text_primary"
+      android:textSize="16sp"
+      />
+  </RelativeLayout>
+
+  <EditText
+    android:id="@+id/et_other_medical_conditions"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:hint="@string/hint_other_medical_conditions"
+    android:importantForAutofill="no"
+    android:inputType="textMultiLine|textCapWords"
+    android:singleLine="true"
+    android:textColor="@color/text_primary"
+    android:textColorHint="@color/text_disabled_hint_icon"
+    android:textSize="18sp"
+    />
+</LinearLayout>

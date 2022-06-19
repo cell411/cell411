@@ -1,0 +1,79 @@
+{
+  "className": "PublicCell",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "name": {
+      "type": "String"
+    },
+    "owner": {
+      "type": "Pointer",
+      "required": true,
+      "targetClass": "_User"
+    },
+    "members": {
+      "type": "Relation",
+      "targetClass": "_User"
+    },
+    "category": {
+      "type": "String"
+    },
+    "cellType": {
+      "type": "Number"
+    },
+    "chatRoom": {
+      "type": "Pointer",
+      "targetClass": "ChatRoom"
+    },
+    "location": {
+      "type": "GeoPoint"
+    },
+    "isVerified": {
+      "type": "Boolean",
+      "required": true,
+      "defaultValue": false
+    },
+    "description": {
+      "type": "String"
+    },
+    "verificationStatus": {
+      "type": "Number"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "count": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    },
+    "protectedFields": {
+      "*": []
+    }
+  }
+}

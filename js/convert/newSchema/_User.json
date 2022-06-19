@@ -1,0 +1,128 @@
+{
+  "className": "_User",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "username": {
+      "type": "String"
+    },
+    "password": {
+      "type": "String"
+    },
+    "email": {
+      "type": "String"
+    },
+    "emailVerified": {
+      "type": "Boolean",
+      "required": false
+    },
+    "authData": {
+      "type": "Object"
+    },
+    "avatar": {
+      "type": "String"
+    },
+    "friends": {
+      "type": "Relation",
+      "targetClass": "_User"
+    },
+    "lastName": {
+      "type": "String"
+    },
+    "location": {
+      "type": "GeoPoint"
+    },
+    "allergies": {
+      "type": "String"
+    },
+    "bloodType": {
+      "type": "String"
+    },
+    "consented": {
+      "type": "Boolean",
+      "required": true,
+      "defaultValue": false
+    },
+    "firstName": {
+      "type": "String"
+    },
+    "privilege": {
+      "type": "String"
+    },
+    "spamUsers": {
+      "type": "Relation",
+      "targetClass": "_User"
+    },
+    "thumbNail": {
+      "type": "String"
+    },
+    "patrolMode": {
+      "type": "Boolean",
+      "required": true,
+      "defaultValue": false
+    },
+    "mobileNumber": {
+      "type": "String"
+    },
+    "phoneVerified": {
+      "type": "Boolean",
+      "required": true,
+      "defaultValue": false
+    },
+    "newPublicCellAlert": {
+      "type": "Boolean",
+      "required": true,
+      "defaultValue": false
+    },
+    "emergencyContactName": {
+      "type": "String"
+    },
+    "emergencyContactNumber": {
+      "type": "String"
+    },
+    "otherMedicalConditions": {
+      "type": "String"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "count": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    },
+    "protectedFields": {
+      "*": []
+    }
+  },
+  "indexes": {
+    "_id_": {
+      "_id": 1
+    }
+  }
+}

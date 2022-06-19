@@ -1,0 +1,6 @@
+module Pods_ro112 {
+  umbrella header "Pods-ro112-umbrella.h"
+
+  export *
+  module * { export * }
+}

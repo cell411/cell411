@@ -1,0 +1,60 @@
+{
+  "className": "ChatMsg",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "text": {
+      "type": "String"
+    },
+    "image": {
+      "type": "File"
+    },
+    "owner": {
+      "type": "Pointer",
+      "targetClass": "_User"
+    },
+    "chatRoom": {
+      "type": "Pointer",
+      "targetClass": "ChatRoom"
+    },
+    "location": {
+      "type": "GeoPoint"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "count": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    },
+    "protectedFields": {
+      "*": []
+    }
+  }
+}

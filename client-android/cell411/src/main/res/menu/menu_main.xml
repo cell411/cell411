@@ -1,0 +1,34 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <item
+            android:title="@string/reset_data"
+            android:visible="true"
+            android:id="@+id/data_reset"
+            />
+    <item
+        android:id="@+id/action_notification"
+        android:icon="@drawable/ic_notification"
+        android:title="@string/action_notification"
+        android:visible="true"
+        yourapp:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/data_refresh"
+        android:icon="@drawable/ic_web_refresh"
+        android:title="@string/action_refresh"
+        android:visible="true"
+        yourapp:showAsAction="ifRoom"
+        />
+
+    <item
+            android:title="@string/data_data"
+            android:visible="true"
+            android:id="@+id/data_data"
+            />
+
+
+</menu>

@@ -1,0 +1,1657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 7.2.0" type="baseline" client="gradle" dependencies="false" name="AGP (7.2.0)" variant="all" version="7.2.0">
+
+    <issue
+        id="DefaultLocale"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`."
+        errorLine1="        smCityCache.put(text.toLowerCase(), address);"
+        errorLine2="                             ~~~~~~~~~~~">
+        <location
+            file="src/main/java/cell411/services/DataService.java"
+            line="510"
+            column="30"/>
+    </issue>
+
+    <issue
+        id="DefaultLocale"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`."
+        errorLine1="        smCityCache.put(address.cityPlus().toLowerCase().trim(), address);"
+        errorLine2="                                           ~~~~~~~~~~~">
+        <location
+            file="src/main/java/cell411/services/DataService.java"
+            line="512"
+            column="44"/>
+    </issue>
+
+    <issue
+        id="DefaultLocale"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`."
+        errorLine1="      result = smCityCache.get(text.trim().toLowerCase());"
+        errorLine2="                                           ~~~~~~~~~~~">
+        <location
+            file="src/main/java/cell411/services/DataService.java"
+            line="520"
+            column="44"/>
+    </issue>
+
+    <issue
+        id="DefaultLocale"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`."
+        errorLine1="    key = key.toLowerCase();"
+        errorLine2="              ~~~~~~~~~~~">
+        <location
+            file="src/main/java/cell411/enums/ProblemType.java"
+            line="45"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="DefaultLocale"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`."
+        errorLine1="          user.setUsername(email.toLowerCase().trim());"
+        errorLine2="                                 ~~~~~~~~~~~">
+        <location
+            file="src/main/java/cell411/parse/util/XParse.java"
+            line="153"
+            column="34"/>
+    </issue>
+
+    <issue
+        id="DefaultLocale"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`."
+        errorLine1="          user.setEmail(email.toLowerCase().trim());"
+        errorLine2="                              ~~~~~~~~~~~">
+        <location
+            file="src/main/java/cell411/parse/util/XParse.java"
+            line="154"
+            column="31"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.core:core than 1.7.0 is available: 1.8.0"
+        errorLine1="    implementation(&quot;androidx.core:core:1.7.0&quot;);"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="33"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.appcompat:appcompat-resources than 1.4.1 is available: 1.4.2"
+        errorLine1="    implementation(&quot;androidx.appcompat:appcompat-resources:1.4.1&quot;);"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="34"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.appcompat:appcompat than 1.4.1 is available: 1.4.2"
+        errorLine1="    implementation(&quot;androidx.appcompat:appcompat:1.4.1&quot;);"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="35"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.annotation:annotation than 1.4.0-beta01 is available: 1.4.0-rc01"
+        errorLine1="    implementation(&quot;androidx.annotation:annotation:1.4.0-beta01&quot;);"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="37"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="UseCompatLoadingForDrawables"
+        message="Use `AppCompatResources.getDrawable()`"
+        errorLine1="    Drawable drawable = ds().getDrawable(R.drawable.ic_placeholder_user);"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/cell411/parse/XChatMsg.java"
+            line="65"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="Overdraw"
+        message="Possible overdraw: Root element paints background `@color/colorPrimary` with a theme that also paints a background (inferred theme is `@android:style/Theme.Holo`)"
+        errorLine1="    android:background=&quot;@color/colorPrimary&quot;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/layout_enter_text_dialog.xml"
+            line="7"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_broken_car` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_broken_car&quot;>#a824ce&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="3"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_bullied` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_bullied&quot;>#928dff&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="4"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_criminal` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_criminal&quot;>#2e49bd&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="5"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_general` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_general&quot;>#6e6e6e&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="6"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_pulled_over` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_pulled_over&quot;>#2e49bd&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="7"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_video` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_video&quot;>#ff4eb2&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="8"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_photo` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_photo&quot;>#ff4eb2&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="9"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_danger` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_danger&quot;>#da3636&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="10"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_fire` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_fire&quot;>#ffa70f&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="11"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_medical` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_medical&quot;>#008d45&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="12"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_police_arrest` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_police_arrest&quot;>#2e49bd&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="13"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_pre_authorisation` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_pre_authorisation&quot;>#2e49bd&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="14"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_police_interaction` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_police_interaction&quot;>#2e49bd&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="15"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_hijack` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_hijack&quot;>#da3636&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="16"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_panic` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_panic&quot;>#da3636&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="17"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_physical_abuse` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_physical_abuse&quot;>#2e49bd&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="18"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_trapped` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_trapped&quot;>#2e49bd&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="19"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_natural_disaster` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_natural_disaster&quot;>#2e49bd&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="20"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_un_recognized` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_un_recognized&quot;>#8d6e63&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="21"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_background_broken_car` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_background_broken_car&quot;>#cca824ce&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="23"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_background_bullied` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_background_bullied&quot;>#cc928dff&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="24"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_background_criminal` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_background_criminal&quot;>#cc2e49bd&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="25"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_background_general` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_background_general&quot;>#e3202020&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="26"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_background_pulled_over` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_background_pulled_over&quot;>#cc2e49bd&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="27"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_background_video` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_background_video&quot;>#ccff4eb2&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="28"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_background_photo` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_background_photo&quot;>#ccff4eb2&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="29"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_background_danger` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_background_danger&quot;>#ccda3636&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="30"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_background_fire` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_background_fire&quot;>#ccffa70f&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="31"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_background_medical` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_background_medical&quot;>#cc008d45&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="32"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_background_police_arrest` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_background_police_arrest&quot;>#cc2e49bd&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="33"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_background_police_interaction` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_background_police_interaction&quot;>#cc2e49bd&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="34"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_background_hijack` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_background_hijack&quot;>#ccda3636&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="35"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_background_physical_abuse` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_background_physical_abuse&quot;>#cc2e49bd&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="36"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_background_trapped` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_background_trapped&quot;>#cc2e49bd&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="37"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_background_car_accident` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_background_car_accident&quot;>#cca824ce&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="38"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.alert_background_natural_disaster` appears to be unused"
+        errorLine1="    &lt;color name=&quot;alert_background_natural_disaster&quot;>#cc2e49bd&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/alerts.xml"
+            line="39"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.raw.bad_to_the_bone` appears to be unused">
+        <location
+            file="src/main/res/raw/bad_to_the_bone.ogg"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.colorPrimaryDark` appears to be unused"
+        errorLine1="    &lt;color name=&quot;colorPrimaryDark&quot;>#1976d2&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="4"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.colorAccent` appears to be unused"
+        errorLine1="    &lt;color name=&quot;colorAccent&quot;>#5cc2a1&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="5"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.accent_color_dark` appears to be unused"
+        errorLine1="    &lt;color name=&quot;accent_color_dark&quot;>#0d8c62&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="7"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.highlight_color` appears to be unused"
+        errorLine1="    &lt;color name=&quot;highlight_color&quot;>#2196f3&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="8"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.highlight_color_dark` appears to be unused"
+        errorLine1="    &lt;color name=&quot;highlight_color_dark&quot;>#1976d2&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="9"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.highlight_color_light` appears to be unused"
+        errorLine1="    &lt;color name=&quot;highlight_color_light&quot;>#c3e4ff&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="10"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.login_gradient_start_color` appears to be unused"
+        errorLine1="    &lt;color name=&quot;login_gradient_start_color&quot;>#64b5f6&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="11"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.background` appears to be unused"
+        errorLine1="    &lt;color name=&quot;background&quot;>#FFFFFF&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="13"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.card` appears to be unused"
+        errorLine1="    &lt;color name=&quot;card&quot;>#E1E1E1&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="14"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.card_light` appears to be unused"
+        errorLine1="    &lt;color name=&quot;card_light&quot;>#F3F3F3&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="15"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.text_secondary` appears to be unused"
+        errorLine1="    &lt;color name=&quot;text_secondary&quot;>#8A000000&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="17"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.text_disabled_hint_icon` appears to be unused"
+        errorLine1="    &lt;color name=&quot;text_disabled_hint_icon&quot;>#61000000&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="18"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.divider` appears to be unused"
+        errorLine1="    &lt;color name=&quot;divider&quot;>#1F000000&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="19"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.transparent` appears to be unused"
+        errorLine1="    &lt;color name=&quot;transparent&quot;>#00000000&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="21"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.black` appears to be unused"
+        errorLine1="    &lt;color name=&quot;black&quot;>#000000&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="23"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.gray_f1` appears to be unused"
+        errorLine1="    &lt;color name=&quot;gray_f1&quot;>#F1F1F1&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="24"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.gray_b1` appears to be unused"
+        errorLine1="    &lt;color name=&quot;gray_b1&quot;>#B1B1B1&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="25"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.gray_ccc` appears to be unused"
+        errorLine1="    &lt;color name=&quot;gray_ccc&quot;>#CCCCCC&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="26"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.gray_999` appears to be unused"
+        errorLine1="    &lt;color name=&quot;gray_999&quot;>#999999&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="27"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.gray_666` appears to be unused"
+        errorLine1="    &lt;color name=&quot;gray_666&quot;>#666666&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="28"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.gray_444` appears to be unused"
+        errorLine1="    &lt;color name=&quot;gray_444&quot;>#444444&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="29"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.gray_333` appears to be unused"
+        errorLine1="    &lt;color name=&quot;gray_333&quot;>#333333&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="30"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.red` appears to be unused"
+        errorLine1="    &lt;color name=&quot;red&quot;>#FF0000&lt;/color>"
+        errorLine2="           ~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="31"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.red_pressed` appears to be unused"
+        errorLine1="    &lt;color name=&quot;red_pressed&quot;>#66FF0000&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="32"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.red_dark` appears to be unused"
+        errorLine1="    &lt;color name=&quot;red_dark&quot;>#d50000&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="33"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.golden` appears to be unused"
+        errorLine1="    &lt;color name=&quot;golden&quot;>#FFCC00&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="34"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.golden_dark` appears to be unused"
+        errorLine1="    &lt;color name=&quot;golden_dark&quot;>#FFAA00&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="35"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.controlButtonPressed` appears to be unused"
+        errorLine1="    &lt;color name=&quot;controlButtonPressed&quot;>#80ff8400&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="37"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.transparent_black` appears to be unused"
+        errorLine1="    &lt;color name=&quot;transparent_black&quot;>#66000000&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="39"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.dark_grey` appears to be unused"
+        errorLine1="    &lt;color name=&quot;dark_grey&quot;>#333333&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="41"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.grey` appears to be unused"
+        errorLine1="    &lt;color name=&quot;grey&quot;>#aaaaaa&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="42"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.light_green` appears to be unused"
+        errorLine1="    &lt;color name=&quot;light_green&quot;>#e3f5d4&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="43"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.green_dark` appears to be unused"
+        errorLine1="    &lt;color name=&quot;green_dark&quot;>#018b01&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="44"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.black_semi_transparent` appears to be unused"
+        errorLine1="    &lt;color name=&quot;black_semi_transparent&quot;>#B2000000&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="46"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.bool.is_live` appears to be unused"
+        errorLine1="    &lt;bool name=&quot;is_live&quot;>true&lt;/bool>"
+        errorLine2="          ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/config.xml"
+            line="4"
+            column="11"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.xml.data_extraction_rules` appears to be unused"
+        errorLine1="&lt;data-extraction-rules>"
+        errorLine2="^">
+        <location
+            file="src/main/res/xml/data_extraction_rules.xml"
+            line="7"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.xml.file_paths` appears to be unused"
+        errorLine1="&lt;paths>"
+        errorLine2="^">
+        <location
+            file="src/main/res/xml/file_paths.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.fileprovider` appears to be unused"
+        errorLine1="    &lt;string name=&quot;fileprovider&quot;>com.safearx.cell411.fdroid.fileprovider&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/fp_strings.xml"
+            line="3"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.language_code` appears to be unused"
+        errorLine1="    &lt;string name=&quot;language_code&quot;>en&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/language.xml"
+            line="3"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.dialog_message_reset_instructions_sent` appears to be unused"
+        errorLine1="    &lt;string name=&quot;dialog_message_reset_instructions_sent&quot; translatable=&quot;false&quot;>An email has been sent with reset instructions, please check"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="6"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.title_select_friends` appears to be unused"
+        errorLine1="    &lt;string name=&quot;title_select_friends&quot; translatable=&quot;false&quot;>Select Friends&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="17"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.title_edit_profile` appears to be unused"
+        errorLine1="    &lt;string name=&quot;title_edit_profile&quot; translatable=&quot;false&quot;>Edit Profile&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="18"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.title_view_profile` appears to be unused"
+        errorLine1="    &lt;string name=&quot;title_view_profile&quot; translatable=&quot;false&quot;>View Profile&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="19"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.title_change_password` appears to be unused"
+        errorLine1="    &lt;string name=&quot;title_change_password&quot; translatable=&quot;false&quot;>Change Password&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="20"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.title_know_your_rights` appears to be unused"
+        errorLine1="    &lt;string name=&quot;title_know_your_rights&quot; translatable=&quot;false&quot;>Know Your Rights&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="21"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.title_settings` appears to be unused"
+        errorLine1="    &lt;string name=&quot;title_settings&quot; translatable=&quot;false&quot;>Settings&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="22"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.title_blocked_users` appears to be unused"
+        errorLine1="    &lt;string name=&quot;title_blocked_users&quot; translatable=&quot;false&quot;>Blocked Users&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="23"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.title_public_cell` appears to be unused"
+        errorLine1="    &lt;string name=&quot;title_public_cell&quot; translatable=&quot;false&quot;>Public Cell&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="27"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.default_youtube_server_url` appears to be unused"
+        errorLine1="    &lt;string name=&quot;default_youtube_server_url&quot; translatable=&quot;false&quot;>rtmp://a.rtmp.youtube.com/live2&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="32"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.dialog_btn_done` appears to be unused"
+        errorLine1="    &lt;string name=&quot;dialog_btn_done&quot; translatable=&quot;false&quot;>Done&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="38"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.dialog_btn_logout` appears to be unused"
+        errorLine1="    &lt;string name=&quot;dialog_btn_logout&quot; translatable=&quot;false&quot;>Logout&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="39"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.dialog_btn_no` appears to be unused"
+        errorLine1="    &lt;string name=&quot;dialog_btn_no&quot; translatable=&quot;false&quot;>No&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="40"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.dialog_btn_share` appears to be unused"
+        errorLine1="    &lt;string name=&quot;dialog_btn_share&quot; translatable=&quot;false&quot;>Share&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="42"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.dialog_btn_submit` appears to be unused"
+        errorLine1="    &lt;string name=&quot;dialog_btn_submit&quot; translatable=&quot;false&quot;>Submit&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="43"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.dialog_btn_yes` appears to be unused"
+        errorLine1="    &lt;string name=&quot;dialog_btn_yes&quot; translatable=&quot;false&quot;>Yes&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="44"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.send_crime_alert` appears to be unused"
+        errorLine1="    &lt;string name=&quot;send_crime_alert&quot; translatable=&quot;false&quot;>Send crime alert?&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="73"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.send_vehicle_pulled_over_alert` appears to be unused"
+        errorLine1="    &lt;string name=&quot;send_vehicle_pulled_over_alert&quot; translatable=&quot;false&quot;>Send vehicle pulled over alert?&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="74"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.send_police_interaction_alert` appears to be unused"
+        errorLine1="    &lt;string name=&quot;send_police_interaction_alert&quot; translatable=&quot;false&quot;>Send police interaction alert?&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="75"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.send_arrested_alert` appears to be unused"
+        errorLine1="    &lt;string name=&quot;send_arrested_alert&quot; translatable=&quot;false&quot;>Send arrested alert?&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="76"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.send_danger_alert` appears to be unused"
+        errorLine1="    &lt;string name=&quot;send_danger_alert&quot; translatable=&quot;false&quot;>Send danger alert?&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="77"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.send_medical_attention_alert` appears to be unused"
+        errorLine1="    &lt;string name=&quot;send_medical_attention_alert&quot; translatable=&quot;false&quot;>Send medical attention alert?&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="78"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.send_bullied_alert` appears to be unused"
+        errorLine1="    &lt;string name=&quot;send_bullied_alert&quot; translatable=&quot;false&quot;>Send harassed alert?&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="79"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.send_general_alert` appears to be unused"
+        errorLine1="    &lt;string name=&quot;send_general_alert&quot; translatable=&quot;false&quot;>Send general alert?&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="80"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.send_hijack_alert` appears to be unused"
+        errorLine1="    &lt;string name=&quot;send_hijack_alert&quot; translatable=&quot;false&quot;>Send hijack alert?&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="81"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.send_fire_alert` appears to be unused"
+        errorLine1="    &lt;string name=&quot;send_fire_alert&quot; translatable=&quot;false&quot;>Send fire alert?&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="82"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.send_vehicle_broken_alert` appears to be unused"
+        errorLine1="    &lt;string name=&quot;send_vehicle_broken_alert&quot; translatable=&quot;false&quot;>Send vehicle broken alert?&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="83"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.stream_and_share_live_video_with` appears to be unused"
+        errorLine1="    &lt;string name=&quot;stream_and_share_live_video_with&quot; translatable=&quot;false&quot;>Stream and share live video with?&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="84"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.send_photo_alert` appears to be unused"
+        errorLine1="    &lt;string name=&quot;send_photo_alert&quot; translatable=&quot;false&quot;>Send photo alert?&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="85"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.dialog_message_upload_image` appears to be unused"
+        errorLine1="    &lt;string name=&quot;dialog_message_upload_image&quot; translatable=&quot;false&quot;>Would you like to capture or add image from Gallery?&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="89"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.dialog_btn_camera` appears to be unused"
+        errorLine1="    &lt;string name=&quot;dialog_btn_camera&quot; translatable=&quot;false&quot;>CAMERA&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="90"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.dialog_btn_gallery` appears to be unused"
+        errorLine1="    &lt;string name=&quot;dialog_btn_gallery&quot; translatable=&quot;false&quot;>GALLERY&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="91"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.alert_broken_car` appears to be unused"
+        errorLine1="    &lt;string name=&quot;alert_broken_car&quot; translatable=&quot;false&quot;>Car Broken&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="101"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.alert_bullied` appears to be unused"
+        errorLine1="    &lt;string name=&quot;alert_bullied&quot; translatable=&quot;false&quot;>Harassed&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="102"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.alert_criminal` appears to be unused"
+        errorLine1="    &lt;string name=&quot;alert_criminal&quot; translatable=&quot;false&quot;>Crime&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="103"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.alert_general` appears to be unused"
+        errorLine1="    &lt;string name=&quot;alert_general&quot; translatable=&quot;false&quot;>General&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="104"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.alert_pulled_over` appears to be unused"
+        errorLine1="    &lt;string name=&quot;alert_pulled_over&quot; translatable=&quot;false&quot;>Pulled Over&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="105"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.alert_video` appears to be unused"
+        errorLine1="    &lt;string name=&quot;alert_video&quot; translatable=&quot;false&quot;>Video&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="106"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.alert_photo` appears to be unused"
+        errorLine1="    &lt;string name=&quot;alert_photo&quot; translatable=&quot;false&quot;>Photo&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="107"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.alert_danger` appears to be unused"
+        errorLine1="    &lt;string name=&quot;alert_danger&quot; translatable=&quot;false&quot;>Danger&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="108"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.alert_fire` appears to be unused"
+        errorLine1="    &lt;string name=&quot;alert_fire&quot; translatable=&quot;false&quot;>Fire&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="109"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.alert_medical` appears to be unused"
+        errorLine1="    &lt;string name=&quot;alert_medical&quot; translatable=&quot;false&quot;>Medical&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="110"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.alert_police_arrest` appears to be unused"
+        errorLine1="    &lt;string name=&quot;alert_police_arrest&quot; translatable=&quot;false&quot;>Police Arrest&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="111"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.alert_police_interaction` appears to be unused"
+        errorLine1="    &lt;string name=&quot;alert_police_interaction&quot; translatable=&quot;false&quot;>Police Interaction&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="112"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.alert_hijack` appears to be unused"
+        errorLine1="    &lt;string name=&quot;alert_hijack&quot; translatable=&quot;false&quot;>Hijack&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="113"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.alert_panic` appears to be unused"
+        errorLine1="    &lt;string name=&quot;alert_panic&quot; translatable=&quot;false&quot;>Panic&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="114"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.alert_un_recognized` appears to be unused"
+        errorLine1="    &lt;string name=&quot;alert_un_recognized&quot; translatable=&quot;false&quot;>Un-recognized&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="115"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.send_physical_abuse_alert` appears to be unused"
+        errorLine1="    &lt;string name=&quot;send_physical_abuse_alert&quot; translatable=&quot;false&quot;>Send physical abuse alert?&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="119"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.send_being_trapped_alert` appears to be unused"
+        errorLine1="    &lt;string name=&quot;send_being_trapped_alert&quot; translatable=&quot;false&quot;>Send being trapped alert?&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="120"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.send_car_accident_alert` appears to be unused"
+        errorLine1="    &lt;string name=&quot;send_car_accident_alert&quot; translatable=&quot;false&quot;>Send car accident alert?&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="121"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.send_natural_disaster_alert` appears to be unused"
+        errorLine1="    &lt;string name=&quot;send_natural_disaster_alert&quot; translatable=&quot;false&quot;>Send natural disaster alert?&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="122"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.alert_physical_abuse` appears to be unused"
+        errorLine1="    &lt;string name=&quot;alert_physical_abuse&quot; translatable=&quot;false&quot;>Physical Abuse&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="123"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.alert_trapped` appears to be unused"
+        errorLine1="    &lt;string name=&quot;alert_trapped&quot; translatable=&quot;false&quot;>Trapped&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="124"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.alert_car_accident` appears to be unused"
+        errorLine1="    &lt;string name=&quot;alert_car_accident&quot; translatable=&quot;false&quot;>Car Accident&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="125"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.alert_natural_disaster` appears to be unused"
+        errorLine1="    &lt;string name=&quot;alert_natural_disaster&quot; translatable=&quot;false&quot;>Natural Disaster&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="126"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.title_select_one` appears to be unused"
+        errorLine1="    &lt;string name=&quot;title_select_one&quot; translatable=&quot;false&quot;>Select One&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="129"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.notifications` appears to be unused"
+        errorLine1="    &lt;string name=&quot;notifications&quot; translatable=&quot;false&quot;>Notifications&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="130"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.alert_custom` appears to be unused"
+        errorLine1="    &lt;string name=&quot;alert_custom&quot;>Custom&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="132"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.send_panic_alert` appears to be unused"
+        errorLine1="    &lt;string name=&quot;send_panic_alert&quot;>Send panic alert?&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="133"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.send_pre_authorisation_alert` appears to be unused"
+        errorLine1="    &lt;string name=&quot;send_pre_authorisation_alert&quot;>Send pre authorisation alert?&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/translation_not_required.xml"
+            line="4"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.alert_pre_authorisation` appears to be unused"
+        errorLine1="    &lt;string name=&quot;alert_pre_authorisation&quot;>Pre Authorisation&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/translation_not_required.xml"
+            line="5"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        message="Found bitmap drawable `res/drawable/ic_placeholder_user.png` in densityless folder">
+        <location
+            file="src/main/res/drawable/ic_placeholder_user.png"/>
+    </issue>
+
+    <issue
+        id="ButtonCase"
+        message="The standard Android way to capitalize Ok is &quot;OK&quot; (tip: use `@android:string/ok` instead)"
+        errorLine1="    &lt;string name=&quot;dialog_btn_ok&quot; translatable=&quot;false&quot;>Ok&lt;/string>"
+        errorLine2="                                                      ~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="41"
+            column="55"/>
+    </issue>
+
+</issues>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray_b1"
+    >
+
+    <Button
+        android:id="@+id/btn_toggle_livequery"
+        android:layout_width="match_parent"
+        android:background="@android:drawable/btn_default"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/service_fragment_margin"
+        android:padding="@dimen/service_fragment_padding"
+        android:text="@string/start_livequery_service"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_toggle_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/service_fragment_margin"
+        android:background="@android:drawable/btn_default"
+        android:padding="@dimen/service_fragment_padding"
+        android:text="@string/start_location_service"
+        android:textAllCaps="false"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/service_fragment_margin"
+        android:padding="@dimen/service_fragment_padding"
+        >
+
+        <TextView
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:clickable="false"
+            android:focusable="false"
+            android:minWidth="0dip"
+
+            android:minHeight="0dip"
+            android:padding="5dp"
+            android:text="Lat: "
+
+            android:textStyle="bold"
+            tools:ignore="HardcodedText"
+            />
+
+
+        <TextView
+            android:id="@+id/txt_latitude1"
+            android:background="@color/white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:clickable="false"
+            android:focusable="false"
+            android:minWidth="0dip"
+
+            android:minHeight="0dip"
+            android:padding="5dp"
+            android:text="Lng: "
+
+            android:textStyle="bold"
+            tools:ignore="HardcodedText"
+            />
+
+        <TextView
+            android:id="@+id/txt_longitude1"
+            android:layout_width="0dp"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/service_fragment_margin"
+        android:orientation="vertical"
+        android:padding="@dimen/service_fragment_padding"
+        >
+
+        <TextView
+            android:id="@+id/lbl_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:textStyle="bold"
+
+            android:focusable="false"
+            android:minWidth="0dip"
+            android:minHeight="0dip"
+            android:text="Address"
+            android:textAllCaps="false"
+
+            tools:ignore="HardcodedText"
+            />
+
+        <TextView
+            android:id="@+id/txt_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="address will go here"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/service_fragment_margin"
+        android:padding="@dimen/service_fragment_padding"
+        >
+
+        <TextView
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:clickable="false"
+            android:focusable="false"
+            android:minWidth="0dip"
+
+            android:minHeight="0dip"
+            android:padding="5dp"
+            android:text="Lat: "
+
+            android:textStyle="bold"
+            tools:ignore="HardcodedText"
+            />
+
+        <TextView
+            android:id="@+id/txt_latitude2"
+            android:layout_width="0dp"
+            android:background="@color/white"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:clickable="false"
+            android:focusable="false"
+            android:minWidth="0dip"
+
+            android:minHeight="0dip"
+            android:padding="5dp"
+            android:text="Lng: "
+
+            android:textStyle="bold"
+            tools:ignore="HardcodedText"
+            />
+
+
+        <TextView
+            android:id="@+id/txt_longitude2"
+            android:layout_width="0dp"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lbl_log"
+        android:textAllCaps="false"
+        tools:ignore="HardcodedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/service_fragment_margin"
+        android:padding="@dimen/service_fragment_padding"
+        android:minWidth="0dip"
+        android:minHeight="0dip"
+        android:clickable="false"
+        android:textStyle="bold"
+
+        android:focusable="false"
+        android:labelFor="@id/txt_log"
+        android:text="Recent Log"
+        />
+
+
+    <ScrollView
+        android:id="@+id/scroller"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/service_fragment_margin"
+        android:layout_weight="1"
+
+        android:padding="@dimen/service_fragment_padding"
+        >
+
+        <TextView
+            android:id="@+id/txt_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:ems="10"
+            android:gravity="start|top"
+            android:importantForAutofill="no"
+            android:minHeight="48dp"
+            android:selectAllOnFocus="false"
+            android:singleLine="false"
+            android:textSize="16sp"
+            />
+    </ScrollView>
+</LinearLayout>

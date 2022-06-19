@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/txt_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/txt_request_verification_desc"
+        />
+
+    <TextView
+        android:id="@+id/txt_current_status"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txt_desc"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@color/gray_b1"
+        android:gravity="center"
+        android:shadowColor="@color/gray_666"
+        android:shadowRadius="10"
+        android:text="@string/this_public_cell_has_not_been_officially_verified_yet"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:visibility="visible"
+        />
+
+    <TextView
+        android:id="@+id/txt_btn_request_verification"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txt_current_status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/highlight_color"
+        android:gravity="center"
+        android:text="@string/request_n_verification"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+    <View
+        android:id="@+id/view_center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ProgressBar
+        android:id="@+id/pb_progress"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/txt_current_status"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/view_center"
+        android:visibility="gone"
+        />
+
+    <View
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/txt_btn_request_verification"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

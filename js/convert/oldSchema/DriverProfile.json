@@ -1,0 +1,81 @@
+{
+  "className": "DriverProfile",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "isCashAccepted": {
+      "type": "Boolean"
+    },
+    "isCryptoAccepted": {
+      "type": "Boolean"
+    },
+    "isSilverAccepted": {
+      "type": "Boolean"
+    },
+    "pickUpCost": {
+      "type": "Number"
+    },
+    "user": {
+      "type": "Pointer",
+      "targetClass": "_User"
+    },
+    "isBarteringAccepted": {
+      "type": "Boolean"
+    },
+    "perMinuteCost": {
+      "type": "Number"
+    },
+    "perMileCost": {
+      "type": "Number"
+    },
+    "isCreditCardAccepted": {
+      "type": "Boolean"
+    },
+    "currency": {
+      "type": "String"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    },
+    "readUserFields": [],
+    "writeUserFields": []
+  },
+  "indexes": {
+    "_id_": {
+      "_id": 1
+    },
+    "_created_at_-1": {
+      "_created_at": -1
+    },
+    "_p_user_1": {
+      "_p_user": 1
+    }
+  }
+}

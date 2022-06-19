@@ -1,0 +1,10 @@
+#!/bin/bash
+
+run_command() {
+  "$@" 2>&1 </dev/null
+};
+
+outfile="$1.out"
+set -o pipefail
+echo >&2 $outfile:1:output
+run_command "$@" | tee "$outfile"

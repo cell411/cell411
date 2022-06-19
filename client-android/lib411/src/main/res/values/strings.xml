@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Sign Up Screen -->
+    <!-- Sign In Screen -->
+    <string name="dialog_message_reset_instructions_sent" translatable="false">An email has been sent with reset instructions, please check
+        your email
+    </string>
+    <!-- Main Screen -->
+    <!-- QR Code Dialog -->
+    <!-- Logout Dialog -->
+    <!-- TAB STRIP TITLES -->
+    <!-- TABS -->
+    <!-- PROFILE -->
+    <!-- SETTINGS -->
+    <!-- SCREEN TITLES -->
+    <string name="title_select_friends" translatable="false">Select Friends</string>
+    <string name="title_edit_profile" translatable="false">Edit Profile</string>
+    <string name="title_view_profile" translatable="false">View Profile</string>
+    <string name="title_change_password" translatable="false">Change Password</string>
+    <string name="title_know_your_rights" translatable="false">Know Your Rights</string>
+    <string name="title_settings" translatable="false">Settings</string>
+    <string name="title_blocked_users" translatable="false">Blocked Users</string>
+    <!-- EXPLORE CELLS -->
+    <!-- CREATE NEW CELL -->
+    <!-- PUBLIC CELL MEMBERS SCREEN -->
+    <string name="title_public_cell" translatable="false">Public Cell</string>
+    <!-- IMPORT CONTACTS -->
+    <!-- ACTIONS -->
+    <!-- EMAIL REQUIRED DIALOG -->
+    <!-- VIDEO SETTINGS -->
+    <string name="default_youtube_server_url" translatable="false">rtmp://a.rtmp.youtube.com/live2</string>
+    <!-- ADVANCE ALERT SETTINGS RES -->
+    <!-- ADVANCE ALERT SETTINGS CLASS -->
+    <!-- ALERT ACTIVITY -->
+    <!-- DIALOGS -->
+    <string name="dialog_btn_cancel" translatable="false">Cancel</string>
+    <string name="dialog_btn_done" translatable="false">Done</string>
+    <string name="dialog_btn_logout" translatable="false">Logout</string>
+    <string name="dialog_btn_no" translatable="false">No</string>
+    <string name="dialog_btn_ok" translatable="false">Ok</string>
+    <string name="dialog_btn_share" translatable="false">Share</string>
+    <string name="dialog_btn_submit" translatable="false">Submit</string>
+    <string name="dialog_btn_yes" translatable="false">Yes</string>
+    <string name="low_connection_msg" translatable="false">Internet Connection appears to be offline, or Low Internet Connectivity.</string>
+    <!-- Alert Activity -->
+    <string name="am" translatable="false">AM</string>
+    <string name="pm" translatable="false">PM</string>
+    <!-- Alert Detail Activity -->
+    <string name="blocked_successfully" translatable="false">%s blocked successfully</string>
+    <string name="unblocked_successfully" translatable="false">%s unblocked successfully</string>
+    <!-- PANIC BUTTON -->
+    <string name="already_created" translatable="false">already created</string>
+    <!-- Explore Public Cells -->
+    <string name="mile" translatable="false">mile</string>
+    <string name="km" translatable="false">km</string>
+    <string name="leave" translatable="false">LEAVE</string>
+    <string name="join" translatable="false">JOIN</string>
+    <!-- Friends Fragment -->
+    <!-- Issue Panic Alert Activity -->
+    <!-- Private Cell Friends Activity -->
+    <!-- Private Cell Friends Activity -->
+    <!-- Profile Edit Activity -->
+    <!-- Profile Image Activity -->
+    <!-- Profile View Activity -->
+    <!-- Public Cell Members Activity -->
+    <!-- Public Cells Fragment -->
+    <!-- Register Activity -->
+    <!-- Reviews Activity -->
+    <string name="at" translatable="false">at</string>
+    <string name="today_at" translatable="false">Today at</string>
+    <!-- Ride Request Alert Activity -->
+    <string name="send_crime_alert" translatable="false">Send crime alert?</string>
+    <string name="send_vehicle_pulled_over_alert" translatable="false">Send vehicle pulled over alert?</string>
+    <string name="send_police_interaction_alert" translatable="false">Send police interaction alert?</string>
+    <string name="send_arrested_alert" translatable="false">Send arrested alert?</string>
+    <string name="send_danger_alert" translatable="false">Send danger alert?</string>
+    <string name="send_medical_attention_alert" translatable="false">Send medical attention alert?</string>
+    <string name="send_bullied_alert" translatable="false">Send harassed alert?</string>
+    <string name="send_general_alert" translatable="false">Send general alert?</string>
+    <string name="send_hijack_alert" translatable="false">Send hijack alert?</string>
+    <string name="send_fire_alert" translatable="false">Send fire alert?</string>
+    <string name="send_vehicle_broken_alert" translatable="false">Send vehicle broken alert?</string>
+    <string name="stream_and_share_live_video_with" translatable="false">Stream and share live video with?</string>
+    <string name="send_photo_alert" translatable="false">Send photo alert?</string>
+    <!-- Video Settings Activity -->
+    <!-- Verification Activity -->
+    <!-- Image Picker -->
+    <string name="dialog_message_upload_image" translatable="false">Would you like to capture or add image from Gallery?</string>
+    <string name="dialog_btn_camera" translatable="false">CAMERA</string>
+    <string name="dialog_btn_gallery" translatable="false">GALLERY</string>
+    <!-- Download Service -->
+    <!-- Cell411Receiver -->
+    <!-- AddFriendModules -->
+    <!-- PrivilegeModules -->
+    <!-- DialogModules4ReceivedAlerts -->
+    <!-- DialogModules4IssuingAlert -->
+    <!-- VideoStreamingActivity -->
+    <!-- Main Drawer -->
+    <!-- Alerts -->
+    <string name="alert_broken_car" translatable="false">Car Broken</string>
+    <string name="alert_bullied" translatable="false">Harassed</string>
+    <string name="alert_criminal" translatable="false">Crime</string>
+    <string name="alert_general" translatable="false">General</string>
+    <string name="alert_pulled_over" translatable="false">Pulled Over</string>
+    <string name="alert_video" translatable="false">Video</string>
+    <string name="alert_photo" translatable="false">Photo</string>
+    <string name="alert_danger" translatable="false">Danger</string>
+    <string name="alert_fire" translatable="false">Fire</string>
+    <string name="alert_medical" translatable="false">Medical</string>
+    <string name="alert_police_arrest" translatable="false">Police Arrest</string>
+    <string name="alert_police_interaction" translatable="false">Police Interaction</string>
+    <string name="alert_hijack" translatable="false">Hijack</string>
+    <string name="alert_panic" translatable="false">Panic</string>
+    <string name="alert_un_recognized" translatable="false">Un-recognized</string>
+    <!-- Gallery -->
+    <!-- Share this app -->
+    <!-- New Alert Types -->
+    <string name="send_physical_abuse_alert" translatable="false">Send physical abuse alert?</string>
+    <string name="send_being_trapped_alert" translatable="false">Send being trapped alert?</string>
+    <string name="send_car_accident_alert" translatable="false">Send car accident alert?</string>
+    <string name="send_natural_disaster_alert" translatable="false">Send natural disaster alert?</string>
+    <string name="alert_physical_abuse" translatable="false">Physical Abuse</string>
+    <string name="alert_trapped" translatable="false">Trapped</string>
+    <string name="alert_car_accident" translatable="false">Car Accident</string>
+    <string name="alert_natural_disaster" translatable="false">Natural Disaster</string>
+    <!-- APP VERSION API -->
+    <string name="delete" translatable="false">DELETE</string>
+    <string name="title_select_one" translatable="false">Select One</string>
+    <string name="notifications" translatable="false">Notifications</string>
+    <string name="toast_msg_account_deleted" translatable="false">Account Deleted</string>
+    <string name="alert_custom">Custom</string>
+    <string name="send_panic_alert">Send panic alert?</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_prev">Prev</string>
+    <string name="footer">Footer</string>
+    <string name="page_title_here">Page Title Here</string>
+
+
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+    <!-- Strings used for fragments for navigation -->
+
+</resources>

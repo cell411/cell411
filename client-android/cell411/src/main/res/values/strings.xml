@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="retrieving" translatable="false">Retrieving Distance ... </string>
+    <!-- Sign Up Screen -->
+    <string name="t_n_c" translatable="false"><![CDATA[By creating your %1$s account, you agree<br>to our %2$s]]></string>
+    <string name="btn_terms_and_conditions" translatable="false"><![CDATA[<a href=\'terms\'><b>Terms &amp; Conditions</b></a>]]></string>
+    <string name="btn_signup" translatable="false">Sign Up</string>
+    <string name="public_cell_menu" translatable="false">A menu for the public cells activity.</string>
+    <string name="btn_sign_in" translatable="false">Sign In</string>
+    <string name="already_have_an_account" translatable="false">Already have an account?</string>
+    <string name="hint_email" translatable="false">email</string>
+    <string name="hint_password" translatable="false">password</string>
+    <string name="hint_first_name" translatable="false">firstname</string>
+    <string name="hint_last_name" translatable="false">lastname</string>
+    <string name="hint_mobile" translatable="false">mobile</string>
+    <string name="validation_email" translatable="false">Please enter your email</string>
+    <string name="validation_password" translatable="false">Please enter your password</string>
+    <string name="validation_firstname" translatable="false">Please enter your first name</string>
+    <string name="validation_lastname" translatable="false">Please enter your last name</string>
+    <string name="validation_mobile_number" translatable="false">Please enter your mobile number</string>
+    <!-- Sign In Screen -->
+    <string name="btn_login" translatable="false">Login</string>
+    <string name="btn_forgot_password" translatable="false">Forgot Password?</string>
+    <string name="lbl_no_account" translatable="false">Don\'t have an account?</string>
+    <string name="dialog_title_forgot_password" translatable="false">Forgot Password?</string>
+    <string name="dialog_message_reset_instructions_sent" translatable="false">An email has been sent with reset instructions, please check
+        your email
+    </string>
+    <string name="dialog_message_tap_submit" translatable="false">Please enter your email address and tap on Submit</string>
+    <!-- Main Screen -->
+    <string name="title_alerts" translatable="false">Alerts</string>
+    <string name="title_cells" translatable="false">Cells</string>
+    <string name="title_friends" translatable="false">Friends</string>
+    <string name="title_chats" translatable="false">Chats</string>
+    <!-- QR Code Dialog -->
+    <string name="dialog_title_qr_code" translatable="false">QR Code</string>
+    <string name="share_qr_code_title" translatable="false">Share QR Code</string>
+    <string name="share_qr_code_subject" translatable="false">My QR Code for Cell 411</string>
+    <string name="share_qr_code_desc" translatable="false">Hi, feel free to scan my qr code and join me on Cell 411 network to get help in
+        emergency
+    </string>
+    <!-- Logout Dialog -->
+    <string name="dialog_logout_message" translatable="false">Are you sure you want to logout? You will no longer be able to receive and send
+        emergency alerts!
+    </string>
+    <!-- TAB STRIP TITLES -->
+    <!-- TABS -->
+    <string name="tab_friends" translatable="false">Friends</string>
+    <string name="tab_cells" translatable="false">Cells</string>
+    <string name="tab_alerts" translatable="false">Alerts</string>
+    <string name="tab_map" translatable="false">Map</string>
+    <string name="tab_chat" translatable="false">Chat</string>
+    <!-- PROFILE -->
+    <string name="lbl_blood_group" translatable="false">Blood group</string>
+    <string name="hint_emergency_contact_name" translatable="false">Emergency contact name</string>
+    <string name="hint_emergency_contact_number" translatable="false">Emergency contact number</string>
+    <string name="hint_allergies" translatable="false">Drug allergy, skin allergy, rhinitis, etc.</string>
+    <string name="hint_other_medical_conditions" translatable="false">Seizures, heart problems, etc.</string>
+    <string name="lbl_other_medical_conditions" translatable="false">Other medical conditions</string>
+    <string name="lbl_allergies" translatable="false">Allergies</string>
+    <!-- SETTINGS -->
+    <string name="btn_video_settings" translatable="false">Video Settings</string>
+    <string name="title_new_public_cell_alert" translatable="false">NEW PUBLIC CELL ALERT</string>
+    <string name="txt_new_public_cell_alert_desc" translatable="false">Turning this feature on will allow you to receive Cell 411 alert
+        whenever a new public cell is created nearby you. This feature requires Location Updates to be turned on.
+    </string>
+    <string name="title_patrol_mode" translatable="false">PATROL MODE</string>
+    <string name="txt_patrol_mode_desc" translatable="false">Turning this feature on will allow you to receive Cell 411 alerts when someone
+        in the patrol radius needs help. This feature requires Location Updates to be turned on.
+    </string>
+    <string name="title_patrol_mode_radius" translatable="false">PATROL MODE RADIUS</string>
+    <string name="title_metric_selection" translatable="false">METRIC SELECTION</string>
+    <string name="txt_metric_desc" translatable="false">Please select if you would like Cell 411 to use kilometers or miles as the standard
+        distance unit.
+    </string>
+    <string name="metric_option_kilometers" translatable="false">KILOMETERS</string>
+    <string name="metric_option_miles" translatable="false">MILES</string>
+    <string name="title_delete_video_option" translatable="false">DELETE VIDEO OPTION</string>
+    <string name="txt_delete_video_option_desc" translatable="false">Turning this feature on will enable the fake delete button on video
+        alerts in Alerts tab.
+    </string>
+    <string name="title_gps_accurate_tracking" translatable="false">GPS ACCURATE TRACKING</string>
+    <string name="txt_gps_accurate_tracking_desc" translatable="false">Turning this feature on will increase your GPS accuracy but it may
+        decrease your battery life.
+    </string>
+    <string name="title_location_updates" translatable="false">LOCATION UPDATES</string>
+    <string name="txt_location_updates_desc" translatable="false">Turning this feature on will update your location constantly so that you
+        always see your updated location but it may decrease your battery life.
+    </string>
+    <string name="btn_blocked_users_and_spammers" translatable="false">Blocked users and spammers</string>
+    <string name="attention" translatable="false">ATTENTION!</string>
+    <string name="heavy_police_threat_in_effect" translatable="false">HEAVY POLICE THREAT IN EFFECT</string>
+    <string name="know_your_rights" translatable="false">KNOW YOUR RIGHTS!</string>
+    <string name="threat1_title" translatable="false">RECORD YOUR INTERACTION</string>
+    <string name="threat1_desc" translatable="false">Cameras are your best defense against the police. If they know they are being recorded,
+        they will be less tempted to violate your rights!
+    </string>
+    <string name="threat2_title" translatable="false">ASK "AM I BEING DETAINED?" IF YOU ARE NOT, LEAVE</string>
+    <string name="threat2_desc" translatable="false">If you are not being detained, just walk away. Officers must be able to articulate their
+        "reasonable suspicion" that a crime has been or is about to be committed in order to detain you.
+    </string>
+    <string name="threat3_title" translatable="false">DO NOT ANSWER QUESTIONS</string>
+    <string name="threat3_desc" translatable="false">You are never required to talk to police. Speaking to an officer can only be used to
+        hurt you. Only reveal your identity if you\'re driving.
+    </string>
+    <string name="threat4_title" translatable="false">NEVER CONSENT TO SEARCHES</string>
+    <string name="threat4_desc" translatable="false">If they are asking to search you, your things, your car, or home, it\'s because they
+        need your consent. They won\'t ask to search if they have a warrant or "probable cause". If an officer searches
+        you without your permission, do not resist the search but always say you do not consent.
+    </string>
+    <string name="threat5_title" translatable="false">BE POLITE, BUT FIRM</string>
+    <string name="threat5_desc" translatable="false">These are supposedly your servants. If you feel intimidated by the police, they are not
+        doing their job correctly. Always be polite, as police can often act irrationally if offended.
+    </string>
+    <!-- SCREEN TITLES -->
+    <string name="title_select_friends" translatable="false">Select Friends</string>
+    <string name="title_create_public_cell" translatable="false">Create Public Cell</string>
+    <string name="title_edit_profile" translatable="false">Edit Profile</string>
+    <string name="title_view_profile" translatable="false">View Profile</string>
+    <string name="title_change_password" translatable="false">Change Password</string>
+    <string name="title_know_your_rights" translatable="false">Know Your Rights</string>
+    <string name="title_settings" translatable="false">Settings</string>
+    <string name="title_blocked_users" translatable="false">Blocked Users</string>
+    <!-- EXPLORE CELLS -->
+    <string name="radius" translatable="false">Radius</string>
+    <!-- CREATE NEW CELL -->
+    <string name="hint_cell_name" translatable="false">Enter cell name</string>
+    <string name="menu_item_create" translatable="false">Create</string>
+    <!-- PUBLIC CELL MEMBERS SCREEN -->
+    <string name="not_available" translatable="false">N/A</string>
+    <string name="join_this_cell" translatable="false">Join this cell</string>
+    <string name="request_verification" translatable="false">Request verification</string>
+    <string name="txt_request_verification_desc" translatable="false">Public cells can be officially verified by Cell 411 to confirm the
+        identity of the owner and the legitimacy of the cell. In order to be verified, please use a specific name for
+        your cell. For example, a cell named “New York City” is misleading as it is not owned by the City of New York,
+        however a cell named “New York City 55th St. Crime Watch” is more specific and likely to be verified.
+    </string>
+    <string name="title_public_cell" translatable="false">Public Cell</string>
+    <string name="unblock_user" translatable="false">Unblock User</string>
+    <!-- IMPORT CONTACTS -->
+    <string name="loading_contacts" translatable="false">Loading Contacts..</string>
+    <string name="search" translatable="false">Search</string>
+    <string name="resend" translatable="false">Resend</string>
+    <string name="email_updated_successfully" translatable="false">Email updated successfully</string>
+    <string name="email_already_registered" translatable="false">is already registered, please use different.</string>
+    <string name="cannot_send_friend_request" translatable="false">Sorry, we cannot send friend request to this user on your behalf</string>
+    <!-- ACTIONS -->
+    <string name="action_hybrid_view" translatable="false">Hybrid view</string>
+    <string name="action_satellite_view" translatable="false">Satellite view</string>
+    <string name="action_standard_view" translatable="false">Standard view</string>
+    <string name="action_map_type" translatable="false">Map type</string>
+    <!-- EMAIL REQUIRED DIALOG -->
+    <string name="dialog_title_email" translatable="false">Email Required</string>
+    <string name="dialog_message_email_required" translatable="false">Please update your email.</string>
+    <string name="validation_email_invalid" translatable="false">Please enter a valid email</string>
+    <!-- VIDEO SETTINGS -->
+    <string name="default_youtube_server_url" translatable="false">rtmp://a.rtmp.youtube.com/live2</string>
+    <!-- ADVANCE ALERT SETTINGS RES -->
+    <!-- ADVANCE ALERT SETTINGS CLASS -->
+    <!-- ALERT ACTIVITY -->
+    <string name="alert_on_public_cell" translatable="false">Public Cell</string>
+    <!-- DIALOGS -->
+    <string name="spam" translatable="false">Spam</string>
+    <string name="enter_alert_additional_note" translatable="false">Enter an additional note</string>
+    <string name="please_enter_description" translatable="false">Please enter description</string>
+    <string name="or" translatable="false">OR</string>
+    <string name="low_connection_msg" translatable="false">Internet Connection appears to be offline, or Low Internet Connectivity.</string>
+    <string name="retrieving_city" translatable="false">Retrieving city..</string>
+    <string name="txt_no_friends_yet" translatable="false">No Friends yet</string>
+    <string name="hint_enter_your_email" translatable="false">Enter your email</string>
+    <string name="dialog_btn_try_again" translatable="false">TRY AGAIN</string>
+    <string name="dialog_title_add_phone" translatable="false">Add Mobile</string>
+    <string name="dialog_message_add_phone" translatable="false">Please enter your mobile number with country code</string>
+    <string name="dialog_btn_add" translatable="false">ADD</string>
+    <!-- Alert Activity -->
+    <string name="am" translatable="false">AM</string>
+    <string name="pm" translatable="false">PM</string>
+    <string name="issued_a" translatable="false">issued a</string>
+    <string name="reject" translatable="false">Reject</string>
+    <string name="accept" translatable="false">Accept</string>
+    <string name="please_wait" translatable="false">Please wait</string>
+    <string name="maps_app_not_installed" translatable="false">Maps App not installed in your device</string>
+    <string name="working" translatable="false">Working..</string>
+    <string name="close" translatable="false">Close</string>
+    <string name="dialog_btn_send" translatable="false">Send</string>
+    <string name="additional_note" translatable="false">ADDITIONAL NOTE</string>
+    <string name="blood_group_caps" translatable="false">BLOOD GROUP</string>
+    <string name="allergies_caps" translatable="false">ALLERGIES</string>
+    <string name="other_medical_conditions_caps" translatable="false">OTHER MEDICAL CONDITIONS</string>
+    <string name="forward_alert" translatable="false">FORWARD ALERT</string>
+    <string name="forwarded_by_camel_case" translatable="false">Forwarded By</string>
+    <string name="cannot_help" translatable="false">CANNOT HELP</string>
+    <string name="call_emergency_contact" translatable="false">CALL EMERGENCY CONTACT</string>
+    <!-- Alert Detail Activity -->
+    <string name="i" translatable="false">I</string>
+    <string name="a_member_of" translatable="false">a member of</string>
+    <string name="blood_type" translatable="false">Blood Type</string>
+    <string name="allergies" translatable="false">Allergies</string>
+    <string name="other_medical_conditions" translatable="false">Other Medical Conditions</string>
+    <string name="saved" translatable="false">SAVED</string>
+    <string name="video_app_not_found" translatable="false">No application can handle this request. Please install a video player that
+        supports RTSP
+    </string>
+    <string name="dialog_msg_flag_user" translatable="false">Are you sure you want to flag %s as a spammer?</string>
+    <string name="blocked_successfully" translatable="false">blocked successfully</string>
+    <string name="downloading" translatable="false">DOWNLOADING..</string>
+    <string name="saving" translatable="false">SAVING..</string>
+    <string name="unable_to_save" translatable="false">UNABLE TO SAVE</string>
+    <!-- PANIC BUTTON -->
+    <string name="already_created" translatable="false">already created</string>
+    <string name="please_enter_cell_name" translatable="false">Please enter cell name</string>
+    <string name="please_enter_cell_description" translatable="false">Please enter cell description</string>
+    <string name="cell_added_successfully" translatable="false">Cell added successfully</string>
+    <!-- Explore Public Cells -->
+    <string name="mile" translatable="false">mile</string>
+    <string name="km" translatable="false">km</string>
+    <string name="load_more" translatable="false">LOAD MORE</string>
+    <string name="leave" translatable="false">LEAVE</string>
+    <string name="join" translatable="false">JOIN</string>
+    <string name="exact_match" translatable="false">Exact Match</string>
+    <!-- Friends Fragment -->
+    <string name="dialog_msg_unfriend" translatable="false">Are you sure you want to un friend %s?</string>
+    <!-- Issue Panic Alert Activity -->
+    <string name="panic_alert" translatable="false">PANIC ALERT</string>
+    <string name="fallen_alert" translatable="false">FALLEN ALERT</string>
+    <string name="recipients" translatable="false">RECIPIENTS</string>
+    <string name="all_friends" translatable="false">All Friend(s)</string>
+    <string name="private_cells" translatable="false">"Private Cell(s): "</string>
+    <string name="near_by_users" translatable="false">Near By users</string>
+    <string name="public_cells" translatable="false">Public Cell(s)</string>
+    <string name="additional_text" translatable="false">Additional Text</string>
+    <string name="panic_alert_sent" translatable="false">Panic alert sent</string>
+    <string name="fallen_alert_sent" translatable="false">Fallen alert sent</string>
+    <!-- Private Cell Friends Activity -->
+    <string name="loading_friends" translatable="false">Loading friends..</string>
+    <!-- Private Cell Friends Activity -->
+    <string name="dialog_message_create_new_cell" translatable="false">Create new Cell</string>
+    <string name="dialog_msg_delete_cell" translatable="false">Are you sure you want to delete %s cell?</string>
+    <!-- Profile Edit Activity -->
+    <string name="blood_group" translatable="false">BLOOD GROUP</string>
+    <string name="a_minus" translatable="false">A-</string>
+    <string name="a_plus" translatable="false">A+</string>
+    <string name="b_minus" translatable="false">B-</string>
+    <string name="b_plus" translatable="false">B+</string>
+    <string name="ab_minus" translatable="false">AB-</string>
+    <string name="ab_plus" translatable="false">AB+</string>
+    <string name="o_minus" translatable="false">O-</string>
+    <string name="o_plus" translatable="false">O+</string>
+    <string name="please_enter_email" translatable="false">Please enter your email</string>
+    <string name="please_enter_first_name" translatable="false">Please enter your first name</string>
+    <string name="please_enter_lastname" translatable="false">Please enter your last name</string>
+    <string name="please_enter_mobile_number" translatable="false">Please enter your mobile number</string>
+    <string name="account_updated_successfully" translatable="false">Account updated successfully</string>
+    <string name="emergency" translatable="false">EMERGENCY</string>
+    <string name="emergency_contact_phone" translatable="false">EMERGENCY CONTACT PHONE</string>
+    <string name="edit_profile" translatable="false">EDIT PROFILE</string>
+    <!-- Profile Image Activity -->
+    <!-- Profile View Activity -->
+    <string name="add_small" translatable="false">Add</string>
+    <string name="emergency_contact_name" translatable="false">EMERGENCY CONTACT NAME</string>
+    <string name="avatar_updated_successfully" translatable="false">Avatar updated successfully</string>
+    <!-- Public Cell Members Activity -->
+    <string name="one_member" translatable="false">1 member</string>
+    <string name="members" translatable="false">%d member(s)</string>
+    <string name="you_are_the_owner_of_this_cell" translatable="false">You are the owner of this cell</string>
+    <string name="you_are_a_member_of_this_cell" translatable="false">You are a member of this cell</string>
+    <string name="request_sent_for_approval" translatable="false">Your request has been sent to the owner of this cell for approval</string>
+    <string name="you_are_not_a_member_of_this_cell" translatable="false">You are not a member of this cell</string>
+    <string name="officially_verified" translatable="false">OFFICIALLY VERIFIED</string>
+    <string name="verification_pending" translatable="false">VERIFICATION PENDING</string>
+    <string name="not_verified" translatable="false">NOT VERIFIED</string>
+    <string name="leave_this_cell" translatable="false">LEAVE THIS CELL</string>
+    <string name="dialog_msg_remove_member" translatable="false">Are you sure you want to remove %s?</string>
+    <!-- Public Cells Fragment -->
+    <string name="public_cells_that_you_own_or_joined_will_appear_here" translatable="false">Public cells that you own or joined will appear
+        here
+    </string>
+    <string name="member_list_description" translatable="false">The list of members</string>
+    <string name="owned_cells" translatable="false">OWNED CELLS</string>
+    <string name="joined_cells" translatable="false">JOINED CELLS</string>
+    <string name="dialog_msg_delete_public_cell" translatable="false">Are you sure you want to delete %s public cell?</string>
+    <!-- Register Activity -->
+    <!-- Reviews Activity -->
+    <string name="submit" translatable="false">Submit</string>
+    <string name="at" translatable="false">at</string>
+    <string name="today_at" translatable="false">Today at</string>
+    <!-- Ride Request Alert Activity -->
+    <string name="new_public_cell_alert" translatable="false">New Public Cell alert</string>
+    <string name="miles_1_50" translatable="false">(1-50 miles)</string>
+    <string name="km_1_80" translatable="false">(1-80 kms)</string>
+    <string name="gps_accurate_tracking" translatable="false">GPS accurate tracking</string>
+    <string name="location_updates" translatable="false">Location updates</string>
+    <string name="patrol_mode" translatable="false">Patrol mode</string>
+    <string name="delete_video" translatable="false">Delete video</string>
+    <string name="two_features_disabled" translatable="false">%1$s and %2$s</string>
+    <string name="dialog_message_disable_one_feature" translatable="false">Turning location updates off will also disable %s. Do you still
+        want to turn it off?
+    </string>
+    <string name="dialog_message_disable_two_features" translatable="false">Turning location updates off will also disable %1$s and %2$s. Do
+        you still want to turn it off?
+    </string>
+    <string name="dialog_message_video_delete_alert" translatable="false">When this feature is enabled, a picture will be taken of anyone
+        attempting to delete a Cell 411 video alert using your phone\'s front camera. The video will not be deleted and
+        will appear again when the app is relaunched.
+    </string>
+    <string name="loading_spammed_users" translatable="false">Loading Spammed Users</string>
+    <string name="you_have_not_spammed_any_user_as_a_spammer" translatable="false">You have not flagged any user as a spammer.</string>
+    <string name="send_crime_alert" translatable="false">Send crime alert?</string>
+    <string name="send_vehicle_pulled_over_alert" translatable="false">Send vehicle pulled over alert?</string>
+    <string name="send_police_interaction_alert" translatable="false">Send police interaction alert?</string>
+    <string name="send_arrested_alert" translatable="false">Send arrested alert?</string>
+    <string name="send_danger_alert" translatable="false">Send danger alert?</string>
+    <string name="send_medical_attention_alert" translatable="false">Send medical attention alert?</string>
+    <string name="send_bullied_alert" translatable="false">Send harassed alert?</string>
+    <string name="send_general_alert" translatable="false">Send general alert?</string>
+    <string name="send_hijack_alert" translatable="false">Send hijack alert?</string>
+    <string name="send_fire_alert" translatable="false">Send fire alert?</string>
+    <string name="send_vehicle_broken_alert" translatable="false">Send vehicle broken alert?</string>
+    <string name="stream_and_share_live_video_with" translatable="false">Stream and share live video with?</string>
+    <string name="send_photo_alert" translatable="false">Send photo alert?</string>
+    <string name="dialog_title_location_alert" translatable="false">Location alert!</string>
+    <!-- Video Settings Activity -->
+    <!-- Verification Activity -->
+    <!-- Image Picker -->
+    <string name="dialog_message_select_image" translatable="false">Would you like to capture a new image, or add one from the Gallery?</string>
+    <string name="dialog_btn_camera" translatable="false">CAMERA</string>
+    <string name="dialog_btn_gallery" translatable="false">GALLERY</string>
+    <!-- Download Service -->
+    <!-- Cell411Receiver -->
+    <string name="alert_needy_variant1" translatable="false">You are in a Patrol Mode and received a Global Alert.</string>
+    <string name="alert_needy_variant2" translatable="false">You received a Global Alert.</string>
+    <!-- AddFriendModules -->
+    <!-- PrivilegeModules -->
+    <string name="dialog_msg_unfulfilled_privilege" translatable="false">You must have at least two friends and must have issued an alert to
+        some private cell in order to issue alerts globally
+    </string>
+    <!-- DialogModules4ReceivedAlerts -->
+    <string name="dialog_msg_add_friend_to_cell" translatable="false">Your new friend %s is not part of any Cell. Would you like to add this
+        friend to a Cell?
+    </string>
+    <string name="dialog_btn_not_now" translatable="false">NOT NOW</string>
+    <string name="dialog_msg_friend_request" translatable="false">%1$s wants to add you as a friend in the %2$s network. If approved, this
+        user will be able to send you emergency alerts.
+    </string>
+    <string name="dialog_btn_deny" translatable="false">Deny</string>
+    <string name="dialog_btn_approve" translatable="false">Approve</string>
+    <string name="dialog_msg_new_public_cell_join" translatable="false">A new public cell called %s has just been created in your area. Tap
+        on Join Cell to join this public cell, or Cancel to ignore.
+    </string>
+    <string name="dialog_btn_join_cell" translatable="false">Join Cell</string>
+    <string name="dialog_title_video_streaming_alert" translatable="false">Video Streaming Alert</string>
+    <string name="dialog_msg_video_streaming" translatable="false">%s is streaming live video. Would you like to watch it? You can also watch
+        this video later from Alerts tab in your Settings
+    </string>
+    <string name="dialog_btn_later" translatable="false">Later</string>
+    <string name="dialog_btn_watch_now" translatable="false">Watch now</string>
+    <string name="video_player_not_available" translatable="false">No application can handle this request. Please install a video player that
+        supports RTSP
+    </string>
+    <string name="dialog_title_photo_alert" translatable="false">Photo Alert</string>
+    <string name="dialog_btn_view" translatable="false">View</string>
+    <string name="dialog_msg_photo_alert_cell" translatable="false">%1$s a member of %2$s issued a photo alert. Would you like to view it?
+        You can also view it later from Alerts tab in your Settings
+    </string>
+    <string name="dialog_msg_photo_alert" translatable="false">%s issued a photo alert. Would you like to view it? You can also view it later
+        from Alerts tab in your Settings
+    </string>
+    <!-- DialogModules4IssuingAlert -->
+    <!-- VideoStreamingActivity -->
+    <!-- Main Drawer -->
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="my_profile" translatable="false">My Profile</string>
+    <string name="generate_q_r_code" translatable="false">Generate Q.R. Code</string>
+    <string name="scan_q_r_code" translatable="false">Scan Q.R. Code</string>
+    <string name="settings" translatable="false">Settings</string>
+    <string name="menu_know_your_rights" translatable="false">Know your rights</string>
+    <string name="share_this_app" translatable="false">Share this app</string>
+    <string name="rate_this_app" translatable="false">Rate this app</string>
+    <string name="faq_amp_tutorials" translatable="false"><![CDATA[FAQ & Tutorials]]></string>
+    <string name="change_password" translatable="false">Change Password</string>
+    <string name="logout" translatable="false">Logout</string>
+    <string name="done" translatable="false">Done</string>
+    <string name="lbl_description" translatable="false">Enter Description</string>
+    <string name="description" translatable="false">Description</string>
+    <string name="alerts_n_sent" translatable="false">ALERTS\nSENT</string>
+    <string name="alerts_n_responded" translatable="false">ALERTS\nRESPONDED</string>
+    <string name="starting_stream" translatable="false">Starting stream..</string>
+    <string name="stream_video" translatable="false">Stream Video</string>
+    <string name="request_n_verification" translatable="false">REQUEST\nVERIFICATION</string>
+    <string name="this_public_cell_has_not_been_officially_verified_yet" translatable="false">This public cell has not been officially
+        verified yet
+    </string>
+    <string name="include_security_guards" translatable="false">Include Security Guards</string>
+    <string name="additional_note_optional" translatable="false">Additional note (optional)</string>
+    <string name="enter_your_email" translatable="false">Enter your email</string>
+    <string name="remove" translatable="false">Remove</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="nearby" translatable="false">Nearby</string>
+    <string name="time" translatable="false">TIME</string>
+    <string name="live" translatable="false">LIVE</string>
+    <string name="expand" translatable="false">EXPAND</string>
+    <string name="help" translatable="false">HELP</string>
+    <string name="loading_address" translatable="false">Loading address..</string>
+    <string name="collapse" translatable="false">Collapse</string>
+    <string name="global_alert" translatable="false">Global</string>
+    <string name="cell_are_group_of_friends_you_can_configure_to_customize_alerting" translatable="false">Cells are groups of friends that you can
+        configure to customize alerting
+    </string>
+    <!-- Alerts -->
+    <string name="alert_broken_car" translatable="false">Car Broken</string>
+    <string name="alert_bullied" translatable="false">Harassed</string>
+    <string name="alert_criminal" translatable="false">Crime</string>
+    <string name="alert_general" translatable="false">General</string>
+    <string name="alert_pulled_over" translatable="false">Pulled Over</string>
+    <string name="alert_video" translatable="false">Video</string>
+    <string name="alert_photo" translatable="false">Photo</string>
+    <string name="alert_danger" translatable="false">Danger</string>
+    <string name="alert_fire" translatable="false">Fire</string>
+    <string name="alert_medical" translatable="false">Medical</string>
+    <string name="alert_police_arrest" translatable="false">Police Arrest</string>
+    <string name="alert_police_interaction" translatable="false">Police Interaction</string>
+    <string name="alert_hijack" translatable="false">Hijack</string>
+    <string name="alert_panic" translatable="false">Panic</string>
+    <string name="alert_un_recognized" translatable="false">Un-recognized</string>
+    <!-- Gallery -->
+    <string-array name="gallery_titles">
+        <item>Welcome to Cell 411</item>
+        <item>When you are in Danger</item>
+        <item>Are you lost with a broken car?</item>
+        <item>Stream live HD video</item>
+    </string-array>
+    <string-array name="gallery_desc">
+        <item>\"This is the app that allows you to issue and respond to emergencies from your family, friends and
+            neighbors in real time\"
+        </item>
+        <item>\"Let your friends and neighbors know of lurking dangers in your community and improve safety in your
+            neighborhood\"
+        </item>
+        <item>\"Cell 411 will send your exact coordinates to trusted people so they can find you and help you when you
+            need help most\"
+        </item>
+        <item>\"You can stream live video and audio to all your friends and groups, to one person or one thousand. The
+            video cannot be deleted or erased.\"
+        </item>
+    </string-array>
+    <!-- Share this app -->
+    <string name="share_app_title" translatable="false">Share via</string>
+    <string name="share_app_subject" translatable="false">Cell 411 Android App (Version: %s)</string>
+    <string name="share_app_text" translatable="false">Hi, I am using Cell 411 to issue emergency alerts. It\'s free.\nWhy don\'t you
+        check it out on your Phone.\n%s
+    </string>
+    <!-- New Alert Types -->
+    <string name="send_physical_abuse_alert" translatable="false">Send physical abuse alert?</string>
+    <string name="send_being_trapped_alert" translatable="false">Send being trapped alert?</string>
+    <string name="send_car_accident_alert" translatable="false">Send car accident alert?</string>
+    <string name="send_natural_disaster_alert" translatable="false">Send natural disaster alert?</string>
+    <string name="alert_physical_abuse" translatable="false">Physical Abuse</string>
+    <string name="alert_trapped" translatable="false">Trapped</string>
+    <string name="alert_car_accident" translatable="false">Car Accident</string>
+    <string name="alert_natural_disaster" translatable="false">Natural Disaster</string>
+    <string name="alert_message" translatable="false">
+        <b>%1$s</b> issued a <b>%2$s</b> alert
+    </string>
+    <string name="alert_message_forwarded" translatable="false">
+        <b>%1$s</b> issued a <b>%2$s</b> 411 alert, forwarded by <b>%3$s</b>
+    </string>
+    <!-- APP VERSION API -->
+    <string name="hint_confirm_new_password" translatable="false">confirm new password</string>
+    <string name="hint_new_password" translatable="false">new password</string>
+    <string name="title_reset_password" translatable="false">Reset Password</string>
+    <string name="delete" translatable="false">DELETE</string>
+    <string name="dialog_mute_for" translatable="false">Mute for..</string>
+    <string name="mute" translatable="false">Mute</string>
+    <string name="share_location" translatable="false">Share Location</string>
+    <string name="title_select_one" translatable="false">Select One</string>
+    <string name="broadcast_message" translatable="false">Broadcast Message</string>
+    <string name="message_screen_empty" translatable="false">You need some friends or incidents to chat about. Join a public cell in your
+        area or respond to an alert if you want to chat.
+    </string>
+    <string name="share_image" translatable="false">Share Image</string>
+    <string name="notifications" translatable="false">Notifications</string>
+    <string name="action_notification" translatable="false">Notifications</string>
+    <string name="add_friend" translatable="false">+Friend</string>
+    <string name="un_friend" translatable="false">Unfriend</string>
+    <string name="this_user_has_no_profile_picture_available" translatable="false">This user has no profile picture available</string>
+    <string name="edit_cell" translatable="false">Edit Cell</string>
+    <string name="title_update_public_cell" translatable="false">Update Public Cell</string>
+    <string name="menu_item_update" translatable="false">UPDATE</string>
+    <string name="country_code" translatable="false">code</string>
+    <string name="please_select_country_code" translatable="false">Please select your country code</string>
+    <string name="mobile_already_registered" translatable="false">Mobile number already registered, please try another</string>
+    <string name="action_search_cell" translatable="false">Search Cells</string>
+    <string name="your_chats_will_appear_here" translatable="false">Your chats will appear here</string>
+    <string name="search_friend" translatable="false">Search by Name, Phone or Email</string>
+    <string name="search_cell" translatable="false">Search by Cell Name</string>
+    <string name="no_friend_requests" translatable="false">No friend requests</string>
+    <string name="explore_cells" translatable="false">Explore Cells</string>
+    <string name="create_private_cell" translatable="false">Create Private Cell</string>
+    <string name="create_public_cell" translatable="false">Create Public Cell</string>
+    <string name="add_friend_to_cell_title" translatable="false">Add friends to this cell</string>
+    <string name="add_friend_to_cell_description" translatable="false">Tap on the friend icon below to add your friends into this private
+        cell
+    </string>
+    <string name="dialog_msg_remove_member_from_cell" translatable="false">Are you sure you want to remove %s from this Cell?</string>
+    <string name="today" translatable="false">TODAY</string>
+    <string name="type_a_message" translatable="false">Type a message</string>
+    <string name="chat_msg_image_download_latest_version" translatable="false">Image (Download the latest version via %s to view this
+        image)
+    </string>
+    <string name="chat_msg_image_tap_to_view" translatable="false">Image (Tap to view)</string>
+    <string name="chat_msg_location_tap_to_view" translatable="false">Location (Tap to view)</string>
+    <string name="month_jan" translatable="false">JAN</string>
+    <string name="month_feb" translatable="false">FEB</string>
+    <string name="month_mar" translatable="false">MAR</string>
+    <string name="month_apr" translatable="false">APR</string>
+    <string name="month_may" translatable="false">MAY</string>
+    <string name="month_jun" translatable="false">JUN</string>
+    <string name="month_jul" translatable="false">JUL</string>
+    <string name="month_aug" translatable="false">AUG</string>
+    <string name="month_sep" translatable="false">SEP</string>
+    <string name="month_oct" translatable="false">OCT</string>
+    <string name="month_nov" translatable="false">NOV</string>
+    <string name="month_dec" translatable="false">DEC</string>
+    <string name="toast_msg_chat_expired" translatable="false">This chat is expired</string>
+    <string name="chat_user_you" translatable="false">You</string>
+    <string name="menu_mute" translatable="false">Mute</string>
+    <string name="menu_unmute" translatable="false">Unmute</string>
+    <string name="mute_for_1_hour" translatable="false">1 Hour</string>
+    <string name="mute_for_6_hours" translatable="false">6 Hours</string>
+    <string name="mute_for_24_hours" translatable="false">24 Hours</string>
+    <string name="mute_for_1_month" translatable="false">1 Month</string>
+    <string name="dialog_title_share_location" translatable="false">Share Location</string>
+    <string name="dialog_msg_share_location" translatable="false">Are you sure you want to share your current location?</string>
+    <string name="toast_msg_can_not_share_location" translatable="false">Can\'t share location, this chat is expired</string>
+    <string name="toast_msg_can_not_share_image" translatable="false">Can\'t share image, this chat is expired</string>
+    <string name="loading_messages" translatable="false">Loading messages..</string>
+    <string name="checkbox_show_notification" translatable="false">Show notifications</string>
+    <string name="chat_title_alert" translatable="false">%s Alert</string>
+    <string name="code" translatable="false">code</string>
+    <string name="load_more_messages" translatable="false">Load more messages</string>
+    <string name="dialog_msg_delete_chat" translatable="false">Are you sure you want to delete this chat?</string>
+    <string name="chat_msg_you_location" translatable="false">You: Location</string>
+    <string name="chat_msg_sender_location" translatable="false">%s: Location</string>
+    <string name="chat_msg_you_image" translatable="false">You: Image</string>
+    <string name="chat_msg_sender_image" translatable="false">%s: Image</string>
+    <string name="chat_msg_you" translatable="false">You: %s</string>
+    <string name="choose_your_audience_to_send_alert" translatable="false">Choose your audience to send alert</string>
+    <string name="audience_friends" translatable="false">Friends</string>
+    <string name="audience_cells" translatable="false">Public Cells</string>
+    <string name="audience_global_alert" translatable="false">Global alert</string>
+    <string name="msg_location_one_feature_disabled" translatable="false">With device location turned off, %1$s %2$s has also become
+        disabled. Once you enable location services, the feature will automatically come online.
+    </string>
+    <string name="msg_location_two_features_disabled" translatable="false">With device location turned off, %1$s %2$s and %3$s have also
+        become disabled. Once you enable location services, these features will automatically come online.
+    </string>
+    <string name="feature_patrol_mode" translatable="false">Patrol mode</string>
+    <string name="feature_new_public_cell_alert" translatable="false">New Public Cell alerts</string>
+    <string name="profile_setup" translatable="false">Profile setup: %d%%</string>
+    <string name="title_privacy_policy" translatable="false"><![CDATA[<a href=\'privacy_policy\'><b>Privacy Policy</b></a> Update]]></string>
+    <string name="description_privacy_policy" translatable="false">
+        <![CDATA[Please confirm that you agree to our <a href=\'terms\'><b>terms</b></a> and check each of the points below, hereby acknowledging that you took them into consideration and agree with all of them.]]></string>
+    <string name="consent_we_dont_sell_or_give_your_data" translatable="false">We will not sell or disclose your data to any third private
+        party
+    </string>
+    <string name="consent_you_can_delete_your_account" translatable="false">You can delete your account at any time</string>
+    <string name="consent_you_agree_to_have_your_data_processed" translatable="false">You agree to have your data processed by us</string>
+    <string name="consent_you_ve_read_and_agree_to_our_privacy_policy" translatable="false">You have read and hereby agree to our updated
+        privacy policy
+    </string>
+    <string name="consent_instruction" translatable="false">*Please check off all points listed above</string>
+    <string name="permission_title" translatable="false">Access granting - %s requires access to:</string>
+    <string name="permission_description" translatable="false">• Location - for sending alerts with your location, receiving
+        location-specific alerts,\n\n• Camera - for sending image &amp; video alerts, recording &amp;
+        streaming interaction.*\n\n• Phone - for dialing emergency service numbers via the default dialing app.*\n\n•
+        Contacts - for inviting and adding your existing contacts to join Cells.*\n\n• Storage - for locally storing
+        video/photo recordings, loading images from the device into the app.*
+    </string>
+    <string name="permission_note" translatable="false">* Requires specific user action from within the app, no automatic initiation.
+    </string>
+    <string name="grant_access" translatable="false">Give access</string>
+    <string name="try_now" translatable="false">Close %s</string>
+    <string name="no_browsers_installed_to_rate_app" translatable="false">No browsers installed, please go to Play Store to rate it</string>
+    <string name="about" translatable="false">About</string>
+    <string name="btn_delete_account" translatable="false">Delete my account</string>
+    <string name="dialog_msg_delete_my_account" translatable="false">Are you sure you want to delete your Cell 411 account? This action is
+        irreversible.
+    </string>
+    <string name="dialog_msg_deleting_account" translatable="false">Deleting account...</string>
+    <string name="toast_msg_account_deleted" translatable="false">Account Deleted</string>
+    <string name="btn_download_data" translatable="false">Download all my data</string>
+    <string name="btn_download_data_processing" translatable="false">Archiving your data...</string>
+    <string name="msg_download_data_error" translatable="false">Your archived data was already sent to your e-mail address, recently. You can
+        ask again for a new download of all your data in %d days.
+    </string>
+    <string name="msg_download_data_success" translatable="false">A link to your data archive will be soon sent to your e-mail address.
+        (Please also look in your SPAM folder)
+    </string>
+    <string name="dark_mode" translatable="false">Dark Mode</string>
+    <string name="dark_mode_description" translatable="false">Turning this feature on will enable dark mode for Map</string>
+    <string name="press_return_again_to_exit" translatable="false">Press return again to exit</string>
+    <string name="alert_message_self" translatable="false">
+        <b>I</b>
+        issued a <b>%s</b> 411 alert
+    </string>
+    <string name="location_center_toggle" translatable="false">Location Center Toggle</string>
+    <string name="patrol_mode_toggle" translatable="false">Patrol Mode Toggle</string>
+    <string name="patrol_radius" translatable="false">38 miles</string>
+    <string name="patrol_range" translatable="false">(1 to 50)</string>
+    <string name="dark_mode_button" translatable="false">Dark Mode Button</string>
+    <string name="new_public_cell_alert_button" translatable="false">New Public Cell Alert Button</string>
+    <string name="location_enable_button" translatable="false">Location Enable Button</string>
+    <string name="message_reciever_id">com.wiselysoft.connected.MessageReceiver</string>
+    <string name="cell411_logo">Cell411 Logo</string>
+    <string name="txt_copblock_plug">Cell411 is Brought to You by CopBlock.App, and the Shire Free Church</string>
+    <string name="mail_icon">Mail Icon</string>
+    <string name="password_icon">Password Icon</string>
+    <string name="txt_version">v1.0</string>
+    <string name="alert_custom">Custom</string>
+    <string name="send_panic_alert">Send panic alert?</string>
+
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="action_refresh">Refresh</string>
+    <string name="btn_action">Action</string>
+    <string name="response_from_helper">Response From Helper</string>
+    <string name="helper_on_way">%s is on his way to help.</string>
+    <string name="space_left_blank">.</string>
+    <string name="cell_description">description</string>
+    <string name="hint_cell_location">Click Text to Enter City,
+        or Image for current GPS location</string>
+    <string name="txt_gps">GPS</string>
+    <string name="new_context">New Context</string>
+    <string name="start_livequery_service">Start LiveQuery Service</string>
+    <string name="start_location_service">Start Location Service</string>
+    <string name="geocode_location">Geocode Location</string>
+    <string name="no_content_added">No Content Added</string>
+    <string name="title">Title</string>
+    <string name="status">Status</string>
+    <string name="permission_gps">We seem to lack GPS permissions.  Would you like to go to the permissions page?</string>
+    <string name="cell_category_image" translatable="false">Cell Category Image</string>
+    <string name="no_location_on_file">No Location On File</string>
+    <string name="reset_data">Reset Data</string>
+    <string name="update_data">Update Data</string>
+    <string name="image_status">Image Status</string>
+    <string name="image">Image</string>
+    <string name="waiting_for_city">Waiting for city</string>
+    <string name="example_email">user.email@cell411.com</string>
+    <string name="pick_pic">Pick Pic</string>
+    <string name="take_pic">Take Pic</string>
+    <string name="select_an_image">Select An Image</string>
+    <string name="name">Name</string>
+    <string name="todo">TODO</string>
+    <string name="ripple_bg">ripple bg</string>
+    <string name="d_users_loaded">%d users loaded.</string>
+    <string name="bullshit_password">asdf</string>
+    <string name="no_ringtone_selected">No Ringtone Selected</string>
+    <string name="select_alert_ringtone">Select Alert Ringtone</string>
+    <string name="select_request_ringtone">Select Request Ringtone</string>
+    <string name="select_chat_ringtone">Select Chat Ringtone</string>
+    <string name="simulate_alert">Simulate Alert</string>
+  <string name="empty_chat_room_list">Empty Chat Room List</string>
+  <string name="create_chat_fab">floating action button to create a chat</string>
+  <string name="picking_from_gallery">Picking from Gallery</string>
+    <string name="taking_new_picture">Taking new Picture</string>
+    <string name="choosing_method">Choosing Method</string>
+    <string name="loading_image">Loading Image</string>
+  <string name="uploading">Uploading</string>
+  <string name="hint_city">Enter City</string>
+  <string name="friends_tab">Friends Tab</string>
+    <string name="map_tab">Map Tab</string>
+    <string name="cells_tab">Cells Tab</string>
+    <string name="alerts_tab">Alerts Tab</string>
+    <string name="chat_tab">Chat Tab</string>
+  <string name="outside_link_icon">Outside Link Icon</string>
+  <string name="checking_status">Checking Status</string>
+  <string name="in_development">In Development</string>
+    <string name="dev1" tools:ignore="Typos">Dev1</string>
+    <string name="dev2">Dev2</string>
+    <string name="dev3">Dev3</string>
+    <string name="dev4">Dev4</string>
+    <string name="dev5">Dev5</string>
+    <string name="dev6">Dev6</string>
+    <string name="dev7">Dev7</string>
+    <string name="dev8">Dev8</string>
+    <string name="chat">Chat</string>
+    <string name="address_icon">Address Icon</string>
+    <string name="no_members">No members</string>
+    <string name="page_1">Page 1</string>
+    <string name="page_2">Page 2</string>
+    <string name="page_3">Page 3</string>
+    <string name="data_data">See data about your data.</string>
+    <string name="this_is_some_text">This is some text.</string>
+    <string name="lbl_status">Status:</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@drawable/ripple_bg"
+    >
+
+    <CheckBox
+        android:id="@+id/cb_audience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="5dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_total_audience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="35dp"
+        android:text="0 Selected"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/txt_audience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toLeftOf="@+id/txt_total_audience"
+        android:layout_toEndOf="@+id/cb_audience"
+        android:text="@string/all_friends"
+        android:textColor="@color/text_primary"
+        android:textSize="14sp"
+        />
+
+    <ImageView
+        android:id="@+id/img_expand"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_arrow_forward"
+        android:tint="@color/text_disabled_hint_icon"
+        />
+
+    <ImageView
+        android:id="@+id/img_info"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_info"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/divider"
+        />
+</RelativeLayout>

@@ -1,0 +1,75 @@
+{
+  "className": "Response",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    },
+    "note": {
+      "type": "String"
+    },
+    "seen": {
+      "type": "Boolean",
+      "required": true,
+      "defaultValue": false
+    },
+    "alert": {
+      "type": "Pointer",
+      "targetClass": "Alert"
+    },
+    "owner": {
+      "type": "Pointer",
+      "targetClass": "_User"
+    },
+    "canHelp": {
+      "type": "Boolean",
+      "required": false
+    },
+    "received": {
+      "type": "Boolean",
+      "required": true,
+      "defaultValue": false
+    },
+    "travelTime": {
+      "type": "String"
+    },
+    "forwardedBy": {
+      "type": "Pointer",
+      "targetClass": "_User"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {
+      "*": true
+    },
+    "get": {
+      "*": true
+    },
+    "count": {
+      "*": true
+    },
+    "create": {
+      "*": true
+    },
+    "update": {
+      "*": true
+    },
+    "delete": {
+      "*": true
+    },
+    "addField": {
+      "*": true
+    },
+    "protectedFields": {
+      "*": []
+    }
+  }
+}

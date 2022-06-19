@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:autofillHints="phone"
+    android:importantForAutofill="yesExcludeDescendants"
+    android:orientation="horizontal"
+        >
+
+    <Spinner
+            android:id="@+id/sp_country_code"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:spinnerStyle="@android:style/Widget.Spinner.DropDown"
+            tools:ignore="SpeakableTextPresentCheck"
+            />
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/hint_mobile"
+        android:inputType="phone"
+        android:textColor="@color/text_primary"
+        />
+
+</LinearLayout>

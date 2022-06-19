@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    android:paddingRight="20dp"
+    >
+
+    <RadioGroup
+        android:id="@+id/rg_mute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RadioButton
+            android:id="@+id/rb_1hour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/mute_for_1_hour"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_6hours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/mute_for_6_hours"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_24hours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/mute_for_24_hours"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/mute_for_1_month"
+            />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/cb_show_notifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rg_mute"
+        android:layout_marginTop="10dp"
+        android:checked="true"
+        android:text="@string/checkbox_show_notification"
+        />
+</RelativeLayout>

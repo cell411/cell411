@@ -1,0 +1,25 @@
+{
+  "className": "ChatRoom",
+  "fields": {
+    "objectId": {
+      "type": "String"
+    },
+    "createdAt": {
+      "type": "Date"
+    },
+    "updatedAt": {
+      "type": "Date"
+    },
+    "ACL": {
+      "type": "ACL"
+    }
+  },
+  "classLevelPermissions": {
+    "find": {},
+    "get": {},
+    "create": {},
+    "update": {},
+    "delete": {},
+    "addField": {}
+  }
+}

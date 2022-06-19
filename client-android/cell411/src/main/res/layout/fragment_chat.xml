@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/bg_chat"
+  android:orientation="vertical"
+  >
+
+  <FrameLayout
+    android:id="@+id/main_frame"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/msg_view"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:clickable="true"
+      android:focusable="true"
+      android:focusableInTouchMode="true"
+      android:visibility="invisible"
+      />
+
+    <RelativeLayout
+      android:id="@+id/empty_disp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:visibility="visible"
+      tools:ignore="UselessParent"
+      >
+
+      <ImageView
+        android:id="@+id/img_msg_empty"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_msg_empty"
+        app:tint="@color/text_disabled_hint_icon"
+        tools:ignore="ContentDescription"
+        />
+
+      <TextView
+        android:id="@+id/txt_msg_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_msg_empty"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:minHeight="30dp"
+        android:text="@string/loading_messages"
+        android:textColor="@color/text_disabled_hint_icon"
+        android:textSize="16sp"
+        />
+    </RelativeLayout>
+
+  </FrameLayout>
+
+
+    <EditText
+      android:id="@+id/edit_text"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="10dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="10dp"
+      android:layout_marginBottom="10dp"
+      android:background="@color/background"
+      android:cursorVisible="false"
+      android:hint="@string/type_a_message"
+      android:importantForAutofill="no"
+      android:inputType="textMultiLine|textCapSentences"
+      android:maxHeight="160dp"
+      android:minHeight="48dp"
+      android:paddingStart="10dp"
+      android:paddingEnd="60dp"
+      />
+
+
+  <LinearLayout
+    android:id="@+id/extras"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <Button
+      android:id="@+id/rad_plain"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:checked="true"
+      android:text="Plain"
+      tools:ignore="ButtonStyle"
+      />
+
+    <Button
+      android:id="@+id/rad_image"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="Image"
+      style="?android:attr/buttonBarButtonStyle"
+      />
+
+    <Button
+      android:id="@+id/rad_location"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="Location"
+      style="?android:attr/buttonBarButtonStyle"
+      />
+  </LinearLayout>
+
+</LinearLayout>
